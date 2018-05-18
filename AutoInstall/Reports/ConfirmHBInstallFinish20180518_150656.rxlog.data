@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b5f6c4bfba248f5"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/18/2018 3:06:58 PM"
+		timestampiso="2018-05-18T20:06:58"
+		endtime="5/18/2018 3:07:00 PM"
+		timeoutfactor="1"
+		module="ConfirmHBInstallFinish">
+		<detail>
+			ConfirmHBInstallFinish
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.649"
+			timeRelativeToTestModuleStartTime="00:00.651"
+			timeWallClock="15:06:58"
+			time="00:00.649"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>YearVersion, HBInstallLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.674"
+			timeRelativeToTestModuleStartTime="00:00.676"
+			timeWallClock="15:06:58"
+			time="00:00.674"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.662"
+			timeRelativeToTestModuleStartTime="00:01.664"
+			timeWallClock="15:06:59"
+			time="00:01.662"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.669"
+			timeRelativeToTestModuleStartTime="00:01.671"
+			timeWallClock="15:06:59"
+			time="00:01.669"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="115"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.757"
+			timeRelativeToTestModuleStartTime="00:01.759"
+			timeWallClock="15:06:59"
+			time="00:01.757"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.768"
+			timeRelativeToTestModuleStartTime="00:01.770"
+			timeWallClock="15:07:00"
+			time="00:01.768"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="122"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.865"
+			timeRelativeToTestModuleStartTime="00:01.867"
+			timeWallClock="15:07:00"
+			time="00:01.865"
+			level="Success"
+			category="Validation"
+			errimg=".\ConfirmH_da25f936_5d6d992a_trace.jpg"
+			errthumb=".\ConfirmH_da25f936_5d6d992a_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.871"
+			timeRelativeToTestModuleStartTime="00:01.873"
+			timeWallClock="15:07:00"
+			time="00:01.871"
+			level="Info"
+			category="Validation"
+			errimg=".\ConfirmH_da25f936_5d6d992a_trace.jpg"
+			errthumb=".\ConfirmH_da25f936_5d6d992a_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$HBInstallLocation) on item 'HeavyBidServerSetup.TextContainersForValidation.ConfirmFilepathTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@text~'install HeavyBid in:']"
+				itempath="text[@text~'install HeavyBid in:']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.ConfirmFilepathTextbox"
+				id="1f669d2f006046e6b72ddff298a045e0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="128"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.954"
+			timeRelativeToTestModuleStartTime="00:01.956"
+			timeWallClock="15:07:00"
+			time="00:01.954"
+			level="Failure"
+			category="Validation"
+			errimg=".\ConfirmH_da25f936_c456e03f_trace.jpg"
+			errthumb=".\ConfirmH_da25f936_c456e03f_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.ConfirmFilepathTextbox' does not match the specified RegEx (actual='You are now ready to install HeavyBid in:<br/><br/><br/>		C:\HeavyBid\<br/><br/><br/>Click Install to begin the installation. Click Back to review or change any of your installation settings. Click Cancel to exit the install.', regex='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@text~'install HeavyBid in:']"
+				itempath="text[@text~'install HeavyBid in:']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.ConfirmFilepathTextbox"
+				id="1f669d2f006046e6b72ddff298a045e0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="129"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.960"
+			timeRelativeToTestModuleStartTime="00:01.962"
+			timeWallClock="15:07:00"
+			time="00:01.960"
+			level="Error"
+			category="Module"
+			errimg=".\ConfirmH_da25f936_c456e03f_trace.jpg"
+			errthumb=".\ConfirmH_da25f936_c456e03f_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

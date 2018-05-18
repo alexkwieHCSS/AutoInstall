@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AutoInstall"
+      id="82795087-9441-42c4-a952-a746ec4155c7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AutoInstall"
+      id="82795087-9441-42c4-a952-a746ec4155c7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

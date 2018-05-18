@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="150a5699ea515da7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/18/2018 1:45:34 PM"
+		timestampiso="2018-05-18T18:45:34"
+		endtime="5/18/2018 1:45:35 PM"
+		timeoutfactor="1"
+		module="OpenInstallFile">
+		<detail>
+			OpenInstallFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.671"
+			timeRelativeToTestModuleStartTime="00:00.671"
+			timeWallClock="13:45:35"
+			time="00:00.671"
+			level="Info"
+			category="Application">
+			<message>
+				B.1<br/>Run application 'V:\alex.kwie\AutoInstallBatch\copylatestbuild_original.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\OpenInstallFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

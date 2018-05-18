@@ -1,0 +1,223 @@
+﻿<repository
+id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+name="AutoInstallRepository"
+rxversion="8.1">
+	<codegen
+	classname="AutoInstallRepository"
+	namespace="AutoInstall">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="2e44eb69-e64f-4865-a068-d42ddcd932f4"
+		isrooted="True"
+		name="HeavyBidServerSetup"
+		refimgid="cd43a0e6-f98e-48c7-8b4c-12924fc371fe"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="form"
+			id="4913e9c7-63d1-491f-89d6-367346999470"
+			isrooted="False"
+			name="Buttons"
+			searchtimeout="0ms">
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="fb614947-6e78-4d5d-9b27-bd5901e708a2"
+				name="NextButton"
+				refimgid="a7435eb6-cb70-4089-84a6-9e03309ef10f"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/button[@text~'Next']
+				</item>
+				<item
+				capname="button"
+				id="38d823d3-b7eb-40d7-9a74-af9c0b85e2f9"
+				name="YesButton"
+				refimgid="b2410dd1-655f-42d1-967a-bc6d8586c760"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/button[@text~'Yes']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="01d7ca0c-7fe4-444e-b929-505e743554cf"
+				name="InstallButton"
+				refimgid="bec82ca4-d137-4b98-9b11-1d4f919b0aa7"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/button[@text~'Install']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="c2c3cc78-a171-4b8b-aec4-157c5a190939"
+				name="FinishButton"
+				refimgid="905aeaec-e5c8-4e0b-89f7-61aefa9a902f"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/button[@text~'Finish']
+				</item>
+			</folder>
+			<folder
+			capname="form"
+			id="42b7d3a5-aa6b-46a5-8663-ff0f783fbd0d"
+			isrooted="False"
+			name="TextContainersForValidation"
+			searchtimeout="0ms">
+				<item
+				capname="titlebar"
+				id="dddd424d-c9ea-451b-9ae6-d11ef58210a7"
+				name="Titlebar"
+				refimgid="7e88257b-1b70-4f5e-b02e-a5e61768a3fd"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/titlebar
+				</item>
+				<folder
+				capname="unknown"
+				id="7a6f96ba-6458-49cc-8b33-a8509ad9fec1"
+				isrooted="False"
+				name="WelcomeScreen"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="9fe9891e-ebc9-425c-a6db-f64dbacb3e93"
+					name="TitleText"
+					refimgid="f39a1c62-af30-49b9-91fa-6ef27383b0b4"
+					searchtimeout="30000ms">
+						/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][2]
+					</item>
+					<item
+					capname="text"
+					id="65f21614-c071-4cfe-a2e6-4dcd56d23514"
+					name="MainText"
+					refimgid="eedcaefc-eb9a-4dab-8f50-09e05bade3f9"
+					searchtimeout="30000ms">
+						/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][1]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="2065c0cf-cd78-4b5a-8b3c-c33f032c48c4"
+				isrooted="False"
+				name="DestinationFolderScreen"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="e282ea00-d192-448e-bce4-10c58d4d949b"
+					name="FilepathTextbox"
+					refimgid="07fe81f3-b128-4c61-8cd5-a75dd8c945b1"
+					searchtimeout="30000ms">
+						/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole='Text']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="fffe4246-75c6-4623-8543-6244d5c60e6e"
+				isrooted="False"
+				name="PreviousInstallationScreen"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="dd318b6d-5722-449b-abd0-b15bc9e4729a"
+					name="PreviousInstallPopup"
+					refimgid="a157a3cd-a6cc-4b57-8314-94bbe31b1610"
+					searchtimeout="30000ms">
+						/form[@title~'HeavyBid' and @title~'Setup']/text[@text~'previous' or @text~'overwritten']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="5e55edea-55ee-4cb2-8c6f-8f54356b07a7"
+				isrooted="False"
+				name="ReadyToInstallScreen"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="1f669d2f-0060-46e6-b72d-dff298a045e0"
+					name="ConfirmFilepathTextbox"
+					refimgid="852f5e5f-6a0a-486d-a072-0179e5407d7e"
+					searchtimeout="30000ms">
+						/form[@title~'HeavyBid' and @title~'Setup']/text[@text~'install HeavyBid in:']
+					</item>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="57f8a040-62c7-4885-974f-122dea3674d9"
+			isrooted="False"
+			name="InstallTypes"
+			searchtimeout="0ms">
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="87f3d72a-a7d3-4b0f-9b41-5932103d923d"
+				name="MultiUserMultipleUsersCanWorkInT"
+				refimgid="699e75d1-7208-4645-9ffc-9fce085dad9c"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/?/?/radiobutton[@text~'Multi-user']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="3ca18573-3cd1-442a-82aa-f72fbe2a0b91"
+				name="StandaloneInstallType"
+				refimgid="a1eb00d3-351b-40de-ba1a-83daa8cef1d3"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/?/?/radiobutton[@text~'Standalone']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="aa762aff-1fe2-4006-acb0-afc3774cf5dd"
+				name="TrainingInstallType"
+				refimgid="550b3e31-cefb-4840-bf56-6fe5319d9b45"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid' and @title~'Setup']/?/?/radiobutton[@text~'Training']
+				</item>
+			</folder>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="f13cd8b9-49c3-44c9-a77a-a4beb262908f"
+			name="IAcceptTheTermsInTheLicenseAgreem"
+			refimgid="582be12c-9cd9-4a36-866c-6736602b12be"
+			searchtimeout="30000ms">
+				/form[@title~'HeavyBid' and @title~'Setup']/checkbox[@text~'terms']
+			</item>
+			<basepath>
+				/form[@title~'HeavyBid' and @title~'Setup']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAclJREFUOE+VkkFrGkEYhvcH7F326MWTB8GLgnQLXkVFyMGDKItEz3vo
+qTBny2okQcNCDiG6FWkMZdFQ0HTA0NveUujePIg/oP6Bt/ON0STqlvaFF2Zm532+7xtWCVI4HMZ0
+Og10s9mEuEY+rnQ6DcY44qccEZNDp/Xzns57vd6/AYo+wLAxrTXH/z/AflixvWAAzT2fz6VfA16H
+I+b6OIDC9Xod5XIZ73V9B9DE/FrRhZL5DFV3ocX33qBare6qttttGe5fX0vAYrEI9JsOTNMEOZlM
+yjCZOiJIkLPZLPL5/AZA1UmMsR2gVCrh6n6Ih4dPGA4/oNvtYjQa7bqlLgh0ALiybZyfneHd5VcU
+HQfrtQXPO8WdCLcsC6lUCpVKBbPZTHZ5AOhcXKDRaCDje9AdDovb4NzC3e0tVqsVcrncdvZNmDSZ
+TORHegcCtFotfPnxDYy7UONxRKNR/Hx6giM6qtVqL8Gt9gGdTkdU5XBdF7FYDIlEAuPxGIPBQN55
+jr1oH2AYhgzTnL5vIyLW33//wnK5RKFQ+DuAHiYUCqHf7+Px8V6c28h44g8UEOY5UFX1ECBEh1tL
+EcQwTnBz8xFFi0HTM0fCivIHCB395/gPLToAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="a3d965a8-d752-440b-b2de-047cd8f1fb64"
+		name="InstallTypeButton">
+			Multi-user
+		</var>
+		<var
+		id="80546008-1e14-4a93-9fa0-ad88d1afbcd1"
+		name="HBInstallLocation">
+			C:\HeavyBid\
+		</var>
+	</variables>
+</repository>

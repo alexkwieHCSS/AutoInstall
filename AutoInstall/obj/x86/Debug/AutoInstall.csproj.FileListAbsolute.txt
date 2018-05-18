@@ -1,0 +1,9 @@
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\AutoInstall.rxtmg
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\AutoInstall.rxtst
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\AutoInstall.exe.config
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\AutoInstall.exe
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\AutoInstall.pdb
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\obj\x86\Debug\AutoInstall.csprojResolveAssemblyReference.cache
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\obj\x86\Debug\AutoInstall.exe
+C:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\obj\x86\Debug\AutoInstall.pdb
