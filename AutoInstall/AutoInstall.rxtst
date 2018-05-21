@@ -5,7 +5,7 @@ rxversion="8.1">
 		<flatlistofchildren>
 			<testmodule
 			id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
-			name="InstallDestination"
+			name="ServerInstallDestination"
 			ref="d239ddb8-9d2b-4bcf-aabe-bb4c6314833d"
 			type="Recording">
 				<databinding>
@@ -28,6 +28,11 @@ rxversion="8.1">
 			id="08dfc28c-39e3-4714-91e8-2056fb4a0f85"
 			name="InstallHBServer">
 			</testcase>
+			<testcase
+			datasource="WSInstallLocation"
+			id="0ec1b407-a101-4237-9051-405219d3d3e0"
+			name="InstallWS">
+			</testcase>
 			<smartfoldernode
 			datarangeactive="True"
 			datasource="HeavyBidRelease"
@@ -47,6 +52,30 @@ rxversion="8.1">
 					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
 					variableid="a4724808-290d-443f-8d29-f4ffe40a9b94"
 					variablename="YearVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="278b8420-8e4e-4e20-a51e-390434d1fb15"
+			name="InstallCrystal">
+			</testcase>
+			<testmodule
+			id="2dc83a97-ff2b-4fc5-b5f4-1a486e7eb62d"
+			name="ConfirmWSInstallFinish"
+			ref="7a99ce87-770c-41f6-a490-245e139b0d9c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="ad186511-bc51-49b8-a06d-ae5b77a12df6"
+					variablename="YearVersion">
+					</var>
+					<var
+					dataname="WSInstallLocation"
+					datasourceid="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+					variableid="11834d0d-c8b7-415e-bc1f-9a0aaf8b4391"
+					variablename="WSInstallLocation">
 					</var>
 				</databinding>
 			</testmodule>
@@ -75,6 +104,62 @@ rxversion="8.1">
 			name="TestHBFunctionality">
 			</smartfoldernode>
 			<testmodule
+			id="459aaa2d-dd25-462b-b413-1992a073c051"
+			name="VerifyWSReleaseVersion"
+			ref="cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="7fa8b9cc-abd0-4357-8128-2d858c526e99"
+					variablename="YearVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="4fccd4ec-fce6-4847-852a-f7fd748a3491"
+			name="RunWSInstall"
+			ref="162e91d1-9a3c-49db-bff1-e3d81f2456f1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="527df930-ea84-4f38-80b1-e72aade4d91e"
+			name="FeatureSelectionSQL"
+			ref="c53b61a1-a5c0-4b25-bb59-ac20871ae365"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="5c20d15e-e813-425a-8c96-f40a6c991389"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="60e5d4a6-575f-435a-9c17-25af5507a570"
+			name="InstallCompleteWS"
+			ref="8d902368-e261-4a13-ba0c-6d8b42340a43"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="63f1a55a-7f1f-47ae-8996-6f8e99340a5f"
+			name="WSInstallDestination"
+			ref="869e9047-90b5-4d65-a424-4d6c5251ae26"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="5e6fda55-85f6-426d-ae51-4ac375f5586a"
+					variablename="YearVersion">
+					</var>
+					<var
+					dataname="WSInstallLocation"
+					datasourceid="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+					variableid="c27233f0-c749-43ba-8541-7f938e8a17ee"
+					variablename="WSInstallLocation">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="6de0076f-c146-4ef2-90f0-de885e8ba3ad"
 			name="OpenInstallFile"
 			ref="11626203-89c4-449a-9ed2-1d52561a7935"
@@ -85,6 +170,12 @@ rxversion="8.1">
 			name="AutoInstall"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="7488a64b-9553-431b-87e5-9228ef52cd10"
+			name="InstallWelcomeCrystal"
+			ref="61b87029-e35d-459c-a403-ec3c8744d87c"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9"
 			name="InstallWorkstation">
@@ -93,13 +184,19 @@ rxversion="8.1">
 			id="88127341-4dba-43a0-a0df-b156c976da76"
 			name="InstallServer">
 			</smartfoldernode>
+			<testmodule
+			id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
+			name="ReadyToInstallCrystal"
+			ref="9269e0b8-6d70-4b1e-9f83-67340788d9c1"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
 			name="Uninstall">
 			</smartfoldernode>
 			<testmodule
 			id="9b12f6f9-1fbc-4553-87a3-02d3f34630f8"
-			name="AcceptToS"
+			name="AcceptToSHB"
 			ref="13904e02-f537-4efa-b319-b7d046036924"
 			type="Recording">
 				<databinding>
@@ -113,7 +210,7 @@ rxversion="8.1">
 			</testmodule>
 			<testmodule
 			id="9fb3b791-4c32-4c94-b9b7-8e622e777d25"
-			name="VerifyReleaseVersion"
+			name="VerifyServerReleaseVersion"
 			ref="bde2f0df-0f77-479a-b4a2-1a2a235f3d36"
 			type="Recording">
 				<databinding>
@@ -124,6 +221,28 @@ rxversion="8.1">
 					variablename="YearVersion">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="a991b7f6-b1df-420b-9551-95133126834e"
+			name="AcceptToSSQL"
+			ref="c5c08a7c-e59c-4b1e-a507-134912d45933"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="ac0cfe3a-03a8-45fc-8523-829ef00648ed"
+			name="InstallSQL">
+			</testcase>
+			<testmodule
+			id="affa9faf-c0d0-42de-9a85-ec6911bfdd4c"
+			name="InstallWelcomeSQL"
+			ref="3f1ae4a1-f43b-49e5-953c-c9cd46fe916b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b49576cc-4bac-4e25-b12c-ceabffd7bfc8"
+			name="ReadyToInstallSQL"
+			ref="0e43be61-ce2b-40e9-916a-d6cba4419ec3"
+			type="Recording">
 			</testmodule>
 			<smartfoldernode
 			id="e2647272-bd9d-4014-811f-c32ebdcd6137"
@@ -180,11 +299,11 @@ rxversion="8.1">
 								</testmodule>
 								<testmodule
 								id="9fb3b791-4c32-4c94-b9b7-8e622e777d25"
-								name="VerifyReleaseVersion">
+								name="VerifyServerReleaseVersion">
 								</testmodule>
 								<testmodule
 								id="9b12f6f9-1fbc-4553-87a3-02d3f34630f8"
-								name="AcceptToS">
+								name="AcceptToSHB">
 								</testmodule>
 								<testmodule
 								id="fed6cf60-cd86-4e73-800b-e1217b67b217"
@@ -192,7 +311,7 @@ rxversion="8.1">
 								</testmodule>
 								<testmodule
 								id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
-								name="InstallDestination">
+								name="ServerInstallDestination">
 								</testmodule>
 								<testmodule
 								id="1c6ea7ce-96e1-4c57-a556-ab29ab3b7329"
@@ -207,6 +326,66 @@ rxversion="8.1">
 						<smartfoldernode
 						id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9"
 						name="InstallWorkstation">
+							<testcase
+							id="0ec1b407-a101-4237-9051-405219d3d3e0"
+							name="InstallWS">
+								<testmodule
+								id="4fccd4ec-fce6-4847-852a-f7fd748a3491"
+								name="RunWSInstall">
+								</testmodule>
+								<testmodule
+								id="459aaa2d-dd25-462b-b413-1992a073c051"
+								name="VerifyWSReleaseVersion">
+								</testmodule>
+								<testmodule
+								id="63f1a55a-7f1f-47ae-8996-6f8e99340a5f"
+								name="WSInstallDestination">
+								</testmodule>
+								<testmodule
+								id="2dc83a97-ff2b-4fc5-b5f4-1a486e7eb62d"
+								name="ConfirmWSInstallFinish">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="278b8420-8e4e-4e20-a51e-390434d1fb15"
+							name="InstallCrystal">
+								<testmodule
+								id="7488a64b-9553-431b-87e5-9228ef52cd10"
+								name="InstallWelcomeCrystal">
+								</testmodule>
+								<testmodule
+								id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
+								name="ReadyToInstallCrystal">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="ac0cfe3a-03a8-45fc-8523-829ef00648ed"
+							name="InstallSQL">
+								<testmodule
+								id="affa9faf-c0d0-42de-9a85-ec6911bfdd4c"
+								name="InstallWelcomeSQL">
+								</testmodule>
+								<testmodule
+								id="a991b7f6-b1df-420b-9551-95133126834e"
+								name="AcceptToSSQL">
+								</testmodule>
+								<testmodule
+								id="527df930-ea84-4f38-80b1-e72aade4d91e"
+								name="FeatureSelectionSQL">
+								</testmodule>
+								<testmodule
+								id="b49576cc-4bac-4e25-b12c-ceabffd7bfc8"
+								name="ReadyToInstallSQL">
+								</testmodule>
+							</testcase>
+							<teardown
+							id="5c20d15e-e813-425a-8c96-f40a6c991389"
+							name="teardown">
+								<testmodule
+								id="60e5d4a6-575f-435a-9c17-25af5507a570"
+								name="InstallCompleteWS">
+								</testmodule>
+							</teardown>
 						</smartfoldernode>
 						<smartfoldernode
 						id="378888a4-f9ca-424a-8655-56a5032d02ba"
@@ -296,23 +475,36 @@ rxversion="8.1">
 				</tr>
 			</table>
 		</DataSource>
+		<DataSource
+		id="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+		lastknownrowcount="1"
+		name="WSInstallLocation"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					WSInstallLocation
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						WSInstallLocation
+					</th>
+				</tr>
+				<tr>
+					<td>
+						C:\HeavyBidWS\
+					</td>
+				</tr>
+			</table>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="08dfc28c-39e3-4714-91e8-2056fb4a0f85">
-			</testcontainer>
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="88127341-4dba-43a0-a0df-b156c976da76">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

@@ -5,7 +5,7 @@ id="bde2f0df-0f77-479a-b4a2-1a2a235f3d36"
 mode="Global"
 rxversion="8.1">
 	<name>
-		VerifyReleaseVersion
+		VerifyServerReleaseVersion
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="VerifyReleaseVersion"
+	classname="VerifyServerReleaseVersion"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
@@ -710,7 +710,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		VerifyReleaseVersion.UserCode.cs
+		VerifyServerReleaseVersion.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

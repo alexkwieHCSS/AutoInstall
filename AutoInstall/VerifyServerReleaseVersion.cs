@@ -24,22 +24,22 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The VerifyReleaseVersion recording.
+    ///The VerifyServerReleaseVersion recording.
     /// </summary>
     [TestModule("bde2f0df-0f77-479a-b4a2-1a2a235f3d36", ModuleType.Recording, 1)]
-    public partial class VerifyReleaseVersion : ITestModule
+    public partial class VerifyServerReleaseVersion : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static VerifyReleaseVersion instance = new VerifyReleaseVersion();
+        static VerifyServerReleaseVersion instance = new VerifyServerReleaseVersion();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public VerifyReleaseVersion()
+        public VerifyServerReleaseVersion()
         {
             YearVersion = "2018.1";
         }
@@ -47,7 +47,7 @@ namespace AutoInstall
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static VerifyReleaseVersion Instance
+        public static VerifyServerReleaseVersion Instance
         {
             get { return instance; }
         }

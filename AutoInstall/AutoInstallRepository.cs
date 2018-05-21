@@ -28,6 +28,7 @@ namespace AutoInstall
     {
         static AutoInstallRepository instance = new AutoInstallRepository();
         AutoInstallRepositoryFolders.HeavyBidServerSetupAppFolder _heavybidserversetup;
+        AutoInstallRepositoryFolders.WindowsMenuBarAppFolder _windowsmenubar;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -45,6 +46,7 @@ namespace AutoInstall
             : base("AutoInstallRepository", "/", null, 0, false, "41d3209a-6b55-4d11-ade5-8b107ab3f7a7", ".\\RepositoryImages\\AutoInstallRepository41d3209a.rximgres")
         {
             _heavybidserversetup = new AutoInstallRepositoryFolders.HeavyBidServerSetupAppFolder(this);
+            _windowsmenubar = new AutoInstallRepositoryFolders.WindowsMenuBarAppFolder(this);
         }
 
 #region Variables
@@ -61,7 +63,7 @@ namespace AutoInstall
             set { _InstallTypeButton = value; }
         }
 
-        string _HBInstallLocation = "C:\\HeavyBid\\";
+        string _HBInstallLocation = "C:\\HeavyBidWS\\";
 
         /// <summary>
         /// Gets or sets the value of variable HBInstallLocation.
@@ -94,6 +96,15 @@ namespace AutoInstall
         public virtual AutoInstallRepositoryFolders.HeavyBidServerSetupAppFolder HeavyBidServerSetup
         {
             get { return _heavybidserversetup; }
+        }
+
+        /// <summary>
+        /// The WindowsMenuBar folder.
+        /// </summary>
+        [RepositoryFolder("d07350c6-b9aa-4caa-8b58-f969f4117a56")]
+        public virtual AutoInstallRepositoryFolders.WindowsMenuBarAppFolder WindowsMenuBar
+        {
+            get { return _windowsmenubar; }
         }
     }
 
@@ -776,6 +787,124 @@ namespace AutoInstall
                 get
                 {
                     return _traininginstalltypeInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The WindowsMenuBarAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("d07350c6-b9aa-4caa-8b58-f969f4117a56")]
+        public partial class WindowsMenuBarAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _hcsscrystalxiintegrationinstallsInfo;
+            RepoItemInfo _microsoftsqlserver2012nativeclientInfo;
+            RepoItemInfo _hbinstallcompleteInfo;
+
+            /// <summary>
+            /// Creates a new WindowsMenuBar  folder.
+            /// </summary>
+            public WindowsMenuBarAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("WindowsMenuBar", "/menubar", parentFolder, 30000, null, false, "d07350c6-b9aa-4caa-8b58-f969f4117a56", "")
+            {
+                _hcsscrystalxiintegrationinstallsInfo = new RepoItemInfo(this, "HCSSCrystalXIIntegrationInstallS", ".////button[@accessiblename~'HCSS']", 30000, null, "02952637-c2fc-4341-aeb0-52985224b405");
+                _microsoftsqlserver2012nativeclientInfo = new RepoItemInfo(this, "MicrosoftSQLServer2012NativeClient", ".////button[@accessiblename~'Microsoft SQL']", 30000, null, "83dadb04-ebd8-4851-9268-94950ee9e1d5");
+                _hbinstallcompleteInfo = new RepoItemInfo(this, "HBInstallComplete", ".////button[@accessiblename~'HeavyBid']", 30000, null, "de30e6d0-04c0-4acc-b572-ad7b7123327e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("d07350c6-b9aa-4caa-8b58-f969f4117a56")]
+            public virtual Ranorex.MenuBar Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d07350c6-b9aa-4caa-8b58-f969f4117a56")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HCSSCrystalXIIntegrationInstallS item.
+            /// </summary>
+            [RepositoryItem("02952637-c2fc-4341-aeb0-52985224b405")]
+            public virtual Ranorex.Button HCSSCrystalXIIntegrationInstallS
+            {
+                get
+                {
+                    return _hcsscrystalxiintegrationinstallsInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCSSCrystalXIIntegrationInstallS item info.
+            /// </summary>
+            [RepositoryItemInfo("02952637-c2fc-4341-aeb0-52985224b405")]
+            public virtual RepoItemInfo HCSSCrystalXIIntegrationInstallSInfo
+            {
+                get
+                {
+                    return _hcsscrystalxiintegrationinstallsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSQLServer2012NativeClient item.
+            /// </summary>
+            [RepositoryItem("83dadb04-ebd8-4851-9268-94950ee9e1d5")]
+            public virtual Ranorex.Button MicrosoftSQLServer2012NativeClient
+            {
+                get
+                {
+                    return _microsoftsqlserver2012nativeclientInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSQLServer2012NativeClient item info.
+            /// </summary>
+            [RepositoryItemInfo("83dadb04-ebd8-4851-9268-94950ee9e1d5")]
+            public virtual RepoItemInfo MicrosoftSQLServer2012NativeClientInfo
+            {
+                get
+                {
+                    return _microsoftsqlserver2012nativeclientInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HBInstallComplete item.
+            /// </summary>
+            [RepositoryItem("de30e6d0-04c0-4acc-b572-ad7b7123327e")]
+            public virtual Ranorex.Button HBInstallComplete
+            {
+                get
+                {
+                    return _hbinstallcompleteInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HBInstallComplete item info.
+            /// </summary>
+            [RepositoryItemInfo("de30e6d0-04c0-4acc-b572-ad7b7123327e")]
+            public virtual RepoItemInfo HBInstallCompleteInfo
+            {
+                get
+                {
+                    return _hbinstallcompleteInfo;
                 }
             }
         }

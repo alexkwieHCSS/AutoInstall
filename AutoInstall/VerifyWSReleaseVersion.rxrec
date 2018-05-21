@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="d239ddb8-9d2b-4bcf-aabe-bb4c6314833d"
+id="cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad"
 mode="Global"
 rxversion="8.1">
 	<name>
-		InstallDestination
+		VerifyWSReleaseVersion
 	</name>
 	<repeatcount>
 		1
@@ -23,22 +23,35 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="InstallDestination"
+	classname="VerifyWSReleaseVersion"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
 		<var
-		id="d904a573-f1ea-4cbd-b1dc-ea8e6a0c495a"
+		id="7fa8b9cc-abd0-4357-8128-2d858c526e99"
 		name="YearVersion">
 			2018.1
 		</var>
-		<var
-		id="d83907a1-d52b-4587-922a-f50af925709a"
-		name="HBInstallLocation">
-			C:\HeavyBid\
-		</var>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6770a8b6-afd6-432b-9941-9bc54aa65599"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2e44eb69-e64f-4865-a068-d42ddcd932f4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HeavyBid' and @title~'Setup']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
@@ -52,47 +65,8 @@ rxversion="8.1">
 			<info
 			id="dddd424d-c9ea-451b-9ae6-d11ef58210a7"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="9"
-				prefcap="titlebar"
-				rect="549,225,477,23"
-				role="titlebar"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="text"
-					type="System.String">
-						HeavyBid 2018.1 Setup
-					</attribute>
-					<attribute
-					name="accessibledescription"
-					type="System.String">
-						Displays the name of the window and contains controls to manipulate it
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						TitleBar
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-						HeavyBid 2018.1 Setup
-					</attribute>
-				</element>
 				<path>
-					/form[@title~'[HeavyBid][Setup]']/titlebar
+					/form[@title~'HeavyBid' and @title~'Setup']/titlebar
 				</path>
 			</info>
 			<matchname>
@@ -115,54 +89,15 @@ rxversion="8.1">
 			<info
 			id="dddd424d-c9ea-451b-9ae6-d11ef58210a7"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="9"
-				prefcap="titlebar"
-				rect="549,225,477,23"
-				role="titlebar"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="text"
-					type="System.String">
-						HeavyBid 2018.1 Setup
-					</attribute>
-					<attribute
-					name="accessibledescription"
-					type="System.String">
-						Displays the name of the window and contains controls to manipulate it
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						TitleBar
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-						HeavyBid 2018.1 Setup
-					</attribute>
-				</element>
 				<path>
-					/form[@title~'[HeavyBid][Setup]']/titlebar
+					/form[@title~'HeavyBid' and @title~'Setup']/titlebar
 				</path>
 			</info>
 			<matchname>
 				Text
 			</matchname>
 			<matchvalue>
-				Setup
+				Workstation
 			</matchvalue>
 		</validationitem>
 		<validationitem
@@ -183,7 +118,7 @@ rxversion="8.1">
 			id="dddd424d-c9ea-451b-9ae6-d11ef58210a7"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'[HeavyBid][Setup]']/titlebar
+					/form[@title~'HeavyBid' and @title~'Setup']/titlebar
 				</path>
 			</info>
 			<matchname>
@@ -193,29 +128,62 @@ rxversion="8.1">
 				$YearVersion
 			</matchvalue>
 		</validationitem>
-		<keysequenceitem
-		KeySequence=""
-		duration="100ms"
+		<validationitem
+		action="AttributeRegex"
 		enabled="True"
-		optional="False"
-		presstime="100ms"
-		searchpropertyid="9ffc0510-1113-43a2-895c-1c4867aa4b4b">
+		optional="True"
+		searchpropertyid="99acf716-62c9-4812-a02b-6adcc6d31206">
 			<comment>
+				B.3
 			</comment>
 			<bindings>
 				<binding
-				target="KeySequence"
-				variable="HBInstallLocation">
+				target="MatchValue"
+				variable="YearVersion">
 				</binding>
 			</bindings>
 			<info
-			id="e282ea00-d192-448e-bce4-10c58d4d949b"
+			id="9fe9891e-ebc9-425c-a6db-f64dbacb3e93"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole='Text']
+					/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][2]
 				</path>
 			</info>
-		</keysequenceitem>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeRegex"
+		enabled="True"
+		optional="True"
+		searchpropertyid="99acf716-62c9-4812-a02b-6adcc6d31206">
+			<comment>
+				B.3
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="YearVersion">
+				</binding>
+			</bindings>
+			<info
+			id="65f21614-c071-4cfe-a2e6-4dcd56d23514"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
@@ -242,9 +210,9 @@ rxversion="8.1">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="15365167-9f26-4a9e-b434-65f14d1210f0"
-		sx="1052"
-		sy="685"
+		searchpropertyid="0109582a-9bc0-4d63-901b-30b9ee9f891e"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
@@ -275,7 +243,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		InstallDestination.UserCode.cs
+		VerifyWSReleaseVersion.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

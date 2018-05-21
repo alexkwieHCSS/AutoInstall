@@ -24,31 +24,31 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The InstallDestination recording.
+    ///The WSInstallDestination recording.
     /// </summary>
-    [TestModule("d239ddb8-9d2b-4bcf-aabe-bb4c6314833d", ModuleType.Recording, 1)]
-    public partial class InstallDestination : ITestModule
+    [TestModule("869e9047-90b5-4d65-a424-4d6c5251ae26", ModuleType.Recording, 1)]
+    public partial class WSInstallDestination : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static InstallDestination instance = new InstallDestination();
+        static WSInstallDestination instance = new WSInstallDestination();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public InstallDestination()
+        public WSInstallDestination()
         {
             YearVersion = "2018.1";
-            HBInstallLocation = "C:\\HeavyBid\\";
+            WSInstallLocation = "C:\\HeavyBidWS\\";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static InstallDestination Instance
+        public static WSInstallDestination Instance
         {
             get { return instance; }
         }
@@ -60,21 +60,23 @@ namespace AutoInstall
         /// <summary>
         /// Gets or sets the value of variable YearVersion.
         /// </summary>
-        [TestVariable("d904a573-f1ea-4cbd-b1dc-ea8e6a0c495a")]
+        [TestVariable("5e6fda55-85f6-426d-ae51-4ac375f5586a")]
         public string YearVersion
         {
             get { return _YearVersion; }
             set { _YearVersion = value; }
         }
 
+        string _WSInstallLocation;
+
         /// <summary>
-        /// Gets or sets the value of variable HBInstallLocation.
+        /// Gets or sets the value of variable WSInstallLocation.
         /// </summary>
-        [TestVariable("d83907a1-d52b-4587-922a-f50af925709a")]
-        public string HBInstallLocation
+        [TestVariable("c27233f0-c749-43ba-8541-7f938e8a17ee")]
+        public string WSInstallLocation
         {
-            get { return repo.HBInstallLocation; }
-            set { repo.HBInstallLocation = value; }
+            get { return _WSInstallLocation; }
+            set { _WSInstallLocation = value; }
         }
 
 #endregion
@@ -112,8 +114,8 @@ namespace AutoInstall
             
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Setup"), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Workstation') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Workstation"), null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
@@ -124,12 +126,12 @@ namespace AutoInstall
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$HBInstallLocation' with focus on 'HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextbox'.", repo.HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextboxInfo, new RecordItemIndex(3));
-            repo.HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextbox.PressKeys(HBInstallLocation);
-            Delay.Milliseconds(100);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$WSInstallLocation) on item 'HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextbox'.", repo.HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextboxInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.HeavyBidServerSetup.TextContainersForValidation.DestinationFolderScreen.FilepathTextboxInfo, "Text", WSInstallLocation);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.NextButton'", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new ActionTimeout(60000), new RecordItemIndex(4));
-            repo.HeavyBidServerSetup.Buttons.NextButtonInfo.WaitForExists(60000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.NextButton'", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new ActionTimeout(5000), new RecordItemIndex(4));
+            repo.HeavyBidServerSetup.Buttons.NextButtonInfo.WaitForExists(5000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Buttons.NextButton' at Center.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(5));
             repo.HeavyBidServerSetup.Buttons.NextButton.Click();

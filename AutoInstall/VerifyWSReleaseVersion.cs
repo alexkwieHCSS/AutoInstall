@@ -24,22 +24,22 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The AcceptToS recording.
+    ///The VerifyWSReleaseVersion recording.
     /// </summary>
-    [TestModule("13904e02-f537-4efa-b319-b7d046036924", ModuleType.Recording, 1)]
-    public partial class AcceptToS : ITestModule
+    [TestModule("cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad", ModuleType.Recording, 1)]
+    public partial class VerifyWSReleaseVersion : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static AcceptToS instance = new AcceptToS();
+        static VerifyWSReleaseVersion instance = new VerifyWSReleaseVersion();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AcceptToS()
+        public VerifyWSReleaseVersion()
         {
             YearVersion = "2018.1";
         }
@@ -47,7 +47,7 @@ namespace AutoInstall
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static AcceptToS Instance
+        public static VerifyWSReleaseVersion Instance
         {
             get { return instance; }
         }
@@ -59,7 +59,7 @@ namespace AutoInstall
         /// <summary>
         /// Gets or sets the value of variable YearVersion.
         /// </summary>
-        [TestVariable("325bb8cd-3ae4-4b6c-a2ae-1f7cc2956609")]
+        [TestVariable("7fa8b9cc-abd0-4357-8128-2d858c526e99")]
         public string YearVersion
         {
             get { return _YearVersion; }
@@ -92,38 +92,43 @@ namespace AutoInstall
 
             Init();
 
-            // B.3
-            try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(0));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("HeavyBid"), null, false);
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'HeavyBidServerSetup'", repo.HeavyBidServerSetup.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.HeavyBidServerSetup.SelfInfo.WaitForExists(30000);
             
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Setup"), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("HeavyBid"), null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(2));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex(YearVersion), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Workstation') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(2));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Workstation"), null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
-            // B.4
-            Report.Log(ReportLevel.Info, "Validation", "B.4\r\nValidating AttributeContains (AccessibleState>'Unavailable') on item 'HeavyBidServerSetup.Buttons.NextButton'.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(3));
-            Validate.AttributeContains(repo.HeavyBidServerSetup.Buttons.NextButtonInfo, "AccessibleState", "Unavailable");
-            Delay.Milliseconds(0);
+            // B.3
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(3));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex(YearVersion), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreem'", repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreemInfo, new ActionTimeout(60000), new RecordItemIndex(4));
-            repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreemInfo.WaitForExists(60000);
+            // B.3
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleText'.", repo.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleTextInfo, new RecordItemIndex(4));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleTextInfo, "Text", new Regex(YearVersion), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreem' at Center.", repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreemInfo, new RecordItemIndex(5));
-            repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreem.Click();
-            Delay.Milliseconds(200);
+            // B.3
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainText'.", repo.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainTextInfo, new RecordItemIndex(5));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainTextInfo, "Text", new Regex(YearVersion), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.NextButton'", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new ActionTimeout(60000), new RecordItemIndex(6));
             repo.HeavyBidServerSetup.Buttons.NextButtonInfo.WaitForExists(60000);

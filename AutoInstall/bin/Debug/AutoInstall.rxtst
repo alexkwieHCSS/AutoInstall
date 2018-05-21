@@ -5,7 +5,7 @@ rxversion="8.1">
 		<flatlistofchildren>
 			<testmodule
 			id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
-			name="InstallDestination"
+			name="ServerInstallDestination"
 			ref="d239ddb8-9d2b-4bcf-aabe-bb4c6314833d"
 			type="Recording">
 				<databinding>
@@ -28,6 +28,11 @@ rxversion="8.1">
 			id="08dfc28c-39e3-4714-91e8-2056fb4a0f85"
 			name="InstallHBServer">
 			</testcase>
+			<testcase
+			datasource="WSInstallLocation"
+			id="0ec1b407-a101-4237-9051-405219d3d3e0"
+			name="InstallWS">
+			</testcase>
 			<smartfoldernode
 			datarangeactive="True"
 			datasource="HeavyBidRelease"
@@ -47,6 +52,30 @@ rxversion="8.1">
 					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
 					variableid="a4724808-290d-443f-8d29-f4ffe40a9b94"
 					variablename="YearVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="278b8420-8e4e-4e20-a51e-390434d1fb15"
+			name="InstallCrystal">
+			</testcase>
+			<testmodule
+			id="2dc83a97-ff2b-4fc5-b5f4-1a486e7eb62d"
+			name="ConfirmWSInstallFinish"
+			ref="7a99ce87-770c-41f6-a490-245e139b0d9c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="ad186511-bc51-49b8-a06d-ae5b77a12df6"
+					variablename="YearVersion">
+					</var>
+					<var
+					dataname="WSInstallLocation"
+					datasourceid="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+					variableid="11834d0d-c8b7-415e-bc1f-9a0aaf8b4391"
+					variablename="WSInstallLocation">
 					</var>
 				</databinding>
 			</testmodule>
@@ -74,6 +103,46 @@ rxversion="8.1">
 			id="378888a4-f9ca-424a-8655-56a5032d02ba"
 			name="TestHBFunctionality">
 			</smartfoldernode>
+			<testmodule
+			id="459aaa2d-dd25-462b-b413-1992a073c051"
+			name="VerifyWSReleaseVersion"
+			ref="cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="7fa8b9cc-abd0-4357-8128-2d858c526e99"
+					variablename="YearVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="4fccd4ec-fce6-4847-852a-f7fd748a3491"
+			name="RunWSInstall"
+			ref="162e91d1-9a3c-49db-bff1-e3d81f2456f1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="63f1a55a-7f1f-47ae-8996-6f8e99340a5f"
+			name="WSInstallDestination"
+			ref="869e9047-90b5-4d65-a424-4d6c5251ae26"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="5e6fda55-85f6-426d-ae51-4ac375f5586a"
+					variablename="YearVersion">
+					</var>
+					<var
+					dataname="WSInstallLocation"
+					datasourceid="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+					variableid="c27233f0-c749-43ba-8541-7f938e8a17ee"
+					variablename="WSInstallLocation">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="6de0076f-c146-4ef2-90f0-de885e8ba3ad"
 			name="OpenInstallFile"
@@ -113,7 +182,7 @@ rxversion="8.1">
 			</testmodule>
 			<testmodule
 			id="9fb3b791-4c32-4c94-b9b7-8e622e777d25"
-			name="VerifyReleaseVersion"
+			name="VerifyServerReleaseVersion"
 			ref="bde2f0df-0f77-479a-b4a2-1a2a235f3d36"
 			type="Recording">
 				<databinding>
@@ -125,6 +194,10 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="ac0cfe3a-03a8-45fc-8523-829ef00648ed"
+			name="InstallSQL">
+			</testcase>
 			<smartfoldernode
 			id="e2647272-bd9d-4014-811f-c32ebdcd6137"
 			name="ValidateFileStructure">
@@ -180,7 +253,7 @@ rxversion="8.1">
 								</testmodule>
 								<testmodule
 								id="9fb3b791-4c32-4c94-b9b7-8e622e777d25"
-								name="VerifyReleaseVersion">
+								name="VerifyServerReleaseVersion">
 								</testmodule>
 								<testmodule
 								id="9b12f6f9-1fbc-4553-87a3-02d3f34630f8"
@@ -192,7 +265,7 @@ rxversion="8.1">
 								</testmodule>
 								<testmodule
 								id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
-								name="InstallDestination">
+								name="ServerInstallDestination">
 								</testmodule>
 								<testmodule
 								id="1c6ea7ce-96e1-4c57-a556-ab29ab3b7329"
@@ -207,6 +280,34 @@ rxversion="8.1">
 						<smartfoldernode
 						id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9"
 						name="InstallWorkstation">
+							<testcase
+							id="0ec1b407-a101-4237-9051-405219d3d3e0"
+							name="InstallWS">
+								<testmodule
+								id="4fccd4ec-fce6-4847-852a-f7fd748a3491"
+								name="RunWSInstall">
+								</testmodule>
+								<testmodule
+								id="459aaa2d-dd25-462b-b413-1992a073c051"
+								name="VerifyWSReleaseVersion">
+								</testmodule>
+								<testmodule
+								id="63f1a55a-7f1f-47ae-8996-6f8e99340a5f"
+								name="WSInstallDestination">
+								</testmodule>
+								<testmodule
+								id="2dc83a97-ff2b-4fc5-b5f4-1a486e7eb62d"
+								name="ConfirmWSInstallFinish">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="278b8420-8e4e-4e20-a51e-390434d1fb15"
+							name="InstallCrystal">
+							</testcase>
+							<testcase
+							id="ac0cfe3a-03a8-45fc-8523-829ef00648ed"
+							name="InstallSQL">
+							</testcase>
 						</smartfoldernode>
 						<smartfoldernode
 						id="378888a4-f9ca-424a-8655-56a5032d02ba"
@@ -296,13 +397,38 @@ rxversion="8.1">
 				</tr>
 			</table>
 		</DataSource>
+		<DataSource
+		id="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
+		lastknownrowcount="1"
+		name="WSInstallLocation"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					WSInstallLocation
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						WSInstallLocation
+					</th>
+				</tr>
+				<tr>
+					<td>
+						C:\HeavyBidWS\
+					</td>
+				</tr>
+			</table>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="08dfc28c-39e3-4714-91e8-2056fb4a0f85">
+			id="0ec1b407-a101-4237-9051-405219d3d3e0">
 			</testcontainer>
 			<testcontainer
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
@@ -311,7 +437,7 @@ rxversion="8.1">
 			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
 			</testcontainer>
 			<testcontainer
-			id="88127341-4dba-43a0-a0df-b156c976da76">
+			id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

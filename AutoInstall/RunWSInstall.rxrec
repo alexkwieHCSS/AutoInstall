@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="162e91d1-9a3c-49db-bff1-e3d81f2456f1"
+mode="Global"
+rxversion="8.1">
+	<name>
+		RunWSInstall
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunWSInstall"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+				C.3
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\HeavyBid\WSINST.MSI
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunWSInstall.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

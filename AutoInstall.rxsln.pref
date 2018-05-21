@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst&#xD;&#xA;Solution AutoInstall\AutoInstall\bin" />
+  <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
+</Properties>

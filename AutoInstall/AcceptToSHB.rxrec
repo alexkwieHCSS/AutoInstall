@@ -5,7 +5,7 @@ id="13904e02-f537-4efa-b319-b7d046036924"
 mode="Global"
 rxversion="8.1">
 	<name>
-		AcceptToS
+		AcceptToSHB
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="AcceptToS"
+	classname="AcceptToSHB"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
@@ -938,7 +938,7 @@ ooooAWiiimIKKKKAClpKWgAooooEf//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		AcceptToS.UserCode.cs
+		AcceptToSHB.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

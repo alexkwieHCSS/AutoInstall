@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace AutoInstall
 {
-    public partial class InstallDestination
+    public partial class ReadyToInstallSQL
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -110,6 +110,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcceptToSSQL.cs">
+      <BoundTo>238cc44d-880e-4727-9b81-bc96e080f2f6</BoundTo>
+      <DependentUpon>AcceptToSSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49ffd1d8-f162-49b0-91d9-439caccd81e6</id>
+    </Compile>
+    <Compile Include="AcceptToSSQL.UserCode.cs">
+      <BoundTo>238cc44d-880e-4727-9b81-bc96e080f2f6</BoundTo>
+      <DependentUpon>AcceptToSSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>33f60656-8e96-4084-9f1d-f1fd55823689</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>57a2d465-cb8d-4ec3-8425-dd0b3932a852</id>
     </Compile>
@@ -118,6 +130,66 @@
       <DependentUpon>AutoInstallRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>2909d412-2de1-428f-9fe8-e031a60a27ce</id>
+    </Compile>
+    <Compile Include="ConfirmWSInstallFinish.cs">
+      <BoundTo>d5bf3b05-e0e6-4148-b222-822cbb6967df</BoundTo>
+      <DependentUpon>ConfirmWSInstallFinish.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2483da2c-9ec5-4343-ab76-0ce464a55be3</id>
+    </Compile>
+    <Compile Include="ConfirmWSInstallFinish.UserCode.cs">
+      <BoundTo>d5bf3b05-e0e6-4148-b222-822cbb6967df</BoundTo>
+      <DependentUpon>ConfirmWSInstallFinish.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe6b7e3a-6807-4fc6-89da-dbab0706a9e0</id>
+    </Compile>
+    <Compile Include="FeatureSelectionSQL.cs">
+      <BoundTo>85cf080f-4e89-4c26-899c-190e1d6dfbcd</BoundTo>
+      <DependentUpon>FeatureSelectionSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f49ca04b-ac85-4c14-b049-18b4406b9138</id>
+    </Compile>
+    <Compile Include="FeatureSelectionSQL.UserCode.cs">
+      <BoundTo>85cf080f-4e89-4c26-899c-190e1d6dfbcd</BoundTo>
+      <DependentUpon>FeatureSelectionSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0330067c-1362-4e92-b23c-70141a3ba926</id>
+    </Compile>
+    <Compile Include="InstallCompleteWS.cs">
+      <BoundTo>d453bbbc-4c1a-49e2-ac7b-e40f7d9e3623</BoundTo>
+      <DependentUpon>InstallCompleteWS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4cd67b98-0014-478f-a401-6e79b318da3f</id>
+    </Compile>
+    <Compile Include="InstallCompleteWS.UserCode.cs">
+      <BoundTo>d453bbbc-4c1a-49e2-ac7b-e40f7d9e3623</BoundTo>
+      <DependentUpon>InstallCompleteWS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9fb68c7a-afe0-4cf6-b24b-01bbdb1d97d8</id>
+    </Compile>
+    <Compile Include="InstallWelcomeCrystal.cs">
+      <BoundTo>01fdc85c-74d4-48ff-b04c-91926c6e6195</BoundTo>
+      <DependentUpon>InstallWelcomeCrystal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>738257a9-e49d-48e1-ae2d-9026d3f33d76</id>
+    </Compile>
+    <Compile Include="InstallWelcomeCrystal.UserCode.cs">
+      <BoundTo>01fdc85c-74d4-48ff-b04c-91926c6e6195</BoundTo>
+      <DependentUpon>InstallWelcomeCrystal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b1642bb-6838-4486-9522-569b32444cc3</id>
+    </Compile>
+    <Compile Include="InstallWelcomeSQL.cs">
+      <BoundTo>0faad222-648f-47ef-b699-02210b83cd71</BoundTo>
+      <DependentUpon>InstallWelcomeSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>805ba991-225b-467d-a476-1c3a57e1537c</id>
+    </Compile>
+    <Compile Include="InstallWelcomeSQL.UserCode.cs">
+      <BoundTo>0faad222-648f-47ef-b699-02210b83cd71</BoundTo>
+      <DependentUpon>InstallWelcomeSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>62156c99-826d-417b-a9be-955604e380d9</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>0c551e5a-3f7e-44ca-97ac-2d7c683276a9</id>
@@ -134,27 +206,63 @@
       <UserCode>true</UserCode>
       <id>8c0fd480-490d-4517-9c56-e879c477f173</id>
     </Compile>
-    <Compile Include="VerifyReleaseVersion.cs">
+    <Compile Include="ReadyToInstallCrystal.cs">
+      <BoundTo>40dcc5ee-4584-468e-a41a-dd338629e108</BoundTo>
+      <DependentUpon>ReadyToInstallCrystal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6b783177-cb87-4085-9274-2830eb947110</id>
+    </Compile>
+    <Compile Include="ReadyToInstallCrystal.UserCode.cs">
+      <BoundTo>40dcc5ee-4584-468e-a41a-dd338629e108</BoundTo>
+      <DependentUpon>ReadyToInstallCrystal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a59b66f4-973b-4b11-83cf-b843b2d2a4fc</id>
+    </Compile>
+    <Compile Include="ReadyToInstallSQL.cs">
+      <BoundTo>b92f70ce-8c82-4d95-ac62-0eef7a1eea4b</BoundTo>
+      <DependentUpon>ReadyToInstallSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6c314df-6e34-4fbf-9e9f-399f35778f1d</id>
+    </Compile>
+    <Compile Include="ReadyToInstallSQL.UserCode.cs">
+      <BoundTo>b92f70ce-8c82-4d95-ac62-0eef7a1eea4b</BoundTo>
+      <DependentUpon>ReadyToInstallSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>849c1b4e-fba5-41bb-9a0e-7a08ee93ad9c</id>
+    </Compile>
+    <Compile Include="RunWSInstall.cs">
+      <BoundTo>cb378c82-a06e-4119-b50c-38eed4f03d2d</BoundTo>
+      <DependentUpon>RunWSInstall.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7715fbf2-4768-4336-b0da-80baf4297c3f</id>
+    </Compile>
+    <Compile Include="RunWSInstall.UserCode.cs">
+      <BoundTo>cb378c82-a06e-4119-b50c-38eed4f03d2d</BoundTo>
+      <DependentUpon>RunWSInstall.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>62215959-b487-4f59-a722-d3adc0deda0f</id>
+    </Compile>
+    <Compile Include="VerifyServerReleaseVersion.cs">
       <BoundTo>de2216a0-6429-4d5b-a66b-db32062a48ce</BoundTo>
-      <DependentUpon>VerifyReleaseVersion.rxrec</DependentUpon>
+      <DependentUpon>VerifyServerReleaseVersion.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>c702f75d-5f97-4441-8b48-5c14757d1ce2</id>
     </Compile>
-    <Compile Include="VerifyReleaseVersion.UserCode.cs">
+    <Compile Include="VerifyServerReleaseVersion.UserCode.cs">
       <BoundTo>de2216a0-6429-4d5b-a66b-db32062a48ce</BoundTo>
-      <DependentUpon>VerifyReleaseVersion.rxrec</DependentUpon>
+      <DependentUpon>VerifyServerReleaseVersion.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1be9bf70-af73-4ad7-8905-0da9c9ccbbe8</id>
     </Compile>
-    <Compile Include="AcceptToS.cs">
+    <Compile Include="AcceptToSHB.cs">
       <BoundTo>a1efcdbb-ef44-4b4a-b3db-f39f79b044b5</BoundTo>
-      <DependentUpon>AcceptToS.rxrec</DependentUpon>
+      <DependentUpon>AcceptToSHB.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>79a2120b-b432-4977-8232-6965008ef1b4</id>
     </Compile>
-    <Compile Include="AcceptToS.UserCode.cs">
+    <Compile Include="AcceptToSHB.UserCode.cs">
       <BoundTo>a1efcdbb-ef44-4b4a-b3db-f39f79b044b5</BoundTo>
-      <DependentUpon>AcceptToS.rxrec</DependentUpon>
+      <DependentUpon>AcceptToSHB.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>ea5f552c-9095-46f8-943b-79ebbca50195</id>
     </Compile>
@@ -170,15 +278,15 @@
       <UserCode>true</UserCode>
       <id>429fc131-8dd4-4cb3-857e-b635aa9b1185</id>
     </Compile>
-    <Compile Include="InstallDestination.cs">
+    <Compile Include="ServerInstallDestination.cs">
       <BoundTo>6593e5d1-1259-4e85-966f-651c91366370</BoundTo>
-      <DependentUpon>InstallDestination.rxrec</DependentUpon>
+      <DependentUpon>ServerInstallDestination.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f378bb0a-b590-484d-93d5-ae1a2ae0ee6a</id>
     </Compile>
-    <Compile Include="InstallDestination.UserCode.cs">
+    <Compile Include="ServerInstallDestination.UserCode.cs">
       <BoundTo>6593e5d1-1259-4e85-966f-651c91366370</BoundTo>
-      <DependentUpon>InstallDestination.rxrec</DependentUpon>
+      <DependentUpon>ServerInstallDestination.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3187b818-a58f-4e9d-9a7a-2d127d7e518e</id>
     </Compile>
@@ -206,8 +314,37 @@
       <UserCode>true</UserCode>
       <id>ca7a7ccf-8f95-426f-a2c5-a12664c94bb1</id>
     </Compile>
+    <Compile Include="VerifyWSReleaseVersion.cs">
+      <BoundTo>12fd12f4-dab3-4178-a8f9-783b817834d3</BoundTo>
+      <DependentUpon>VerifyWSReleaseVersion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4a3900b-d016-48b2-a1f0-cdbfc735c77a</id>
+    </Compile>
+    <Compile Include="VerifyWSReleaseVersion.UserCode.cs">
+      <BoundTo>12fd12f4-dab3-4178-a8f9-783b817834d3</BoundTo>
+      <DependentUpon>VerifyWSReleaseVersion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4fbef7af-f7fb-44cb-92a7-1ec31e513285</id>
+    </Compile>
+    <Compile Include="WSInstallDestination.cs">
+      <BoundTo>52c51574-3c45-4cf8-a924-4ee074f2f8b7</BoundTo>
+      <DependentUpon>WSInstallDestination.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a0475042-9576-41dd-be11-9f4633fe9f76</id>
+    </Compile>
+    <Compile Include="WSInstallDestination.UserCode.cs">
+      <BoundTo>52c51574-3c45-4cf8-a924-4ee074f2f8b7</BoundTo>
+      <DependentUpon>WSInstallDestination.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41ea16dc-c94d-404b-a8a5-8ff40f2da31f</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AcceptToSSQL.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>238cc44d-880e-4727-9b81-bc96e080f2f6</id>
+      <recordtableid>c5c08a7c-e59c-4b1e-a507-134912d45933</recordtableid>
+    </None>
     <None Include="app.config">
       <id>bd4c0685-57b9-4a7a-a7bc-d4f25db20b5e</id>
     </None>
@@ -222,17 +359,57 @@
       <repoid>29554df4-a9a1-4bb5-bc7d-e1bab206a73f</repoid>
       <reporootid>41d3209a-6b55-4d11-ade5-8b107ab3f7a7</reporootid>
     </None>
+    <None Include="ConfirmWSInstallFinish.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>d5bf3b05-e0e6-4148-b222-822cbb6967df</id>
+      <recordtableid>7a99ce87-770c-41f6-a490-245e139b0d9c</recordtableid>
+    </None>
+    <None Include="FeatureSelectionSQL.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>85cf080f-4e89-4c26-899c-190e1d6dfbcd</id>
+      <recordtableid>c53b61a1-a5c0-4b25-bb59-ac20871ae365</recordtableid>
+    </None>
+    <None Include="InstallCompleteWS.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>d453bbbc-4c1a-49e2-ac7b-e40f7d9e3623</id>
+      <recordtableid>8d902368-e261-4a13-ba0c-6d8b42340a43</recordtableid>
+    </None>
+    <None Include="InstallWelcomeCrystal.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>01fdc85c-74d4-48ff-b04c-91926c6e6195</id>
+      <recordtableid>61b87029-e35d-459c-a403-ec3c8744d87c</recordtableid>
+    </None>
+    <None Include="InstallWelcomeSQL.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>0faad222-648f-47ef-b699-02210b83cd71</id>
+      <recordtableid>3f1ae4a1-f43b-49e5-953c-c9cd46fe916b</recordtableid>
+    </None>
     <None Include="OpenInstallFile.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>aaeb17a3-234a-41f9-9535-d1a4e53068c5</id>
       <recordtableid>11626203-89c4-449a-9ed2-1d52561a7935</recordtableid>
     </None>
-    <None Include="VerifyReleaseVersion.rxrec">
+    <None Include="ReadyToInstallCrystal.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>40dcc5ee-4584-468e-a41a-dd338629e108</id>
+      <recordtableid>9269e0b8-6d70-4b1e-9f83-67340788d9c1</recordtableid>
+    </None>
+    <None Include="ReadyToInstallSQL.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>b92f70ce-8c82-4d95-ac62-0eef7a1eea4b</id>
+      <recordtableid>0e43be61-ce2b-40e9-916a-d6cba4419ec3</recordtableid>
+    </None>
+    <None Include="RunWSInstall.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>cb378c82-a06e-4119-b50c-38eed4f03d2d</id>
+      <recordtableid>162e91d1-9a3c-49db-bff1-e3d81f2456f1</recordtableid>
+    </None>
+    <None Include="VerifyServerReleaseVersion.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>de2216a0-6429-4d5b-a66b-db32062a48ce</id>
       <recordtableid>bde2f0df-0f77-479a-b4a2-1a2a235f3d36</recordtableid>
     </None>
-    <None Include="AcceptToS.rxrec">
+    <None Include="AcceptToSHB.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>a1efcdbb-ef44-4b4a-b3db-f39f79b044b5</id>
       <recordtableid>13904e02-f537-4efa-b319-b7d046036924</recordtableid>
@@ -242,7 +419,7 @@
       <id>76196957-a8de-4e95-9b2e-f557161a3d29</id>
       <recordtableid>b91e1761-7016-4fc5-98f3-58e57f71eb46</recordtableid>
     </None>
-    <None Include="InstallDestination.rxrec">
+    <None Include="ServerInstallDestination.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>6593e5d1-1259-4e85-966f-651c91366370</id>
       <recordtableid>d239ddb8-9d2b-4bcf-aabe-bb4c6314833d</recordtableid>
@@ -256,6 +433,16 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>df3bd142-91fa-42fd-85b9-ed56a443d3f0</id>
       <recordtableid>43bbaf7d-2b67-498d-9ab4-5e9794b98f8f</recordtableid>
+    </None>
+    <None Include="VerifyWSReleaseVersion.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>12fd12f4-dab3-4178-a8f9-783b817834d3</id>
+      <recordtableid>cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad</recordtableid>
+    </None>
+    <None Include="WSInstallDestination.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>52c51574-3c45-4cf8-a924-4ee074f2f8b7</id>
+      <recordtableid>869e9047-90b5-4d65-a424-4d6c5251ae26</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
