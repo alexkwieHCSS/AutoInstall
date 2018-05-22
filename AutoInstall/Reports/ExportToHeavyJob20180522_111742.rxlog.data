@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c7e4eb936ead753"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 11:17:44 AM"
+		timestampiso="2018-05-22T16:17:44"
+		endtime="5/22/2018 11:18:04 AM"
+		timeoutfactor="1"
+		module="ExportToHeavyJob">
+		<detail>
+			ExportToHeavyJob
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText' does not match the specified value (actual='Export of C:\HeavyBidWS\HBSave\HeavyJobExport.xml Complete!', expected='yourtext').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.682"
+			timeRelativeToTestModuleStartTime="00:00.684"
+			timeWallClock="11:17:45"
+			time="00:00.682"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>HJFilepath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.704"
+			timeRelativeToTestModuleStartTime="00:00.706"
+			timeWallClock="11:17:45"
+			time="00:00.704"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ExchangeTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ExchangeTab"
+				id="335aaa88e0234bafa4a4c3bb609ace02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.815"
+			timeRelativeToTestModuleStartTime="00:02.817"
+			timeWallClock="11:17:47"
+			time="00:02.815"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Exchange.HJAndAccountingExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				itempath="?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport"
+				id="8182ecf224f74be4ab7902bf628a7fb4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.957"
+			timeRelativeToTestModuleStartTime="00:03.959"
+			timeWallClock="11:17:48"
+			time="00:03.957"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']"
+				itempath="?/?//button[@text~'Export to HeavyJob']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob"
+				id="7240d090e159402d8559add9d5617a4a"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.307"
+			timeRelativeToTestModuleStartTime="00:08.309"
+			timeWallClock="11:17:53"
+			time="00:08.307"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HJFilepath'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.546"
+			timeRelativeToTestModuleStartTime="00:12.548"
+			timeWallClock="11:17:57"
+			time="00:12.546"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				itempath="?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportButton"
+				id="2db6a250cf4f4383bacf321ac6b57879"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.993"
+			timeRelativeToTestModuleStartTime="00:13.995"
+			timeWallClock="11:17:58"
+			time="00:13.993"
+			level="Info"
+			category="Validation"
+			errimg=".\ExportTo_9ae02a75_2cc57596_trace.jpg"
+			errthumb=".\ExportTo_9ae02a75_2cc57596_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='yourtext') on item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@text~'(C|c)omplete']"
+				itempath="text[@text~'(C|c)omplete']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.333"
+			timeRelativeToTestModuleStartTime="00:19.335"
+			timeWallClock="11:18:04"
+			time="00:19.333"
+			level="Failure"
+			category="Validation"
+			errimg=".\ExportTo_9ae02a75_ffd660a5_trace.jpg"
+			errthumb=".\ExportTo_9ae02a75_ffd660a5_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText' does not match the specified value (actual='Export of C:\HeavyBidWS\HBSave\HeavyJobExport.xml Complete!', expected='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@text~'(C|c)omplete']"
+				itempath="text[@text~'(C|c)omplete']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="116"
+				loglvl="Failure"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.344"
+			timeRelativeToTestModuleStartTime="00:19.346"
+			timeWallClock="11:18:04"
+			time="00:19.344"
+			level="Error"
+			category="Module"
+			errimg=".\ExportTo_9ae02a75_ffd660a5_trace.jpg"
+			errthumb=".\ExportTo_9ae02a75_ffd660a5_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText' does not match the specified value (actual='Export of C:\HeavyBidWS\HBSave\HeavyJobExport.xml Complete!', expected='yourtext').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at AutoInstall.ExportToHeavyJob.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs:line 116&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="116"
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@text~'(C|c)omplete']"
+				itempath="text[@text~'(C|c)omplete']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.CompleteConfirmationText"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

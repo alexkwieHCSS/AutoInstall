@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.05s"
+		durationms="18047"
+		type="root"
+		rid="104bd0059832adb8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 10:34:08 AM"
+		timestampiso="2018-05-22T15:34:08"
+		endtime="5/22/2018 10:34:26 AM"
+		timeoutfactor="1"
+		module="WhatsNewButton">
+		<detail>
+			WhatsNewButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.640"
+			timeRelativeToTestModuleStartTime="00:00.656"
+			timeWallClock="10:34:08"
+			time="00:00.640"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.HelpTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/tabpagelist/tabpage[@title~'Help']"
+				itempath=".//toolbar/tabpagelist/tabpage[@title~'Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.HelpTab"
+				id="f776058332ad4ea0ae2b7afacacf7a0a"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.734"
+			timeRelativeToTestModuleStartTime="00:02.750"
+			timeWallClock="10:34:11"
+			time="00:02.734"
+			level="Info"
+			category="Mouse"
+			errimg=".\WhatsNew_8e5c4d36_8d618374_trace.jpg"
+			errthumb=".\WhatsNew_8e5c4d36_8d618374_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'New HeavyBid Features']"
+				itempath=".///toolbar/button[@text~'New HeavyBid Features']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton"
+				id="86f8a615a73941c783d8b9ea1053dc08"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.047"
+			timeRelativeToTestModuleStartTime="00:04.062"
+			timeWallClock="10:34:12"
+			time="00:04.047"
+			level="Info"
+			category="Validation"
+			errimg=".\WhatsNew_8e5c4d36_6a31c883_trace.jpg"
+			errthumb=".\WhatsNew_8e5c4d36_6a31c883_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>E.6<br/>Validating AttributeContains (Text&gt;'help.hcss.com') on item 'GoogleChrome.AddressBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.047"
+			timeRelativeToTestModuleStartTime="00:18.063"
+			timeWallClock="10:34:26"
+			time="00:18.047"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.094"
+			timeRelativeToTestModuleStartTime="00:18.110"
+			timeWallClock="10:34:26"
+			time="00:18.094"
+			level="Warn"
+			category="Module"
+			errimg=".\WhatsNew_8e5c4d36_23a0f7ec_trace.jpg"
+			errthumb=".\WhatsNew_8e5c4d36_23a0f7ec_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="95"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

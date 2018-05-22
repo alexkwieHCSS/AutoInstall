@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7s"
+		durationms="1702"
+		type="root"
+		rid="ceb31458a3433e9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 10:27:12 AM"
+		timestampiso="2018-05-21T15:27:12"
+		endtime="5/21/2018 10:27:14 AM"
+		timeoutfactor="1"
+		module="InstallCompleteWS">
+		<detail>
+			InstallCompleteWS
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.674"
+			timeRelativeToTestModuleStartTime="00:00.674"
+			timeWallClock="10:27:13"
+			time="00:00.674"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowsMenuBar.HBInstallComplete' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HeavyBid']"
+				itempath=".////button[@accessiblename~'HeavyBid']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HBInstallComplete"
+				id="de30e6d004c04accb572ad7b7123327e"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallCompleteWS.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.702"
+			timeRelativeToTestModuleStartTime="00:01.702"
+			timeWallClock="10:27:14"
+			time="00:01.702"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

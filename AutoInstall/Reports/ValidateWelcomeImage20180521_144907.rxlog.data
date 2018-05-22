@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7c33e0076bdb2b5"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 2:49:11 PM"
+		timestampiso="2018-05-21T19:49:11"
+		endtime="5/21/2018 2:49:18 PM"
+		timeoutfactor="1"
+		module="ValidateWelcomeImage">
+		<detail>
+			ValidateWelcomeImage
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.218"
+			timeRelativeToTestModuleStartTime="00:01.221"
+			timeWallClock="14:49:12"
+			time="00:01.218"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="5000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.091"
+			timeRelativeToTestModuleStartTime="00:03.094"
+			timeWallClock="14:49:14"
+			time="00:03.091"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.008"
+			timeRelativeToTestModuleStartTime="00:04.011"
+			timeWallClock="14:49:15"
+			time="00:04.008"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>E.6<br/>Validating AttributeContains (Text&gt;'hcss.com') on item 'GoogleChrome.AddressBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.708"
+			timeRelativeToTestModuleStartTime="00:06.711"
+			timeWallClock="14:49:18"
+			time="00:06.708"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.AddressBar' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="92"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.739"
+			timeRelativeToTestModuleStartTime="00:06.742"
+			timeWallClock="14:49:18"
+			time="00:06.739"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>E.6<br/>Validating AttributeRegex (Title~'HCSS') on item 'GoogleChrome.Tab'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="98"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.984"
+			timeRelativeToTestModuleStartTime="00:06.987"
+			timeWallClock="14:49:18"
+			time="00:06.984"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Title' of element for item 'AutoInstallRepository.GoogleChrome.Tab' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWelcomeImage.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

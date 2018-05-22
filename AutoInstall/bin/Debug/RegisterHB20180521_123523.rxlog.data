@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.95s"
+		durationms="5947"
+		type="root"
+		rid="518247686a01f90"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 12:35:25 PM"
+		timestampiso="2018-05-21T17:35:25"
+		endtime="5/21/2018 12:35:31 PM"
+		timeoutfactor="1"
+		module="RegisterHB">
+		<detail>
+			RegisterHB
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.702"
+			timeRelativeToTestModuleStartTime="00:00.704"
+			timeWallClock="12:35:26"
+			time="00:00.702"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>RegCodeMU, CompanyName, RegTypeMU, Licenses
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.736"
+			timeRelativeToTestModuleStartTime="00:00.738"
+			timeWallClock="12:35:26"
+			time="00:00.736"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'HeavyBidRegistration.RegEntryTextbox'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Registration']/element/element[@class='DFentry']"
+				itempath="element/element[@class='DFentry']"
+				fullname="AutoInstallRepository.HeavyBidRegistration.RegEntryTextbox"
+				id="0b28b10c52ff4c50ad797bd952dc51a6"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="132"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.220"
+			timeRelativeToTestModuleStartTime="00:01.222"
+			timeWallClock="12:35:26"
+			time="00:01.220"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$RegCodeMU' with focus on 'HeavyBidRegistration.RegEntryTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Registration']/element/element[@class='DFentry']"
+				itempath="element/element[@class='DFentry']"
+				fullname="AutoInstallRepository.HeavyBidRegistration.RegEntryTextbox"
+				id="0b28b10c52ff4c50ad797bd952dc51a6"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="135"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.158"
+			timeRelativeToTestModuleStartTime="00:05.160"
+			timeWallClock="12:35:30"
+			time="00:05.158"
+			level="Info"
+			category="Mouse"
+			errimg=".\Register_8d07985e_28eb08c9_trace.jpg"
+			errthumb=".\Register_8d07985e_28eb08c9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidRegistration.Buttons.CheckButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Registration']//button[@text='Check']"
+				itempath=".//button[@text='Check']"
+				fullname="AutoInstallRepository.HeavyBidRegistration.Buttons.CheckButton"
+				id="a105939b284c4cf990f64613a8c6f6a0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="139"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.947"
+			timeRelativeToTestModuleStartTime="00:05.949"
+			timeWallClock="12:35:31"
+			time="00:05.947"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.948"
+			timeRelativeToTestModuleStartTime="00:05.950"
+			timeWallClock="12:35:31"
+			time="00:05.948"
+			level="Info"
+			category="Validation"
+			errimg=".\Register_8d07985e_8a343a9e_trace.jpg"
+			errthumb=".\Register_8d07985e_8a343a9e_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Windowtext~$CompanyName) on item 'HeavyBidRegistration.TextContainsForValidation.CompanyNameTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Registration']/element[@class='DFgroup']//element[@class='DFentry'][3]"
+				itempath="element[@class='DFgroup']//element[@class='DFentry'][3]"
+				fullname="AutoInstallRepository.HeavyBidRegistration.TextContainsForValidation.CompanyNameTextbox"
+				id="593a2882fd3a48bd8d4a16a487700fed"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="144"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.069"
+			timeRelativeToTestModuleStartTime="00:06.071"
+			timeWallClock="12:35:31"
+			time="00:06.069"
+			level="Warn"
+			category="Module"
+			errimg=".\Register_8d07985e_dab1edc1_trace.jpg"
+			errthumb=".\Register_8d07985e_dab1edc1_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="147"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.5s"
+		durationms="17501"
+		type="root"
+		rid="23d214c6adda352"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 12:52:49 PM"
+		timestampiso="2018-05-22T17:52:49"
+		endtime="5/22/2018 12:53:06 PM"
+		timeoutfactor="1"
+		module="ExportToHeavyJob">
+		<detail>
+			ExportToHeavyJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.640"
+			timeRelativeToTestModuleStartTime="00:00.640"
+			timeWallClock="12:52:49"
+			time="00:00.640"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>HJFilepath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.671"
+			timeRelativeToTestModuleStartTime="00:00.671"
+			timeWallClock="12:52:50"
+			time="00:00.671"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ExchangeTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ExchangeTab"
+				id="335aaa88e0234bafa4a4c3bb609ace02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.136"
+			timeRelativeToTestModuleStartTime="00:05.136"
+			timeWallClock="12:52:54"
+			time="00:05.136"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Exchange.HJAndAccountingExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				itempath="?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport"
+				id="8182ecf224f74be4ab7902bf628a7fb4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.393"
+			timeRelativeToTestModuleStartTime="00:06.393"
+			timeWallClock="12:52:55"
+			time="00:06.393"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']"
+				itempath="?/?//button[@text~'Export to HeavyJob']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob"
+				id="7240d090e159402d8559add9d5617a4a"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.114"
+			timeRelativeToTestModuleStartTime="00:11.114"
+			timeWallClock="12:53:00"
+			time="00:11.114"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HJFilepath' with focus on 'HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform'][1]"
+				itempath="form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform'][1]"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ"
+				id="1b300847611d4536a48220d67adc4032"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.793"
+			timeRelativeToTestModuleStartTime="00:15.793"
+			timeWallClock="12:53:05"
+			time="00:15.793"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				itempath="?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportButton"
+				id="2db6a250cf4f4383bacf321ac6b57879"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.501"
+			timeRelativeToTestModuleStartTime="00:17.501"
+			timeWallClock="12:53:06"
+			time="00:17.501"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

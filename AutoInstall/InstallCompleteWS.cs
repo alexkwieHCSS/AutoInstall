@@ -79,16 +79,22 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WindowsMenuBar.HBInstallComplete' at Center.", repo.WindowsMenuBar.HBInstallCompleteInfo, new RecordItemIndex(0));
-            repo.WindowsMenuBar.HBInstallComplete.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'WindowsMenuBar.HBInstallComplete' at Center.", repo.WindowsMenuBar.HBInstallCompleteInfo, new RecordItemIndex(0));
+                repo.WindowsMenuBar.HBInstallComplete.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
-            Delay.Duration(2000, false);
+            try {
+                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 2s.", new RecordItemIndex(1));
+                Delay.Duration(2000, false);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(2));
-            Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Escape}'.", new RecordItemIndex(2));
+                Keyboard.Press("{Escape}");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
         }
 

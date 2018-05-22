@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="36bb4b73b70cf067"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 12:16:05 PM"
+		timestampiso="2018-05-21T17:16:05"
+		endtime="5/21/2018 12:16:11 PM"
+		timeoutfactor="1"
+		module="RegisterHB">
+		<detail>
+			RegisterHB
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.802"
+			timeRelativeToTestModuleStartTime="00:00.803"
+			timeWallClock="12:16:06"
+			time="00:00.802"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>RegCodeMU, CompanyName, RegTypeMU, Licenses
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.830"
+			timeRelativeToTestModuleStartTime="00:00.831"
+			timeWallClock="12:16:06"
+			time="00:00.830"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$RegCodeMU' with focus on 'HeavyBidRegistration.RegEntryTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Registration']/element/element[@class='DFentry']"
+				itempath="element/element[@class='DFentry']"
+				fullname="AutoInstallRepository.HeavyBidRegistration.RegEntryTextbox"
+				id="0b28b10c52ff4c50ad797bd952dc51a6"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RegisterHB.cs"
+				codeline="134"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

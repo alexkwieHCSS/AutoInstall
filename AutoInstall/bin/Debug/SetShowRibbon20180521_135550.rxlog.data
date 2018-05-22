@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12a345da366f0808"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 1:55:52 PM"
+		timestampiso="2018-05-21T18:55:52"
+		endtime="5/21/2018 1:55:56 PM"
+		timeoutfactor="1"
+		module="SetShowRibbon">
+		<detail>
+			SetShowRibbon
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.667"
+			timeRelativeToTestModuleStartTime="00:00.668"
+			timeWallClock="13:55:52"
+			time="00:00.667"
+			level="Info"
+			category="Mouse"
+			errimg=".\SetShowR_e20f6787_3eafe5ce_trace.jpg"
+			errthumb=".\SetShowR_e20f6787_3eafe5ce_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HeavyBidApp.HCSSIcon' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@accessiblename='App']"
+				itempath=".//toolbar/button[@accessiblename='App']"
+				fullname="AutoInstallRepository.HeavyBidApp.HCSSIcon"
+				id="f421981e8e564722bdfab348867caef5"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.359"
+			timeRelativeToTestModuleStartTime="00:03.360"
+			timeWallClock="13:55:55"
+			time="00:03.359"
+			level="Failure"
+			category="Validation"
+			errimg=".\SetShowR_e20f6787_23127e8c_trace.jpg"
+			errthumb=".\SetShowR_e20f6787_23127e8c_trace_thumb.jpg">
+			<message>
+				Checked
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.UserCode.cs"
+				codeline="42"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.809"
+			timeRelativeToTestModuleStartTime="00:03.810"
+			timeWallClock="13:55:55"
+			time="00:03.809"
+			level="Error"
+			category="Module"
+			errimg=".\SetShowR_e20f6787_4370eb67_trace.jpg"
+			errthumb=".\SetShowR_e20f6787_4370eb67_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

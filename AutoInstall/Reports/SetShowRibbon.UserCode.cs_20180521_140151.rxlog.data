@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3dc4ead1dd7890f0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 2:01:53 PM"
+		timestampiso="2018-05-21T19:01:53"
+		endtime="5/21/2018 2:01:57 PM"
+		timeoutfactor="1"
+		module="SetShowRibbon">
+		<detail>
+			SetShowRibbon
+		</detail>
+		<errormessage>
+			Checked
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.735"
+			timeRelativeToTestModuleStartTime="00:00.737"
+			timeWallClock="14:01:54"
+			time="00:00.735"
+			level="Info"
+			category="Mouse"
+			errimg=".\SetShowR_ef25228a_0183c11c_trace.jpg"
+			errthumb=".\SetShowR_ef25228a_0183c11c_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HeavyBidApp.HCSSIcon' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@accessiblename='App']"
+				itempath=".//toolbar/button[@accessiblename='App']"
+				fullname="AutoInstallRepository.HeavyBidApp.HCSSIcon"
+				id="f421981e8e564722bdfab348867caef5"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.147"
+			timeRelativeToTestModuleStartTime="00:04.149"
+			timeWallClock="14:01:57"
+			time="00:04.147"
+			level="Failure"
+			category="Validation"
+			errimg=".\SetShowR_ef25228a_5c87f987_trace.jpg"
+			errthumb=".\SetShowR_ef25228a_5c87f987_trace_thumb.jpg">
+			<message>
+				Checked
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.UserCode.cs"
+				codeline="42"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.159"
+			timeRelativeToTestModuleStartTime="00:04.161"
+			timeWallClock="14:01:57"
+			time="00:04.159"
+			level="Error"
+			category="Module"
+			errimg=".\SetShowR_ef25228a_5c87f987_trace.jpg"
+			errthumb=".\SetShowR_ef25228a_5c87f987_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Checked
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Attribute(Element element, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.Attribute(Element element, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at AutoInstall.SetShowRibbon.ShowRibbon() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.UserCode.cs:line 42&#13;&#10;   at AutoInstall.SetShowRibbon.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.cs:line 88&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\SetShowRibbon.UserCode.cs"
+				codeline="42"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

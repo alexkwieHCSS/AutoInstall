@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="68ecea84bfc2784"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 11:20:38 AM"
+		timestampiso="2018-05-22T16:20:38"
+		endtime="5/22/2018 11:22:19 AM"
+		timeoutfactor="1"
+		module="ExportToHeavyJob">
+		<detail>
+			ExportToHeavyJob
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.674"
+			timeRelativeToTestModuleStartTime="00:00.675"
+			timeWallClock="11:20:38"
+			time="00:00.674"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>HJFilepath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.696"
+			timeRelativeToTestModuleStartTime="00:00.697"
+			timeWallClock="11:20:38"
+			time="00:00.696"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ExchangeTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ExchangeTab"
+				id="335aaa88e0234bafa4a4c3bb609ace02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.344"
+			timeRelativeToTestModuleStartTime="00:03.345"
+			timeWallClock="11:20:41"
+			time="00:03.344"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Exchange.HJAndAccountingExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				itempath="?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport"
+				id="8182ecf224f74be4ab7902bf628a7fb4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.506"
+			timeRelativeToTestModuleStartTime="00:04.507"
+			timeWallClock="11:20:42"
+			time="00:04.506"
+			level="Info"
+			category="Mouse"
+			errimg=".\ExportTo_cadfcca5_66579d13_trace.jpg"
+			errthumb=".\ExportTo_cadfcca5_66579d13_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']"
+				itempath="?/?//button[@text~'Export to HeavyJob']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob"
+				id="7240d090e159402d8559add9d5617a4a"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.102"
+			timeRelativeToTestModuleStartTime="00:10.103"
+			timeWallClock="11:20:48"
+			time="00:10.102"
+			level="Info"
+			category="Keyboard"
+			errimg=".\ExportTo_cadfcca5_82f59255_trace.jpg"
+			errthumb=".\ExportTo_cadfcca5_82f59255_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$HJFilepath' with focus on 'HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='513']//element[@class='DFform'][1]/element[@class='DFentry']"
+				itempath="form[@controlid='513']//element[@class='DFform'][1]/element[@class='DFentry']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ"
+				id="1b300847611d4536a48220d67adc4032"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.564"
+			timeRelativeToTestModuleStartTime="01:41.565"
+			timeWallClock="11:22:19"
+			time="01:41.564"
+			level="Error"
+			category="Module"
+			errimg=".\ExportTo_cadfcca5_1592bd45_trace.jpg"
+			errthumb=".\ExportTo_cadfcca5_1592bd45_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.<br/>No element found for path '/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='513']//element[@class='DFform'][1]/element[@class='DFentry']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.DocumentInterfaceFolder.get_FilenameTextboxExportHJ() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 1614&#13;&#10;   at AutoInstall.ExportToHeavyJob.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs:line 108&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="108"
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='513']//element[@class='DFform'][1]/element[@class='DFentry']"
+				itempath="form[@controlid='513']//element[@class='DFform'][1]/element[@class='DFentry']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ"
+				id="1b300847611d4536a48220d67adc4032"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

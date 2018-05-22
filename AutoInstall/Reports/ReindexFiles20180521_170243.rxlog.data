@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="169f3dabb75a5bae"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 5:02:46 PM"
+		timestampiso="2018-05-21T22:02:46"
+		endtime="5/21/2018 5:02:53 PM"
+		timeoutfactor="1"
+		module="ReindexFiles">
+		<detail>
+			ReindexFiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.886"
+			timeRelativeToTestModuleStartTime="00:00.888"
+			timeWallClock="17:02:47"
+			time="00:00.886"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ToolsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.919"
+			timeRelativeToTestModuleStartTime="00:03.921"
+			timeWallClock="17:02:50"
+			time="00:03.919"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Tools.ReindexFilesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Reindex Files']"
+				itempath="?/?/toolbar/button[@text~'Reindex Files']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Tools.ReindexFilesButton"
+				id="c1df175cd96343c182962e0bda44e88c"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.045"
+			timeRelativeToTestModuleStartTime="00:05.047"
+			timeWallClock="17:02:51"
+			time="00:05.045"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'False' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex']//?/?/checkbox[@text~'Estimate']"
+				itempath=".//?/?/checkbox[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox"
+				id="0524cc31504847259e8aeebd44f42088"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.195"
+			timeRelativeToTestModuleStartTime="00:05.197"
+			timeWallClock="17:02:51"
+			time="00:05.195"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'True' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex']//?/?/checkbox[@text~'System']"
+				itempath=".//?/?/checkbox[@text~'System']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckbox"
+				id="2d545903656c4dfdaaa2dbe7e4ace38a"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.329"
+			timeRelativeToTestModuleStartTime="00:05.331"
+			timeWallClock="17:02:51"
+			time="00:05.329"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex']/?/?/?/button[@text~'OK']"
+				itempath="?/?/?/button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.OKButton"
+				id="ae39fc7a1e074702a85872287afa0635"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.126"
+			timeRelativeToTestModuleStartTime="00:06.128"
+			timeWallClock="17:02:52"
+			time="00:06.126"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex' and @accessiblerole~'Dialog']/button[@text~'OK']"
+				itempath="button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton"
+				id="0a7b60b17318492791da44a98ba8c417"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

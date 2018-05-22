@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5ac76182bf0af8a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 10:46:18 AM"
+		timestampiso="2018-05-22T15:46:18"
+		endtime="5/22/2018 10:46:22 AM"
+		timeoutfactor="1"
+		module="EquipmentReport">
+		<detail>
+			EquipmentReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.685"
+			timeRelativeToTestModuleStartTime="00:00.687"
+			timeWallClock="10:46:19"
+			time="00:00.685"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/?/?/?/button[@text~'Close']"
+				itempath="?/?/?/button[@text~'Close']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.CloseButton"
+				id="fc1e7fdda2b94bb987fe224e293b2469"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="82"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -131,6 +131,78 @@
       <RepositoryCode>true</RepositoryCode>
       <id>2909d412-2de1-428f-9fe8-e031a60a27ce</id>
     </Compile>
+    <Compile Include="BackupEstimate.cs">
+      <BoundTo>a7bc2347-c3c7-435f-b6b6-f7f6b7827dc7</BoundTo>
+      <DependentUpon>BackupEstimate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c9aa518d-9f52-4610-9a0b-dfda005fc00e</id>
+    </Compile>
+    <Compile Include="BackupEstimate.UserCode.cs">
+      <BoundTo>a7bc2347-c3c7-435f-b6b6-f7f6b7827dc7</BoundTo>
+      <DependentUpon>BackupEstimate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4a0dc3f-d8ba-4339-bcdb-5b1f71ec0e11</id>
+    </Compile>
+    <Compile Include="BackupSystem.cs">
+      <BoundTo>7e04a8ee-950f-4f4e-a0b2-d71592d1daff</BoundTo>
+      <DependentUpon>BackupSystem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a9fdb75e-4254-4585-afdb-1be3e9ae04b6</id>
+    </Compile>
+    <Compile Include="BackupSystem.UserCode.cs">
+      <BoundTo>7e04a8ee-950f-4f4e-a0b2-d71592d1daff</BoundTo>
+      <DependentUpon>BackupSystem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b74c61f3-7702-454c-a3e0-b360eef38ac7</id>
+    </Compile>
+    <Compile Include="BasicBidProposal.cs">
+      <BoundTo>3fa96a1c-2195-4e43-b881-8945c955c938</BoundTo>
+      <DependentUpon>BasicBidProposal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d9dcf37-2af0-492e-92de-4c2def4b26e9</id>
+    </Compile>
+    <Compile Include="BasicBidProposal.UserCode.cs">
+      <BoundTo>3fa96a1c-2195-4e43-b881-8945c955c938</BoundTo>
+      <DependentUpon>BasicBidProposal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>83f46c99-e6b9-48ec-b95b-3ba22431756c</id>
+    </Compile>
+    <Compile Include="BiditemStructureReport.cs">
+      <BoundTo>cd9056d8-b107-49a3-ac41-4ef02ccb220d</BoundTo>
+      <DependentUpon>BiditemStructureReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>18c5f5ce-c8a6-4b76-b741-1429aa4f703e</id>
+    </Compile>
+    <Compile Include="BiditemStructureReport.UserCode.cs">
+      <BoundTo>cd9056d8-b107-49a3-ac41-4ef02ccb220d</BoundTo>
+      <DependentUpon>BiditemStructureReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06ee13e9-9105-408b-af02-f4d1ddb75b7a</id>
+    </Compile>
+    <Compile Include="ChiefEstimatorAnalysisReport.cs">
+      <BoundTo>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</BoundTo>
+      <DependentUpon>ChiefEstimatorAnalysisReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa921fd0-d78c-44bf-b1d8-c48f40988b6e</id>
+    </Compile>
+    <Compile Include="ChiefEstimatorAnalysisReport.UserCode.cs">
+      <BoundTo>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</BoundTo>
+      <DependentUpon>ChiefEstimatorAnalysisReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a1d7205c-7a33-49b7-9c20-00a02250f804</id>
+    </Compile>
+    <Compile Include="CloseHB.cs">
+      <BoundTo>ffd68b9e-8b16-49b4-8d65-864adf749dde</BoundTo>
+      <DependentUpon>CloseHB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7ba1769-23a7-45be-91f7-72a3b5f59fd4</id>
+    </Compile>
+    <Compile Include="CloseHB.UserCode.cs">
+      <BoundTo>ffd68b9e-8b16-49b4-8d65-864adf749dde</BoundTo>
+      <DependentUpon>CloseHB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32932cac-27ab-4ab1-8bcf-ce7e31a94ad0</id>
+    </Compile>
     <Compile Include="ConfirmWSInstallFinish.cs">
       <BoundTo>d5bf3b05-e0e6-4148-b222-822cbb6967df</BoundTo>
       <DependentUpon>ConfirmWSInstallFinish.rxrec</DependentUpon>
@@ -143,6 +215,138 @@
       <UserCode>true</UserCode>
       <id>fe6b7e3a-6807-4fc6-89da-dbab0706a9e0</id>
     </Compile>
+    <Compile Include="CostPriceReport.cs">
+      <BoundTo>09f167ea-8a54-4012-bb4a-9a97d8f60946</BoundTo>
+      <DependentUpon>CostPriceReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ddbbfb31-cb40-4cd7-83da-e2659c5e2a94</id>
+    </Compile>
+    <Compile Include="CostPriceReport.UserCode.cs">
+      <BoundTo>09f167ea-8a54-4012-bb4a-9a97d8f60946</BoundTo>
+      <DependentUpon>CostPriceReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e58e828e-2d54-431b-929c-109412fd21d4</id>
+    </Compile>
+    <Compile Include="CostReport.cs">
+      <BoundTo>592d97e0-fa38-4332-bf92-1da61235ff05</BoundTo>
+      <DependentUpon>CostReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e858b60-d739-42f7-86fe-d02f512805be</id>
+    </Compile>
+    <Compile Include="CostReport.UserCode.cs">
+      <BoundTo>592d97e0-fa38-4332-bf92-1da61235ff05</BoundTo>
+      <DependentUpon>CostReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c318a33-9476-4e52-8fbc-98a047ce36c2</id>
+    </Compile>
+    <Compile Include="CustomizedCrystalReport.cs">
+      <BoundTo>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</BoundTo>
+      <DependentUpon>CustomizedCrystalReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b5d626f-9fd7-4f9e-bacc-f67752b19b3d</id>
+    </Compile>
+    <Compile Include="CustomizedCrystalReport.UserCode.cs">
+      <BoundTo>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</BoundTo>
+      <DependentUpon>CustomizedCrystalReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e77c9e7-bea8-42c8-bf18-2a798f36ddf5</id>
+    </Compile>
+    <Compile Include="CustomReport.cs">
+      <BoundTo>8f03e5f6-7528-45a6-a92b-61122b87ebab</BoundTo>
+      <DependentUpon>CustomReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1305fe3b-b30c-4084-bcbe-fa2c94581bbd</id>
+    </Compile>
+    <Compile Include="CustomReport.UserCode.cs">
+      <BoundTo>8f03e5f6-7528-45a6-a92b-61122b87ebab</BoundTo>
+      <DependentUpon>CustomReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94ba4009-ed72-4f33-bff1-25610a02e5c9</id>
+    </Compile>
+    <Compile Include="CustomReportClassic.cs">
+      <BoundTo>5a91cafc-6545-4c9e-a121-99a6d61bb543</BoundTo>
+      <DependentUpon>CustomReportClassic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dbc0e635-021f-401c-882d-364091f790c7</id>
+    </Compile>
+    <Compile Include="CustomReportClassic.UserCode.cs">
+      <BoundTo>5a91cafc-6545-4c9e-a121-99a6d61bb543</BoundTo>
+      <DependentUpon>CustomReportClassic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dca9f7bc-f9b7-47a6-ba2f-848946b87dcc</id>
+    </Compile>
+    <Compile Include="EquipmentReport.cs">
+      <BoundTo>75f28445-c0bb-42cc-8202-a34f4af98051</BoundTo>
+      <DependentUpon>EquipmentReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f1002a26-0e54-41b9-ad17-fbf32ad83cd3</id>
+    </Compile>
+    <Compile Include="EquipmentReport.UserCode.cs">
+      <BoundTo>75f28445-c0bb-42cc-8202-a34f4af98051</BoundTo>
+      <DependentUpon>EquipmentReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>18e4101f-35ea-4cc5-8590-90b000feefae</id>
+    </Compile>
+    <Compile Include="EstimateRecapReport.cs">
+      <BoundTo>ac324de9-9d9f-4342-9ca1-ef1875d928f6</BoundTo>
+      <DependentUpon>EstimateRecapReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7eb7eb7-81f9-4e65-b190-dcd462cb8d69</id>
+    </Compile>
+    <Compile Include="EstimateRecapReport.UserCode.cs">
+      <BoundTo>ac324de9-9d9f-4342-9ca1-ef1875d928f6</BoundTo>
+      <DependentUpon>EstimateRecapReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ded47c7-533a-428f-a16f-b9f095bc87d5</id>
+    </Compile>
+    <Compile Include="EstimateRecapReportClassic.cs">
+      <BoundTo>09afdf7a-8764-458e-ae03-149380fc207f</BoundTo>
+      <DependentUpon>EstimateRecapReportClassic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d465739-9475-4014-b98b-ee401fd37eb2</id>
+    </Compile>
+    <Compile Include="EstimateRecapReportClassic.UserCode.cs">
+      <BoundTo>09afdf7a-8764-458e-ae03-149380fc207f</BoundTo>
+      <DependentUpon>EstimateRecapReportClassic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8dfe1801-31d1-4468-9387-250d51d6f9a0</id>
+    </Compile>
+    <Compile Include="ExportToAccounting.cs">
+      <BoundTo>fb381503-daf8-4fc0-870f-bf643dca2b3b</BoundTo>
+      <DependentUpon>ExportToAccounting.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0675cc5d-a6b7-41f8-a821-42408ba09325</id>
+    </Compile>
+    <Compile Include="ExportToAccounting.UserCode.cs">
+      <BoundTo>fb381503-daf8-4fc0-870f-bf643dca2b3b</BoundTo>
+      <DependentUpon>ExportToAccounting.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4942c14-a7d3-4cfb-9e66-e4a2fa2b6ef9</id>
+    </Compile>
+    <Compile Include="ExportToHeavyJob.cs">
+      <BoundTo>f3da4c72-204a-470b-bd8a-3c6e874dd72a</BoundTo>
+      <DependentUpon>ExportToHeavyJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0dbdf664-d61c-4701-8766-df86e7945054</id>
+    </Compile>
+    <Compile Include="ExportToHeavyJob.UserCode.cs">
+      <BoundTo>f3da4c72-204a-470b-bd8a-3c6e874dd72a</BoundTo>
+      <DependentUpon>ExportToHeavyJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e92bac23-94a2-4070-be10-3c17aae8e607</id>
+    </Compile>
+    <Compile Include="F1HelpButton.cs">
+      <BoundTo>602d193b-df5f-4e18-af30-5232c406ab12</BoundTo>
+      <DependentUpon>F1HelpButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>86e7bb72-9360-497a-b66c-3c6986c37805</id>
+    </Compile>
+    <Compile Include="F1HelpButton.UserCode.cs">
+      <BoundTo>602d193b-df5f-4e18-af30-5232c406ab12</BoundTo>
+      <DependentUpon>F1HelpButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a365eed2-36b9-4055-b2fd-f57ff75d2dd4</id>
+    </Compile>
     <Compile Include="FeatureSelectionSQL.cs">
       <BoundTo>85cf080f-4e89-4c26-899c-190e1d6dfbcd</BoundTo>
       <DependentUpon>FeatureSelectionSQL.rxrec</DependentUpon>
@@ -154,6 +358,18 @@
       <DependentUpon>FeatureSelectionSQL.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0330067c-1362-4e92-b23c-70141a3ba926</id>
+    </Compile>
+    <Compile Include="ImportToHeavyJob.cs">
+      <BoundTo>9924d025-acf6-4bd7-9cab-cb41402b376e</BoundTo>
+      <DependentUpon>ImportToHeavyJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2abd37b7-dab8-453f-8ac7-77d75a4fc355</id>
+    </Compile>
+    <Compile Include="ImportToHeavyJob.UserCode.cs">
+      <BoundTo>9924d025-acf6-4bd7-9cab-cb41402b376e</BoundTo>
+      <DependentUpon>ImportToHeavyJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e717f3d2-d286-4d07-a1de-3cb4e7c4ea91</id>
     </Compile>
     <Compile Include="InstallCompleteWS.cs">
       <BoundTo>d453bbbc-4c1a-49e2-ac7b-e40f7d9e3623</BoundTo>
@@ -190,6 +406,78 @@
       <DependentUpon>InstallWelcomeSQL.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>62156c99-826d-417b-a9be-955604e380d9</id>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <BoundTo>ba58ca1c-577c-4eb6-a59a-f913dbc2af11</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a2efa096-73bd-4401-99b9-5e73dc899bfb</id>
+    </Compile>
+    <Compile Include="LogIn.UserCode.cs">
+      <BoundTo>ba58ca1c-577c-4eb6-a59a-f913dbc2af11</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ec4f935-2712-4537-af6c-360dc8fd912b</id>
+    </Compile>
+    <Compile Include="LookupRegCode.cs">
+      <BoundTo>7b0a51c1-d258-448a-b367-04437cc4e087</BoundTo>
+      <DependentUpon>LookupRegCode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06cef307-cc92-4a62-ac5b-3abcec07b0cc</id>
+    </Compile>
+    <Compile Include="LookupRegCode.UserCode.cs">
+      <BoundTo>7b0a51c1-d258-448a-b367-04437cc4e087</BoundTo>
+      <DependentUpon>LookupRegCode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e993dce3-53f5-476c-96e1-eda4b14b2574</id>
+    </Compile>
+    <Compile Include="MakeNewEstimate.cs">
+      <BoundTo>46480736-cf2f-4b9a-874e-6bec8243e47e</BoundTo>
+      <DependentUpon>MakeNewEstimate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3fce52a0-141c-495e-85e0-6413a0d8ddf6</id>
+    </Compile>
+    <Compile Include="MakeNewEstimate.UserCode.cs">
+      <BoundTo>46480736-cf2f-4b9a-874e-6bec8243e47e</BoundTo>
+      <DependentUpon>MakeNewEstimate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4deb3e07-dd62-46e7-b2c9-60e69027dc72</id>
+    </Compile>
+    <Compile Include="OpenExistingEstimate.cs">
+      <BoundTo>9c46b8ff-293f-4f16-92ff-873d29ce257b</BoundTo>
+      <DependentUpon>OpenExistingEstimate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92907b85-a969-419a-9de4-bd4e0b6bd460</id>
+    </Compile>
+    <Compile Include="OpenExistingEstimate.UserCode.cs">
+      <BoundTo>9c46b8ff-293f-4f16-92ff-873d29ce257b</BoundTo>
+      <DependentUpon>OpenExistingEstimate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1a8a0fa-412c-4c49-9e69-282277c373a5</id>
+    </Compile>
+    <Compile Include="OpenHB.cs">
+      <BoundTo>3b586ae1-1d00-41a8-b6f8-1af9a3531c64</BoundTo>
+      <DependentUpon>OpenHB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c6e7df3-1799-4072-923a-d947521a3199</id>
+    </Compile>
+    <Compile Include="OpenHB.UserCode.cs">
+      <BoundTo>3b586ae1-1d00-41a8-b6f8-1af9a3531c64</BoundTo>
+      <DependentUpon>OpenHB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4eeb358d-1ee3-4548-a245-8447c6d6e1bd</id>
+    </Compile>
+    <Compile Include="PlusPivotReportDesigner.cs">
+      <BoundTo>c941561c-1ac0-43c1-8e3c-b645fd680afb</BoundTo>
+      <DependentUpon>PlusPivotReportDesigner.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e8408ee9-bc8f-44c0-9387-46a3167ba9f6</id>
+    </Compile>
+    <Compile Include="PlusPivotReportDesigner.UserCode.cs">
+      <BoundTo>c941561c-1ac0-43c1-8e3c-b645fd680afb</BoundTo>
+      <DependentUpon>PlusPivotReportDesigner.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9cc54051-0061-4377-8a53-a18784b8837c</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>0c551e5a-3f7e-44ca-97ac-2d7c683276a9</id>
@@ -230,6 +518,54 @@
       <UserCode>true</UserCode>
       <id>849c1b4e-fba5-41bb-9a0e-7a08ee93ad9c</id>
     </Compile>
+    <Compile Include="RegisterHB.cs">
+      <BoundTo>98301254-34c9-4458-a399-494430f0853f</BoundTo>
+      <DependentUpon>RegisterHB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9759a7d4-51b2-4f06-b7ff-8041c204f2ce</id>
+    </Compile>
+    <Compile Include="RegisterHB.UserCode.cs">
+      <BoundTo>98301254-34c9-4458-a399-494430f0853f</BoundTo>
+      <DependentUpon>RegisterHB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2185b15a-fc0e-4c91-83a7-0299cf79cd19</id>
+    </Compile>
+    <Compile Include="ReindexFiles.cs">
+      <BoundTo>41a76997-4c72-48f0-885c-b797a302b04a</BoundTo>
+      <DependentUpon>ReindexFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b12f9a28-0473-48f8-9ab2-bb437bf77a2e</id>
+    </Compile>
+    <Compile Include="ReindexFiles.UserCode.cs">
+      <BoundTo>41a76997-4c72-48f0-885c-b797a302b04a</BoundTo>
+      <DependentUpon>ReindexFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73f69c98-d84e-4687-86b5-f454653f3f49</id>
+    </Compile>
+    <Compile Include="RestoreEstimate.cs">
+      <BoundTo>08952a65-66f6-4ab9-be2d-32252deaf29e</BoundTo>
+      <DependentUpon>RestoreEstimate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>348e70f3-b40c-4305-81c6-2909443c98bc</id>
+    </Compile>
+    <Compile Include="RestoreEstimate.UserCode.cs">
+      <BoundTo>08952a65-66f6-4ab9-be2d-32252deaf29e</BoundTo>
+      <DependentUpon>RestoreEstimate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ab5c9773-23ea-4575-9f24-d12c9f15743a</id>
+    </Compile>
+    <Compile Include="RestoreSystem.cs">
+      <BoundTo>0876a9bf-b06c-47b5-9053-0a5da37bd21d</BoundTo>
+      <DependentUpon>RestoreSystem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f1dec56-9995-4981-a581-2f30b2a9dd59</id>
+    </Compile>
+    <Compile Include="RestoreSystem.UserCode.cs">
+      <BoundTo>0876a9bf-b06c-47b5-9053-0a5da37bd21d</BoundTo>
+      <DependentUpon>RestoreSystem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>25adc825-f202-4dfb-b8e2-df6183080d06</id>
+    </Compile>
     <Compile Include="RunWSInstall.cs">
       <BoundTo>cb378c82-a06e-4119-b50c-38eed4f03d2d</BoundTo>
       <DependentUpon>RunWSInstall.rxrec</DependentUpon>
@@ -241,6 +577,78 @@
       <DependentUpon>RunWSInstall.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>62215959-b487-4f59-a722-d3adc0deda0f</id>
+    </Compile>
+    <Compile Include="SetShowRibbon.cs">
+      <BoundTo>890266ff-7153-4f2b-9f0c-20c5fd865be7</BoundTo>
+      <DependentUpon>SetShowRibbon.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3d4711fb-f6ea-4495-b3c6-621d5fad30a8</id>
+    </Compile>
+    <Compile Include="SetShowRibbon.UserCode.cs">
+      <BoundTo>890266ff-7153-4f2b-9f0c-20c5fd865be7</BoundTo>
+      <DependentUpon>SetShowRibbon.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1ea7ac94-78db-4ddb-80d5-350e5c96d0dc</id>
+    </Compile>
+    <Compile Include="TestSARegCode.cs">
+      <BoundTo>feadb33d-6ca2-4a02-bddb-31ef9c516ab3</BoundTo>
+      <DependentUpon>TestSARegCode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>63f81381-58b7-4012-a405-b5d3bffc61ae</id>
+    </Compile>
+    <Compile Include="TestSARegCode.UserCode.cs">
+      <BoundTo>feadb33d-6ca2-4a02-bddb-31ef9c516ab3</BoundTo>
+      <DependentUpon>TestSARegCode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>813ecac0-68fb-4bd5-b655-7a61fa4bfc9f</id>
+    </Compile>
+    <Compile Include="AboutHBButton.cs">
+      <BoundTo>333d6791-e48f-489d-9386-57afc0d21812</BoundTo>
+      <DependentUpon>AboutHBButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3ddca75e-98e4-4705-b254-5c6fc321e265</id>
+    </Compile>
+    <Compile Include="AboutHBButton.UserCode.cs">
+      <BoundTo>333d6791-e48f-489d-9386-57afc0d21812</BoundTo>
+      <DependentUpon>AboutHBButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0df0c618-39b0-46c0-bc53-09f6bbc143dc</id>
+    </Compile>
+    <Compile Include="NewUserLink.cs">
+      <BoundTo>a27f220f-2967-4a42-a69c-802328ae9dda</BoundTo>
+      <DependentUpon>NewUserLink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3b2cbfa-8ff1-4aa7-ae36-9df50d8d3581</id>
+    </Compile>
+    <Compile Include="NewUserLink.UserCode.cs">
+      <BoundTo>a27f220f-2967-4a42-a69c-802328ae9dda</BoundTo>
+      <DependentUpon>NewUserLink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e460405-98d6-42d8-a974-a4400f153b48</id>
+    </Compile>
+    <Compile Include="WelcomeImage.cs">
+      <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
+      <DependentUpon>WelcomeImage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ecefee86-f094-43d7-8303-b19db96e3e5e</id>
+    </Compile>
+    <Compile Include="WelcomeImage.UserCode.cs">
+      <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
+      <DependentUpon>WelcomeImage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5dfdd981-da80-452d-aaaf-ce34edb50ab0</id>
+    </Compile>
+    <Compile Include="WelcomeScreen.cs">
+      <BoundTo>f78781c1-9e02-4121-ab97-94daf5bd34a6</BoundTo>
+      <DependentUpon>WelcomeScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e27f3c4-70b8-46f5-acec-f6b32aa34ed6</id>
+    </Compile>
+    <Compile Include="WelcomeScreen.UserCode.cs">
+      <BoundTo>f78781c1-9e02-4121-ab97-94daf5bd34a6</BoundTo>
+      <DependentUpon>WelcomeScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f234f6e8-5df9-482b-b6d0-168c85e81a88</id>
     </Compile>
     <Compile Include="VerifyServerReleaseVersion.cs">
       <BoundTo>de2216a0-6429-4d5b-a66b-db32062a48ce</BoundTo>
@@ -326,6 +734,18 @@
       <UserCode>true</UserCode>
       <id>4fbef7af-f7fb-44cb-92a7-1ec31e513285</id>
     </Compile>
+    <Compile Include="WhatsNewButton.cs">
+      <BoundTo>d608fe4d-5bde-4c1d-9e67-f2bdabc4032f</BoundTo>
+      <DependentUpon>WhatsNewButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0f653747-f6e0-46cc-a2f2-94c45f5eb985</id>
+    </Compile>
+    <Compile Include="WhatsNewButton.UserCode.cs">
+      <BoundTo>d608fe4d-5bde-4c1d-9e67-f2bdabc4032f</BoundTo>
+      <DependentUpon>WhatsNewButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f8c34f0f-3ec5-4377-8780-ea7761a3abc5</id>
+    </Compile>
     <Compile Include="WSInstallDestination.cs">
       <BoundTo>52c51574-3c45-4cf8-a924-4ee074f2f8b7</BoundTo>
       <DependentUpon>WSInstallDestination.rxrec</DependentUpon>
@@ -359,15 +779,105 @@
       <repoid>29554df4-a9a1-4bb5-bc7d-e1bab206a73f</repoid>
       <reporootid>41d3209a-6b55-4d11-ade5-8b107ab3f7a7</reporootid>
     </None>
+    <None Include="BackupEstimate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>a7bc2347-c3c7-435f-b6b6-f7f6b7827dc7</id>
+      <recordtableid>550aa379-d749-40e8-8197-e320d9a479b4</recordtableid>
+    </None>
+    <None Include="BackupSystem.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>7e04a8ee-950f-4f4e-a0b2-d71592d1daff</id>
+      <recordtableid>88d75026-44d9-4cf3-a1a6-fd43360c3b07</recordtableid>
+    </None>
+    <None Include="BasicBidProposal.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>3fa96a1c-2195-4e43-b881-8945c955c938</id>
+      <recordtableid>83914a44-0934-4d9a-806a-a1979e78e015</recordtableid>
+    </None>
+    <None Include="BiditemStructureReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>cd9056d8-b107-49a3-ac41-4ef02ccb220d</id>
+      <recordtableid>a1b69bf4-76e7-44b9-8290-252ddd001601</recordtableid>
+    </None>
+    <None Include="ChiefEstimatorAnalysisReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</id>
+      <recordtableid>c221907e-09d3-4656-b4d7-b53d220313ca</recordtableid>
+    </None>
+    <None Include="CloseHB.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>ffd68b9e-8b16-49b4-8d65-864adf749dde</id>
+      <recordtableid>401a5605-5915-4d7a-978d-db1302934759</recordtableid>
+    </None>
     <None Include="ConfirmWSInstallFinish.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>d5bf3b05-e0e6-4148-b222-822cbb6967df</id>
       <recordtableid>7a99ce87-770c-41f6-a490-245e139b0d9c</recordtableid>
     </None>
+    <None Include="CostPriceReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>09f167ea-8a54-4012-bb4a-9a97d8f60946</id>
+      <recordtableid>23548477-8c51-42cf-a427-727e0e4a8ec4</recordtableid>
+    </None>
+    <None Include="CostReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>592d97e0-fa38-4332-bf92-1da61235ff05</id>
+      <recordtableid>f2dca640-d155-4bc2-8763-41db5cf29aee</recordtableid>
+    </None>
+    <None Include="CustomizedCrystalReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</id>
+      <recordtableid>62891f38-cf04-4408-9359-faea7ab15c9f</recordtableid>
+    </None>
+    <None Include="CustomReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>8f03e5f6-7528-45a6-a92b-61122b87ebab</id>
+      <recordtableid>192ecfb1-f9cd-4c22-8a6b-79d148535b72</recordtableid>
+    </None>
+    <None Include="CustomReportClassic.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>5a91cafc-6545-4c9e-a121-99a6d61bb543</id>
+      <recordtableid>f39b6fad-8ece-43ae-b737-50413a7b16b4</recordtableid>
+    </None>
+    <None Include="EquipmentReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>75f28445-c0bb-42cc-8202-a34f4af98051</id>
+      <recordtableid>96455a3d-5923-4b5b-be1f-5516c1ca1641</recordtableid>
+    </None>
+    <None Include="EstimateRecapReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>ac324de9-9d9f-4342-9ca1-ef1875d928f6</id>
+      <recordtableid>757be145-87cd-474f-869a-e95607c6ea1f</recordtableid>
+    </None>
+    <None Include="EstimateRecapReportClassic.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>09afdf7a-8764-458e-ae03-149380fc207f</id>
+      <recordtableid>e4bf8678-8c0f-4520-86d9-30a23e66d330</recordtableid>
+    </None>
+    <None Include="ExportToAccounting.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>fb381503-daf8-4fc0-870f-bf643dca2b3b</id>
+      <recordtableid>507f40bf-32e8-44d2-983b-6ee9afa4dae4</recordtableid>
+    </None>
+    <None Include="ExportToHeavyJob.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>f3da4c72-204a-470b-bd8a-3c6e874dd72a</id>
+      <recordtableid>543f4fdc-ef55-444d-b40a-1525e1788e4d</recordtableid>
+    </None>
+    <None Include="F1HelpButton.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>602d193b-df5f-4e18-af30-5232c406ab12</id>
+      <recordtableid>31c3a7dd-ccf3-4ca1-a8bf-090fec9e4ed8</recordtableid>
+    </None>
     <None Include="FeatureSelectionSQL.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>85cf080f-4e89-4c26-899c-190e1d6dfbcd</id>
       <recordtableid>c53b61a1-a5c0-4b25-bb59-ac20871ae365</recordtableid>
+    </None>
+    <None Include="ImportToHeavyJob.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>9924d025-acf6-4bd7-9cab-cb41402b376e</id>
+      <recordtableid>c1b70293-8f10-40b3-b03f-0a7a2a6e3c19</recordtableid>
     </None>
     <None Include="InstallCompleteWS.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -384,10 +894,40 @@
       <id>0faad222-648f-47ef-b699-02210b83cd71</id>
       <recordtableid>3f1ae4a1-f43b-49e5-953c-c9cd46fe916b</recordtableid>
     </None>
+    <None Include="LogIn.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>ba58ca1c-577c-4eb6-a59a-f913dbc2af11</id>
+      <recordtableid>dbe4b720-03e7-4547-9e2b-1b80426b7c5c</recordtableid>
+    </None>
+    <None Include="LookupRegCode.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>7b0a51c1-d258-448a-b367-04437cc4e087</id>
+      <recordtableid>85c3e46c-dfcf-4590-a7cf-73993648af60</recordtableid>
+    </None>
+    <None Include="MakeNewEstimate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>46480736-cf2f-4b9a-874e-6bec8243e47e</id>
+      <recordtableid>75773a13-e9eb-4ccd-9dd6-24a451b5566d</recordtableid>
+    </None>
+    <None Include="OpenExistingEstimate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>9c46b8ff-293f-4f16-92ff-873d29ce257b</id>
+      <recordtableid>9beb9865-cef9-4f02-bb97-99994fd79861</recordtableid>
+    </None>
+    <None Include="OpenHB.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>3b586ae1-1d00-41a8-b6f8-1af9a3531c64</id>
+      <recordtableid>c9da0d9c-dc94-4d77-bdc9-1419198301c6</recordtableid>
+    </None>
     <None Include="OpenInstallFile.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>aaeb17a3-234a-41f9-9535-d1a4e53068c5</id>
       <recordtableid>11626203-89c4-449a-9ed2-1d52561a7935</recordtableid>
+    </None>
+    <None Include="PlusPivotReportDesigner.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>c941561c-1ac0-43c1-8e3c-b645fd680afb</id>
+      <recordtableid>93bcf539-70b4-4c3d-ae01-ed7828f6ed04</recordtableid>
     </None>
     <None Include="ReadyToInstallCrystal.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -399,10 +939,60 @@
       <id>b92f70ce-8c82-4d95-ac62-0eef7a1eea4b</id>
       <recordtableid>0e43be61-ce2b-40e9-916a-d6cba4419ec3</recordtableid>
     </None>
+    <None Include="RegisterHB.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>98301254-34c9-4458-a399-494430f0853f</id>
+      <recordtableid>c8073cc8-23bf-41dc-8ca0-e4df727944a5</recordtableid>
+    </None>
+    <None Include="ReindexFiles.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>41a76997-4c72-48f0-885c-b797a302b04a</id>
+      <recordtableid>8a5b70e5-0a39-4536-90fe-dc74cc71554b</recordtableid>
+    </None>
+    <None Include="RestoreEstimate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>08952a65-66f6-4ab9-be2d-32252deaf29e</id>
+      <recordtableid>e34b67dc-64ab-4eb2-b3d4-2c0d3e0dd094</recordtableid>
+    </None>
+    <None Include="RestoreSystem.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>0876a9bf-b06c-47b5-9053-0a5da37bd21d</id>
+      <recordtableid>a8c563be-eaf5-4337-a990-11ceb9083b14</recordtableid>
+    </None>
     <None Include="RunWSInstall.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>cb378c82-a06e-4119-b50c-38eed4f03d2d</id>
       <recordtableid>162e91d1-9a3c-49db-bff1-e3d81f2456f1</recordtableid>
+    </None>
+    <None Include="SetShowRibbon.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>890266ff-7153-4f2b-9f0c-20c5fd865be7</id>
+      <recordtableid>b5bcb9d5-1c47-4f4d-a763-e75580fd274e</recordtableid>
+    </None>
+    <None Include="TestSARegCode.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>feadb33d-6ca2-4a02-bddb-31ef9c516ab3</id>
+      <recordtableid>49487010-896c-429c-91e4-51f488e53473</recordtableid>
+    </None>
+    <None Include="AboutHBButton.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>333d6791-e48f-489d-9386-57afc0d21812</id>
+      <recordtableid>a81f081a-6f43-4bfe-ac3d-9352db5ddc1a</recordtableid>
+    </None>
+    <None Include="NewUserLink.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>a27f220f-2967-4a42-a69c-802328ae9dda</id>
+      <recordtableid>4a8614c1-5018-4048-b323-4ace8f176b90</recordtableid>
+    </None>
+    <None Include="WelcomeImage.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>2de7d395-7b96-41fa-9ae3-c16a9e95261d</id>
+      <recordtableid>edeaf7cc-b74d-4e5a-82c8-fd27c03ed8ba</recordtableid>
+    </None>
+    <None Include="WelcomeScreen.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>f78781c1-9e02-4121-ab97-94daf5bd34a6</id>
+      <recordtableid>02c5a781-c37a-417b-9cca-0a8bbf8ae9f6</recordtableid>
     </None>
     <None Include="VerifyServerReleaseVersion.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -438,6 +1028,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>12fd12f4-dab3-4178-a8f9-783b817834d3</id>
       <recordtableid>cb4c18c0-63ba-4cc4-bb7a-9db4ac88a1ad</recordtableid>
+    </None>
+    <None Include="WhatsNewButton.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>d608fe4d-5bde-4c1d-9e67-f2bdabc4032f</id>
+      <recordtableid>b7cf6cce-8c18-4a2f-afef-55e95e692e31</recordtableid>
     </None>
     <None Include="WSInstallDestination.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

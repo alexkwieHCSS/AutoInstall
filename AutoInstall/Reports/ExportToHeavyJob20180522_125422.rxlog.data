@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68578"
+		type="root"
+		rid="59b78f128656ba5"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 12:54:24 PM"
+		timestampiso="2018-05-22T17:54:24"
+		endtime="5/22/2018 12:55:33 PM"
+		timeoutfactor="1"
+		module="ExportToHeavyJob">
+		<detail>
+			ExportToHeavyJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.656"
+			timeRelativeToTestModuleStartTime="00:00.656"
+			timeWallClock="12:54:25"
+			time="00:00.656"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>HJFilepath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.687"
+			timeRelativeToTestModuleStartTime="00:00.687"
+			timeWallClock="12:54:25"
+			time="00:00.687"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ExchangeTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ExchangeTab"
+				id="335aaa88e0234bafa4a4c3bb609ace02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.236"
+			timeRelativeToTestModuleStartTime="00:04.236"
+			timeWallClock="12:54:28"
+			time="00:04.236"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Exchange.HJAndAccountingExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				itempath="?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport"
+				id="8182ecf224f74be4ab7902bf628a7fb4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.469"
+			timeRelativeToTestModuleStartTime="00:05.469"
+			timeWallClock="12:54:30"
+			time="00:05.469"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']"
+				itempath="?/?//button[@text~'Export to HeavyJob']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJob"
+				id="7240d090e159402d8559add9d5617a4a"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.985"
+			timeRelativeToTestModuleStartTime="00:11.985"
+			timeWallClock="12:54:36"
+			time="00:11.985"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HJFilepath' with focus on 'HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]"
+				itempath="form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ"
+				id="1b300847611d4536a48220d67adc4032"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.657"
+			timeRelativeToTestModuleStartTime="00:16.657"
+			timeWallClock="12:54:41"
+			time="00:16.657"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				itempath="?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportButton"
+				id="2db6a250cf4f4383bacf321ac6b57879"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.234"
+			timeRelativeToTestModuleStartTime="00:20.234"
+			timeWallClock="12:54:44"
+			time="00:20.234"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'(C|c)omplete') on item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.585"
+			timeRelativeToTestModuleStartTime="00:25.585"
+			timeWallClock="12:54:50"
+			time="00:25.585"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.601"
+			timeRelativeToTestModuleStartTime="00:25.601"
+			timeWallClock="12:54:50"
+			time="00:25.601"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export Complete']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButton"
+				id="cbe021827d094d4593ba19aeffeddb07"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ExportToHeavyJob.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.578"
+			timeRelativeToTestModuleStartTime="01:08.578"
+			timeWallClock="12:55:33"
+			time="01:08.578"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

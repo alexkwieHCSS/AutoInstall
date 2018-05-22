@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1309200e70af3ff2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 4:19:06 PM"
+		timestampiso="2018-05-21T21:19:06"
+		endtime="5/21/2018 4:19:10 PM"
+		timeoutfactor="1"
+		module="ReindexFiles">
+		<detail>
+			ReindexFiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.918"
+			timeRelativeToTestModuleStartTime="00:00.920"
+			timeWallClock="16:19:07"
+			time="00:00.918"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ToolsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.367"
+			timeRelativeToTestModuleStartTime="00:03.369"
+			timeWallClock="16:19:09"
+			time="00:03.367"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Tools.ReindexFilesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Reindex Files']"
+				itempath="?/?/toolbar/button[@text~'Reindex Files']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Tools.ReindexFilesButton"
+				id="c1df175cd96343c182962e0bda44e88c"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.502"
+			timeRelativeToTestModuleStartTime="00:04.503"
+			timeWallClock="16:19:10"
+			time="00:04.502"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'False' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex']//?/?/checkbox[@text~'Estimate']"
+				itempath=".//?/?/checkbox[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox"
+				id="0524cc31504847259e8aeebd44f42088"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.642"
+			timeRelativeToTestModuleStartTime="00:04.643"
+			timeWallClock="16:19:10"
+			time="00:04.642"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute CheckState to 'Unchecked' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex']//?/?/checkbox[@text~'System']"
+				itempath=".//?/?/checkbox[@text~'System']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckbox"
+				id="2d545903656c4dfdaaa2dbe7e4ace38a"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

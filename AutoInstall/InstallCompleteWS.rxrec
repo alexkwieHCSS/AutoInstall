@@ -36,7 +36,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="8985010c-b733-46cf-902b-9d8d294b9847"
 		sx="0"
 		sy="0"
@@ -100,17 +100,17 @@ rxversion="8.1">
 		<explicitdelayitem
 		duration="2000ms"
 		enabled="True"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
 		<keysequenceitem
-		KeySequence="{Return}"
+		KeySequence="{Escape}"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="5682f7dc-7033-49fa-8e1c-22123725ecfb">
 			<comment>

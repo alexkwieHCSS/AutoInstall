@@ -1,22 +1,21 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="EquipmentReport.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="OpenInstallFile.rxrec" />
-    <Element value="VerifyReleaseVersion.rxrec" />
-    <Element value="AcceptToS.rxrec" />
-    <Element value="SelectInstallType.rxrec" />
-    <Element value="InstallDestination.rxrec" />
-    <Element value="PreviousServerInstall.rxrec" />
-    <Element value="ConfirmHBInstallFinish.rxrec" />
+    <Element value="CustomReportClassic.rxrec" />
+    <Element value="CostReport.rxrec" />
+    <Element value="EquipmentReport.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
-    <Array name="recentusercodeselections" />
+    <Array name="recentusercodeselections">
+      <Element value="AutoInstall.SetShowRibbon.ShowRibbon()" />
+      <Element value="AutoInstall.SetShowRibbon.ApplyRibbon()" />
+    </Array>
   </Properties>
 </Properties>

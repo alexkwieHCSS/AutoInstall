@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c4b142ae3c66ea6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/21/2018 3:07:20 PM"
+		timestampiso="2018-05-21T20:07:20"
+		endtime="5/21/2018 3:07:26 PM"
+		timeoutfactor="1"
+		module="AboutHBButton">
+		<detail>
+			AboutHBButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.902"
+			timeRelativeToTestModuleStartTime="00:00.905"
+			timeWallClock="15:07:20"
+			time="00:00.902"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>YearVersion, CompanyName, HBType, InstallType, Licenses
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.936"
+			timeRelativeToTestModuleStartTime="00:00.939"
+			timeWallClock="15:07:20"
+			time="00:00.936"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.HelpTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/tabpagelist/tabpage[@title~'Help']"
+				itempath=".//toolbar/tabpagelist/tabpage[@title~'Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.HelpTab"
+				id="f776058332ad4ea0ae2b7afacacf7a0a"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="145"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.723"
+			timeRelativeToTestModuleStartTime="00:02.725"
+			timeWallClock="15:07:22"
+			time="00:02.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons1.Help.HelpAboutHeavyBidButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@text~'About HeavyBid']"
+				itempath=".//toolbar/button[@text~'About HeavyBid']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons1.Help.HelpAboutHeavyBidButton"
+				id="abeec274cb754ff4be97d76ab7a91a22"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="149"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.005"
+			timeRelativeToTestModuleStartTime="00:04.008"
+			timeWallClock="15:07:24"
+			time="00:04.005"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$YearVersion) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="154"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.222"
+			timeRelativeToTestModuleStartTime="00:04.225"
+			timeWallClock="15:07:24"
+			time="00:04.222"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="155"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.229"
+			timeRelativeToTestModuleStartTime="00:04.232"
+			timeWallClock="15:07:24"
+			time="00:04.229"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$HBType) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="160"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.278"
+			timeRelativeToTestModuleStartTime="00:04.281"
+			timeWallClock="15:07:24"
+			time="00:04.278"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="161"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.284"
+			timeRelativeToTestModuleStartTime="00:04.287"
+			timeWallClock="15:07:24"
+			time="00:04.284"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$CompanyName) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'Licensed to']"
+				itempath=".//text[@text~'Licensed to']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine"
+				id="8f3121ee6fcb490ab9491f58060118cb"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="166"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.336"
+			timeRelativeToTestModuleStartTime="00:04.339"
+			timeWallClock="15:07:24"
+			time="00:04.336"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'Licensed to']"
+				itempath=".//text[@text~'Licensed to']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine"
+				id="8f3121ee6fcb490ab9491f58060118cb"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="167"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.345"
+			timeRelativeToTestModuleStartTime="00:04.348"
+			timeWallClock="15:07:24"
+			time="00:04.345"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$Licenses) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="172"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.378"
+			timeRelativeToTestModuleStartTime="00:04.381"
+			timeWallClock="15:07:24"
+			time="00:04.378"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="173"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.386"
+			timeRelativeToTestModuleStartTime="00:04.389"
+			timeWallClock="15:07:24"
+			time="00:04.386"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$InstallType) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="178"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.433"
+			timeRelativeToTestModuleStartTime="00:04.435"
+			timeWallClock="15:07:24"
+			time="00:04.433"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="179"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.444"
+			timeRelativeToTestModuleStartTime="00:04.446"
+			timeWallClock="15:07:24"
+			time="00:04.444"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.SystemInfo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//button[@text~'System Info']"
+				itempath=".//button[@text~'System Info']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.SystemInfo"
+				id="f9b508e4f6b34b25b9fae48c87faa15c"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="183"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.163"
+			timeRelativeToTestModuleStartTime="00:05.166"
+			timeWallClock="15:07:25"
+			time="00:05.163"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//button[@text~'Close']"
+				itempath=".//button[@text~'Close']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton"
+				id="66b54addd8ea49d8936299e8425f9bc4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="187"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.885"
+			timeRelativeToTestModuleStartTime="00:05.888"
+			timeWallClock="15:07:25"
+			time="00:05.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//button[@text~'Close']"
+				itempath=".//button[@text~'Close']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton"
+				id="66b54addd8ea49d8936299e8425f9bc4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AboutHBButton.cs"
+				codeline="191"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
