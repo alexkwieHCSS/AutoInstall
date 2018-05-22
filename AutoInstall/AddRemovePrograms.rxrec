@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5b87d040-7794-4c4e-8a73-47bb9c5eaf66"
+mode="Global"
+rxversion="8.1">
+	<name>
+		AddRemovePrograms
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddRemovePrograms"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				appwiz.cpl
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddRemovePrograms.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

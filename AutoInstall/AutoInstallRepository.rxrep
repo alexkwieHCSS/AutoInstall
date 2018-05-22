@@ -2007,6 +2007,163 @@ SUVORK5CYII=
 				</basepath>
 			</appfolder>
 		</folder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bb83f234-7f01-4a6b-9b28-c7005b669ec4"
+		isrooted="True"
+		name="ProgramsAndFeatures"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="row"
+			id="537a4c93-ac0a-47f6-a3ce-eafa40b9e810"
+			isrooted="True"
+			name="UninstallProgramTable"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="be61d9e1-da51-4fdc-8689-3e54667d17f7"
+				name="HeavyBidWorkstation"
+				refimgid="ca0bcb54-cb19-4ad7-b7eb-46ebbe7a26dc"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']//container[@caption='ShellView']/table/row[@index&gt;='0']/cell[@text='HeavyBid Workstation']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="61de3bb2-d64b-4cdd-8275-e2d0d84b9fef"
+				name="HCSSCrystalXIIntegration"
+				refimgid="52cd5f51-aa60-4aef-b398-bfc4a8349374"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']//container[@caption='ShellView']/table/row[@index&gt;='0']/cell[@text~'^HCSS\ -\ Crystal\ XI\ Integra']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="084bd652-eb81-4192-901d-c5734d7d24ec"
+				name="MicrosoftSQLServer2012NativeClient"
+				refimgid="e44b04b7-7c34-465b-84b9-9098a58ebacb"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']//container[@caption='ShellView']/table/row[@index&gt;='0']/cell[@text~'^Microsoft\ SQL\ Server\ 2012']
+				</item>
+				<basepath>
+					/form[@title~'Programs and Features']//container[@caption='ShellView']/table/row[@index&gt;='0']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="32bf1f5b-e045-435f-ba98-a44c0e78c467"
+			isrooted="False"
+			name="Buttons"
+			searchtimeout="0ms">
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+				capname="button"
+				id="8e655133-0f49-4357-ab46-e1f07390400d"
+				name="UninstallButton"
+				refimgid="23283983-834d-4960-bf5a-0f915294d21e"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="3efc40c1-ea5d-4004-985f-366e7e176dc9"
+				name="YesButton"
+				refimgid="e413df15-de82-4603-aa5c-94bf360c1f1b"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']/?/?/element/button[@text='&amp;Yes']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+				capname="button"
+				id="71cea4ec-b070-4408-90bc-44a4c19e08d6"
+				name="UninstallOrChangeButton"
+				refimgid="9fad8128-5b73-41c2-872e-ab98655719ee"
+				searchtimeout="30000ms">
+					/form[@title~'Programs and Features']//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']
+				</item>
+			</folder>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="unknown"
+			id="9c992ed7-95b4-43ac-b064-7b105340fbb8"
+			name="SearchEditBox"
+			refimgid="e1c9b63f-1695-4481-a924-e4f887be79cf"
+			searchtimeout="30000ms">
+				/form[@title~'Programs and Features']/?/?/?/?/element[@class='Search Box']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="7ed5be48-9821-4fb0-8953-d33c45a0aef7"
+			name="ButtinUninstallOrChange"
+			refimgid="10a52dd2-15b2-4524-b3c8-309a6838c3c4"
+			searchtimeout="30000ms">
+				/form[@title~'Programs and Features']//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']
+			</item>
+			<basepath>
+				/form[@title~'Programs and Features']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMRSURBVDhPjZJdTJNXGMcJISEhIeGCCzK54YYL
+brghmeyGCxs1mFkTJwaHM8EYx2RuDuYHohHRSLzRCfhRamvLR7WuCC2jLQhFoK/Udn4gK5SKVaNO
+NIU57/Tit/c577LrPcnJORfn/zv/5/yfDKlYLPaj7KlUioWFBWZnZ4lGo4TDYUKhEMFgEJ/Ph8fj
+weVy4XA4kPv6nROyy8Eu6/+KbTab3FEaBZBaWloimUySSCSIx+PMzc2h/R5hMBxAi84oaCQSQdM0
+pqenmZycVC7+q8XFRWU/8ijGoBbEOnad9qCDXwLX6Bu/xRPNyZupU7ycOM3DUI9y96/UqFuaH8uY
+i87RbjpGnFxQYjvnh23cH2/hw+T3fAh9y9+ju3nv/4bHgfMGoLa2Vg5UVVVhNpuprKzEZDKpVV5e
+TllZGaWlpZSUlFBcXMz74Z385d3Ou/7tBqCmpkYBzHuPsK3uMM2tbQwMDeELBPB4vRw/1caX1bWs
+M1dTVFTE6mAVK7+aSV/faADkZQGI2Nndw7vVVf5cWeHZ8jLJ16/5Q4/2cpeVTVu/prCwUBdvJu3a
+wKseswEQ2wI4erKNt+k0Hz99IvXiBTOxGI/m50no51k9nYNNzRQUFJDuW88b53rGb14wANKzADwD
+A7xcfkvq+XMsVhu76g5wpesqD/Q4409T3NDnID8/n5HefQx7rqm5UAD5rM/WrKFf7zeReoamZy1i
+k3kHO/fUo81EmNcB/YNe8vLyaOo5i93djdvtNgAVFRXKQd8NNw/j89y7/0C9LOIreu93whpT92I4
+envJzc3lkKONk85zaioVQKISwOFjLYQjUWZ0gP/2GL5hPxNT0ywknzARvktD40FycnJotJ/mp6ut
+XHJaDYDkLIDN1btp77yI1x9kKDjKbyO3GRmf0CFh2js6WGfaQHZ2NgesrfxgaaGp64wBkCERgGnL
+DjZ9VUPjoSYsunWrza5WQ8PPSrz28y/Iyspiv+UE9ZeP893FZgMgEyYAGRLJWaKS35Zdehbb8rKI
+MzMzqb90TInrOo/quoyMfwAGFGQluUenNgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e9f5490b-864b-4ac0-b04d-bf51fb86cadc"
+		isrooted="True"
+		name="HeavyBidUninstall"
+		refpath="/form[@title='HeavyBid Uninstall']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="18432c6c-3b28-47f7-9708-22537bd36126"
+			name="ButtonYes"
+			refimgid="421864d3-0fdb-4490-8bfe-92c309528811"
+			refpath="/form[@title='HeavyBid Uninstall']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='HeavyBid Uninstall']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='HeavyBid Uninstall']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAoBJREFUOE99j/tP0mEYxUnAW2oJ5NJyXbSJTNRy85LOhPA2L+VCpyIK
+LU0Fa2pqmpmCpKaFaQtvCKKGczZzEaZI05nNWWm1fuyH1j9yer+UqwZ0trNn7/Y+n3Me2t9a74mG
+pek4lltPwdIYjKWbHNjUSbD3CPD7i3tt9sdhWyfCjNwb5ms+2OiNwYeRROzpL8Ku5uPdUNr/Id+s
+DTDJDmKqjI5pKR3PZEwsKvzx9iEfn4wXCDCCAriG/HhzG+ZKfxgkdBgpl3o4plnuiUVlALaHY/Fl
+OgvfV1tcAz6OC2AoY2L2asAvALGJalLOwHylN6xtYfhqjMHWg5OuW2z0RRAAgywxHCdQy2a5F2Yr
+GGQysTWUhc/6OOzqIvF+LN0ZsD4QjzlFMIyyAIwWHsBEsQdJZ8JIwaQMLNT4YWc0DbvTcmwOZjq8
+N1f3B5TMOwq2nydCAr3BDz0EbbMU4lQeEsJZ6K3Lg7IoCfmpXBQIY/H6iWz/jH+aIPkMB/GnWajK
+T4RJdR2PCSQtMgi2iU5Ynt7Bq5F2zGtvQd+tdD6BUkbMMSSFsyHih2BF14pFbSOeE9sNKqyM38Py
+WAfW9F3YWRpxSt8XEsJYjhbalgqY++thn1Q5vEq10LWjTZYN5ZUUtwCaOIULiTAKC48aMKVRONLt
+k11YI3OquxY20uClrsP1cuZlDXLFGhj6OvBiuBlGdQ0MxFZyO1V9hgB7ai+5TxfmdOLseQVCI6SI
+ir8BRVU7TPeVGKgvwWBTGcpF0ZAIeO4BvpxM+HJyiNPhF5SFIyeKEcqtRHh0NUS5d90vUuKeqwYz
+sIi4BD7sbHixCkA/XEreEuJC+HDyEBwmcQGh0X4CN7N3Cn+vSmgAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

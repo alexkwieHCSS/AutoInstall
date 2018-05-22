@@ -122,6 +122,18 @@
       <UserCode>true</UserCode>
       <id>33f60656-8e96-4084-9f1d-f1fd55823689</id>
     </Compile>
+    <Compile Include="AddRemovePrograms.cs">
+      <BoundTo>db5fd9bc-7639-4d96-972c-fc6affed3f5c</BoundTo>
+      <DependentUpon>AddRemovePrograms.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4d257c14-d52e-487d-b0eb-925c9d683ea1</id>
+    </Compile>
+    <Compile Include="AddRemovePrograms.UserCode.cs">
+      <BoundTo>db5fd9bc-7639-4d96-972c-fc6affed3f5c</BoundTo>
+      <DependentUpon>AddRemovePrograms.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2dd23e40-c6fb-4281-9497-b3cb19688c63</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>57a2d465-cb8d-4ec3-8425-dd0b3932a852</id>
     </Compile>
@@ -650,6 +662,42 @@
       <UserCode>true</UserCode>
       <id>4e460405-98d6-42d8-a974-a4400f153b48</id>
     </Compile>
+    <Compile Include="UninstallCrystal.cs">
+      <BoundTo>16e9a356-71f6-462f-a518-f6eedc6b259e</BoundTo>
+      <DependentUpon>UninstallCrystal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ee45eee5-3b7d-459c-8255-850b4e6cee15</id>
+    </Compile>
+    <Compile Include="UninstallCrystal.UserCode.cs">
+      <BoundTo>16e9a356-71f6-462f-a518-f6eedc6b259e</BoundTo>
+      <DependentUpon>UninstallCrystal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f3c6ee2-2188-4207-918d-3a7c29cb83d9</id>
+    </Compile>
+    <Compile Include="UninstallHB.cs">
+      <BoundTo>18681cfa-9950-4148-8158-32635bf2cd68</BoundTo>
+      <DependentUpon>UninstallHB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d204fc3b-341a-493d-906f-ec04d1f91fa3</id>
+    </Compile>
+    <Compile Include="UninstallHB.UserCode.cs">
+      <BoundTo>18681cfa-9950-4148-8158-32635bf2cd68</BoundTo>
+      <DependentUpon>UninstallHB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b43e29e-93b4-4d57-9275-410cdcec6ff9</id>
+    </Compile>
+    <Compile Include="UninstallSQL.cs">
+      <BoundTo>bce3ee61-b0d9-45fe-a36c-5311da761a20</BoundTo>
+      <DependentUpon>UninstallSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f6fc36f-26fe-4505-89e4-dff8d9497f62</id>
+    </Compile>
+    <Compile Include="UninstallSQL.UserCode.cs">
+      <BoundTo>bce3ee61-b0d9-45fe-a36c-5311da761a20</BoundTo>
+      <DependentUpon>UninstallSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>befbbb9b-9c8e-40b7-8856-bcaa9e3fb11f</id>
+    </Compile>
     <Compile Include="WelcomeImage.cs">
       <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
       <DependentUpon>WelcomeImage.rxrec</DependentUpon>
@@ -788,6 +836,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>238cc44d-880e-4727-9b81-bc96e080f2f6</id>
       <recordtableid>c5c08a7c-e59c-4b1e-a507-134912d45933</recordtableid>
+    </None>
+    <None Include="AddRemovePrograms.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>db5fd9bc-7639-4d96-972c-fc6affed3f5c</id>
+      <recordtableid>5b87d040-7794-4c4e-8a73-47bb9c5eaf66</recordtableid>
     </None>
     <None Include="app.config">
       <id>bd4c0685-57b9-4a7a-a7bc-d4f25db20b5e</id>
@@ -1017,6 +1070,21 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>a27f220f-2967-4a42-a69c-802328ae9dda</id>
       <recordtableid>4a8614c1-5018-4048-b323-4ace8f176b90</recordtableid>
+    </None>
+    <None Include="UninstallCrystal.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>16e9a356-71f6-462f-a518-f6eedc6b259e</id>
+      <recordtableid>f2e4f309-0bd7-44ab-8af9-c73c38a506fd</recordtableid>
+    </None>
+    <None Include="UninstallHB.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>18681cfa-9950-4148-8158-32635bf2cd68</id>
+      <recordtableid>9c7db922-7759-4227-abe7-c4d68ab45778</recordtableid>
+    </None>
+    <None Include="UninstallSQL.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>bce3ee61-b0d9-45fe-a36c-5311da761a20</id>
+      <recordtableid>e106a164-a92b-45f2-a571-22ddcbdbc5a7</recordtableid>
     </None>
     <None Include="WelcomeImage.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

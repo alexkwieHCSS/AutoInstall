@@ -36,6 +36,8 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.HBPopUpScreensFolder _hbpopupscreens;
         AutoInstallRepositoryFolders.HBPopUpScreensExternalFolder _hbpopupscreensexternal;
         AutoInstallRepositoryFolders.HBReportViewersFolder _hbreportviewers;
+        AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder _programsandfeatures;
+        AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder _heavybiduninstall;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -61,6 +63,8 @@ namespace AutoInstall
             _hbpopupscreens = new AutoInstallRepositoryFolders.HBPopUpScreensFolder(this);
             _hbpopupscreensexternal = new AutoInstallRepositoryFolders.HBPopUpScreensExternalFolder(this);
             _hbreportviewers = new AutoInstallRepositoryFolders.HBReportViewersFolder(this);
+            _programsandfeatures = new AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder(this);
+            _heavybiduninstall = new AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder(this);
         }
 
 #region Variables
@@ -194,6 +198,24 @@ namespace AutoInstall
         public virtual AutoInstallRepositoryFolders.HBReportViewersFolder HBReportViewers
         {
             get { return _hbreportviewers; }
+        }
+
+        /// <summary>
+        /// The ProgramsAndFeatures folder.
+        /// </summary>
+        [RepositoryFolder("bb83f234-7f01-4a6b-9b28-c7005b669ec4")]
+        public virtual AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder ProgramsAndFeatures
+        {
+            get { return _programsandfeatures; }
+        }
+
+        /// <summary>
+        /// The HeavyBidUninstall folder.
+        /// </summary>
+        [RepositoryFolder("e9f5490b-864b-4ac0-b04d-bf51fb86cadc")]
+        public virtual AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder HeavyBidUninstall
+        {
+            get { return _heavybiduninstall; }
         }
     }
 
@@ -7252,6 +7274,410 @@ namespace AutoInstall
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ProgramsAndFeaturesAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bb83f234-7f01-4a6b-9b28-c7005b669ec4")]
+        public partial class ProgramsAndFeaturesAppFolder : RepoGenBaseFolder
+        {
+            AutoInstallRepositoryFolders.UninstallProgramTableFolder _uninstallprogramtable;
+            AutoInstallRepositoryFolders.ButtonsFolder5 _buttons;
+            RepoItemInfo _searcheditboxInfo;
+            RepoItemInfo _buttinuninstallorchangeInfo;
+
+            /// <summary>
+            /// Creates a new ProgramsAndFeatures  folder.
+            /// </summary>
+            public ProgramsAndFeaturesAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ProgramsAndFeatures", "/form[@title~'Programs and Features']", parentFolder, 30000, null, false, "bb83f234-7f01-4a6b-9b28-c7005b669ec4", "")
+            {
+                _uninstallprogramtable = new AutoInstallRepositoryFolders.UninstallProgramTableFolder(this);
+                _buttons = new AutoInstallRepositoryFolders.ButtonsFolder5(this);
+                _searcheditboxInfo = new RepoItemInfo(this, "SearchEditBox", "?/?/?/?/element[@class='Search Box']", 30000, null, "9c992ed7-95b4-43ac-b064-7b105340fbb8");
+                _buttinuninstallorchangeInfo = new RepoItemInfo(this, "ButtinUninstallOrChange", ".//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']", 30000, null, "7ed5be48-9821-4fb0-8953-d33c45a0aef7");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bb83f234-7f01-4a6b-9b28-c7005b669ec4")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bb83f234-7f01-4a6b-9b28-c7005b669ec4")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SearchEditBox item.
+            /// </summary>
+            [RepositoryItem("9c992ed7-95b4-43ac-b064-7b105340fbb8")]
+            public virtual Ranorex.Unknown SearchEditBox
+            {
+                get
+                {
+                    return _searcheditboxInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchEditBox item info.
+            /// </summary>
+            [RepositoryItemInfo("9c992ed7-95b4-43ac-b064-7b105340fbb8")]
+            public virtual RepoItemInfo SearchEditBoxInfo
+            {
+                get
+                {
+                    return _searcheditboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtinUninstallOrChange item.
+            /// </summary>
+            [RepositoryItem("7ed5be48-9821-4fb0-8953-d33c45a0aef7")]
+            public virtual Ranorex.Button ButtinUninstallOrChange
+            {
+                get
+                {
+                    return _buttinuninstallorchangeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtinUninstallOrChange item info.
+            /// </summary>
+            [RepositoryItemInfo("7ed5be48-9821-4fb0-8953-d33c45a0aef7")]
+            public virtual RepoItemInfo ButtinUninstallOrChangeInfo
+            {
+                get
+                {
+                    return _buttinuninstallorchangeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UninstallProgramTable folder.
+            /// </summary>
+            [RepositoryFolder("537a4c93-ac0a-47f6-a3ce-eafa40b9e810")]
+            public virtual AutoInstallRepositoryFolders.UninstallProgramTableFolder UninstallProgramTable
+            {
+                get { return _uninstallprogramtable; }
+            }
+
+            /// <summary>
+            /// The Buttons folder.
+            /// </summary>
+            [RepositoryFolder("32bf1f5b-e045-435f-ba98-a44c0e78c467")]
+            public virtual AutoInstallRepositoryFolders.ButtonsFolder5 Buttons
+            {
+                get { return _buttons; }
+            }
+        }
+
+        /// <summary>
+        /// The UninstallProgramTableFolder folder.
+        /// </summary>
+        [RepositoryFolder("537a4c93-ac0a-47f6-a3ce-eafa40b9e810")]
+        public partial class UninstallProgramTableFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _heavybidworkstationInfo;
+            RepoItemInfo _hcsscrystalxiintegrationInfo;
+            RepoItemInfo _microsoftsqlserver2012nativeclientInfo;
+
+            /// <summary>
+            /// Creates a new UninstallProgramTable  folder.
+            /// </summary>
+            public UninstallProgramTableFolder(RepoGenBaseFolder parentFolder) :
+                    base("UninstallProgramTable", ".//container[@caption='ShellView']/table/row[@index>='0']", parentFolder, 30000, null, false, "537a4c93-ac0a-47f6-a3ce-eafa40b9e810", "")
+            {
+                _heavybidworkstationInfo = new RepoItemInfo(this, "HeavyBidWorkstation", "cell[@text='HeavyBid Workstation']", 30000, null, "be61d9e1-da51-4fdc-8689-3e54667d17f7");
+                _hcsscrystalxiintegrationInfo = new RepoItemInfo(this, "HCSSCrystalXIIntegration", "cell[@text~'^HCSS\\ -\\ Crystal\\ XI\\ Integra']", 30000, null, "61de3bb2-d64b-4cdd-8275-e2d0d84b9fef");
+                _microsoftsqlserver2012nativeclientInfo = new RepoItemInfo(this, "MicrosoftSQLServer2012NativeClient", "cell[@text~'^Microsoft\\ SQL\\ Server\\ 2012']", 30000, null, "084bd652-eb81-4192-901d-c5734d7d24ec");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("537a4c93-ac0a-47f6-a3ce-eafa40b9e810")]
+            public virtual Ranorex.Row Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("537a4c93-ac0a-47f6-a3ce-eafa40b9e810")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HeavyBidWorkstation item.
+            /// </summary>
+            [RepositoryItem("be61d9e1-da51-4fdc-8689-3e54667d17f7")]
+            public virtual Ranorex.Cell HeavyBidWorkstation
+            {
+                get
+                {
+                    return _heavybidworkstationInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HeavyBidWorkstation item info.
+            /// </summary>
+            [RepositoryItemInfo("be61d9e1-da51-4fdc-8689-3e54667d17f7")]
+            public virtual RepoItemInfo HeavyBidWorkstationInfo
+            {
+                get
+                {
+                    return _heavybidworkstationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HCSSCrystalXIIntegration item.
+            /// </summary>
+            [RepositoryItem("61de3bb2-d64b-4cdd-8275-e2d0d84b9fef")]
+            public virtual Ranorex.Cell HCSSCrystalXIIntegration
+            {
+                get
+                {
+                    return _hcsscrystalxiintegrationInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCSSCrystalXIIntegration item info.
+            /// </summary>
+            [RepositoryItemInfo("61de3bb2-d64b-4cdd-8275-e2d0d84b9fef")]
+            public virtual RepoItemInfo HCSSCrystalXIIntegrationInfo
+            {
+                get
+                {
+                    return _hcsscrystalxiintegrationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSQLServer2012NativeClient item.
+            /// </summary>
+            [RepositoryItem("084bd652-eb81-4192-901d-c5734d7d24ec")]
+            public virtual Ranorex.Cell MicrosoftSQLServer2012NativeClient
+            {
+                get
+                {
+                    return _microsoftsqlserver2012nativeclientInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSQLServer2012NativeClient item info.
+            /// </summary>
+            [RepositoryItemInfo("084bd652-eb81-4192-901d-c5734d7d24ec")]
+            public virtual RepoItemInfo MicrosoftSQLServer2012NativeClientInfo
+            {
+                get
+                {
+                    return _microsoftsqlserver2012nativeclientInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ButtonsFolder5 folder.
+        /// </summary>
+        [RepositoryFolder("32bf1f5b-e045-435f-ba98-a44c0e78c467")]
+        public partial class ButtonsFolder5 : RepoGenBaseFolder
+        {
+            RepoItemInfo _uninstallbuttonInfo;
+            RepoItemInfo _yesbuttonInfo;
+            RepoItemInfo _uninstallorchangebuttonInfo;
+
+            /// <summary>
+            /// Creates a new Buttons  folder.
+            /// </summary>
+            public ButtonsFolder5(RepoGenBaseFolder parentFolder) :
+                    base("Buttons", "", parentFolder, 0, null, false, "32bf1f5b-e045-435f-ba98-a44c0e78c467", "")
+            {
+                _uninstallbuttonInfo = new RepoItemInfo(this, "UninstallButton", ".//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']", 30000, null, "8e655133-0f49-4357-ab46-e1f07390400d");
+                _yesbuttonInfo = new RepoItemInfo(this, "YesButton", "?/?/element/button[@text='&Yes']", 30000, null, "3efc40c1-ea5d-4004-985f-366e7e176dc9");
+                _uninstallorchangebuttonInfo = new RepoItemInfo(this, "UninstallOrChangeButton", ".//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']", 30000, null, "71cea4ec-b070-4408-90bc-44a4c19e08d6");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("32bf1f5b-e045-435f-ba98-a44c0e78c467")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UninstallButton item.
+            /// </summary>
+            [RepositoryItem("8e655133-0f49-4357-ab46-e1f07390400d")]
+            public virtual Ranorex.Button UninstallButton
+            {
+                get
+                {
+                    return _uninstallbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UninstallButton item info.
+            /// </summary>
+            [RepositoryItemInfo("8e655133-0f49-4357-ab46-e1f07390400d")]
+            public virtual RepoItemInfo UninstallButtonInfo
+            {
+                get
+                {
+                    return _uninstallbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YesButton item.
+            /// </summary>
+            [RepositoryItem("3efc40c1-ea5d-4004-985f-366e7e176dc9")]
+            public virtual Ranorex.Button YesButton
+            {
+                get
+                {
+                    return _yesbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YesButton item info.
+            /// </summary>
+            [RepositoryItemInfo("3efc40c1-ea5d-4004-985f-366e7e176dc9")]
+            public virtual RepoItemInfo YesButtonInfo
+            {
+                get
+                {
+                    return _yesbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UninstallOrChangeButton item.
+            /// </summary>
+            [RepositoryItem("71cea4ec-b070-4408-90bc-44a4c19e08d6")]
+            public virtual Ranorex.Button UninstallOrChangeButton
+            {
+                get
+                {
+                    return _uninstallorchangebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UninstallOrChangeButton item info.
+            /// </summary>
+            [RepositoryItemInfo("71cea4ec-b070-4408-90bc-44a4c19e08d6")]
+            public virtual RepoItemInfo UninstallOrChangeButtonInfo
+            {
+                get
+                {
+                    return _uninstallorchangebuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HeavyBidUninstallAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e9f5490b-864b-4ac0-b04d-bf51fb86cadc")]
+        public partial class HeavyBidUninstallAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _buttonyesInfo;
+
+            /// <summary>
+            /// Creates a new HeavyBidUninstall  folder.
+            /// </summary>
+            public HeavyBidUninstallAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HeavyBidUninstall", "/form[@title='HeavyBid Uninstall']", parentFolder, 30000, null, false, "e9f5490b-864b-4ac0-b04d-bf51fb86cadc", "")
+            {
+                _buttonyesInfo = new RepoItemInfo(this, "ButtonYes", "button[@text='&Yes']", 30000, null, "18432c6c-3b28-47f7-9708-22537bd36126");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e9f5490b-864b-4ac0-b04d-bf51fb86cadc")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e9f5490b-864b-4ac0-b04d-bf51fb86cadc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonYes item.
+            /// </summary>
+            [RepositoryItem("18432c6c-3b28-47f7-9708-22537bd36126")]
+            public virtual Ranorex.Button ButtonYes
+            {
+                get
+                {
+                    return _buttonyesInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonYes item info.
+            /// </summary>
+            [RepositoryItemInfo("18432c6c-3b28-47f7-9708-22537bd36126")]
+            public virtual RepoItemInfo ButtonYesInfo
+            {
+                get
+                {
+                    return _buttonyesInfo;
                 }
             }
         }
