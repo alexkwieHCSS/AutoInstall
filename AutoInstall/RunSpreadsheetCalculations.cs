@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The OpenExistingEstimate recording.
+    ///The RunSpreadsheetCalculations recording.
     /// </summary>
-    [TestModule("9beb9865-cef9-4f02-bb97-99994fd79861", ModuleType.Recording, 1)]
-    public partial class OpenExistingEstimate : ITestModule
+    [TestModule("876a05d5-6364-4981-8a07-566fcef62b75", ModuleType.Recording, 1)]
+    public partial class RunSpreadsheetCalculations : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static OpenExistingEstimate instance = new OpenExistingEstimate();
+        static RunSpreadsheetCalculations instance = new RunSpreadsheetCalculations();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public OpenExistingEstimate()
+        public RunSpreadsheetCalculations()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static OpenExistingEstimate Instance
+        public static RunSpreadsheetCalculations Instance
         {
             get { return instance; }
         }
@@ -89,6 +89,26 @@ namespace AutoInstall
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.OKButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.OKButtonInfo, new RecordItemIndex(2));
             repo.HeavyBidApp.DocumentInterface.Buttons.OKButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButtonInfo, new RecordItemIndex(3));
+            repo.HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.", repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditemInfo, new RecordItemIndex(4));
+            repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButtonInfo, new RecordItemIndex(5));
+            repo.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations' at Center.", repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculationsInfo, new RecordItemIndex(6));
+            repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(7));
+            repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButton.Click();
             Delay.Milliseconds(200);
             
         }

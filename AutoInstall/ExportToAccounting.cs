@@ -87,8 +87,8 @@ namespace AutoInstall
             repo.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToAccounting' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExportToAccountingInfo, new RecordItemIndex(2));
-            repo.HeavyBidApp.DocumentInterface.Buttons.ExportToAccounting.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToAccountingButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExportToAccountingButtonInfo, new RecordItemIndex(2));
+            repo.HeavyBidApp.DocumentInterface.Buttons.ExportToAccountingButton.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExportButtonInfo, new RecordItemIndex(3));

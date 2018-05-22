@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="36.26s"
+		durationms="36257"
+		type="root"
+		rid="153ee1c60fb10d05"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/22/2018 1:54:59 PM"
+		timestampiso="2018-05-22T18:54:59"
+		endtime="5/22/2018 1:55:36 PM"
+		timeoutfactor="1"
+		module="RunSpreadsheetCalculations">
+		<detail>
+			RunSpreadsheetCalculations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.719"
+			timeRelativeToTestModuleStartTime="00:00.722"
+			timeWallClock="13:55:00"
+			time="00:00.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.590"
+			timeRelativeToTestModuleStartTime="00:02.593"
+			timeWallClock="13:55:02"
+			time="00:02.590"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.OpenEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'Open']"
+				itempath=".///toolbar/button[@text~'Open']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.OpenEstimateButton"
+				id="2c368f16881f490991794811ff1b86dd"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.434"
+			timeRelativeToTestModuleStartTime="00:03.437"
+			timeWallClock="13:55:03"
+			time="00:03.434"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']//button[@text='OK']"
+				itempath=".//button[@text='OK']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.OKButton"
+				id="5daa53c6434e4668a0f7e362ad6c061e"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.276"
+			timeRelativeToTestModuleStartTime="00:04.278"
+			timeWallClock="13:55:04"
+			time="00:04.276"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu' and @controlid='3355']//button"
+				itempath="?/element[@class='DFmenu' and @controlid='3355']//button"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton"
+				id="928c2480db664c98a3f35fd6e0e3da74"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.704"
+			timeRelativeToTestModuleStartTime="00:06.707"
+			timeWallClock="13:55:06"
+			time="00:06.704"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem/treeitem"
+				itempath="treeitem/treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem"
+				id="18beab79b8694bc6ba7a7df4060cbb30"
+				timeout="120000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.398"
+			timeRelativeToTestModuleStartTime="00:08.400"
+			timeWallClock="13:55:08"
+			time="00:08.398"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@accessiblename~'Estimate Entry']/element[@controlid='3826']//button[@accessiblerole='PushButton']"
+				itempath="form[@accessiblename~'Estimate Entry']/element[@controlid='3826']//button[@accessiblerole='PushButton']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton"
+				id="f0e4f1c22e5444119701e54b7dc90e5d"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.288"
+			timeRelativeToTestModuleStartTime="00:09.290"
+			timeWallClock="13:55:09"
+			time="00:09.288"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Spreadsheet']/?/?//tree/?/?/treeitem/treeitem"
+				itempath="?/?//tree/?/?/treeitem/treeitem"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations"
+				id="3554463e484643e59df49a4e102c4bb4"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.257"
+			timeRelativeToTestModuleStartTime="00:36.259"
+			timeWallClock="13:55:36"
+			time="00:36.257"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

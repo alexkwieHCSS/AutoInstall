@@ -600,7 +600,7 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					<item
 					capname="button"
 					id="b5b86fba-138a-4e29-ae0c-58abbcd0bf0a"
-					name="ExportToAccounting"
+					name="ExportToAccountingButton"
 					refimgid="539f902d-6c5b-4a09-aaea-9d9225c84723"
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to Accounting']
@@ -615,7 +615,7 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					<item
 					capname="button"
 					id="5daa53c6-434e-4668-a0f7-e362ad6c061e"
-					name="OK"
+					name="OKButton"
 					refimgid="44e992b9-11c5-44e1-9bdb-ff106de3e764"
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']//button[@text='OK']
@@ -623,16 +623,25 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					<item
 					capname="button"
 					id="7240d090-e159-402d-8559-add9d5617a4a"
-					name="ExportToHeavyJob"
+					name="ExportToHeavyJobButton"
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']
 					</item>
 					<item
-					capname="unknown"
+					capname="button"
+					comment="pathing using ID (track for breaks over time)"
 					id="f0e4f1c2-2e54-4411-9701-e54b7dc90e5d"
 					name="SpreadsheetCalculationButton"
 					searchtimeout="30000ms">
-						/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='512']/element[@controlid='3837']
+						/form[@title~'HB']/element[@class='DFMDIClient']/form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']
+					</item>
+					<item
+					capname="button"
+					comment="pathing using ID (track for breaks over time)"
+					id="928c2480-db66-4c98-a3f3-5fd6e0e3da74"
+					name="ExpandAllTreeviewButton"
+					searchtimeout="30000ms">
+						/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu' and @controlid='3355']//button
 					</item>
 				</folder>
 				<item

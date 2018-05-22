@@ -2105,11 +2105,12 @@ namespace AutoInstall
         [RepositoryFolder("6008c782-38c8-4803-a9d4-5b810310e80b")]
         public partial class ButtonsFolder2 : RepoGenBaseFolder
         {
-            RepoItemInfo _exporttoaccountingInfo;
+            RepoItemInfo _exporttoaccountingbuttonInfo;
             RepoItemInfo _exportbuttonInfo;
-            RepoItemInfo _okInfo;
-            RepoItemInfo _exporttoheavyjobInfo;
+            RepoItemInfo _okbuttonInfo;
+            RepoItemInfo _exporttoheavyjobbuttonInfo;
             RepoItemInfo _spreadsheetcalculationbuttonInfo;
+            RepoItemInfo _expandalltreeviewbuttonInfo;
 
             /// <summary>
             /// Creates a new Buttons  folder.
@@ -2117,11 +2118,12 @@ namespace AutoInstall
             public ButtonsFolder2(RepoGenBaseFolder parentFolder) :
                     base("Buttons", "", parentFolder, 0, null, false, "6008c782-38c8-4803-a9d4-5b810310e80b", "")
             {
-                _exporttoaccountingInfo = new RepoItemInfo(this, "ExportToAccounting", "?/?//button[@text~'Export to Accounting']", 30000, null, "b5b86fba-138a-4e29-ae0c-58abbcd0bf0a");
+                _exporttoaccountingbuttonInfo = new RepoItemInfo(this, "ExportToAccountingButton", "?/?//button[@text~'Export to Accounting']", 30000, null, "b5b86fba-138a-4e29-ae0c-58abbcd0bf0a");
                 _exportbuttonInfo = new RepoItemInfo(this, "ExportButton", "?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']", 30000, null, "2db6a250-cf4f-4383-bacf-321ac6b57879");
-                _okInfo = new RepoItemInfo(this, "OK", ".//button[@text='OK']", 30000, null, "5daa53c6-434e-4668-a0f7-e362ad6c061e");
-                _exporttoheavyjobInfo = new RepoItemInfo(this, "ExportToHeavyJob", "?/?//button[@text~'Export to HeavyJob']", 30000, null, "7240d090-e159-402d-8559-add9d5617a4a");
-                _spreadsheetcalculationbuttonInfo = new RepoItemInfo(this, "SpreadsheetCalculationButton", "form[@controlid='512']/element[@controlid='3837']", 30000, null, "f0e4f1c2-2e54-4411-9701-e54b7dc90e5d");
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", ".//button[@text='OK']", 30000, null, "5daa53c6-434e-4668-a0f7-e362ad6c061e");
+                _exporttoheavyjobbuttonInfo = new RepoItemInfo(this, "ExportToHeavyJobButton", "?/?//button[@text~'Export to HeavyJob']", 30000, null, "7240d090-e159-402d-8559-add9d5617a4a");
+                _spreadsheetcalculationbuttonInfo = new RepoItemInfo(this, "SpreadsheetCalculationButton", "form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']", 30000, null, "f0e4f1c2-2e54-4411-9701-e54b7dc90e5d");
+                _expandalltreeviewbuttonInfo = new RepoItemInfo(this, "ExpandAllTreeviewButton", "?/element[@class='DFmenu' and @controlid='3355']//button", 30000, null, "928c2480-db66-4c98-a3f3-5fd6e0e3da74");
             }
 
             /// <summary>
@@ -2137,26 +2139,26 @@ namespace AutoInstall
             }
 
             /// <summary>
-            /// The ExportToAccounting item.
+            /// The ExportToAccountingButton item.
             /// </summary>
             [RepositoryItem("b5b86fba-138a-4e29-ae0c-58abbcd0bf0a")]
-            public virtual Ranorex.Button ExportToAccounting
+            public virtual Ranorex.Button ExportToAccountingButton
             {
                 get
                 {
-                    return _exporttoaccountingInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _exporttoaccountingbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The ExportToAccounting item info.
+            /// The ExportToAccountingButton item info.
             /// </summary>
             [RepositoryItemInfo("b5b86fba-138a-4e29-ae0c-58abbcd0bf0a")]
-            public virtual RepoItemInfo ExportToAccountingInfo
+            public virtual RepoItemInfo ExportToAccountingButtonInfo
             {
                 get
                 {
-                    return _exporttoaccountingInfo;
+                    return _exporttoaccountingbuttonInfo;
                 }
             }
 
@@ -2185,50 +2187,50 @@ namespace AutoInstall
             }
 
             /// <summary>
-            /// The OK item.
+            /// The OKButton item.
             /// </summary>
             [RepositoryItem("5daa53c6-434e-4668-a0f7-e362ad6c061e")]
-            public virtual Ranorex.Button OK
+            public virtual Ranorex.Button OKButton
             {
                 get
                 {
-                    return _okInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The OK item info.
+            /// The OKButton item info.
             /// </summary>
             [RepositoryItemInfo("5daa53c6-434e-4668-a0f7-e362ad6c061e")]
-            public virtual RepoItemInfo OKInfo
+            public virtual RepoItemInfo OKButtonInfo
             {
                 get
                 {
-                    return _okInfo;
+                    return _okbuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The ExportToHeavyJob item.
+            /// The ExportToHeavyJobButton item.
             /// </summary>
             [RepositoryItem("7240d090-e159-402d-8559-add9d5617a4a")]
-            public virtual Ranorex.Button ExportToHeavyJob
+            public virtual Ranorex.Button ExportToHeavyJobButton
             {
                 get
                 {
-                    return _exporttoheavyjobInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _exporttoheavyjobbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The ExportToHeavyJob item info.
+            /// The ExportToHeavyJobButton item info.
             /// </summary>
             [RepositoryItemInfo("7240d090-e159-402d-8559-add9d5617a4a")]
-            public virtual RepoItemInfo ExportToHeavyJobInfo
+            public virtual RepoItemInfo ExportToHeavyJobButtonInfo
             {
                 get
                 {
-                    return _exporttoheavyjobInfo;
+                    return _exporttoheavyjobbuttonInfo;
                 }
             }
 
@@ -2236,11 +2238,11 @@ namespace AutoInstall
             /// The SpreadsheetCalculationButton item.
             /// </summary>
             [RepositoryItem("f0e4f1c2-2e54-4411-9701-e54b7dc90e5d")]
-            public virtual Ranorex.Unknown SpreadsheetCalculationButton
+            public virtual Ranorex.Button SpreadsheetCalculationButton
             {
                 get
                 {
-                    return _spreadsheetcalculationbuttonInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _spreadsheetcalculationbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
@@ -2253,6 +2255,30 @@ namespace AutoInstall
                 get
                 {
                     return _spreadsheetcalculationbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ExpandAllTreeviewButton item.
+            /// </summary>
+            [RepositoryItem("928c2480-db66-4c98-a3f3-5fd6e0e3da74")]
+            public virtual Ranorex.Button ExpandAllTreeviewButton
+            {
+                get
+                {
+                    return _expandalltreeviewbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExpandAllTreeviewButton item info.
+            /// </summary>
+            [RepositoryItemInfo("928c2480-db66-4c98-a3f3-5fd6e0e3da74")]
+            public virtual RepoItemInfo ExpandAllTreeviewButtonInfo
+            {
+                get
+                {
+                    return _expandalltreeviewbuttonInfo;
                 }
             }
         }

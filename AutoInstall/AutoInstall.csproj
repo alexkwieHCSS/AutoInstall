@@ -566,6 +566,18 @@
       <UserCode>true</UserCode>
       <id>25adc825-f202-4dfb-b8e2-df6183080d06</id>
     </Compile>
+    <Compile Include="RunSpreadsheetCalculations.cs">
+      <BoundTo>669bd506-3f7b-468a-8f3f-8f1b411d11c7</BoundTo>
+      <DependentUpon>RunSpreadsheetCalculations.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e581b3b9-220c-4c5c-91e0-60d6faea0b70</id>
+    </Compile>
+    <Compile Include="RunSpreadsheetCalculations.UserCode.cs">
+      <BoundTo>669bd506-3f7b-468a-8f3f-8f1b411d11c7</BoundTo>
+      <DependentUpon>RunSpreadsheetCalculations.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac873110-1f48-472d-94f2-aa8f84901004</id>
+    </Compile>
     <Compile Include="RunWSInstall.cs">
       <BoundTo>cb378c82-a06e-4119-b50c-38eed4f03d2d</BoundTo>
       <DependentUpon>RunWSInstall.rxrec</DependentUpon>
@@ -958,6 +970,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>0876a9bf-b06c-47b5-9053-0a5da37bd21d</id>
       <recordtableid>a8c563be-eaf5-4337-a990-11ceb9083b14</recordtableid>
+    </None>
+    <None Include="RunSpreadsheetCalculations.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>669bd506-3f7b-468a-8f3f-8f1b411d11c7</id>
+      <recordtableid>876a05d5-6364-4981-8a07-566fcef62b75</recordtableid>
     </None>
     <None Include="RunWSInstall.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

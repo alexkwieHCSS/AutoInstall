@@ -240,6 +240,16 @@ rxversion="8.1">
 			ref="c53b61a1-a5c0-4b25-bb59-ac20871ae365"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
+			name="RunSpreadsheetCalculations"
+			ref="876a05d5-6364-4981-8a07-566fcef62b75"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="53c10465-a862-4342-beaa-daef0efc6d28"
+			name="SpreadsheetCalculations">
+			</testcase>
 			<testcase
 			id="59cf7465-c849-4b31-82c4-30d6c0747528"
 			name="ValidateWelcomeScreen">
@@ -1050,6 +1060,14 @@ rxversion="8.1">
 										</testmodule>
 									</testcase>
 								</smartfoldernode>
+								<testcase
+								id="53c10465-a862-4342-beaa-daef0efc6d28"
+								name="SpreadsheetCalculations">
+									<testmodule
+									id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
+									name="RunSpreadsheetCalculations">
+									</testmodule>
+								</testcase>
 								<teardown
 								id="9772cefa-d91d-4375-8a24-cd153efa4420"
 								name="teardown">
@@ -1371,27 +1389,6 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae">
-			</testcontainer>
-			<testcontainer
-			id="378888a4-f9ca-424a-8655-56a5032d02ba">
-			</testcontainer>
-			<testcontainer
-			id="620756be-83ce-4abb-a35c-363870e8894c">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
-			</testcontainer>
-			<testcontainer
-			id="bbd58f25-ce2f-457c-b001-967409cfc2b9">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
