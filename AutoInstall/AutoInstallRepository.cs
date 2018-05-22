@@ -2118,6 +2118,7 @@ namespace AutoInstall
             RepoItemInfo _exporttoheavyjobbuttonInfo;
             RepoItemInfo _spreadsheetcalculationbuttonInfo;
             RepoItemInfo _expandalltreeviewbuttonInfo;
+            RepoItemInfo _addactivitiesbuttonInfo;
 
             /// <summary>
             /// Creates a new Buttons  folder.
@@ -2131,6 +2132,7 @@ namespace AutoInstall
                 _exporttoheavyjobbuttonInfo = new RepoItemInfo(this, "ExportToHeavyJobButton", "?/?//button[@text~'Export to HeavyJob']", 30000, null, "7240d090-e159-402d-8559-add9d5617a4a");
                 _spreadsheetcalculationbuttonInfo = new RepoItemInfo(this, "SpreadsheetCalculationButton", "form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']", 30000, null, "f0e4f1c2-2e54-4411-9701-e54b7dc90e5d");
                 _expandalltreeviewbuttonInfo = new RepoItemInfo(this, "ExpandAllTreeviewButton", "?/element[@class='DFmenu' and @controlid='3355']//button", 30000, null, "928c2480-db66-4c98-a3f3-5fd6e0e3da74");
+                _addactivitiesbuttonInfo = new RepoItemInfo(this, "AddActivitiesButton", "?/element[@class='DFmenu']//button[@accessiblename='Add Activities']", 30000, null, "0cfd4034-86e4-477a-8ca6-0b8da559a846");
             }
 
             /// <summary>
@@ -2286,6 +2288,30 @@ namespace AutoInstall
                 get
                 {
                     return _expandalltreeviewbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddActivitiesButton item.
+            /// </summary>
+            [RepositoryItem("0cfd4034-86e4-477a-8ca6-0b8da559a846")]
+            public virtual Ranorex.Button AddActivitiesButton
+            {
+                get
+                {
+                    return _addactivitiesbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddActivitiesButton item info.
+            /// </summary>
+            [RepositoryItemInfo("0cfd4034-86e4-477a-8ca6-0b8da559a846")]
+            public virtual RepoItemInfo AddActivitiesButtonInfo
+            {
+                get
+                {
+                    return _addactivitiesbuttonInfo;
                 }
             }
         }
@@ -4841,6 +4867,7 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.OpenEstimateRelatedFolder _openestimaterelated;
             AutoInstallRepositoryFolders.RestoreEstimateRelatedFolder _restoreestimaterelated;
             AutoInstallRepositoryFolders.ReindexRelatedFolder _reindexrelated;
+            AutoInstallRepositoryFolders.RSMeanRelatedFolder _rsmeanrelated;
 
             /// <summary>
             /// Creates a new FromFileButtons  folder.
@@ -4853,6 +4880,7 @@ namespace AutoInstall
                 _openestimaterelated = new AutoInstallRepositoryFolders.OpenEstimateRelatedFolder(this);
                 _restoreestimaterelated = new AutoInstallRepositoryFolders.RestoreEstimateRelatedFolder(this);
                 _reindexrelated = new AutoInstallRepositoryFolders.ReindexRelatedFolder(this);
+                _rsmeanrelated = new AutoInstallRepositoryFolders.RSMeanRelatedFolder(this);
             }
 
             /// <summary>
@@ -4910,6 +4938,15 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.ReindexRelatedFolder ReindexRelated
             {
                 get { return _reindexrelated; }
+            }
+
+            /// <summary>
+            /// The RSMeanRelated folder.
+            /// </summary>
+            [RepositoryFolder("abd5f6e2-2914-4161-972c-a9a8c4a08a24")]
+            public virtual AutoInstallRepositoryFolders.RSMeanRelatedFolder RSMeanRelated
+            {
+                get { return _rsmeanrelated; }
             }
         }
 
@@ -6105,6 +6142,163 @@ namespace AutoInstall
                 get
                 {
                     return _okbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RSMeanRelatedFolder folder.
+        /// </summary>
+        [RepositoryFolder("abd5f6e2-2914-4161-972c-a9a8c4a08a24")]
+        public partial class RSMeanRelatedFolder : RepoGenBaseFolder
+        {
+            AutoInstallRepositoryFolders.AddActivitesBiditemAppFolder _addactivitesbiditem;
+
+            /// <summary>
+            /// Creates a new RSMeanRelated  folder.
+            /// </summary>
+            public RSMeanRelatedFolder(RepoGenBaseFolder parentFolder) :
+                    base("RSMeanRelated", "", parentFolder, 0, null, false, "abd5f6e2-2914-4161-972c-a9a8c4a08a24", "")
+            {
+                _addactivitesbiditem = new AutoInstallRepositoryFolders.AddActivitesBiditemAppFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("abd5f6e2-2914-4161-972c-a9a8c4a08a24")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddActivitesBiditem folder.
+            /// </summary>
+            [RepositoryFolder("f9ae05f0-276e-4449-b677-f1f42ae4085a")]
+            public virtual AutoInstallRepositoryFolders.AddActivitesBiditemAppFolder AddActivitesBiditem
+            {
+                get { return _addactivitesbiditem; }
+            }
+        }
+
+        /// <summary>
+        /// The AddActivitesBiditemAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f9ae05f0-276e-4449-b677-f1f42ae4085a")]
+        public partial class AddActivitesBiditemAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _rsmeanstreeitemInfo;
+            RepoItemInfo _sampledatatreeitemInfo;
+            RepoItemInfo _cancelbuttonInfo;
+
+            /// <summary>
+            /// Creates a new AddActivitesBiditem  folder.
+            /// </summary>
+            public AddActivitesBiditemAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AddActivitesBiditem", "/form[@title~'Activities for Biditem:']", parentFolder, 30000, null, false, "f9ae05f0-276e-4449-b677-f1f42ae4085a", "")
+            {
+                _rsmeanstreeitemInfo = new RepoItemInfo(this, "RSMeansTreeItem", ".//treeitem[@accessiblename='RSMeans']", 30000, null, "9a2b06b5-179e-4ae1-8853-e5ed85a602c6");
+                _sampledatatreeitemInfo = new RepoItemInfo(this, "SampleDataTreeItem", ".//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']", 30000, null, "07bd18be-003f-4d9d-a276-1874e0853d30");
+                _cancelbuttonInfo = new RepoItemInfo(this, "CancelButton", ".//button[@text='Cancel']", 30000, null, "35a63024-df12-47d6-b04a-04e9fe332f6d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f9ae05f0-276e-4449-b677-f1f42ae4085a")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f9ae05f0-276e-4449-b677-f1f42ae4085a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RSMeansTreeItem item.
+            /// </summary>
+            [RepositoryItem("9a2b06b5-179e-4ae1-8853-e5ed85a602c6")]
+            public virtual Ranorex.TreeItem RSMeansTreeItem
+            {
+                get
+                {
+                    return _rsmeanstreeitemInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RSMeansTreeItem item info.
+            /// </summary>
+            [RepositoryItemInfo("9a2b06b5-179e-4ae1-8853-e5ed85a602c6")]
+            public virtual RepoItemInfo RSMeansTreeItemInfo
+            {
+                get
+                {
+                    return _rsmeanstreeitemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SampleDataTreeItem item.
+            /// </summary>
+            [RepositoryItem("07bd18be-003f-4d9d-a276-1874e0853d30")]
+            public virtual Ranorex.TreeItem SampleDataTreeItem
+            {
+                get
+                {
+                    return _sampledatatreeitemInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SampleDataTreeItem item info.
+            /// </summary>
+            [RepositoryItemInfo("07bd18be-003f-4d9d-a276-1874e0853d30")]
+            public virtual RepoItemInfo SampleDataTreeItemInfo
+            {
+                get
+                {
+                    return _sampledatatreeitemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CancelButton item.
+            /// </summary>
+            [RepositoryItem("35a63024-df12-47d6-b04a-04e9fe332f6d")]
+            public virtual Ranorex.Button CancelButton
+            {
+                get
+                {
+                    return _cancelbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CancelButton item info.
+            /// </summary>
+            [RepositoryItemInfo("35a63024-df12-47d6-b04a-04e9fe332f6d")]
+            public virtual RepoItemInfo CancelButtonInfo
+            {
+                get
+                {
+                    return _cancelbuttonInfo;
                 }
             }
         }

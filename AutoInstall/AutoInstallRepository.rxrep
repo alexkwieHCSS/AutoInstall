@@ -643,6 +643,13 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu' and @controlid='3355']//button
 					</item>
+					<item
+					capname="button"
+					id="0cfd4034-86e4-477a-8ca6-0b8da559a846"
+					name="AddActivitiesButton"
+					searchtimeout="30000ms">
+						/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu']//button[@accessiblename='Add Activities']
+					</item>
 				</folder>
 				<item
 				capname="unknown"
@@ -1715,6 +1722,45 @@ SUVORK5CYII=
 						</item>
 						<basepath>
 							/form[@title='Reindex' and @accessiblerole~'Dialog']
+						</basepath>
+					</appfolder>
+				</folder>
+				<folder
+				capname="unknown"
+				id="abd5f6e2-2914-4161-972c-a9a8c4a08a24"
+				isrooted="False"
+				name="RSMeanRelated"
+				searchtimeout="0ms">
+					<appfolder
+					capname="form"
+					id="f9ae05f0-276e-4449-b677-f1f42ae4085a"
+					isrooted="True"
+					name="AddActivitesBiditem"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="treeitem"
+						id="9a2b06b5-179e-4ae1-8853-e5ed85a602c6"
+						name="RSMeansTreeItem"
+						searchtimeout="30000ms">
+							/form[@title~'Activities for Biditem:']//treeitem[@accessiblename='RSMeans']
+						</item>
+						<item
+						capname="treeitem"
+						id="07bd18be-003f-4d9d-a276-1874e0853d30"
+						name="SampleDataTreeItem"
+						searchtimeout="30000ms">
+							/form[@title~'Activities for Biditem:']//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']
+						</item>
+						<item
+						capname="button"
+						id="35a63024-df12-47d6-b04a-04e9fe332f6d"
+						name="CancelButton"
+						searchtimeout="30000ms">
+							/form[@title~'Activities for Biditem:']//button[@text='Cancel']
+						</item>
+						<basepath>
+							/form[@title~'Activities for Biditem:']
 						</basepath>
 					</appfolder>
 				</folder>

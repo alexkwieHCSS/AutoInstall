@@ -103,6 +103,12 @@ rxversion="8.1">
 			id="22ab66ec-81cf-4376-80cd-9e46a43d513c"
 			name="CustomClassic">
 			</testcase>
+			<testmodule
+			id="23083058-fd03-4724-97d6-3361bb1e605b"
+			name="AddRemovePrograms"
+			ref="5b87d040-7794-4c4e-8a73-47bb9c5eaf66"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="278b8420-8e4e-4e20-a51e-390434d1fb15"
 			name="InstallCrystal">
@@ -206,6 +212,14 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="4095e04f-3d0a-466e-afe7-969ec10f987b"
+			name="RSMeans">
+			</testcase>
+			<testcase
+			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79"
+			name="UninstallHB">
+			</testcase>
 			<testmodule
 			id="459aaa2d-dd25-462b-b413-1992a073c051"
 			name="VerifyWSReleaseVersion"
@@ -300,6 +314,12 @@ rxversion="8.1">
 			id="67f87952-8f90-48e9-b771-72ed0807313e"
 			name="CustomizedCrystalReport"
 			ref="62891f38-cf04-4408-9359-faea7ab15c9f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6a289eae-ec96-49f9-8268-a6994c1743d8"
+			name="RunRSMeansSampleData"
+			ref="4df77207-444f-446d-9919-9b5e15a1ff43"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -472,6 +492,10 @@ rxversion="8.1">
 			ref="c1b70293-8f10-40b3-b03f-0a7a2a6e3c19"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="a86a90e0-dbe8-4c52-bc18-880baee9c3a1"
+			name="setup">
+			</setup>
 			<testmodule
 			id="a991b7f6-b1df-420b-9551-95133126834e"
 			name="AcceptToSSQL"
@@ -504,6 +528,12 @@ rxversion="8.1">
 			id="b06267ff-0d8e-4ddd-886f-e7977dd6692d"
 			name="WhatsNewButton"
 			ref="b7cf6cce-8c18-4a2f-afef-55e95e692e31"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b28be991-2f45-4b6a-aab9-eaca19c8423e"
+			name="UninstallCrystal"
+			ref="f2e4f309-0bd7-44ab-8af9-c73c38a506fd"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -603,6 +633,12 @@ rxversion="8.1">
 			id="d760d409-2629-4401-88c6-a6b4afdc3dc9"
 			name="setup">
 			</setup>
+			<testmodule
+			id="d91928e0-2c25-4f1e-97df-c2bd69a17469"
+			name="UninstallSQL"
+			ref="e106a164-a92b-45f2-a571-22ddcbdbc5a7"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="d9ea4b38-7f61-45c7-9854-2c8457e8c550"
 			name="EstimateFunctionality">
@@ -612,6 +648,12 @@ rxversion="8.1">
 			id="dbf8c2c8-362e-4e15-94f4-fc56363a3ae8"
 			name="SetShowRibbon"
 			ref="b5bcb9d5-1c47-4f4d-a763-e75580fd274e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="dccfa2de-90f5-4cbc-81ca-ad0e3cf240ad"
+			name="UninstallHB"
+			ref="9c7db922-7759-4227-abe7-c4d68ab45778"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -659,6 +701,10 @@ rxversion="8.1">
 			id="e85c240a-6f3f-46cd-aaa3-23a906084d7c"
 			name="TestNavigationLink">
 			</testcase>
+			<testcase
+			id="eb269b62-171b-46e6-a194-de77eefa5ac4"
+			name="UninstallCrystal">
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -703,6 +749,10 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="febe7363-b15c-4a59-80ce-69f92cfeac38"
+			name="UninstallSQL">
+			</testcase>
 			<testmodule
 			id="fed6cf60-cd86-4e73-800b-e1217b67b217"
 			name="SelectInstallType"
@@ -1069,15 +1119,23 @@ rxversion="8.1">
 										name="ImportToHeavyJob">
 										</testmodule>
 									</testcase>
+									<testcase
+									id="53c10465-a862-4342-beaa-daef0efc6d28"
+									name="SpreadsheetCalculations">
+										<testmodule
+										id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
+										name="RunSpreadsheetCalculations">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="4095e04f-3d0a-466e-afe7-969ec10f987b"
+									name="RSMeans">
+										<testmodule
+										id="6a289eae-ec96-49f9-8268-a6994c1743d8"
+										name="RunRSMeansSampleData">
+										</testmodule>
+									</testcase>
 								</smartfoldernode>
-								<testcase
-								id="53c10465-a862-4342-beaa-daef0efc6d28"
-								name="SpreadsheetCalculations">
-									<testmodule
-									id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
-									name="RunSpreadsheetCalculations">
-									</testmodule>
-								</testcase>
 								<teardown
 								id="9772cefa-d91d-4375-8a24-cd153efa4420"
 								name="teardown">
@@ -1103,6 +1161,38 @@ rxversion="8.1">
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
 						name="Uninstall">
+							<setup
+							id="a86a90e0-dbe8-4c52-bc18-880baee9c3a1"
+							name="setup">
+								<testmodule
+								id="23083058-fd03-4724-97d6-3361bb1e605b"
+								name="AddRemovePrograms">
+								</testmodule>
+							</setup>
+							<testcase
+							id="eb269b62-171b-46e6-a194-de77eefa5ac4"
+							name="UninstallCrystal">
+								<testmodule
+								id="b28be991-2f45-4b6a-aab9-eaca19c8423e"
+								name="UninstallCrystal">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="febe7363-b15c-4a59-80ce-69f92cfeac38"
+							name="UninstallSQL">
+								<testmodule
+								id="d91928e0-2c25-4f1e-97df-c2bd69a17469"
+								name="UninstallSQL">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79"
+							name="UninstallHB">
+								<testmodule
+								id="dccfa2de-90f5-4cbc-81ca-ad0e3cf240ad"
+								name="UninstallHB">
+								</testmodule>
+							</testcase>
 						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
@@ -1407,6 +1497,18 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="378888a4-f9ca-424a-8655-56a5032d02ba">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

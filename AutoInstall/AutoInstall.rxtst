@@ -213,6 +213,10 @@ rxversion="8.1">
 				</databinding>
 			</testmodule>
 			<testcase
+			id="4095e04f-3d0a-466e-afe7-969ec10f987b"
+			name="RSMeans">
+			</testcase>
+			<testcase
 			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79"
 			name="UninstallHB">
 			</testcase>
@@ -310,6 +314,12 @@ rxversion="8.1">
 			id="67f87952-8f90-48e9-b771-72ed0807313e"
 			name="CustomizedCrystalReport"
 			ref="62891f38-cf04-4408-9359-faea7ab15c9f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6a289eae-ec96-49f9-8268-a6994c1743d8"
+			name="RunRSMeansSampleData"
+			ref="4df77207-444f-446d-9919-9b5e15a1ff43"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1109,15 +1119,23 @@ rxversion="8.1">
 										name="ImportToHeavyJob">
 										</testmodule>
 									</testcase>
+									<testcase
+									id="53c10465-a862-4342-beaa-daef0efc6d28"
+									name="SpreadsheetCalculations">
+										<testmodule
+										id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
+										name="RunSpreadsheetCalculations">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="4095e04f-3d0a-466e-afe7-969ec10f987b"
+									name="RSMeans">
+										<testmodule
+										id="6a289eae-ec96-49f9-8268-a6994c1743d8"
+										name="RunRSMeansSampleData">
+										</testmodule>
+									</testcase>
 								</smartfoldernode>
-								<testcase
-								id="53c10465-a862-4342-beaa-daef0efc6d28"
-								name="SpreadsheetCalculations">
-									<testmodule
-									id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
-									name="RunSpreadsheetCalculations">
-									</testmodule>
-								</testcase>
 								<teardown
 								id="9772cefa-d91d-4375-8a24-cd153efa4420"
 								name="teardown">
@@ -1479,6 +1497,18 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="378888a4-f9ca-424a-8655-56a5032d02ba">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
