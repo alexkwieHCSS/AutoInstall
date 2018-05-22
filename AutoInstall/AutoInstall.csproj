@@ -542,6 +542,18 @@
       <UserCode>true</UserCode>
       <id>73f69c98-d84e-4687-86b5-f454653f3f49</id>
     </Compile>
+    <Compile Include="ReindexHBExternal.cs">
+      <BoundTo>242d97d0-6d62-40c1-acba-050a8a20491b</BoundTo>
+      <DependentUpon>ReindexHBExternal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2fc29872-3cd6-4b03-980d-03f27429e4e6</id>
+    </Compile>
+    <Compile Include="ReindexHBExternal.UserCode.cs">
+      <BoundTo>242d97d0-6d62-40c1-acba-050a8a20491b</BoundTo>
+      <DependentUpon>ReindexHBExternal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9cc99631-84f1-462f-b017-5c7c8b86ca62</id>
+    </Compile>
     <Compile Include="RestoreEstimate.cs">
       <BoundTo>08952a65-66f6-4ab9-be2d-32252deaf29e</BoundTo>
       <DependentUpon>RestoreEstimate.rxrec</DependentUpon>
@@ -960,6 +972,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>41a76997-4c72-48f0-885c-b797a302b04a</id>
       <recordtableid>8a5b70e5-0a39-4536-90fe-dc74cc71554b</recordtableid>
+    </None>
+    <None Include="ReindexHBExternal.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>242d97d0-6d62-40c1-acba-050a8a20491b</id>
+      <recordtableid>0f03ff28-1812-42f6-8de2-207317b89a6e</recordtableid>
     </None>
     <None Include="RestoreEstimate.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

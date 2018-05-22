@@ -4,6 +4,12 @@ rxversion="8.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
+			name="ReindexHBExternal"
+			ref="0f03ff28-1812-42f6-8de2-207317b89a6e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
 			name="ServerInstallDestination"
 			ref="d239ddb8-9d2b-4bcf-aabe-bb4c6314833d"
@@ -646,6 +652,10 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="e5ed82b0-fc45-459f-b715-408cd95f119b"
+			name="ReindexHB">
+			</testcase>
+			<testcase
 			id="e85c240a-6f3f-46cd-aaa3-23a906084d7c"
 			name="TestNavigationLink">
 			</testcase>
@@ -1081,6 +1091,14 @@ rxversion="8.1">
 						<smartfoldernode
 						id="e2647272-bd9d-4014-811f-c32ebdcd6137"
 						name="ValidateFileStructure">
+							<testcase
+							id="e5ed82b0-fc45-459f-b715-408cd95f119b"
+							name="ReindexHB">
+								<testmodule
+								id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
+								name="ReindexHBExternal">
+								</testmodule>
+							</testcase>
 						</smartfoldernode>
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
