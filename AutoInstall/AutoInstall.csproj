@@ -710,6 +710,18 @@
       <UserCode>true</UserCode>
       <id>befbbb9b-9c8e-40b7-8856-bcaa9e3fb11f</id>
     </Compile>
+    <Compile Include="ValidateSQLDriverReadme.cs">
+      <BoundTo>d17761a5-b036-4477-8dc4-4b759d59b1f6</BoundTo>
+      <DependentUpon>ValidateSQLDriverReadme.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af29c4d1-1e96-4df3-85e0-641e2403c110</id>
+    </Compile>
+    <Compile Include="ValidateSQLDriverReadme.UserCode.cs">
+      <BoundTo>d17761a5-b036-4477-8dc4-4b759d59b1f6</BoundTo>
+      <DependentUpon>ValidateSQLDriverReadme.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
+    </Compile>
     <Compile Include="WelcomeImage.cs">
       <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
       <DependentUpon>WelcomeImage.rxrec</DependentUpon>
@@ -1102,6 +1114,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>bce3ee61-b0d9-45fe-a36c-5311da761a20</id>
       <recordtableid>e106a164-a92b-45f2-a571-22ddcbdbc5a7</recordtableid>
+    </None>
+    <None Include="ValidateSQLDriverReadme.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
+      <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
     </None>
     <None Include="WelcomeImage.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

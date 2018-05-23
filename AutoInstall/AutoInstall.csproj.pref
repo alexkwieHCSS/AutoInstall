@@ -1,13 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="EquipmentReport.rxrec" />
+    <Element value="RunRSMeansSampleData.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="CustomReportClassic.rxrec" />
-    <Element value="CostReport.rxrec" />
-    <Element value="EquipmentReport.rxrec" />
+    <Element value="RunRSMeansSampleData.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

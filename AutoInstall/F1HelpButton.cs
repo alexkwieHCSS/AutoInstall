@@ -96,8 +96,8 @@ namespace AutoInstall
             
             // E.6
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'Article List') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(3));
-                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("Article List"), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'Category Home') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(3));
+                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("Category Home"), null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             

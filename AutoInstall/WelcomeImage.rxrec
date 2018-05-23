@@ -116,7 +116,7 @@ rxversion="8.1">
 				Title
 			</matchname>
 			<matchvalue>
-				HCSS
+				(HCSS|hcss)
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem

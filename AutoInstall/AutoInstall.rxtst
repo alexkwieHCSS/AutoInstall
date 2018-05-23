@@ -392,7 +392,6 @@ rxversion="8.1">
 			name="SuccessfullyRegisterHBMU">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="899a2493-6979-4a75-987b-7f2877e9bdfc"
 			name="OpenHB"
 			ref="c9da0d9c-dc94-4d77-bdc9-1419198301c6"
@@ -549,6 +548,13 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="b562ba65-5a9f-48dd-a499-7987178bb57c"
+			name="ValidateSQLDriverReadme"
+			ref="40f298b4-d6fb-4496-a652-110be615e32d"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="ba442f08-a96a-4b25-901b-99b7b429e984"
 			name="F1HelpButton"
 			ref="31c3a7dd-ccf3-4ca1-a8bf-090fec9e4ed8"
@@ -557,6 +563,10 @@ rxversion="8.1">
 			<testcase
 			id="bbd58f25-ce2f-457c-b001-967409cfc2b9"
 			name="ExportToAccounting">
+			</testcase>
+			<testcase
+			id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
+			name="TestCase">
 			</testcase>
 			<testmodule
 			id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
@@ -609,7 +619,6 @@ rxversion="8.1">
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="ccde0c24-fa2a-4fee-ae64-8cb43fa457d7"
 			name="LogIn"
 			ref="dbe4b720-03e7-4547-9e2b-1b80426b7c5c"
@@ -644,7 +653,6 @@ rxversion="8.1">
 			name="EstimateFunctionality">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="dbf8c2c8-362e-4e15-94f4-fc56363a3ae8"
 			name="SetShowRibbon"
 			ref="b5bcb9d5-1c47-4f4d-a763-e75580fd274e"
@@ -1157,6 +1165,14 @@ rxversion="8.1">
 								name="ReindexHBExternal">
 								</testmodule>
 							</testcase>
+							<testcase
+							id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
+							name="TestCase">
+								<testmodule
+								id="b562ba65-5a9f-48dd-a499-7987178bb57c"
+								name="ValidateSQLDriverReadme">
+								</testmodule>
+							</testcase>
 						</smartfoldernode>
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
@@ -1505,6 +1521,9 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="880c2641-d65c-4cfe-a459-fb3d7494978a">
 			</testcontainer>
 			<testcontainer
 			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
