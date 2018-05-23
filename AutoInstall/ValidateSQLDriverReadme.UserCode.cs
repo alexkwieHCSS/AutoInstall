@@ -35,15 +35,16 @@ namespace AutoInstall
 
         public void ValidateSQLDriver()
         {
-        	string SQLDriver = @"C:\HeavyBid\UTILITY\SQL Driver Readme.txt";
-        	Validate.Exists(SQLDriver);
-        	
-        	
-        	// Exists(
-        		
-        	//	string @"C:\HeavyBid\UTILITY\SQL Driver Readme.txt";
-        	// )
-            // throw new NotImplementedException();
+        	string sqlDriver = @"C:\HeavyBid\UTILITY\SQL Drivers Readme.txt";
+        	if(System.IO.File.Exists(sqlDriver))
+	        	{
+					Report.Success("Validation","Found SQL Driver Readme!");
+	        	} 
+        	else
+        		{
+					Report.Failure("Validation","Could not find SQL Driver Readme!");
+    	   	   	}
+
            
         }
 

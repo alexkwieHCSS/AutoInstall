@@ -87,9 +87,9 @@ namespace AutoInstall
             repo.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo, new RecordItemIndex(2));
-            repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates.Click();
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo, new RecordItemIndex(2));
+            Validate.Exists(repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo);
+            Delay.Milliseconds(0);
             
             // Type in Report you want
             //Report.Log(ReportLevel.Info, "Keyboard", "Type in Report you want\r\nKey sequence ''.", new RecordItemIndex(3));

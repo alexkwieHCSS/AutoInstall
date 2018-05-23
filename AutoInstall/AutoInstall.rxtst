@@ -274,6 +274,12 @@ rxversion="8.1">
 			id="59cf7465-c849-4b31-82c4-30d6c0747528"
 			name="ValidateWelcomeScreen">
 			</testcase>
+			<testmodule
+			id="59f21f5f-5fdd-4dbf-930e-079bb4b3b1ef"
+			name="OpenExistingEstimate"
+			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="5c20d15e-e813-425a-8c96-f40a6c991389"
 			name="teardown">
@@ -340,7 +346,6 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="7587768b-7481-4633-8f2b-996e1eee0e64"
 			name="CloseHB"
 			ref="401a5605-5915-4d7a-978d-db1302934759"
@@ -536,6 +541,12 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b2c2878b-61ca-4bb5-b871-ac523ac134fd"
+			name="OpenExistingEstimate"
+			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="b464328b-4662-4f56-9493-6083fedac592"
 			name="CostReport"
 			ref="f2dca640-d155-4bc2-8763-41db5cf29aee"
@@ -548,7 +559,6 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="b562ba65-5a9f-48dd-a499-7987178bb57c"
 			name="ValidateSQLDriverReadme"
 			ref="40f298b4-d6fb-4496-a652-110be615e32d"
@@ -572,6 +582,12 @@ rxversion="8.1">
 			id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
 			name="CustomReport"
 			ref="192ecfb1-f9cd-4c22-8a6b-79d148535b72"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ca2f5fb5-bb1b-47a5-8f47-a79526c8a90c"
+			name="OpenExistingEstimate"
+			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1015,6 +1031,10 @@ rxversion="8.1">
 									id="96bf4837-5ea0-469e-97c9-605399267382"
 									name="Custom">
 										<testmodule
+										id="59f21f5f-5fdd-4dbf-930e-079bb4b3b1ef"
+										name="OpenExistingEstimate">
+										</testmodule>
+										<testmodule
 										id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
 										name="CustomReport">
 										</testmodule>
@@ -1023,6 +1043,10 @@ rxversion="8.1">
 									id="d74fe653-2880-4d73-ae80-1f3ddceb4b17"
 									name="CustomCrystal">
 										<testmodule
+										id="ca2f5fb5-bb1b-47a5-8f47-a79526c8a90c"
+										name="OpenExistingEstimate">
+										</testmodule>
+										<testmodule
 										id="67f87952-8f90-48e9-b771-72ed0807313e"
 										name="CustomizedCrystalReport">
 										</testmodule>
@@ -1030,6 +1054,10 @@ rxversion="8.1">
 									<testcase
 									id="4cb0e667-24b6-425a-8c2c-a44efaea29e5"
 									name="Cost">
+										<testmodule
+										id="b2c2878b-61ca-4bb5-b871-ac523ac134fd"
+										name="OpenExistingEstimate">
+										</testmodule>
 										<testmodule
 										id="b464328b-4662-4f56-9493-6083fedac592"
 										name="CostReport">
@@ -1527,6 +1555,15 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			</testcontainer>
+			<testcontainer
+			id="c03c3bc1-c9a8-4347-a065-f2983a0f4777">
+			</testcontainer>
+			<testcontainer
+			id="e2647272-bd9d-4014-811f-c32ebdcd6137">
+			</testcontainer>
+			<testcontainer
+			id="e5ed82b0-fc45-459f-b715-408cd95f119b">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

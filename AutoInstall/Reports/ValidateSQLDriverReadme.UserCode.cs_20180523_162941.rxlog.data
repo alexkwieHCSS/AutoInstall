@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5cacb5d709aa14b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/23/2018 4:29:45 PM"
+		timestampiso="2018-05-23T21:29:45"
+		endtime="5/23/2018 4:29:48 PM"
+		timeoutfactor="1"
+		module="ValidateSQLDriverReadme">
+		<detail>
+			ValidateSQLDriverReadme
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.987"
+			timeRelativeToTestModuleStartTime="00:02.988"
+			timeWallClock="16:29:48"
+			time="00:02.987"
+			level="Success"
+			category="Searching for File">
+			<message>
+				Found SQL Driver Readme!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateSQLDriverReadme.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

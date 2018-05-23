@@ -1,17 +1,19 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="RunRSMeansSampleData.rxrec" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="RunRSMeansSampleData.rxrec" />
+    <Element value="ReindexHBExternal.rxrec" />
+    <Element value="OpenExistingEstimate.rxrec" />
+    <Element value="WhatsNewButton.rxrec" />
+    <Element value="F1HelpButton.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.ValidateSQLDriverReadme.ValidateSQLDriver()" />
+      <Element value="AutoInstall.ValidateSQLDriverReadme.CheckSQLDriver()" />
       <Element value="AutoInstall.SetShowRibbon.ShowRibbon()" />
       <Element value="AutoInstall.SetShowRibbon.ApplyRibbon()" />
     </Array>

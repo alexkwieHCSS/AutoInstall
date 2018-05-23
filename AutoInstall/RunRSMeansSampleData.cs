@@ -79,33 +79,21 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.", repo.HeavyBidApp.Tabs.FileTabInfo, new RecordItemIndex(0));
-            repo.HeavyBidApp.Tabs.FileTab.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Buttons.File.OpenEstimateButton' at Center.", repo.HeavyBidApp.Buttons.File.OpenEstimateButtonInfo, new RecordItemIndex(1));
-            repo.HeavyBidApp.Buttons.File.OpenEstimateButton.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.OKButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.OKButtonInfo, new RecordItemIndex(2));
-            repo.HeavyBidApp.DocumentInterface.Buttons.OKButton.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButtonInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButtonInfo, new RecordItemIndex(0));
             repo.HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Expanded to 'True' on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItem'.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItemInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Expanded to 'True' on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItem'.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItemInfo, new RecordItemIndex(1));
             repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItem.Element.SetAttributeValue("Expanded", "True");
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItem'.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItemInfo, new RecordItemIndex(5));
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItem'.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItemInfo, new RecordItemIndex(2));
                 Validate.Exists(repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItemInfo, null, false);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButtonInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButtonInfo, new RecordItemIndex(3));
             repo.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButton.Click();
             Delay.Milliseconds(200);
             

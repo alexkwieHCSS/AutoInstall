@@ -71,18 +71,11 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
+		<validationitem
+		action="Exists"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="6c84036d-12a0-45e2-9893-4c3b88377ebc"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
+		searchpropertyid="b09f87d9-594f-4f39-a4a2-bc2539e3bd73">
 			<comment>
 			</comment>
 			<bindings>
@@ -94,7 +87,13 @@ rxversion="8.1">
 					/form[@class~'DFDialogClass']/element[@class='DFformlist']
 				</path>
 			</info>
-		</mouseitem>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 		<keysequenceitem
 		KeySequence=""
 		duration="100ms"
