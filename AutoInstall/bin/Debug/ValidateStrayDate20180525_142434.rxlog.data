@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d83e924541b4be4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/25/2018 2:24:38 PM"
+		timestampiso="2018-05-25T19:24:38"
+		endtime="5/25/2018 2:24:46 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.253"
+			timeRelativeToTestModuleStartTime="00:03.254"
+			timeWallClock="14:24:41"
+			time="00:03.253"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Notepad++.exe' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.329"
+			timeRelativeToTestModuleStartTime="00:03.330"
+			timeWallClock="14:24:41"
+			time="00:03.329"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+F' Press with focus on 'NotepadPlusPlus'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Notepad\+\+']"
+				itempath="/form[@title~'Notepad\+\+']"
+				fullname="AutoInstallRepository.NotepadPlusPlus.Self"
+				id="764023ea0d3743b4a02c90f24363f7a4"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.718"
+			timeRelativeToTestModuleStartTime="00:05.719"
+			timeWallClock="14:24:44"
+			time="00:05.718"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '2018' with focus on 'FindDialogBox.FindWhatTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/combobox[@accessiblename~'Find what']/text"
+				itempath="combobox[@accessiblename~'Find what']/text"
+				fullname="AutoInstallRepository.FindDialogBox.FindWhatTextbox"
+				id="fefe05f6f6554e8b9696c7bbcd680c8d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.613"
+			timeRelativeToTestModuleStartTime="00:06.614"
+			timeWallClock="14:24:45"
+			time="00:06.613"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FindDialogBox.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.FindDialogBox.NextButton"
+				id="1484337e683044adb8ccf4c55d50692b"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

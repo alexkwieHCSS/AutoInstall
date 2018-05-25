@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1f9ec1cb0adc0c2e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/25/2018 2:48:52 PM"
+		timestampiso="2018-05-25T19:48:52"
+		endtime="5/25/2018 2:48:59 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<errormessage>
+			Attribute '1 match' of element for item 'AutoInstallRepository.FindDialogBox.CountResultConfirmation' does not match the specified RegEx (actual='(null)', regex='yourtext').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.143"
+			timeRelativeToTestModuleStartTime="00:03.143"
+			timeWallClock="14:48:55"
+			time="00:03.143"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Notepad++.exe' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.225"
+			timeRelativeToTestModuleStartTime="00:03.225"
+			timeWallClock="14:48:55"
+			time="00:03.225"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+F' Press with focus on 'NotepadPlusPlus'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Notepad\+\+']"
+				itempath="/form[@title~'Notepad\+\+']"
+				fullname="AutoInstallRepository.NotepadPlusPlus.Self"
+				id="764023ea0d3743b4a02c90f24363f7a4"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.949"
+			timeRelativeToTestModuleStartTime="00:04.949"
+			timeWallClock="14:48:57"
+			time="00:04.949"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '2018' with focus on 'FindDialogBox.FindWhatTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/combobox[@accessiblename~'Find what']/text"
+				itempath="combobox[@accessiblename~'Find what']/text"
+				fullname="AutoInstallRepository.FindDialogBox.FindWhatTextbox"
+				id="fefe05f6f6554e8b9696c7bbcd680c8d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.906"
+			timeRelativeToTestModuleStartTime="00:05.906"
+			timeWallClock="14:48:58"
+			time="00:05.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FindDialogBox.CountButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/button[@text~'Coun']"
+				itempath="button[@text~'Coun']"
+				fullname="AutoInstallRepository.FindDialogBox.CountButton"
+				id="ac7342f13aff42c998d5dac10c20ce23"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.739"
+			timeRelativeToTestModuleStartTime="00:06.739"
+			timeWallClock="14:48:59"
+			time="00:06.739"
+			level="Info"
+			category="Validation"
+			errimg=".\Validate_e427fc61_e9af06aa_trace.jpg"
+			errthumb=".\Validate_e427fc61_e9af06aa_trace_thumb.jpg">
+			<message>
+				Validating AttributeRegex (1 match~'yourtext') on item 'FindDialogBox.CountResultConfirmation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/statusbar/listitem"
+				itempath="statusbar/listitem"
+				fullname="AutoInstallRepository.FindDialogBox.CountResultConfirmation"
+				id="e1ff93cb336146ee9afb389213a03801"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.922"
+			timeRelativeToTestModuleStartTime="00:06.922"
+			timeWallClock="14:48:59"
+			time="00:06.922"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_e427fc61_4e6ef78a_trace.jpg"
+			errthumb=".\Validate_e427fc61_4e6ef78a_trace_thumb.jpg">
+			<message>
+				Attribute '1 match' of element for item 'AutoInstallRepository.FindDialogBox.CountResultConfirmation' does not match the specified RegEx (actual='(null)', regex='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/statusbar/listitem"
+				itempath="statusbar/listitem"
+				fullname="AutoInstallRepository.FindDialogBox.CountResultConfirmation"
+				id="e1ff93cb336146ee9afb389213a03801"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="103"
+				loglvl="Failure"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.944"
+			timeRelativeToTestModuleStartTime="00:06.944"
+			timeWallClock="14:48:59"
+			time="00:06.944"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_e427fc61_4e6ef78a_trace.jpg"
+			errthumb=".\Validate_e427fc61_4e6ef78a_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute '1 match' of element for item 'AutoInstallRepository.FindDialogBox.CountResultConfirmation' does not match the specified RegEx (actual='(null)', regex='yourtext').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass41_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex)&#13;&#10;   at AutoInstall.ValidateStrayDate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs:line 103&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="103"
+				type="repoitem"
+				path="/form[@title='Find']/statusbar/listitem"
+				itempath="statusbar/listitem"
+				fullname="AutoInstallRepository.FindDialogBox.CountResultConfirmation"
+				id="e1ff93cb336146ee9afb389213a03801"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

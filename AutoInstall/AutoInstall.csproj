@@ -710,17 +710,41 @@
       <UserCode>true</UserCode>
       <id>befbbb9b-9c8e-40b7-8856-bcaa9e3fb11f</id>
     </Compile>
-    <Compile Include="ValidateSQLDriverReadme.cs">
+    <Compile Include="SQLDriverReadmeExists.cs">
       <BoundTo>d17761a5-b036-4477-8dc4-4b759d59b1f6</BoundTo>
-      <DependentUpon>ValidateSQLDriverReadme.rxrec</DependentUpon>
+      <DependentUpon>SQLDriverReadmeExists.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>af29c4d1-1e96-4df3-85e0-641e2403c110</id>
     </Compile>
-    <Compile Include="ValidateSQLDriverReadme.UserCode.cs">
+    <Compile Include="SQLDriverReadmeExists.UserCode.cs">
       <BoundTo>d17761a5-b036-4477-8dc4-4b759d59b1f6</BoundTo>
-      <DependentUpon>ValidateSQLDriverReadme.rxrec</DependentUpon>
+      <DependentUpon>SQLDriverReadmeExists.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
+    </Compile>
+    <Compile Include="ValidateHBStrayDate.cs">
+      <BoundTo>dd86b379-c0e2-4555-8b63-09f883278c1f</BoundTo>
+      <DependentUpon>ValidateHBStrayDate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9286e00f-0c11-412a-a75d-ba2b584fcd9f</id>
+    </Compile>
+    <Compile Include="ValidateHBStrayDate.UserCode.cs">
+      <BoundTo>dd86b379-c0e2-4555-8b63-09f883278c1f</BoundTo>
+      <DependentUpon>ValidateHBStrayDate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f7f36a96-d5d8-4c45-ad8c-a590265b2af8</id>
+    </Compile>
+    <Compile Include="ValidateWSStrayDate.cs">
+      <BoundTo>b3e403da-d856-4f02-a2da-a26b3db55db7</BoundTo>
+      <DependentUpon>ValidateWSStrayDate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>433d46a8-478d-4bc0-8754-96c91ec7e6f6</id>
+    </Compile>
+    <Compile Include="ValidateWSStrayDate.UserCode.cs">
+      <BoundTo>b3e403da-d856-4f02-a2da-a26b3db55db7</BoundTo>
+      <DependentUpon>ValidateWSStrayDate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>134138f6-7e8d-4a68-982c-9c767dcbc3f3</id>
     </Compile>
     <Compile Include="WelcomeImage.cs">
       <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
@@ -1115,10 +1139,20 @@
       <id>bce3ee61-b0d9-45fe-a36c-5311da761a20</id>
       <recordtableid>e106a164-a92b-45f2-a571-22ddcbdbc5a7</recordtableid>
     </None>
-    <None Include="ValidateSQLDriverReadme.rxrec">
+    <None Include="SQLDriverReadmeExists.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
+    </None>
+    <None Include="ValidateHBStrayDate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>dd86b379-c0e2-4555-8b63-09f883278c1f</id>
+      <recordtableid>82ff8626-4ccf-402d-b3ee-db8e600f7d69</recordtableid>
+    </None>
+    <None Include="ValidateWSStrayDate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>b3e403da-d856-4f02-a2da-a26b3db55db7</id>
+      <recordtableid>5cd0caf7-f833-4d29-aad4-fdd09da5c405</recordtableid>
     </None>
     <None Include="WelcomeImage.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

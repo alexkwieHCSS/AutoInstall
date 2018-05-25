@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace AutoInstall
 {
-    public partial class ValidateSQLDriverReadme
+    public partial class ValidateWSStrayDate
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -31,21 +31,6 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
-        }
-
-        public void ValidateSQLDriver()
-        {
-        	string sqlDriver = @"C:\HeavyBid\UTILITY\SQL Drivers Readme.txt";
-        	if(System.IO.File.Exists(sqlDriver))
-	        	{
-					Report.Success("Validation","Found SQL Driver Readme!");
-	        	} 
-        	else
-        		{
-					Report.Failure("Validation","Could not find SQL Driver Readme!");
-    	   	   	}
-
-           
         }
 
     }

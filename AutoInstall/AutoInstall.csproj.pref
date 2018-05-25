@@ -1,17 +1,20 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="ValidateStrayDate.rxrec" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="ValidateStrayDate.UserCode.cs" />
+    <Element value="SQLDriverReadmeExists.UserCode.cs" />
     <Element value="AutoInstall.rxtst" />
-    <Element value="ReindexHBExternal.rxrec" />
-    <Element value="OpenExistingEstimate.rxrec" />
-    <Element value="WhatsNewButton.rxrec" />
-    <Element value="F1HelpButton.rxrec" />
+    <Element value="ValidateStrayDate.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.ValidateStrayDate.CheckStrayDate()" />
       <Element value="AutoInstall.ValidateSQLDriverReadme.ValidateSQLDriver()" />
       <Element value="AutoInstall.ValidateSQLDriverReadme.CheckSQLDriver()" />
       <Element value="AutoInstall.SetShowRibbon.ShowRibbon()" />

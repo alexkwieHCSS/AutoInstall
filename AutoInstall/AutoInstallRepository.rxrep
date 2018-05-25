@@ -2210,6 +2210,133 @@ ir8BRVU7TPeVGKgvwWBTGcpF0ZAIeO4BvpxM+HJyiNPhF5SFIyeKEcqtRHh0NUS5d90vUuKeqwYz
 sIi4BD7sbHixCkA/XEreEuJC+HDyEBwmcQGh0X4CN7N3Cn+vSmgAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="061ebdaf-c03d-41c1-afce-3bb97d5e010b"
+		isrooted="True"
+		name="Excel"
+		refimgid="fa97e23b-158d-403e-b4ab-fc904380af38"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="cell,excelrange"
+			capname="cell"
+			id="ee3237ba-6bb6-41b0-80fd-694144dff066"
+			name="CellA2"
+			refimgid="4119e10e-9ce4-4da0-8852-80564b28c8bc"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook[@name='Book2']/table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']
+			</item>
+			<item
+			addcaps="cell,excelrange"
+			capname="cell"
+			id="073df163-1873-4060-ae7a-b7ad13e81e01"
+			name="CellB2"
+			refimgid="34d7c336-2085-4283-809c-fc3f19237c54"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook[@name='Book2']/table[@name='Sheet1']/row[@index='2']/cell[@address='B2']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="97cf0904-4a33-4231-8dad-ff777d91a833"
+		isrooted="True"
+		name="OpenXML"
+		refimgid="1fbe42a5-6f7f-4880-ad42-67fd7864f11b"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="radiobutton"
+			id="16eb6a78-000f-485e-830c-2bc07388ac5f"
+			name="xmlTable"
+			refimgid="2dd97972-66b1-4a12-9dcc-a1b611da490b"
+			searchtimeout="30000ms">
+				/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']
+			</item>
+			<item
+			capname="button"
+			id="7f81cad3-b153-451e-ad48-0d13ebc63e58"
+			name="OKButton"
+			refimgid="a251b44e-d799-4730-bc4b-c36c58f2e564"
+			searchtimeout="30000ms">
+				/form[@title='Open XML']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Open XML']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f23e3827-0e11-408b-9729-7df20a6e6272"
+		isrooted="True"
+		name="ExcelXMLPopup"
+		refimgid="2a98d2f7-9b0a-4642-8fab-2faa6cb24c63"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="button"
+			id="f93f462d-4b56-42f6-b0c5-78f32bd1c9d0"
+			name="OKButton"
+			refimgid="4ba388e6-bbf5-419a-97a1-940478b0388f"
+			searchtimeout="30000ms">
+				/form[@title='Microsoft Excel']/button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="76d2eed8-acf8-4b5f-8ade-702863f4ea61"
+			name="DontSaveButton"
+			searchtimeout="30000ms">
+				/form[@title='Microsoft Excel']//button[@name='Don''t Save']
+			</item>
+			<basepath>
+				/form[@title='Microsoft Excel']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="4228c4fa-1da6-415a-a27f-05002f812338"
+		isrooted="True"
+		name="OfficeActivationSuite"
+		refimgid="90a50e8a-10f6-465c-96f9-196dc1921f7c"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="button"
+			id="3e80e15d-b7ef-44ea-9fd9-41677c209169"
+			name="CancelButton"
+			refimgid="513f293a-1eb1-4e6f-9eb8-032884be6f4e"
+			searchtimeout="30000ms">
+				/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']
+			</item>
+			<basepath>
+				/form[@title~'Microsoft Office Activation']
+			</basepath>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

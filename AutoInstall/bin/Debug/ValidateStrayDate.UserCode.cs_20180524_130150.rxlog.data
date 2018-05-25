@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3c42bb12853a78e0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/24/2018 1:01:54 PM"
+		timestampiso="2018-05-24T18:01:54"
+		endtime="5/24/2018 1:01:58 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<errormessage>
+			Element for path 'C:\HeavyBid\BIN\STRAY.XML' does not exist (Parsing RxPath 'C:\HeavyBid\BIN\STRAY.XML' failed.
+line 1:2 mismatched character '\' expecting ':'
+line 1:11 no viable alternative at character '\'
+line 1:15 no viable alternative at character '\'
+line 1:0 no viable alternative at input 'C'
+).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.410"
+			timeRelativeToTestModuleStartTime="00:03.412"
+			timeWallClock="13:01:58"
+			time="00:03.410"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_b709efa7_2039dc85_trace.jpg"
+			errthumb=".\Validate_b709efa7_2039dc85_trace_thumb.jpg">
+			<message>
+				Element for path 'C:\HeavyBid\BIN\STRAY.XML' does not exist (Parsing RxPath 'C:\HeavyBid\BIN\STRAY.XML' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:11 no viable alternative at character '\'<br/>line 1:15 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'C'<br/>).
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.UserCode.cs"
+				codeline="48"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.457"
+			timeRelativeToTestModuleStartTime="00:03.460"
+			timeWallClock="13:01:58"
+			time="00:03.457"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_b709efa7_2039dc85_trace.jpg"
+			errthumb=".\Validate_b709efa7_2039dc85_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for path 'C:\HeavyBid\BIN\STRAY.XML' does not exist (Parsing RxPath 'C:\HeavyBid\BIN\STRAY.XML' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:11 no viable alternative at character '\'<br/>line 1:15 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'C'<br/>).<br/>Parsing RxPath 'C:\HeavyBid\BIN\STRAY.XML' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:11 no viable alternative at character '\'<br/>line 1:15 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'C'&#10;
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Options options)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout)
+   at Ranorex.Validate.Exists(String path)
+   at AutoInstall.ValidateStrayDate.CheckStrayDate() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.UserCode.cs:line 48
+   at AutoInstall.ValidateStrayDate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.UserCode.cs"
+				codeline="48"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d3c7a039b614b43"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2165"
+		timestamp="5/25/2018 3:24:13 PM"
+		timestampiso="2018-05-25T20:24:13"
+		endtime="5/25/2018 3:24:19 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.737"
+			timeRelativeToTestModuleStartTime="00:03.738"
+			timeWallClock="15:24:17"
+			time="00:03.737"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='2018') on item 'MicrosoftExcelProductActivationFail.CellA2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.MicrosoftExcelProductActivationFail.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.865"
+			timeRelativeToTestModuleStartTime="00:05.866"
+			timeWallClock="15:24:19"
+			time="00:05.865"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.MicrosoftExcelProductActivationFail.CellA2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.MicrosoftExcelProductActivationFail.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

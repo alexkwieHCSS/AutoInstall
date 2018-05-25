@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ValidateSQLDriverReadme recording.
+    ///The SQLDriverReadmeExists recording.
     /// </summary>
     [TestModule("40f298b4-d6fb-4496-a652-110be615e32d", ModuleType.Recording, 1)]
-    public partial class ValidateSQLDriverReadme : ITestModule
+    public partial class SQLDriverReadmeExists : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static ValidateSQLDriverReadme instance = new ValidateSQLDriverReadme();
+        static SQLDriverReadmeExists instance = new SQLDriverReadmeExists();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ValidateSQLDriverReadme()
+        public SQLDriverReadmeExists()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ValidateSQLDriverReadme Instance
+        public static SQLDriverReadmeExists Instance
         {
             get { return instance; }
         }

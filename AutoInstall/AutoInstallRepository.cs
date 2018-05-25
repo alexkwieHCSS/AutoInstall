@@ -38,6 +38,10 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.HBReportViewersFolder _hbreportviewers;
         AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder _programsandfeatures;
         AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder _heavybiduninstall;
+        AutoInstallRepositoryFolders.ExcelAppFolder _excel;
+        AutoInstallRepositoryFolders.OpenXMLAppFolder _openxml;
+        AutoInstallRepositoryFolders.ExcelXMLPopupAppFolder _excelxmlpopup;
+        AutoInstallRepositoryFolders.OfficeActivationSuiteAppFolder _officeactivationsuite;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -65,6 +69,10 @@ namespace AutoInstall
             _hbreportviewers = new AutoInstallRepositoryFolders.HBReportViewersFolder(this);
             _programsandfeatures = new AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder(this);
             _heavybiduninstall = new AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder(this);
+            _excel = new AutoInstallRepositoryFolders.ExcelAppFolder(this);
+            _openxml = new AutoInstallRepositoryFolders.OpenXMLAppFolder(this);
+            _excelxmlpopup = new AutoInstallRepositoryFolders.ExcelXMLPopupAppFolder(this);
+            _officeactivationsuite = new AutoInstallRepositoryFolders.OfficeActivationSuiteAppFolder(this);
         }
 
 #region Variables
@@ -216,6 +224,42 @@ namespace AutoInstall
         public virtual AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder HeavyBidUninstall
         {
             get { return _heavybiduninstall; }
+        }
+
+        /// <summary>
+        /// The Excel folder.
+        /// </summary>
+        [RepositoryFolder("061ebdaf-c03d-41c1-afce-3bb97d5e010b")]
+        public virtual AutoInstallRepositoryFolders.ExcelAppFolder Excel
+        {
+            get { return _excel; }
+        }
+
+        /// <summary>
+        /// The OpenXML folder.
+        /// </summary>
+        [RepositoryFolder("97cf0904-4a33-4231-8dad-ff777d91a833")]
+        public virtual AutoInstallRepositoryFolders.OpenXMLAppFolder OpenXML
+        {
+            get { return _openxml; }
+        }
+
+        /// <summary>
+        /// The ExcelXMLPopup folder.
+        /// </summary>
+        [RepositoryFolder("f23e3827-0e11-408b-9729-7df20a6e6272")]
+        public virtual AutoInstallRepositoryFolders.ExcelXMLPopupAppFolder ExcelXMLPopup
+        {
+            get { return _excelxmlpopup; }
+        }
+
+        /// <summary>
+        /// The OfficeActivationSuite folder.
+        /// </summary>
+        [RepositoryFolder("4228c4fa-1da6-415a-a27f-05002f812338")]
+        public virtual AutoInstallRepositoryFolders.OfficeActivationSuiteAppFolder OfficeActivationSuite
+        {
+            get { return _officeactivationsuite; }
         }
     }
 
@@ -7872,6 +7916,348 @@ namespace AutoInstall
                 get
                 {
                     return _buttonyesInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExcelAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("061ebdaf-c03d-41c1-afce-3bb97d5e010b")]
+        public partial class ExcelAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _cella2Info;
+            RepoItemInfo _cellb2Info;
+
+            /// <summary>
+            /// Creates a new Excel  folder.
+            /// </summary>
+            public ExcelAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Excel", "/form[@processname='EXCEL']", parentFolder, 30000, null, false, "061ebdaf-c03d-41c1-afce-3bb97d5e010b", "")
+            {
+                _cella2Info = new RepoItemInfo(this, "CellA2", ".//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']", 30000, null, "ee3237ba-6bb6-41b0-80fd-694144dff066");
+                _cellb2Info = new RepoItemInfo(this, "CellB2", ".//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']", 30000, null, "073df163-1873-4060-ae7a-b7ad13e81e01");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("061ebdaf-c03d-41c1-afce-3bb97d5e010b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("061ebdaf-c03d-41c1-afce-3bb97d5e010b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CellA2 item.
+            /// </summary>
+            [RepositoryItem("ee3237ba-6bb6-41b0-80fd-694144dff066")]
+            public virtual Ranorex.Cell CellA2
+            {
+                get
+                {
+                    return _cella2Info.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CellA2 item info.
+            /// </summary>
+            [RepositoryItemInfo("ee3237ba-6bb6-41b0-80fd-694144dff066")]
+            public virtual RepoItemInfo CellA2Info
+            {
+                get
+                {
+                    return _cella2Info;
+                }
+            }
+
+            /// <summary>
+            /// The CellB2 item.
+            /// </summary>
+            [RepositoryItem("073df163-1873-4060-ae7a-b7ad13e81e01")]
+            public virtual Ranorex.Cell CellB2
+            {
+                get
+                {
+                    return _cellb2Info.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CellB2 item info.
+            /// </summary>
+            [RepositoryItemInfo("073df163-1873-4060-ae7a-b7ad13e81e01")]
+            public virtual RepoItemInfo CellB2Info
+            {
+                get
+                {
+                    return _cellb2Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The OpenXMLAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("97cf0904-4a33-4231-8dad-ff777d91a833")]
+        public partial class OpenXMLAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _xmltableInfo;
+            RepoItemInfo _okbuttonInfo;
+
+            /// <summary>
+            /// Creates a new OpenXML  folder.
+            /// </summary>
+            public OpenXMLAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("OpenXML", "/form[@title='Open XML']", parentFolder, 30000, null, false, "97cf0904-4a33-4231-8dad-ff777d91a833", "")
+            {
+                _xmltableInfo = new RepoItemInfo(this, "xmlTable", "radiobutton[@accessiblename='As an XML table']", 30000, null, "16eb6a78-000f-485e-830c-2bc07388ac5f");
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "7f81cad3-b153-451e-ad48-0d13ebc63e58");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("97cf0904-4a33-4231-8dad-ff777d91a833")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("97cf0904-4a33-4231-8dad-ff777d91a833")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The xmlTable item.
+            /// </summary>
+            [RepositoryItem("16eb6a78-000f-485e-830c-2bc07388ac5f")]
+            public virtual Ranorex.RadioButton xmlTable
+            {
+                get
+                {
+                    return _xmltableInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The xmlTable item info.
+            /// </summary>
+            [RepositoryItemInfo("16eb6a78-000f-485e-830c-2bc07388ac5f")]
+            public virtual RepoItemInfo xmlTableInfo
+            {
+                get
+                {
+                    return _xmltableInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item.
+            /// </summary>
+            [RepositoryItem("7f81cad3-b153-451e-ad48-0d13ebc63e58")]
+            public virtual Ranorex.Button OKButton
+            {
+                get
+                {
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item info.
+            /// </summary>
+            [RepositoryItemInfo("7f81cad3-b153-451e-ad48-0d13ebc63e58")]
+            public virtual RepoItemInfo OKButtonInfo
+            {
+                get
+                {
+                    return _okbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExcelXMLPopupAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f23e3827-0e11-408b-9729-7df20a6e6272")]
+        public partial class ExcelXMLPopupAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _okbuttonInfo;
+            RepoItemInfo _dontsavebuttonInfo;
+
+            /// <summary>
+            /// Creates a new ExcelXMLPopup  folder.
+            /// </summary>
+            public ExcelXMLPopupAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ExcelXMLPopup", "/form[@title='Microsoft Excel']", parentFolder, 30000, null, false, "f23e3827-0e11-408b-9729-7df20a6e6272", "")
+            {
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "f93f462d-4b56-42f6-b0c5-78f32bd1c9d0");
+                _dontsavebuttonInfo = new RepoItemInfo(this, "DontSaveButton", ".//button[@name='Don''t Save']", 30000, null, "76d2eed8-acf8-4b5f-8ade-702863f4ea61");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f23e3827-0e11-408b-9729-7df20a6e6272")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f23e3827-0e11-408b-9729-7df20a6e6272")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item.
+            /// </summary>
+            [RepositoryItem("f93f462d-4b56-42f6-b0c5-78f32bd1c9d0")]
+            public virtual Ranorex.Button OKButton
+            {
+                get
+                {
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item info.
+            /// </summary>
+            [RepositoryItemInfo("f93f462d-4b56-42f6-b0c5-78f32bd1c9d0")]
+            public virtual RepoItemInfo OKButtonInfo
+            {
+                get
+                {
+                    return _okbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DontSaveButton item.
+            /// </summary>
+            [RepositoryItem("76d2eed8-acf8-4b5f-8ade-702863f4ea61")]
+            public virtual Ranorex.Button DontSaveButton
+            {
+                get
+                {
+                    return _dontsavebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DontSaveButton item info.
+            /// </summary>
+            [RepositoryItemInfo("76d2eed8-acf8-4b5f-8ade-702863f4ea61")]
+            public virtual RepoItemInfo DontSaveButtonInfo
+            {
+                get
+                {
+                    return _dontsavebuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The OfficeActivationSuiteAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("4228c4fa-1da6-415a-a27f-05002f812338")]
+        public partial class OfficeActivationSuiteAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _cancelbuttonInfo;
+
+            /// <summary>
+            /// Creates a new OfficeActivationSuite  folder.
+            /// </summary>
+            public OfficeActivationSuiteAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("OfficeActivationSuite", "/form[@title~'Microsoft Office Activation']", parentFolder, 30000, null, false, "4228c4fa-1da6-415a-a27f-05002f812338", "")
+            {
+                _cancelbuttonInfo = new RepoItemInfo(this, "CancelButton", "?/?/?/button[@name='Cancel']", 30000, null, "3e80e15d-b7ef-44ea-9fd9-41677c209169");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("4228c4fa-1da6-415a-a27f-05002f812338")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4228c4fa-1da6-415a-a27f-05002f812338")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CancelButton item.
+            /// </summary>
+            [RepositoryItem("3e80e15d-b7ef-44ea-9fd9-41677c209169")]
+            public virtual Ranorex.Button CancelButton
+            {
+                get
+                {
+                    return _cancelbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CancelButton item info.
+            /// </summary>
+            [RepositoryItemInfo("3e80e15d-b7ef-44ea-9fd9-41677c209169")]
+            public virtual RepoItemInfo CancelButtonInfo
+            {
+                get
+                {
+                    return _cancelbuttonInfo;
                 }
             }
         }

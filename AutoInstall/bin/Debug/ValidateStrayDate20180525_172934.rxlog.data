@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1aee9be8537b0fcc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/25/2018 5:29:38 PM"
+		timestampiso="2018-05-25T22:29:38"
+		endtime="5/25/2018 5:29:52 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.515"
+			timeRelativeToTestModuleStartTime="00:03.516"
+			timeWallClock="17:29:42"
+			time="00:03.515"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.726"
+			timeRelativeToTestModuleStartTime="00:03.727"
+			timeWallClock="17:29:42"
+			time="00:03.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenXML.xmlTable' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']"
+				itempath="radiobutton[@accessiblename='As an XML table']"
+				fullname="AutoInstallRepository.OpenXML.xmlTable"
+				id="16eb6a78000f485e830c2bc07388ac5f"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.965"
+			timeRelativeToTestModuleStartTime="00:06.966"
+			timeWallClock="17:29:45"
+			time="00:06.965"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenXML.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.OpenXML.OKButton"
+				id="7f81cad3b153451ead480d13ebc63e58"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.813"
+			timeRelativeToTestModuleStartTime="00:07.814"
+			timeWallClock="17:29:46"
+			time="00:07.813"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExcelXMLPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelXMLPopup.OKButton"
+				id="f93f462d4b5642f6b0c578f32bd1c9d0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.683"
+			timeRelativeToTestModuleStartTime="00:08.684"
+			timeWallClock="17:29:47"
+			time="00:08.683"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.225"
+			timeRelativeToTestModuleStartTime="00:11.226"
+			timeWallClock="17:29:49"
+			time="00:11.225"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='2018') on item 'Excel.CellA2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.Excel.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.153"
+			timeRelativeToTestModuleStartTime="00:12.154"
+			timeWallClock="17:29:50"
+			time="00:12.153"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.Excel.CellA2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.Excel.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.266"
+			timeRelativeToTestModuleStartTime="00:12.267"
+			timeWallClock="17:29:50"
+			time="00:12.266"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='08/08/2017') on item 'Excel.CellB2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']"
+				fullname="AutoInstallRepository.Excel.CellB2"
+				id="073df16318734060ae7ab7ad13e81e01"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.275"
+			timeRelativeToTestModuleStartTime="00:13.276"
+			timeWallClock="17:29:51"
+			time="00:13.275"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.Excel.CellB2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='B2']"
+				fullname="AutoInstallRepository.Excel.CellB2"
+				id="073df16318734060ae7ab7ad13e81e01"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="112"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.387"
+			timeRelativeToTestModuleStartTime="00:13.388"
+			timeWallClock="17:29:51"
+			time="00:13.387"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="115"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

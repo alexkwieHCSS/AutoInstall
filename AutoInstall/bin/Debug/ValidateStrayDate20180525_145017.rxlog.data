@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.28s"
+		durationms="8283"
+		type="root"
+		rid="17fbccc53b632068"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/25/2018 2:50:21 PM"
+		timestampiso="2018-05-25T19:50:21"
+		endtime="5/25/2018 2:50:29 PM"
+		timeoutfactor="1"
+		module="ValidateStrayDate">
+		<detail>
+			ValidateStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.953"
+			timeRelativeToTestModuleStartTime="00:02.954"
+			timeWallClock="14:50:23"
+			time="00:02.953"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Notepad++.exe' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.030"
+			timeRelativeToTestModuleStartTime="00:03.031"
+			timeWallClock="14:50:24"
+			time="00:03.030"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+F' Press with focus on 'NotepadPlusPlus'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Notepad\+\+']"
+				itempath="/form[@title~'Notepad\+\+']"
+				fullname="AutoInstallRepository.NotepadPlusPlus.Self"
+				id="764023ea0d3743b4a02c90f24363f7a4"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.571"
+			timeRelativeToTestModuleStartTime="00:04.572"
+			timeWallClock="14:50:25"
+			time="00:04.571"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '2018' with focus on 'FindDialogBox.FindWhatTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/combobox[@accessiblename~'Find what']/text"
+				itempath="combobox[@accessiblename~'Find what']/text"
+				fullname="AutoInstallRepository.FindDialogBox.FindWhatTextbox"
+				id="fefe05f6f6554e8b9696c7bbcd680c8d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.437"
+			timeRelativeToTestModuleStartTime="00:05.438"
+			timeWallClock="14:50:26"
+			time="00:05.437"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FindDialogBox.CountButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Find']/button[@text~'Coun']"
+				itempath="button[@text~'Coun']"
+				fullname="AutoInstallRepository.FindDialogBox.CountButton"
+				id="ac7342f13aff42c998d5dac10c20ce23"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateStrayDate.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.282"
+			timeRelativeToTestModuleStartTime="00:08.283"
+			timeWallClock="14:50:29"
+			time="00:08.282"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
