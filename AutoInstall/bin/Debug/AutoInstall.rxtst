@@ -10,6 +10,12 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
+			name="ValidateEXE2018"
+			ref="40845dfb-b593-4feb-8ed3-f231d56123ba"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
 			name="ReindexHBExternal"
 			ref="0f03ff28-1812-42f6-8de2-207317b89a6e"
@@ -352,6 +358,10 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="66d2715a-ad00-480a-960b-dbed18e79ed5"
+			name="ExeFileVersion">
+			</testcase>
 			<testmodule
 			id="67f87952-8f90-48e9-b771-72ed0807313e"
 			name="CustomizedCrystalReport"
@@ -1359,6 +1369,14 @@ rxversion="8.1">
 								name="SQLDriverReadmeExists">
 								</testmodule>
 							</testcase>
+							<testcase
+							id="66d2715a-ad00-480a-960b-dbed18e79ed5"
+							name="ExeFileVersion">
+								<testmodule
+								id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
+								name="ValidateEXE2018">
+								</testmodule>
+							</testcase>
 						</smartfoldernode>
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
@@ -1699,6 +1717,24 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87">
+			</testcontainer>
+			<testcontainer
+			id="eb269b62-171b-46e6-a194-de77eefa5ac4">
+			</testcontainer>
+			<testcontainer
+			id="febe7363-b15c-4a59-80ce-69f92cfeac38">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

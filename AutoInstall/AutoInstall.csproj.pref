@@ -1,13 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ValidateStrayDate.rxrec" />
+    <Element value="ValidateWSStrayDate.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ValidateStrayDate.UserCode.cs" />
-    <Element value="SQLDriverReadmeExists.UserCode.cs" />
     <Element value="AutoInstall.rxtst" />
-    <Element value="ValidateStrayDate.rxrec" />
+    <Element value="ValidateHBStrayDate.rxrec" />
+    <Element value="ValidateHBStrayDate.UserCode.cs" />
+    <Element value="ValidateWSStrayDate.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

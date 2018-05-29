@@ -722,6 +722,18 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
+    <Compile Include="ValidateEXE2018.cs">
+      <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
+      <DependentUpon>ValidateEXE2018.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5d930d74-66df-4bdf-b2d1-fc360c9de0bb</id>
+    </Compile>
+    <Compile Include="ValidateEXE2018.UserCode.cs">
+      <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
+      <DependentUpon>ValidateEXE2018.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9340462-6f6c-48fc-846c-6237636e2461</id>
+    </Compile>
     <Compile Include="ValidateHBStrayDate.cs">
       <BoundTo>dd86b379-c0e2-4555-8b63-09f883278c1f</BoundTo>
       <DependentUpon>ValidateHBStrayDate.rxrec</DependentUpon>
@@ -1143,6 +1155,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
+    </None>
+    <None Include="ValidateEXE2018.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>76175e9f-da4a-4cb2-92e7-b4dc57829a19</id>
+      <recordtableid>40845dfb-b593-4feb-8ed3-f231d56123ba</recordtableid>
     </None>
     <None Include="ValidateHBStrayDate.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

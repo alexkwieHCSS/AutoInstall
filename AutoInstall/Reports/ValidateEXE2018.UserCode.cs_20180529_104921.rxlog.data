@@ -1,0 +1,1914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="432b02cf76db05f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/29/2018 10:49:25 AM"
+		timestampiso="2018-05-29T15:49:25"
+		endtime="5/29/2018 10:49:28 AM"
+		timeoutfactor="1"
+		module="ValidateEXE2018">
+		<detail>
+			ValidateEXE2018
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.514"
+			timeRelativeToTestModuleStartTime="00:02.514"
+			timeWallClock="10:49:28"
+			time="00:02.514"
+			level="Success"
+			category="file check">
+			<message>
+				2014Migration.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.534"
+			timeRelativeToTestModuleStartTime="00:02.534"
+			timeWallClock="10:49:28"
+			time="00:02.534"
+			level="Success"
+			category="file check">
+			<message>
+				AccountingServices.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.537"
+			timeRelativeToTestModuleStartTime="00:02.537"
+			timeWallClock="10:49:28"
+			time="00:02.537"
+			level="Success"
+			category="file check">
+			<message>
+				AccountingTemplateEditor.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.540"
+			timeRelativeToTestModuleStartTime="00:02.540"
+			timeWallClock="10:49:28"
+			time="00:02.540"
+			level="Success"
+			category="file check">
+			<message>
+				ADTranslate.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.544"
+			timeRelativeToTestModuleStartTime="00:02.544"
+			timeWallClock="10:49:28"
+			time="00:02.544"
+			level="Success"
+			category="file check">
+			<message>
+				APACDATE.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.548"
+			timeRelativeToTestModuleStartTime="00:02.548"
+			timeWallClock="10:49:28"
+			time="00:02.548"
+			level="Success"
+			category="file check">
+			<message>
+				AutoBackupBuildFolderList.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.551"
+			timeRelativeToTestModuleStartTime="00:02.551"
+			timeWallClock="10:49:28"
+			time="00:02.551"
+			level="Success"
+			category="file check">
+			<message>
+				b2wimp.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.557"
+			timeRelativeToTestModuleStartTime="00:02.557"
+			timeWallClock="10:49:28"
+			time="00:02.557"
+			level="Success"
+			category="file check">
+			<message>
+				Bitmap.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.560"
+			timeRelativeToTestModuleStartTime="00:02.560"
+			timeWallClock="10:49:28"
+			time="00:02.560"
+			level="Success"
+			category="file check">
+			<message>
+				BLANKMU.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.563"
+			timeRelativeToTestModuleStartTime="00:02.563"
+			timeWallClock="10:49:28"
+			time="00:02.563"
+			level="Success"
+			category="file check">
+			<message>
+				CEAR.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.566"
+			timeRelativeToTestModuleStartTime="00:02.566"
+			timeWallClock="10:49:28"
+			time="00:02.566"
+			level="Success"
+			category="file check">
+			<message>
+				CHLSTUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.569"
+			timeRelativeToTestModuleStartTime="00:02.569"
+			timeWallClock="10:49:28"
+			time="00:02.569"
+			level="Success"
+			category="file check">
+			<message>
+				CLEARSID.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.574"
+			timeRelativeToTestModuleStartTime="00:02.574"
+			timeWallClock="10:49:28"
+			time="00:02.574"
+			level="Success"
+			category="file check">
+			<message>
+				CODEUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.578"
+			timeRelativeToTestModuleStartTime="00:02.578"
+			timeWallClock="10:49:28"
+			time="00:02.578"
+			level="Success"
+			category="file check">
+			<message>
+				CONTCONV.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.582"
+			timeRelativeToTestModuleStartTime="00:02.582"
+			timeWallClock="10:49:28"
+			time="00:02.582"
+			level="Success"
+			category="file check">
+			<message>
+				COREG.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.585"
+			timeRelativeToTestModuleStartTime="00:02.585"
+			timeWallClock="10:49:28"
+			time="00:02.585"
+			level="Success"
+			category="file check">
+			<message>
+				COSTDETL.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.591"
+			timeRelativeToTestModuleStartTime="00:02.591"
+			timeWallClock="10:49:28"
+			time="00:02.591"
+			level="Success"
+			category="file check">
+			<message>
+				crewfix.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.595"
+			timeRelativeToTestModuleStartTime="00:02.595"
+			timeWallClock="10:49:28"
+			time="00:02.595"
+			level="Success"
+			category="file check">
+			<message>
+				CRYSTALCHECK.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.599"
+			timeRelativeToTestModuleStartTime="00:02.599"
+			timeWallClock="10:49:28"
+			time="00:02.599"
+			level="Success"
+			category="file check">
+			<message>
+				CustomerExperience.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.602"
+			timeRelativeToTestModuleStartTime="00:02.602"
+			timeWallClock="10:49:28"
+			time="00:02.602"
+			level="Success"
+			category="file check">
+			<message>
+				CUTFILL.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.605"
+			timeRelativeToTestModuleStartTime="00:02.605"
+			timeWallClock="10:49:28"
+			time="00:02.605"
+			level="Success"
+			category="file check">
+			<message>
+				DETLCOST.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.608"
+			timeRelativeToTestModuleStartTime="00:02.608"
+			timeWallClock="10:49:28"
+			time="00:02.608"
+			level="Success"
+			category="file check">
+			<message>
+				DFLTFIX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.616"
+			timeRelativeToTestModuleStartTime="00:02.616"
+			timeWallClock="10:49:28"
+			time="00:02.616"
+			level="Success"
+			category="file check">
+			<message>
+				direct.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.619"
+			timeRelativeToTestModuleStartTime="00:02.619"
+			timeWallClock="10:49:28"
+			time="00:02.619"
+			level="Success"
+			category="file check">
+			<message>
+				DOTIN.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.625"
+			timeRelativeToTestModuleStartTime="00:02.625"
+			timeWallClock="10:49:28"
+			time="00:02.625"
+			level="Success"
+			category="file check">
+			<message>
+				DOTNETFX40_CLIENT_X86_X64.EXE
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.630"
+			timeRelativeToTestModuleStartTime="00:02.630"
+			timeWallClock="10:49:28"
+			time="00:02.630"
+			level="Success"
+			category="file check">
+			<message>
+				DOTOUT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.636"
+			timeRelativeToTestModuleStartTime="00:02.636"
+			timeWallClock="10:49:28"
+			time="00:02.636"
+			level="Success"
+			category="file check">
+			<message>
+				DOTRPT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.642"
+			timeRelativeToTestModuleStartTime="00:02.642"
+			timeWallClock="10:49:28"
+			time="00:02.642"
+			level="Success"
+			category="file check">
+			<message>
+				ECHGRENT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.645"
+			timeRelativeToTestModuleStartTime="00:02.645"
+			timeWallClock="10:49:28"
+			time="00:02.645"
+			level="Success"
+			category="file check">
+			<message>
+				EnterpriseConv.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.650"
+			timeRelativeToTestModuleStartTime="00:02.650"
+			timeWallClock="10:49:28"
+			time="00:02.650"
+			level="Success"
+			category="file check">
+			<message>
+				EnterpriseLauncher.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.655"
+			timeRelativeToTestModuleStartTime="00:02.655"
+			timeWallClock="10:49:28"
+			time="00:02.655"
+			level="Success"
+			category="file check">
+			<message>
+				ENTPRISE.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.661"
+			timeRelativeToTestModuleStartTime="00:02.661"
+			timeWallClock="10:49:28"
+			time="00:02.661"
+			level="Success"
+			category="file check">
+			<message>
+				EscResrc.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.670"
+			timeRelativeToTestModuleStartTime="00:02.670"
+			timeWallClock="10:49:28"
+			time="00:02.670"
+			level="Success"
+			category="file check">
+			<message>
+				ESCRTN.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.679"
+			timeRelativeToTestModuleStartTime="00:02.679"
+			timeWallClock="10:49:28"
+			time="00:02.679"
+			level="Success"
+			category="file check">
+			<message>
+				ESTCONV.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.685"
+			timeRelativeToTestModuleStartTime="00:02.685"
+			timeWallClock="10:49:28"
+			time="00:02.685"
+			level="Success"
+			category="file check">
+			<message>
+				ESTCONVLAUNCHER.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.691"
+			timeRelativeToTestModuleStartTime="00:02.691"
+			timeWallClock="10:49:28"
+			time="00:02.691"
+			level="Success"
+			category="file check">
+			<message>
+				EstimateHistoryService.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.695"
+			timeRelativeToTestModuleStartTime="00:02.695"
+			timeWallClock="10:49:28"
+			time="00:02.695"
+			level="Success"
+			category="file check">
+			<message>
+				EstimateHistory_ReportsPlus.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.700"
+			timeRelativeToTestModuleStartTime="00:02.700"
+			timeWallClock="10:49:28"
+			time="00:02.700"
+			level="Success"
+			category="file check">
+			<message>
+				ESTINQCALCS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.704"
+			timeRelativeToTestModuleStartTime="00:02.704"
+			timeWallClock="10:49:28"
+			time="00:02.704"
+			level="Success"
+			category="file check">
+			<message>
+				ESTRPTS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.710"
+			timeRelativeToTestModuleStartTime="00:02.710"
+			timeWallClock="10:49:28"
+			time="00:02.710"
+			level="Success"
+			category="file check">
+			<message>
+				ESTUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.719"
+			timeRelativeToTestModuleStartTime="00:02.719"
+			timeWallClock="10:49:28"
+			time="00:02.719"
+			level="Success"
+			category="file check">
+			<message>
+				ETATranslation.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.729"
+			timeRelativeToTestModuleStartTime="00:02.729"
+			timeWallClock="10:49:28"
+			time="00:02.729"
+			level="Success"
+			category="file check">
+			<message>
+				ExcelFix.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.735"
+			timeRelativeToTestModuleStartTime="00:02.735"
+			timeWallClock="10:49:28"
+			time="00:02.735"
+			level="Success"
+			category="file check">
+			<message>
+				expbidm.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.740"
+			timeRelativeToTestModuleStartTime="00:02.740"
+			timeWallClock="10:49:28"
+			time="00:02.740"
+			level="Success"
+			category="file check">
+			<message>
+				EXPCPM.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.745"
+			timeRelativeToTestModuleStartTime="00:02.745"
+			timeWallClock="10:49:28"
+			time="00:02.745"
+			level="Success"
+			category="file check">
+			<message>
+				ExpMax.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.749"
+			timeRelativeToTestModuleStartTime="00:02.749"
+			timeWallClock="10:49:28"
+			time="00:02.749"
+			level="Success"
+			category="file check">
+			<message>
+				EXPORTJC.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.752"
+			timeRelativeToTestModuleStartTime="00:02.752"
+			timeWallClock="10:49:28"
+			time="00:02.752"
+			level="Success"
+			category="file check">
+			<message>
+				EXPORTPT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.758"
+			timeRelativeToTestModuleStartTime="00:02.758"
+			timeWallClock="10:49:28"
+			time="00:02.758"
+			level="Success"
+			category="file check">
+			<message>
+				FastCompress.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.762"
+			timeRelativeToTestModuleStartTime="00:02.762"
+			timeWallClock="10:49:28"
+			time="00:02.762"
+			level="Success"
+			category="file check">
+			<message>
+				FixLM.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.767"
+			timeRelativeToTestModuleStartTime="00:02.767"
+			timeWallClock="10:49:28"
+			time="00:02.767"
+			level="Success"
+			category="file check">
+			<message>
+				FIXMKUP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.771"
+			timeRelativeToTestModuleStartTime="00:02.771"
+			timeWallClock="10:49:28"
+			time="00:02.771"
+			level="Success"
+			category="file check">
+			<message>
+				FOLDRUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.789"
+			timeRelativeToTestModuleStartTime="00:02.789"
+			timeWallClock="10:49:28"
+			time="00:02.789"
+			level="Success"
+			category="file check">
+			<message>
+				GETPATH.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.793"
+			timeRelativeToTestModuleStartTime="00:02.793"
+			timeWallClock="10:49:28"
+			time="00:02.793"
+			level="Success"
+			category="file check">
+			<message>
+				GRNTDATE.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.796"
+			timeRelativeToTestModuleStartTime="00:02.796"
+			timeWallClock="10:49:28"
+			time="00:02.796"
+			level="Success"
+			category="file check">
+			<message>
+				GSW32.EXE
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.801"
+			timeRelativeToTestModuleStartTime="00:02.801"
+			timeWallClock="10:49:28"
+			time="00:02.801"
+			level="Success"
+			category="file check">
+			<message>
+				HBCheckReg.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.806"
+			timeRelativeToTestModuleStartTime="00:02.806"
+			timeWallClock="10:49:28"
+			time="00:02.806"
+			level="Success"
+			category="file check">
+			<message>
+				HbExcelExport.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.811"
+			timeRelativeToTestModuleStartTime="00:02.811"
+			timeWallClock="10:49:28"
+			time="00:02.811"
+			level="Success"
+			category="file check">
+			<message>
+				HBFPEXPORT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.816"
+			timeRelativeToTestModuleStartTime="00:02.816"
+			timeWallClock="10:49:28"
+			time="00:02.816"
+			level="Success"
+			category="file check">
+			<message>
+				HBMEXP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.824"
+			timeRelativeToTestModuleStartTime="00:02.824"
+			timeWallClock="10:49:28"
+			time="00:02.824"
+			level="Success"
+			category="file check">
+			<message>
+				HBPROJECTINTEGRATIONSERVICE.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.829"
+			timeRelativeToTestModuleStartTime="00:02.829"
+			timeWallClock="10:49:28"
+			time="00:02.829"
+			level="Success"
+			category="file check">
+			<message>
+				HBService.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.834"
+			timeRelativeToTestModuleStartTime="00:02.834"
+			timeWallClock="10:49:28"
+			time="00:02.834"
+			level="Success"
+			category="file check">
+			<message>
+				HBSPREADSHEETAPP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.838"
+			timeRelativeToTestModuleStartTime="00:02.838"
+			timeWallClock="10:49:28"
+			time="00:02.838"
+			level="Success"
+			category="file check">
+			<message>
+				HBSpreadsheetHelper.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.842"
+			timeRelativeToTestModuleStartTime="00:02.842"
+			timeWallClock="10:49:28"
+			time="00:02.842"
+			level="Success"
+			category="file check">
+			<message>
+				HBUninstall.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.847"
+			timeRelativeToTestModuleStartTime="00:02.847"
+			timeWallClock="10:49:28"
+			time="00:02.847"
+			level="Success"
+			category="file check">
+			<message>
+				HDIMPORT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.850"
+			timeRelativeToTestModuleStartTime="00:02.850"
+			timeWallClock="10:49:28"
+			time="00:02.850"
+			level="Success"
+			category="file check">
+			<message>
+				HEAVYBID.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.857"
+			timeRelativeToTestModuleStartTime="00:02.857"
+			timeWallClock="10:49:28"
+			time="00:02.857"
+			level="Success"
+			category="file check">
+			<message>
+				histexcl.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.863"
+			timeRelativeToTestModuleStartTime="00:02.863"
+			timeWallClock="10:49:28"
+			time="00:02.863"
+			level="Success"
+			category="file check">
+			<message>
+				InstallNotify.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.869"
+			timeRelativeToTestModuleStartTime="00:02.869"
+			timeWallClock="10:49:28"
+			time="00:02.869"
+			level="Success"
+			category="file check">
+			<message>
+				IsSQL.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.875"
+			timeRelativeToTestModuleStartTime="00:02.875"
+			timeWallClock="10:49:28"
+			time="00:02.875"
+			level="Success"
+			category="file check">
+			<message>
+				JCEXP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.880"
+			timeRelativeToTestModuleStartTime="00:02.880"
+			timeWallClock="10:49:28"
+			time="00:02.880"
+			level="Success"
+			category="file check">
+			<message>
+				JDEADDON.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.884"
+			timeRelativeToTestModuleStartTime="00:02.884"
+			timeWallClock="10:49:28"
+			time="00:02.884"
+			level="Success"
+			category="file check">
+			<message>
+				JDECHECK.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.889"
+			timeRelativeToTestModuleStartTime="00:02.889"
+			timeWallClock="10:49:28"
+			time="00:02.889"
+			level="Success"
+			category="file check">
+			<message>
+				LaunchBin.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.892"
+			timeRelativeToTestModuleStartTime="00:02.892"
+			timeWallClock="10:49:28"
+			time="00:02.892"
+			level="Success"
+			category="file check">
+			<message>
+				LOCALFIX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.897"
+			timeRelativeToTestModuleStartTime="00:02.897"
+			timeWallClock="10:49:28"
+			time="00:02.897"
+			level="Success"
+			category="file check">
+			<message>
+				MISC.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.900"
+			timeRelativeToTestModuleStartTime="00:02.900"
+			timeWallClock="10:49:28"
+			time="00:02.900"
+			level="Success"
+			category="file check">
+			<message>
+				OpenEst.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.903"
+			timeRelativeToTestModuleStartTime="00:02.903"
+			timeWallClock="10:49:28"
+			time="00:02.903"
+			level="Success"
+			category="file check">
+			<message>
+				ORPHAN.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.908"
+			timeRelativeToTestModuleStartTime="00:02.908"
+			timeWallClock="10:49:28"
+			time="00:02.908"
+			level="Success"
+			category="file check">
+			<message>
+				P3ECONT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.918"
+			timeRelativeToTestModuleStartTime="00:02.918"
+			timeWallClock="10:49:28"
+			time="00:02.918"
+			level="Success"
+			category="file check">
+			<message>
+				P3EXP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.921"
+			timeRelativeToTestModuleStartTime="00:02.921"
+			timeWallClock="10:49:28"
+			time="00:02.921"
+			level="Success"
+			category="file check">
+			<message>
+				PASSFILL.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.927"
+			timeRelativeToTestModuleStartTime="00:02.927"
+			timeWallClock="10:49:28"
+			time="00:02.927"
+			level="Success"
+			category="file check">
+			<message>
+				paths.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.931"
+			timeRelativeToTestModuleStartTime="00:02.931"
+			timeWallClock="10:49:28"
+			time="00:02.931"
+			level="Success"
+			category="file check">
+			<message>
+				PostInstall.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.935"
+			timeRelativeToTestModuleStartTime="00:02.935"
+			timeWallClock="10:49:28"
+			time="00:02.935"
+			level="Success"
+			category="file check">
+			<message>
+				PrimaveraExport.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.939"
+			timeRelativeToTestModuleStartTime="00:02.939"
+			timeWallClock="10:49:28"
+			time="00:02.939"
+			level="Success"
+			category="file check">
+			<message>
+				PROGUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.944"
+			timeRelativeToTestModuleStartTime="00:02.944"
+			timeWallClock="10:49:28"
+			time="00:02.944"
+			level="Success"
+			category="file check">
+			<message>
+				QuickBackupDeleteOld.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.947"
+			timeRelativeToTestModuleStartTime="00:02.947"
+			timeWallClock="10:49:28"
+			time="00:02.947"
+			level="Success"
+			category="file check">
+			<message>
+				QUOTEFIX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.950"
+			timeRelativeToTestModuleStartTime="00:02.950"
+			timeWallClock="10:49:28"
+			time="00:02.950"
+			level="Success"
+			category="file check">
+			<message>
+				RegisterOCX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.952"
+			timeRelativeToTestModuleStartTime="00:02.952"
+			timeWallClock="10:49:28"
+			time="00:02.952"
+			level="Success"
+			category="file check">
+			<message>
+				regman.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.958"
+			timeRelativeToTestModuleStartTime="00:02.958"
+			timeWallClock="10:49:28"
+			time="00:02.958"
+			level="Success"
+			category="file check">
+			<message>
+				RegToXMLInstall.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.967"
+			timeRelativeToTestModuleStartTime="00:02.967"
+			timeWallClock="10:49:28"
+			time="00:02.967"
+			level="Success"
+			category="file check">
+			<message>
+				REINDEX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.971"
+			timeRelativeToTestModuleStartTime="00:02.971"
+			timeWallClock="10:49:28"
+			time="00:02.971"
+			level="Success"
+			category="file check">
+			<message>
+				REPORTSPLUS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.977"
+			timeRelativeToTestModuleStartTime="00:02.977"
+			timeWallClock="10:49:28"
+			time="00:02.977"
+			level="Success"
+			category="file check">
+			<message>
+				RPTFIX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.981"
+			timeRelativeToTestModuleStartTime="00:02.981"
+			timeWallClock="10:49:28"
+			time="00:02.981"
+			level="Success"
+			category="file check">
+			<message>
+				RSReg.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.985"
+			timeRelativeToTestModuleStartTime="00:02.985"
+			timeWallClock="10:49:28"
+			time="00:02.985"
+			level="Success"
+			category="file check">
+			<message>
+				SCHEDULE.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.989"
+			timeRelativeToTestModuleStartTime="00:02.989"
+			timeWallClock="10:49:28"
+			time="00:02.989"
+			level="Success"
+			category="file check">
+			<message>
+				SchedulingImport.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.994"
+			timeRelativeToTestModuleStartTime="00:02.994"
+			timeWallClock="10:49:28"
+			time="00:02.994"
+			level="Success"
+			category="file check">
+			<message>
+				ShellTrayIcon.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.997"
+			timeRelativeToTestModuleStartTime="00:02.997"
+			timeWallClock="10:49:28"
+			time="00:02.997"
+			level="Success"
+			category="file check">
+			<message>
+				ShowAccountingTemplate.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.999"
+			timeRelativeToTestModuleStartTime="00:02.999"
+			timeWallClock="10:49:28"
+			time="00:02.999"
+			level="Success"
+			category="file check">
+			<message>
+				SLOCALFX.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.002"
+			timeRelativeToTestModuleStartTime="00:03.002"
+			timeWallClock="10:49:28"
+			time="00:03.002"
+			level="Success"
+			category="file check">
+			<message>
+				SQLDataVerification.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.007"
+			timeRelativeToTestModuleStartTime="00:03.007"
+			timeWallClock="10:49:28"
+			time="00:03.007"
+			level="Success"
+			category="file check">
+			<message>
+				SQLExtract.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.013"
+			timeRelativeToTestModuleStartTime="00:03.013"
+			timeWallClock="10:49:28"
+			time="00:03.013"
+			level="Success"
+			category="file check">
+			<message>
+				SQLUPD.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.018"
+			timeRelativeToTestModuleStartTime="00:03.018"
+			timeWallClock="10:49:28"
+			time="00:03.018"
+			level="Success"
+			category="file check">
+			<message>
+				STRAY.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.020"
+			timeRelativeToTestModuleStartTime="00:03.020"
+			timeWallClock="10:49:28"
+			time="00:03.020"
+			level="Success"
+			category="file check">
+			<message>
+				subexp.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.027"
+			timeRelativeToTestModuleStartTime="00:03.027"
+			timeWallClock="10:49:28"
+			time="00:03.027"
+			level="Success"
+			category="file check">
+			<message>
+				SUBRPTS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.032"
+			timeRelativeToTestModuleStartTime="00:03.032"
+			timeWallClock="10:49:28"
+			time="00:03.032"
+			level="Success"
+			category="file check">
+			<message>
+				SUMMRPTS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.036"
+			timeRelativeToTestModuleStartTime="00:03.036"
+			timeWallClock="10:49:28"
+			time="00:03.036"
+			level="Success"
+			category="file check">
+			<message>
+				SVERSION.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.041"
+			timeRelativeToTestModuleStartTime="00:03.041"
+			timeWallClock="10:49:28"
+			time="00:03.041"
+			level="Success"
+			category="file check">
+			<message>
+				SystemRefresh.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.045"
+			timeRelativeToTestModuleStartTime="00:03.045"
+			timeWallClock="10:49:28"
+			time="00:03.045"
+			level="Success"
+			category="file check">
+			<message>
+				TAKEIN.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.048"
+			timeRelativeToTestModuleStartTime="00:03.048"
+			timeWallClock="10:49:28"
+			time="00:03.048"
+			level="Success"
+			category="file check">
+			<message>
+				timelmt.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.050"
+			timeRelativeToTestModuleStartTime="00:03.050"
+			timeWallClock="10:49:28"
+			time="00:03.050"
+			level="Success"
+			category="file check">
+			<message>
+				TXDOTCONVERSION.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.053"
+			timeRelativeToTestModuleStartTime="00:03.053"
+			timeWallClock="10:49:28"
+			time="00:03.053"
+			level="Success"
+			category="file check">
+			<message>
+				Unfix.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.058"
+			timeRelativeToTestModuleStartTime="00:03.058"
+			timeWallClock="10:49:28"
+			time="00:03.058"
+			level="Success"
+			category="file check">
+			<message>
+				USERS.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.069"
+			timeRelativeToTestModuleStartTime="00:03.069"
+			timeWallClock="10:49:28"
+			time="00:03.069"
+			level="Success"
+			category="file check">
+			<message>
+				USFILNAT.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.079"
+			timeRelativeToTestModuleStartTime="00:03.079"
+			timeWallClock="10:49:28"
+			time="00:03.079"
+			level="Success"
+			category="file check">
+			<message>
+				VDFDaemon.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.083"
+			timeRelativeToTestModuleStartTime="00:03.083"
+			timeWallClock="10:49:28"
+			time="00:03.083"
+			level="Success"
+			category="file check">
+			<message>
+				VENDCONV.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.087"
+			timeRelativeToTestModuleStartTime="00:03.087"
+			timeWallClock="10:49:28"
+			time="00:03.087"
+			level="Success"
+			category="file check">
+			<message>
+				VENDIMP.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.091"
+			timeRelativeToTestModuleStartTime="00:03.091"
+			timeWallClock="10:49:28"
+			time="00:03.091"
+			level="Success"
+			category="file check">
+			<message>
+				VPEVIEW.EXE
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.096"
+			timeRelativeToTestModuleStartTime="00:03.096"
+			timeWallClock="10:49:28"
+			time="00:03.096"
+			level="Success"
+			category="file check">
+			<message>
+				Welcome.exe
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXE2018.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>
