@@ -1,19 +1,21 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ValidateWSStrayDate.rxrec" />
+    <Element value="ValidateEXE2018.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
     <Element value="ValidateHBStrayDate.rxrec" />
-    <Element value="ValidateHBStrayDate.UserCode.cs" />
     <Element value="ValidateWSStrayDate.rxrec" />
+    <Element value="ValidateEXE2018.rxrec" />
+    <Element value="ValidateEXE2018.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.ValidateEXE2018.CheckFileVersion()" />
       <Element value="AutoInstall.ValidateStrayDate.CheckStrayDate()" />
       <Element value="AutoInstall.ValidateSQLDriverReadme.ValidateSQLDriver()" />
       <Element value="AutoInstall.ValidateSQLDriverReadme.CheckSQLDriver()" />

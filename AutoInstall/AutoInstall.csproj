@@ -215,6 +215,18 @@
       <UserCode>true</UserCode>
       <id>32932cac-27ab-4ab1-8bcf-ce7e31a94ad0</id>
     </Compile>
+    <Compile Include="Compare17Folders.cs">
+      <BoundTo>b1c5ebbf-02e1-4289-8d28-fdfe41b91391</BoundTo>
+      <DependentUpon>Compare17Folders.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0123b902-c805-4883-8cf4-ca48e253bf31</id>
+    </Compile>
+    <Compile Include="Compare17Folders.UserCode.cs">
+      <BoundTo>b1c5ebbf-02e1-4289-8d28-fdfe41b91391</BoundTo>
+      <DependentUpon>Compare17Folders.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>46896f52-61dd-4171-a70f-b0b41eede8fb</id>
+    </Compile>
     <Compile Include="ConfirmWSInstallFinish.cs">
       <BoundTo>d5bf3b05-e0e6-4148-b222-822cbb6967df</BoundTo>
       <DependentUpon>ConfirmWSInstallFinish.rxrec</DependentUpon>
@@ -722,15 +734,15 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
-    <Compile Include="ValidateEXE2018.cs">
+    <Compile Include="ValidateEXEs.cs">
       <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
-      <DependentUpon>ValidateEXE2018.rxrec</DependentUpon>
+      <DependentUpon>ValidateEXEs.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>5d930d74-66df-4bdf-b2d1-fc360c9de0bb</id>
     </Compile>
-    <Compile Include="ValidateEXE2018.UserCode.cs">
+    <Compile Include="ValidateEXEs.UserCode.cs">
       <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
-      <DependentUpon>ValidateEXE2018.rxrec</DependentUpon>
+      <DependentUpon>ValidateEXEs.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>b9340462-6f6c-48fc-846c-6237636e2461</id>
     </Compile>
@@ -946,6 +958,11 @@
       <id>ffd68b9e-8b16-49b4-8d65-864adf749dde</id>
       <recordtableid>401a5605-5915-4d7a-978d-db1302934759</recordtableid>
     </None>
+    <None Include="Compare17Folders.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>b1c5ebbf-02e1-4289-8d28-fdfe41b91391</id>
+      <recordtableid>f7cd7a70-f449-4bef-af7e-ef4d413fe3ed</recordtableid>
+    </None>
     <None Include="ConfirmWSInstallFinish.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>d5bf3b05-e0e6-4148-b222-822cbb6967df</id>
@@ -1156,7 +1173,7 @@
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
     </None>
-    <None Include="ValidateEXE2018.rxrec">
+    <None Include="ValidateEXEs.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>76175e9f-da4a-4cb2-92e7-b4dc57829a19</id>
       <recordtableid>40845dfb-b593-4feb-8ed3-f231d56123ba</recordtableid>

@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ValidateEXE2018 recording.
+    ///The Compare17Folders recording.
     /// </summary>
-    [TestModule("40845dfb-b593-4feb-8ed3-f231d56123ba", ModuleType.Recording, 1)]
-    public partial class ValidateEXE2018 : ITestModule
+    [TestModule("f7cd7a70-f449-4bef-af7e-ef4d413fe3ed", ModuleType.Recording, 1)]
+    public partial class Compare17Folders : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static ValidateEXE2018 instance = new ValidateEXE2018();
+        static Compare17Folders instance = new Compare17Folders();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ValidateEXE2018()
+        public Compare17Folders()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ValidateEXE2018 Instance
+        public static Compare17Folders Instance
         {
             get { return instance; }
         }
@@ -79,9 +79,9 @@ namespace AutoInstall
 
             Init();
 
-            // run powershell script for file version reports
-            Report.Log(ReportLevel.Info, "Application", "run powershell script for file version reports\r\nRun application 'RunFileVerPS1s' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("RunFileVerPS1s", "", "V:\\alex.kwie\\Script", false);
+            // run powershell scripts to find files not in both versions
+            Report.Log(ReportLevel.Info, "Application", "run powershell scripts to find files not in both versions\r\nRun application 'RunDiff17PS1s' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("RunDiff17PS1s", "", "V:\\alex.kwie\\Script", false);
             Delay.Milliseconds(0);
             
         }

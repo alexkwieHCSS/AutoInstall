@@ -11,7 +11,7 @@ rxversion="8.1">
 			</testmodule>
 			<testmodule
 			id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
-			name="ValidateEXE2018"
+			name="ValidateEXEs"
 			ref="40845dfb-b593-4feb-8ed3-f231d56123ba"
 			type="Recording">
 			</testmodule>
@@ -250,6 +250,12 @@ rxversion="8.1">
 			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79"
 			name="UninstallHB">
 			</testcase>
+			<testmodule
+			id="429a4229-6e64-46d0-b24c-148691a5268b"
+			name="Compare17Folders"
+			ref="f7cd7a70-f449-4bef-af7e-ef4d413fe3ed"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="459aaa2d-dd25-462b-b413-1992a073c051"
 			name="VerifyWSReleaseVersion"
@@ -814,6 +820,10 @@ rxversion="8.1">
 			name="TestNavigationLink">
 			</testcase>
 			<testcase
+			id="eadc5bef-9c56-48a2-b7b6-cec597079296"
+			name="CompareFiles2017HB">
+			</testcase>
+			<testcase
 			id="eb269b62-171b-46e6-a194-de77eefa5ac4"
 			name="UninstallCrystal">
 			</testcase>
@@ -1374,7 +1384,15 @@ rxversion="8.1">
 							name="ExeFileVersion">
 								<testmodule
 								id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
-								name="ValidateEXE2018">
+								name="ValidateEXEs">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="eadc5bef-9c56-48a2-b7b6-cec597079296"
+							name="CompareFiles2017HB">
+								<testmodule
+								id="429a4229-6e64-46d0-b24c-148691a5268b"
+								name="Compare17Folders">
 								</testmodule>
 							</testcase>
 						</smartfoldernode>

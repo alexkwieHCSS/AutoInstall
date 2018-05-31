@@ -5,7 +5,7 @@ id="40845dfb-b593-4feb-8ed3-f231d56123ba"
 mode="Global"
 rxversion="8.1">
 	<name>
-		ValidateEXE2018
+		ValidateEXEs
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="ValidateEXE2018"
+	classname="ValidateEXEs"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
@@ -64,7 +64,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		ValidateEXE2018.UserCode.cs
+		ValidateEXEs.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

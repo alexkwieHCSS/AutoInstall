@@ -13,8 +13,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
-using System.IO;
-using System.Diagnostics;
 using WinForms = System.Windows.Forms;
 
 using Ranorex;
@@ -24,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace AutoInstall
 {
-    public partial class ValidateEXE2018
+    public partial class Compare17Folders
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -33,22 +31,6 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
-        }
-
-		public void CheckFileVersion()
-		{
-			DirectoryInfo d = new DirectoryInfo(@"C:\HeavyBidWS\BIN");//Assuming Test is your Folder
-			FileInfo[] Files = d.GetFiles("*.exe"); //Getting Text files
-			string str = "";
-			
-			foreach(FileInfo file in Files )
-			{
-								
-				Report.Success("file check", file.Name + "" );
-							
-			}
-			
-			
         }
 
     }

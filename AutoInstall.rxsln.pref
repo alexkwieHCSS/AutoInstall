@@ -8,6 +8,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\ValidateWSStrayDate.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\CustomReportClassic.rxrec" />
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\ValidateEXE2018.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\InstallWelcomeCrystal.rxrec" />
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>
