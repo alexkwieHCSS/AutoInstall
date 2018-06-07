@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'V:\alex.kwie\Script\compareDLLs.ps1'"
