@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="167ca19e2d8598d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 5:49:32 PM"
+		timestampiso="2018-06-07T22:49:32"
+		endtime="6/7/2018 5:49:34 PM"
+		timeoutfactor="1"
+		module="ValidateWSBin">
+		<detail>
+			ValidateWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.615"
+			timeRelativeToTestModuleStartTime="00:02.615"
+			timeWallClock="17:49:34"
+			time="00:02.615"
+			level="Failure"
+			category="File Exist"
+			errimg=".\Validate_a52eb7b_afb4b8ab_trace.jpg"
+			errthumb=".\Validate_a52eb7b_afb4b8ab_trace_thumb.jpg">
+			<message>
+				Fail. \BIN does not exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateWSBin.UserCode.cs"
+				codeline="54"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.641"
+			timeRelativeToTestModuleStartTime="00:02.641"
+			timeWallClock="17:49:34"
+			time="00:02.641"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_a52eb7b_afb4b8ab_trace.jpg"
+			errthumb=".\Validate_a52eb7b_afb4b8ab_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

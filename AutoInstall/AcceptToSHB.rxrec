@@ -191,7 +191,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeContains"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="31901fd8-1408-4a9f-b550-d5324c0c0549">
 			<comment>
 				B.4

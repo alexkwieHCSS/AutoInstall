@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b5ffe0e414c0ab4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 8:02:48 PM"
+		timestampiso="2018-06-08T01:02:48"
+		endtime="6/7/2018 8:02:55 PM"
+		timeoutfactor="1"
+		module="InstallWelcomeCrystal">
+		<detail>
+			InstallWelcomeCrystal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.456"
+			timeRelativeToTestModuleStartTime="00:02.457"
+			timeWallClock="20:02:51"
+			time="00:02.456"
+			level="Info"
+			category="Wait">
+			<message>
+				(Optional Action)<br/>Waiting 30s to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.639"
+			timeRelativeToTestModuleStartTime="00:04.640"
+			timeWallClock="20:02:53"
+			time="00:04.639"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.699"
+			timeRelativeToTestModuleStartTime="00:05.700"
+			timeWallClock="20:02:54"
+			time="00:05.699"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="94"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.471"
+			timeRelativeToTestModuleStartTime="00:06.472"
+			timeWallClock="20:02:55"
+			time="00:06.471"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.691"
+			timeRelativeToTestModuleStartTime="00:06.692"
+			timeWallClock="20:02:55"
+			time="00:06.691"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.47s"
+		durationms="20474"
+		type="root"
+		rid="195e93ea2b37a76"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 7:49:59 PM"
+		timestampiso="2018-06-08T00:49:59"
+		endtime="6/7/2018 7:50:19 PM"
+		timeoutfactor="1"
+		module="InstallWelcomeCrystal">
+		<detail>
+			InstallWelcomeCrystal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.595"
+			timeRelativeToTestModuleStartTime="00:02.595"
+			timeWallClock="19:50:01"
+			time="00:02.595"
+			level="Info"
+			category="Mouse"
+			errimg=".\InstallW_7a6e3610_0fb3a269_trace.jpg"
+			errthumb=".\InstallW_7a6e3610_0fb3a269_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="83"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.475"
+			timeRelativeToTestModuleStartTime="00:20.475"
+			timeWallClock="19:50:19"
+			time="00:20.475"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.597"
+			timeRelativeToTestModuleStartTime="00:20.597"
+			timeWallClock="19:50:19"
+			time="00:20.597"
+			level="Warn"
+			category="Module"
+			errimg=".\InstallW_7a6e3610_b3fdedff_trace.jpg"
+			errthumb=".\InstallW_7a6e3610_b3fdedff_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="86"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c0086927d1f9aa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:29:10 AM"
+		timestampiso="2018-06-07T16:29:10"
+		endtime="6/7/2018 11:29:13 AM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<errormessage>
+			Element for path 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' failed.
+line 1:2 mismatched character '\' expecting ':'
+line 1:12 no viable alternative at character '\'
+line 1:19 no viable alternative at character '\'
+line 1:27 no viable alternative at character '\'
+line 1:0 no viable alternative at input 'V'
+).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.541"
+			timeRelativeToTestModuleStartTime="00:02.542"
+			timeWallClock="11:29:12"
+			time="00:02.541"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_719fff5a_7c0945a3_trace.jpg"
+			errthumb=".\Validate_719fff5a_7c0945a3_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>run powershell script for file version reports<br/>Run application 'oldExesHB' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.729"
+			timeRelativeToTestModuleStartTime="00:02.730"
+			timeWallClock="11:29:12"
+			time="00:02.729"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_719fff5a_11675af6_trace.jpg"
+			errthumb=".\Validate_719fff5a_11675af6_trace_thumb.jpg">
+			<message>
+				Element for path 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'<br/>).
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="40"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.760"
+			timeRelativeToTestModuleStartTime="00:02.761"
+			timeWallClock="11:29:13"
+			time="00:02.760"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_719fff5a_11675af6_trace.jpg"
+			errthumb=".\Validate_719fff5a_11675af6_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for path 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'<br/>).<br/>Parsing RxPath 'V:\alex.kwie\Script\Reports\oldEXEWS.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'&#10;
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Options options)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout)
+   at Ranorex.Validate.Exists(String path)
+   at AutoInstall.ValidateEXEs.ValidateEXEReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs:line 40
+   at AutoInstall.ValidateEXEs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs:line 89
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f8a2d8d603c8fc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 10:38:10 AM"
+		timestampiso="2018-06-07T15:38:10"
+		endtime="6/7/2018 10:38:17 AM"
+		timeoutfactor="1"
+		module="WelcomeImage">
+		<detail>
+			WelcomeImage
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.482"
+			timeRelativeToTestModuleStartTime="00:02.483"
+			timeWallClock="10:38:13"
+			time="00:02.482"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="5000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.876"
+			timeRelativeToTestModuleStartTime="00:03.877"
+			timeWallClock="10:38:14"
+			time="00:03.876"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.621"
+			timeRelativeToTestModuleStartTime="00:04.622"
+			timeWallClock="10:38:15"
+			time="00:04.621"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>E.6<br/>Validating AttributeContains (Text&gt;'hcss.com') on item 'GoogleChrome.AddressBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.246"
+			timeRelativeToTestModuleStartTime="00:05.247"
+			timeWallClock="10:38:16"
+			time="00:05.246"
+			level="Failure"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.AddressBar' does not contain the specified value (actual='https://hcss.me/2KV5IPs?src=HBWelcomeScreen&amp;HB=MTMgVGVzdCBDb21wYW55IDk5OQ..', expected='hcss.com').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="92"
+				loglvl="Failure"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.259"
+			timeRelativeToTestModuleStartTime="00:05.260"
+			timeWallClock="10:38:16"
+			time="00:05.259"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s for the attribute 'Title' to contain the specified value 'HCSS'. Associated repository item: 'GoogleChrome.Tab'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.725"
+			timeRelativeToTestModuleStartTime="00:05.726"
+			timeWallClock="10:38:16"
+			time="00:05.725"
+			level="Info"
+			category="Validation"
+			errimg=".\WelcomeI_db359a1f_be2dbb1b_trace.jpg"
+			errthumb=".\WelcomeI_db359a1f_be2dbb1b_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>E.6<br/>Validating AttributeRegex (Title~'(HCSS|hcss)') on item 'GoogleChrome.Tab'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="101"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.064"
+			timeRelativeToTestModuleStartTime="00:06.065"
+			timeWallClock="10:38:16"
+			time="00:06.064"
+			level="Success"
+			category="Validation"
+			errimg=".\WelcomeI_db359a1f_8c0372fe_trace.jpg"
+			errthumb=".\WelcomeI_db359a1f_8c0372fe_trace_thumb.jpg">
+			<message>
+				Attribute 'Title' of element for item 'AutoInstallRepository.GoogleChrome.Tab' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="102"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.072"
+			timeRelativeToTestModuleStartTime="00:06.073"
+			timeWallClock="10:38:16"
+			time="00:06.072"
+			level="Error"
+			category="Module"
+			errimg=".\WelcomeI_db359a1f_8c0372fe_trace.jpg"
+			errthumb=".\WelcomeI_db359a1f_8c0372fe_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -14,6 +14,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
+
 
 using Ranorex;
 using Ranorex.Core;
@@ -31,6 +33,56 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateDiffFrom17()
+        {
+            string dir = @"V:\alex.kwie\Script\Reports\";
+            string binDiff = @"binDiff.txt";
+            string hcssDiff = @"hcssDiff.txt";
+            string sysDiff = @"sysDiff.txt";
+            string utilDiff = @"utilDiff.txt";
+            string pathBin = Path.Combine(dir,binDiff);
+            string pathSys = Path.Combine(dir,hcssDiff);
+            string pathUtil = Path.Combine(dir,sysDiff);
+            string pathHcss = Path.Combine(dir,utilDiff);
+            
+      		if (File.Exists(pathBin))
+			   {
+        		Report.Success("File Exist", "Success! " + binDiff + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + binDiff + " does not exists.");
+			   }
+			
+			if (File.Exists(pathSys))
+			   {
+        		Report.Success("File Exist", "Success! " + hcssDiff + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + hcssDiff + " does not exists.");
+			   }
+			
+			if (File.Exists(pathUtil))
+			   {
+        		Report.Success("File Exist", "Success! " + sysDiff + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + sysDiff + " does not exists.");
+			   }
+			
+			if (File.Exists(pathHcss))
+			   {
+        		Report.Success("File Exist", "Success! " + utilDiff + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + utilDiff + " does not exists.");
+			   }
+			
         }
 
     }

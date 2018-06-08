@@ -49,7 +49,7 @@ rxversion="8.1">
 		duration="100ms"
 		enabled="True"
 		maximized="False"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
@@ -71,7 +71,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="d0c16009-71e4-4608-9645-33d95ebed7e2"
 		sx="0"
 		sy="0"
@@ -95,7 +95,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="aa687ccd-2672-4bf1-ad9c-139a1c148889"
 		sx="0"
 		sy="0"
@@ -119,7 +119,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="79e15f71-3cf2-434d-8a99-f551f88a804e"
 		sx="0"
 		sy="0"
@@ -164,7 +164,7 @@ rxversion="8.1">
 		action="AttributeEqual"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="1e2ed3de-39a0-45ac-8f89-e36805b4bec1">
 			<comment>
 			</comment>
@@ -361,14 +361,14 @@ KACiiigD/9k=
 				Text
 			</matchname>
 			<matchvalue>
-				2018
+				2018.1
 			</matchvalue>
 		</validationitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="394d8b88-8406-4731-996d-a8d73b04645c">
 			<comment>
 			</comment>
@@ -621,7 +621,7 @@ nAKjIXgHt9KIfJgUrDbCNSckIqgfpUEN15zfKn7tVyzk8A+g9fektLr7S0o8soEI2kn7wIyD7UwP
 		enabled="True"
 		graceperiod="0ms"
 		method="CloseWindow"
-		optional="False"
+		optional="True"
 		searchpropertyid="58c5a9d9-a40e-478d-9da3-f19e5bf0588d">
 			<comment>
 			</comment>
@@ -642,7 +642,7 @@ nAKjIXgHt9KIfJgUrDbCNSckIqgfpUEN15zfKn7tVyzk8A+g9fektLr7S0o8soEI2kn7wIyD7UwP
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="b3eefd56-631a-4ae2-80eb-e6c38f8bb31d"
 		sx="959"
 		sy="551"

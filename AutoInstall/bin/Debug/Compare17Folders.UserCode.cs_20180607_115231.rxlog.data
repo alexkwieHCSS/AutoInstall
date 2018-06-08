@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="66c102df6d67df8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:52:35 AM"
+		timestampiso="2018-06-07T16:52:35"
+		endtime="6/7/2018 11:52:38 AM"
+		timeoutfactor="1"
+		module="Compare17Folders">
+		<detail>
+			Compare17Folders
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.176"
+			timeRelativeToTestModuleStartTime="00:03.177"
+			timeWallClock="11:52:38"
+			time="00:03.176"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell scripts to find files not in both versions<br/>Run application 'diff2017' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.320"
+			timeRelativeToTestModuleStartTime="00:03.321"
+			timeWallClock="11:52:38"
+			time="00:03.320"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! binDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.330"
+			timeRelativeToTestModuleStartTime="00:03.331"
+			timeWallClock="11:52:38"
+			time="00:03.330"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! hcssDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="61"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.335"
+			timeRelativeToTestModuleStartTime="00:03.336"
+			timeWallClock="11:52:38"
+			time="00:03.335"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! sysDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="70"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.341"
+			timeRelativeToTestModuleStartTime="00:03.342"
+			timeWallClock="11:52:38"
+			time="00:03.341"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! utilDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="79"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

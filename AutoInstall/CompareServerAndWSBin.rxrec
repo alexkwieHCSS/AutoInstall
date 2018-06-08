@@ -29,6 +29,49 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="True">
+			<comment>
+				run powershell script for any file difference between server and workstation
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				runWSComparison
+			</filename>
+			<workingdir>
+				V:\alex.kwie\Script
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="CompareServerAndWSBin"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateWSComparison"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="8afc12ff-4ee5-4170-95f6-7885f0aa9ecc">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

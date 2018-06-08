@@ -32,7 +32,7 @@ rxversion="8.1">
 		<runapprecorditem
 		enabled="True"
 		maximized="False"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
@@ -54,7 +54,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="6c84036d-12a0-45e2-9893-4c3b88377ebc"
 		sx="0"
 		sy="0"
@@ -74,7 +74,7 @@ rxversion="8.1">
 		<validationitem
 		action="Exists"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="b09f87d9-594f-4f39-a4a2-bc2539e3bd73">
 			<comment>
 			</comment>
@@ -98,7 +98,7 @@ rxversion="8.1">
 		KeySequence=""
 		duration="100ms"
 		enabled="False"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="23590c5c-605d-4cc6-8e12-8612e3060e2f">
 			<comment>
@@ -114,7 +114,7 @@ rxversion="8.1">
 		enabled="False"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="6c84036d-12a0-45e2-9893-4c3b88377ebc"
 		sx="0"
 		sy="0"
@@ -138,7 +138,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="6c84036d-12a0-45e2-9893-4c3b88377ebc"
 		sx="0"
 		sy="0"
@@ -158,7 +158,7 @@ rxversion="8.1">
 		<setvaluerecorditem
 		attrname="Checked"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="097f0f48-4dd3-48d4-8fce-bed33b19ee4f">
 			<comment>
 			</comment>
@@ -178,7 +178,7 @@ rxversion="8.1">
 		<setvaluerecorditem
 		attrname="Checked"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="636d9b03-ad33-4095-bc82-4ddedae6b768">
 			<comment>
 			</comment>
@@ -202,7 +202,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="f4dad208-bc3e-4da4-88d0-92002bba74ae"
 		sx="0"
 		sy="0"
@@ -226,7 +226,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="550f8c75-3974-4177-89c6-e127fecf8fba"
 		sx="0"
 		sy="0"

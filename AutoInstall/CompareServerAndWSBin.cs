@@ -79,6 +79,21 @@ namespace AutoInstall
 
             Init();
 
+            // run powershell script for any file difference between server and workstation
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell script for any file difference between server and workstation\r\nRun application 'runWSComparison' with arguments '' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("runWSComparison", "", "V:\\alex.kwie\\Script", false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            try {
+                ValidateWSComparison();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
         }
 
 #region Image Feature Data

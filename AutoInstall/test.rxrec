@@ -29,6 +29,22 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="test"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="config"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="78df0e84-72ea-4067-8886-5454ae7a80b1">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="48ca10e761cdcf0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:07:22 AM"
+		timestampiso="2018-06-07T16:07:22"
+		endtime="6/7/2018 11:07:25 AM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<errormessage>
+			Element for path 'V:\alex.kwie\Script\Reports\WSdifference.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\WSdifference.txt' failed.
+line 1:2 mismatched character '\' expecting ':'
+line 1:12 no viable alternative at character '\'
+line 1:19 no viable alternative at character '\'
+line 1:27 no viable alternative at character '\'
+line 1:0 no viable alternative at input 'V'
+).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.397"
+			timeRelativeToTestModuleStartTime="00:02.397"
+			timeWallClock="11:07:25"
+			time="00:02.397"
+			level="Info"
+			category="Application"
+			errimg=".\CompareS_f3d5fdfd_4529861d_trace.jpg"
+			errthumb=".\CompareS_f3d5fdfd_4529861d_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.578"
+			timeRelativeToTestModuleStartTime="00:02.578"
+			timeWallClock="11:07:25"
+			time="00:02.578"
+			level="Failure"
+			category="Validation"
+			errimg=".\CompareS_f3d5fdfd_2fcd04e3_trace.jpg"
+			errthumb=".\CompareS_f3d5fdfd_2fcd04e3_trace_thumb.jpg">
+			<message>
+				Element for path 'V:\alex.kwie\Script\Reports\WSdifference.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\WSdifference.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'<br/>).
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="39"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.625"
+			timeRelativeToTestModuleStartTime="00:02.625"
+			timeWallClock="11:07:25"
+			time="00:02.625"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_f3d5fdfd_2fcd04e3_trace.jpg"
+			errthumb=".\CompareS_f3d5fdfd_2fcd04e3_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for path 'V:\alex.kwie\Script\Reports\WSdifference.txt' does not exist (Parsing RxPath 'V:\alex.kwie\Script\Reports\WSdifference.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'<br/>).<br/>Parsing RxPath 'V:\alex.kwie\Script\Reports\WSdifference.txt' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:12 no viable alternative at character '\'<br/>line 1:19 no viable alternative at character '\'<br/>line 1:27 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'V'&#10;
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Options options)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.Exists(String path, Duration searchTimeout)
+   at Ranorex.Validate.Exists(String path)
+   at AutoInstall.CompareServerAndWSBin.ValidateWSComparison() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs:line 39
+   at AutoInstall.CompareServerAndWSBin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs:line 89
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

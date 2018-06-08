@@ -19,6 +19,8 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
+using System.IO;
+
 
 namespace AutoInstall
 {
@@ -31,6 +33,24 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateDLLComparison()
+        {
+            string dir = @"V:\alex.kwie\Script\Reports\";
+            string file = @"dllComparison.txt";
+            string path = Path.Combine(dir,file);
+            
+      		if (File.Exists(path))
+			   {
+        		Report.Success("File Exist", "Success! " + file + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + file + " does not exists.");
+			   }
+        	
+        	
         }
 
     }

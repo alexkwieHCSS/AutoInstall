@@ -92,35 +92,51 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'HeavyBidRegistration.RegEntryTextbox'", repo.HeavyBidRegistration.RegEntryTextboxInfo, new ActionTimeout(5000), new RecordItemIndex(0));
-            repo.HeavyBidRegistration.RegEntryTextboxInfo.WaitForExists(5000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s to exist. Associated repository item: 'HeavyBidRegistration.RegEntryTextbox'", repo.HeavyBidRegistration.RegEntryTextboxInfo, new ActionTimeout(5000), new RecordItemIndex(0));
+                repo.HeavyBidRegistration.RegEntryTextboxInfo.WaitForExists(5000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$RegCodeSA' with focus on 'HeavyBidRegistration.RegEntryTextbox'.", repo.HeavyBidRegistration.RegEntryTextboxInfo, new RecordItemIndex(1));
-            repo.HeavyBidRegistration.RegEntryTextbox.PressKeys(RegCodeSA);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence from variable '$RegCodeSA' with focus on 'HeavyBidRegistration.RegEntryTextbox'.", repo.HeavyBidRegistration.RegEntryTextboxInfo, new RecordItemIndex(1));
+                repo.HeavyBidRegistration.RegEntryTextbox.PressKeys(RegCodeSA);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidRegistration.Buttons.CheckButton' at Center.", repo.HeavyBidRegistration.Buttons.CheckButtonInfo, new RecordItemIndex(2));
-            repo.HeavyBidRegistration.Buttons.CheckButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidRegistration.Buttons.CheckButton' at Center.", repo.HeavyBidRegistration.Buttons.CheckButtonInfo, new RecordItemIndex(2));
+                repo.HeavyBidRegistration.Buttons.CheckButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'attempting') on item 'HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextboxInfo, new RecordItemIndex(3));
-            Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextboxInfo, "Text", new Regex("attempting"));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (Text~'attempting') on item 'HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextboxInfo, new RecordItemIndex(3));
+                Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodeTextboxInfo, "Text", new Regex("attempting"), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidRegistration.Buttons.SubmitButton' at Center.", repo.HeavyBidRegistration.Buttons.SubmitButtonInfo, new RecordItemIndex(4));
-            repo.HeavyBidRegistration.Buttons.SubmitButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidRegistration.Buttons.SubmitButton' at Center.", repo.HeavyBidRegistration.Buttons.SubmitButtonInfo, new RecordItemIndex(4));
+                repo.HeavyBidRegistration.Buttons.SubmitButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'HeavyBidRegistration.Buttons.OKButton'", repo.HeavyBidRegistration.Buttons.OKButtonInfo, new ActionTimeout(10000), new RecordItemIndex(5));
-            repo.HeavyBidRegistration.Buttons.OKButtonInfo.WaitForExists(10000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'HeavyBidRegistration.Buttons.OKButton'", repo.HeavyBidRegistration.Buttons.OKButtonInfo, new ActionTimeout(10000), new RecordItemIndex(5));
+                repo.HeavyBidRegistration.Buttons.OKButtonInfo.WaitForExists(10000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'attempting') on item 'HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextboxInfo, new RecordItemIndex(6));
-            Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextboxInfo, "Text", new Regex("attempting"));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (Text~'attempting') on item 'HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextboxInfo, new RecordItemIndex(6));
+                Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.WrongRegistrationCodePopupTextboxInfo, "Text", new Regex("attempting"), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidRegistration.Buttons.OKButton' at Center.", repo.HeavyBidRegistration.Buttons.OKButtonInfo, new RecordItemIndex(7));
-            repo.HeavyBidRegistration.Buttons.OKButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidRegistration.Buttons.OKButton' at Center.", repo.HeavyBidRegistration.Buttons.OKButtonInfo, new RecordItemIndex(7));
+                repo.HeavyBidRegistration.Buttons.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
         }
 

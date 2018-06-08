@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The sysConfigDoesntExist recording.
+    ///The SysConfigDoesntExist recording.
     /// </summary>
     [TestModule("63bb37b0-fede-45e3-bd41-bf349ce4925f", ModuleType.Recording, 1)]
-    public partial class sysConfigDoesntExist : ITestModule
+    public partial class SysConfigDoesntExist : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static sysConfigDoesntExist instance = new sysConfigDoesntExist();
+        static SysConfigDoesntExist instance = new SysConfigDoesntExist();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public sysConfigDoesntExist()
+        public SysConfigDoesntExist()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static sysConfigDoesntExist Instance
+        public static SysConfigDoesntExist Instance
         {
             get { return instance; }
         }
@@ -79,6 +79,11 @@ namespace AutoInstall
 
             Init();
 
+            try {
+                CheckSysConfigExists();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
         }
 
 #region Image Feature Data

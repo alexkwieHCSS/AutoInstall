@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14374ed42f0d0e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/5/2018 1:39:00 PM"
+		timestampiso="2018-06-05T18:39:00"
+		endtime="6/5/2018 1:39:10 PM"
+		timeoutfactor="1"
+		module="ValidateXMLInstanceKey">
+		<detail>
+			ValidateXMLInstanceKey
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.563"
+			timeRelativeToTestModuleStartTime="00:02.563"
+			timeWallClock="13:39:02"
+			time="00:02.563"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Excel.EXE' with arguments 'C:\ProgramData\HCSS\HeavyBid.xml' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.751"
+			timeRelativeToTestModuleStartTime="00:02.751"
+			timeWallClock="13:39:03"
+			time="00:02.751"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OpenXML.xmlTable' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']"
+				itempath="radiobutton[@accessiblename='As an XML table']"
+				fullname="AutoInstallRepository.OpenXML.xmlTable"
+				id="16eb6a78000f485e830c2bc07388ac5f"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.768"
+			timeRelativeToTestModuleStartTime="00:05.768"
+			timeWallClock="13:39:06"
+			time="00:05.768"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OpenXML.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.OpenXML.OKButton"
+				id="7f81cad3b153451ead480d13ebc63e58"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.626"
+			timeRelativeToTestModuleStartTime="00:06.626"
+			timeWallClock="13:39:06"
+			time="00:06.626"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelXMLPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelXMLPopup.OKButton"
+				id="f93f462d4b5642f6b0c578f32bd1c9d0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="99"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.494"
+			timeRelativeToTestModuleStartTime="00:07.494"
+			timeWallClock="13:39:07"
+			time="00:07.494"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="105"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

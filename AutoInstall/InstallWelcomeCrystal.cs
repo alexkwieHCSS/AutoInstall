@@ -80,8 +80,8 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'", repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo, new ActionTimeout(180000), new RecordItemIndex(0));
-                repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo.WaitForExists(180000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'", repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+                repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo.WaitForExists(30000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
@@ -91,15 +91,34 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 10s.", new RecordItemIndex(2));
-                Delay.Duration(10000, false);
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(2));
+                repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
+                Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewAppFolder' at Center.", repo.NewAppFolder.SelfInfo, new RecordItemIndex(3));
+            repo.NewAppFolder.Self.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'.", repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo, new RecordItemIndex(4));
+            repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'CrystalInstallation.CrystalInstaller'.", repo.CrystalInstallation.CrystalInstaller.SelfInfo, new RecordItemIndex(5));
+            repo.CrystalInstallation.CrystalInstaller.Self.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
             try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(3));
-                Keyboard.Press("{Return}");
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'CrystalInstallation.CrystalInstaller.NextButton' at Center", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(6));
+                repo.CrystalInstallation.CrystalInstaller.NextButton.Touch();
+                Delay.Milliseconds(500);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Invoke action", "(Optional Action)\r\nInvoking Press() on item 'CrystalInstallation.CrystalInstaller.NextButton'.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(7));
+                repo.CrystalInstallation.CrystalInstaller.NextButton.Press();
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
         }
 

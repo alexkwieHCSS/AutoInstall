@@ -80,26 +80,10 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(0));
-                Delay.Duration(30000, false);
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(0));
+                repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
+                Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(1));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 3m.", new RecordItemIndex(2));
-                Delay.Duration(180000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(3));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

@@ -47,7 +47,7 @@ rxversion="8.1">
 		<keysequenceitem
 		KeySequence="{Escape}{Escape}{Escape}"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="06d5b360-ef4f-49f9-8fa6-318bf6f001c6">

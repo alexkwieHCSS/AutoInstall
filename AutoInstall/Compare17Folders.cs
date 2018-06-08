@@ -80,8 +80,16 @@ namespace AutoInstall
             Init();
 
             // run powershell scripts to find files not in both versions
-            Report.Log(ReportLevel.Info, "Application", "run powershell scripts to find files not in both versions\r\nRun application 'RunDiff17PS1s' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("RunDiff17PS1s", "", "V:\\alex.kwie\\Script", false);
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell scripts to find files not in both versions\r\nRun application 'diff2017' with arguments '' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("diff2017", "", "V:\\alex.kwie\\Script", false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            ValidateDiffFrom17();
             Delay.Milliseconds(0);
             
         }

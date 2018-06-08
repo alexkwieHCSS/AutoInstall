@@ -79,46 +79,66 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\HeavyBidWS\\BIN\\REINDEX.EXE' with arguments ' HEAVYMULT' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\HeavyBidWS\\BIN\\REINDEX.EXE", " HEAVYMULT", "C:\\HeavyBidWS\\BIN\\", false);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nRun application 'C:\\HeavyBidWS\\BIN\\REINDEX.EXE' with arguments ' HEAVYMULT' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("C:\\HeavyBidWS\\BIN\\REINDEX.EXE", " HEAVYMULT", "C:\\HeavyBidWS\\BIN\\", false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton' at Center.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButtonInfo, new RecordItemIndex(1));
-            repo.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton' at Center.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButtonInfo, new RecordItemIndex(1));
+                repo.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo, new RecordItemIndex(2));
-            Validate.Exists(repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo, new RecordItemIndex(2));
+                Validate.Exists(repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimatesInfo, null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             // Type in Report you want
-            //Report.Log(ReportLevel.Info, "Keyboard", "Type in Report you want\r\nKey sequence ''.", new RecordItemIndex(3));
-            //Keyboard.Press("");
-            //Delay.Milliseconds(100);
+            try {
+                //Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nType in Report you want\r\nKey sequence ''.", new RecordItemIndex(3));
+                //Keyboard.Press("");
+                //Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButtonInfo, new RecordItemIndex(4));
-            //repo.HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButton.Click();
-            //Delay.Milliseconds(200);
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButtonInfo, new RecordItemIndex(4));
+                //repo.HBPopUpScreens.GridViewOfEstimatesPopup.EstimateSearch.OKButton.Click();
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButtonInfo, new RecordItemIndex(5));
-            repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButtonInfo, new RecordItemIndex(5));
+                repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox'.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckboxInfo, new RecordItemIndex(6));
-            repo.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox.Element.SetAttributeValue("Checked", "True");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Set value", "(Optional Action)\r\nSetting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox'.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckboxInfo, new RecordItemIndex(6));
+                repo.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox.Element.SetAttributeValue("Checked", "True");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox'.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckboxInfo, new RecordItemIndex(7));
-            repo.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox.Element.SetAttributeValue("Checked", "True");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Set value", "(Optional Action)\r\nSetting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox'.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckboxInfo, new RecordItemIndex(7));
+                repo.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox.Element.SetAttributeValue("Checked", "True");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK' at Center.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOKInfo, new RecordItemIndex(8));
-            repo.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK' at Center.", repo.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOKInfo, new RecordItemIndex(8));
+                repo.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButtonInfo, new RecordItemIndex(9));
-            repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButtonInfo, new RecordItemIndex(9));
+                repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
             
         }
 

@@ -94,35 +94,35 @@ namespace AutoInstall
 
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(0));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("HeavyBid"), null, false);
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(0));
+                //Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("HeavyBid"), null, false);
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Setup"), null, false);
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(1));
+                //Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex("Setup"), null, false);
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             // B.3
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(2));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex(YearVersion), null, false);
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.3\r\nValidating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.", repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, new RecordItemIndex(2));
+                //Validate.AttributeRegex(repo.HeavyBidServerSetup.TextContainersForValidation.TitlebarInfo, "Text", new Regex(YearVersion), null, false);
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopup'.", repo.HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopupInfo, new RecordItemIndex(3));
-                Validate.Exists(repo.HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopupInfo, null, false);
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopup'.", repo.HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopupInfo, new RecordItemIndex(3));
+                //Validate.Exists(repo.HeavyBidServerSetup.TextContainersForValidation.PreviousInstallationScreen.PreviousInstallPopupInfo, null, false);
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidServerSetup.Buttons.YesButton' at Center.", repo.HeavyBidServerSetup.Buttons.YesButtonInfo, new RecordItemIndex(4));
-                repo.HeavyBidServerSetup.Buttons.YesButton.Click();
-                Delay.Milliseconds(200);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidServerSetup.Buttons.YesButton' at Center.", repo.HeavyBidServerSetup.Buttons.YesButtonInfo, new RecordItemIndex(4));
+                //repo.HeavyBidServerSetup.Buttons.YesButton.Click();
+                //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
         }

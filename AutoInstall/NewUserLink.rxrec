@@ -314,6 +314,26 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		matchname="Text"
+		matchvalue="hcss.com"
+		optional="True"
+		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
+		waitaction="AttributeContains"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="668646e4-6280-41bf-b692-57ae40a528b2"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname~'chrome']//text[@accessiblename='Address and search bar']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<validationitem
 		action="AttributeContains"
 		enabled="True"
@@ -338,6 +358,26 @@ rxversion="8.1">
 				help.hcss.com
 			</matchvalue>
 		</validationitem>
+		<WaitForRecordItem
+		enabled="True"
+		matchname="Title"
+		matchvalue="(Article List|HCSS)"
+		optional="True"
+		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
+		waitaction="AttributeContains"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7c40f878-c55b-4e41-9ad4-b3b65419a942"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname~'chrome']//tabpage[@selected='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
@@ -359,7 +399,7 @@ rxversion="8.1">
 				Title
 			</matchname>
 			<matchvalue>
-				HCSS
+				(Article List|HCSS)
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem

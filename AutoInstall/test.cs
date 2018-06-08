@@ -79,6 +79,9 @@ namespace AutoInstall
 
             Init();
 
+            config();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

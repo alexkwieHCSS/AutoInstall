@@ -36,7 +36,7 @@ rxversion="8.1">
 	<recorditems>
 		<validationitem
 		action="AttributeRegex"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="c9e6ac39-15f7-49f4-8b3b-d1e84bdd5fab">
 			<comment>
@@ -99,7 +99,7 @@ rxversion="8.1">
 		</validationitem>
 		<validationitem
 		action="AttributeRegex"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="c9e6ac39-15f7-49f4-8b3b-d1e84bdd5fab">
 			<comment>
@@ -162,7 +162,7 @@ rxversion="8.1">
 		</validationitem>
 		<validationitem
 		action="AttributeRegex"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="3c5e87e2-01c5-434c-b6c1-c7303d1c012e">
 			<comment>
@@ -190,7 +190,7 @@ rxversion="8.1">
 		</validationitem>
 		<validationitem
 		action="Exists"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="ad23f309-375a-4f90-b722-3a86a88eec9d">
 			<comment>
@@ -215,7 +215,7 @@ rxversion="8.1">
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="True"

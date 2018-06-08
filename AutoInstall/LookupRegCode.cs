@@ -80,26 +80,38 @@ namespace AutoInstall
             Init();
 
             // E.2
-            Report.Log(ReportLevel.Info, "Mouse", "E.2\r\nMouse Left Click item 'HeavyBidRegistration.RegCodeHyperlink' at Center.", repo.HeavyBidRegistration.RegCodeHyperlinkInfo, new RecordItemIndex(0));
-            repo.HeavyBidRegistration.RegCodeHyperlink.Click();
-            Delay.Milliseconds(200);
-            
-            // E.2
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.2\r\nValidating AttributeContains (Text>'support.hcss.com') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(1));
-                Validate.AttributeContains(repo.GoogleChrome.AddressBarInfo, "Text", "support.hcss.com", null, false);
-                Delay.Milliseconds(0);
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nE.2\r\nMouse Left Click item 'HeavyBidRegistration.RegCodeHyperlink' at Center.", repo.HeavyBidRegistration.RegCodeHyperlinkInfo, new RecordItemIndex(0));
+                repo.HeavyBidRegistration.RegCodeHyperlink.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Text' to contain the specified value 'hcss.com'. Associated repository item: 'GoogleChrome.AddressBar'", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(1));
+                repo.GoogleChrome.AddressBarInfo.WaitForAttributeContains(5000, "Text", "hcss.com");
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             // E.2
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.2\r\nValidating AttributeRegex (Title~'HCSS Support') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(2));
-                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("HCSS Support"), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.2\r\nValidating AttributeContains (Text>'support.hcss.com') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(2));
+                Validate.AttributeContains(repo.GoogleChrome.AddressBarInfo, "Text", "support.hcss.com", null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Title' to contain the specified value 'HCSS'. Associated repository item: 'GoogleChrome.Tab'", repo.GoogleChrome.TabInfo, new RecordItemIndex(3));
+                repo.GoogleChrome.TabInfo.WaitForAttributeContains(5000, "Title", "HCSS");
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
             // E.2
-            //Report.Log(ReportLevel.Info, "Application", "E.2\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(3));
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.2\r\nValidating AttributeRegex (Title~'HCSS Support') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(4));
+                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("HCSS Support"), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            // E.2
+            //Report.Log(ReportLevel.Info, "Application", "E.2\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(5));
             //Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
             //Delay.Milliseconds(0);
             

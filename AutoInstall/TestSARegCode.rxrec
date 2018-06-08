@@ -36,7 +36,7 @@ rxversion="8.1">
 	<recorditems>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="fb69ef21-ad9e-4a58-b6d1-d12e4e11f47f"
 		waitaction="Exists"
 		waittimeout="5000ms">
@@ -56,7 +56,7 @@ rxversion="8.1">
 		KeySequence="01AF8E32-C236-435F-8C95-2518C339B7C0"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="fa26a1f4-4a03-4317-abb2-e94f1dc7070c">
 			<comment>
@@ -195,7 +195,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="173efe29-6649-4e25-b701-f34c4463daa2"
 		sx="732"
 		sy="179"
@@ -502,7 +502,7 @@ loooAMUUtFACUUtFACUuKKKYgxRRS0AFGKKWgQlLiiimAUUtFACUtFFMQtFFFAj/2Q==
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="3ab8c440-1d2a-4084-a8f4-4b011fd2dc8e">
 			<comment>
 			</comment>
@@ -568,7 +568,7 @@ loooAMUUtFACUUtFACUuKKKYgxRRS0AFGKKWgQlLiiimAUUtFACUtFFMQtFFFAj/2Q==
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="ee65069a-b3a0-4a67-8f46-07686e9db0f1"
 		sx="675"
 		sy="342"
@@ -890,7 +890,7 @@ CjFFLQISlxRRTAKKWigBKWiimIWiiigR/9k=
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1038,7 +1038,7 @@ CjFFLQISlxRRTAKKWigBKWiimIWiiigR/9k=
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="ecb4bb32-4b7b-4a68-8ae0-5875526d0b1e">
 			<comment>
 			</comment>
@@ -1204,7 +1204,7 @@ CjFFLQISlxRRTAKKWigBKWiimIWiiigR/9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="03e05b52-03c9-433b-ae53-ed8d56370f63"
 		sx="1017"
 		sy="617"

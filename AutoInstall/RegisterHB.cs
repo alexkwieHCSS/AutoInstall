@@ -140,17 +140,23 @@ namespace AutoInstall
             repo.HeavyBidRegistration.Buttons.CheckButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Windowtext~$CompanyName) on item 'HeavyBidRegistration.TextContainsForValidation.CompanyNameTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.CompanyNameTextboxInfo, new RecordItemIndex(3));
-            Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.CompanyNameTextboxInfo, "Windowtext", new Regex(CompanyName));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (Windowtext~$CompanyName) on item 'HeavyBidRegistration.TextContainsForValidation.CompanyNameTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.CompanyNameTextboxInfo, new RecordItemIndex(3));
+                Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.CompanyNameTextboxInfo, "Windowtext", new Regex(CompanyName), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Windowtext~$RegTypeMU) on item 'HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextboxInfo, new RecordItemIndex(4));
-            Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextboxInfo, "Windowtext", new Regex(RegTypeMU));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (Windowtext~$RegTypeMU) on item 'HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextboxInfo, new RecordItemIndex(4));
+                Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.SystemDescriptionTextboxInfo, "Windowtext", new Regex(RegTypeMU), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (WindowText~$Licenses) on item 'HeavyBidRegistration.TextContainsForValidation.LicenseTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.LicenseTextboxInfo, new RecordItemIndex(5));
-            Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.LicenseTextboxInfo, "WindowText", new Regex(Licenses));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (WindowText~$Licenses) on item 'HeavyBidRegistration.TextContainsForValidation.LicenseTextbox'.", repo.HeavyBidRegistration.TextContainsForValidation.LicenseTextboxInfo, new RecordItemIndex(5));
+                Validate.AttributeRegex(repo.HeavyBidRegistration.TextContainsForValidation.LicenseTextboxInfo, "WindowText", new Regex(Licenses), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidRegistration.Buttons.SubmitButton' at Center.", repo.HeavyBidRegistration.Buttons.SubmitButtonInfo, new RecordItemIndex(6));
             repo.HeavyBidRegistration.Buttons.SubmitButton.Click();

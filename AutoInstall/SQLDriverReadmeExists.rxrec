@@ -35,7 +35,7 @@ rxversion="8.1">
 		isexternaltestmethod="False"
 		methodname="ValidateSQLDriver"
 		namespace="AutoInstall"
-		optional="False"
+		optional="True"
 		varname="">
 			<comment>
 			</comment>

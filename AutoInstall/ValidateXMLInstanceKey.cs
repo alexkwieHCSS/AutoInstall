@@ -79,6 +79,55 @@ namespace AutoInstall
 
             Init();
 
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nRun application 'Excel.EXE' with arguments 'C:\\ProgramData\\HCSS\\HeavyBid.xml' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("Excel.EXE", "C:\\ProgramData\\HCSS\\HeavyBid.xml", "C:\\Program Files (x86)\\Microsoft Office", false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OpenXML.xmlTable' at Center.", repo.ExcelRelated.OpenXML.xmlTableInfo, new RecordItemIndex(1));
+                repo.ExcelRelated.OpenXML.xmlTable.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OpenXML.OKButton' at Center.", repo.ExcelRelated.OpenXML.OKButtonInfo, new RecordItemIndex(2));
+                repo.ExcelRelated.OpenXML.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.OKButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.OKButtonInfo, new RecordItemIndex(3));
+                repo.ExcelRelated.ExcelXMLPopup.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.", repo.ExcelRelated.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(4));
+                repo.ExcelRelated.OfficeActivationSuite.CancelButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            // VARIABLE?
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nVARIABLE?\r\nValidating AttributeRegex (Text~'HEAVYMULT') on item 'ExcelRelated.Excel.CellA1'.", repo.ExcelRelated.Excel.CellA1Info, new RecordItemIndex(5));
+                Validate.AttributeRegex(repo.ExcelRelated.Excel.CellA1Info, "Text", new Regex("HEAVYMULT"), null, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(6));
+                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(7));
+                repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            
         }
 
 #region Image Feature Data

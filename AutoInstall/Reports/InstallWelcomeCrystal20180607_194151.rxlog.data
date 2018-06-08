@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.53s"
+		durationms="15526"
+		type="root"
+		rid="27fefc63dc451957"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 7:41:54 PM"
+		timestampiso="2018-06-08T00:41:54"
+		endtime="6/7/2018 7:42:10 PM"
+		timeoutfactor="1"
+		module="InstallWelcomeCrystal">
+		<detail>
+			InstallWelcomeCrystal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.516"
+			timeRelativeToTestModuleStartTime="00:02.517"
+			timeWallClock="19:41:57"
+			time="00:02.516"
+			level="Info"
+			category="Wait">
+			<message>
+				(Optional Action)<br/>Waiting 30s to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.061"
+			timeRelativeToTestModuleStartTime="00:04.062"
+			timeWallClock="19:41:59"
+			time="00:04.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.099"
+			timeRelativeToTestModuleStartTime="00:05.100"
+			timeWallClock="19:42:00"
+			time="00:05.099"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="94"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.874"
+			timeRelativeToTestModuleStartTime="00:05.875"
+			timeWallClock="19:42:00"
+			time="00:05.874"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="100"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.646"
+			timeRelativeToTestModuleStartTime="00:06.647"
+			timeWallClock="19:42:01"
+			time="00:06.646"
+			level="Info"
+			category="Mouse"
+			errimg=".\InstallW_a7fa3610_ab578e88_trace.jpg"
+			errthumb=".\InstallW_a7fa3610_ab578e88_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="106"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.425"
+			timeRelativeToTestModuleStartTime="00:07.426"
+			timeWallClock="19:42:02"
+			time="00:07.425"
+			level="Info"
+			category="Mouse"
+			errimg=".\InstallW_a7fa3610_9ef39f7f_trace.jpg"
+			errthumb=".\InstallW_a7fa3610_9ef39f7f_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']"
+				itempath="button[@text~'Install']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.InstallButton"
+				id="94f97a7e01a044558345e3b9a19e0c02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="112"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.525"
+			timeRelativeToTestModuleStartTime="00:15.526"
+			timeWallClock="19:42:10"
+			time="00:15.525"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.760"
+			timeRelativeToTestModuleStartTime="00:15.761"
+			timeWallClock="19:42:10"
+			time="00:15.760"
+			level="Warn"
+			category="Module"
+			errimg=".\InstallW_a7fa3610_8b5fd5d3_trace.jpg"
+			errthumb=".\InstallW_a7fa3610_8b5fd5d3_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="115"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

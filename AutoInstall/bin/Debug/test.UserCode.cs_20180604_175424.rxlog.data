@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1004d248770f61b0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/4/2018 5:54:28 PM"
+		timestampiso="2018-06-04T22:54:28"
+		endtime="6/4/2018 5:54:31 PM"
+		timeoutfactor="1"
+		module="test">
+		<detail>
+			test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.568"
+			timeRelativeToTestModuleStartTime="00:02.569"
+			timeWallClock="17:54:30"
+			time="00:02.568"
+			level="Failure"
+			category="Config"
+			errimg=".\test.Use_5957682c_105e981d_trace.jpg"
+			errthumb=".\test.Use_5957682c_105e981d_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\test.UserCode.cs"
+				codeline="59"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.596"
+			timeRelativeToTestModuleStartTime="00:02.597"
+			timeWallClock="17:54:30"
+			time="00:02.596"
+			level="Error"
+			category="Module"
+			errimg=".\test.Use_5957682c_105e981d_trace.jpg"
+			errthumb=".\test.Use_5957682c_105e981d_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

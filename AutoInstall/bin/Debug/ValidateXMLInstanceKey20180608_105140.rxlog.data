@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="414d8f1a523198f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/8/2018 10:51:49 AM"
+		timestampiso="2018-06-08T15:51:49"
+		endtime="6/8/2018 10:52:05 AM"
+		timeoutfactor="1"
+		module="ValidateXMLInstanceKey">
+		<detail>
+			ValidateXMLInstanceKey
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.187"
+			timeRelativeToTestModuleStartTime="00:04.188"
+			timeWallClock="10:51:53"
+			time="00:04.187"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\ProgramData\HCSS\HeavyBid.xml' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.440"
+			timeRelativeToTestModuleStartTime="00:04.441"
+			timeWallClock="10:51:53"
+			time="00:04.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OpenXML.xmlTable' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']"
+				itempath="radiobutton[@accessiblename='As an XML table']"
+				fullname="AutoInstallRepository.ExcelRelated.OpenXML.xmlTable"
+				id="16eb6a78000f485e830c2bc07388ac5f"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.868"
+			timeRelativeToTestModuleStartTime="00:08.869"
+			timeWallClock="10:51:58"
+			time="00:08.868"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OpenXML.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelRelated.OpenXML.OKButton"
+				id="7f81cad3b153451ead480d13ebc63e58"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.757"
+			timeRelativeToTestModuleStartTime="00:09.758"
+			timeWallClock="10:51:59"
+			time="00:09.757"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.ExcelXMLPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.OKButton"
+				id="f93f462d4b5642f6b0c578f32bd1c9d0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="101"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.695"
+			timeRelativeToTestModuleStartTime="00:10.696"
+			timeWallClock="10:51:59"
+			time="00:10.695"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.ExcelRelated.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="107"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.534"
+			timeRelativeToTestModuleStartTime="00:13.535"
+			timeWallClock="10:52:02"
+			time="00:13.534"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>VARIABLE?<br/>Validating AttributeRegex (Text~'HEAVYMULT') on item 'ExcelRelated.Excel.CellA1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='1']/cell[@address='A1']"
+				itempath=".//table/row[@index='1']/cell[@address='A1']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellA1"
+				id="23902e6ed05b4875a08ce4e055ca2a43"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="114"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.784"
+			timeRelativeToTestModuleStartTime="00:14.785"
+			timeWallClock="10:52:04"
+			time="00:14.784"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellA1' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='1']/cell[@address='A1']"
+				itempath=".//table/row[@index='1']/cell[@address='A1']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellA1"
+				id="23902e6ed05b4875a08ce4e055ca2a43"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.922"
+			timeRelativeToTestModuleStartTime="00:14.923"
+			timeWallClock="10:52:04"
+			time="00:14.922"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Closing application containing item 'ExcelRelated.Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="120"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.180"
+			timeRelativeToTestModuleStartTime="00:15.181"
+			timeWallClock="10:52:04"
+			time="00:15.180"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']//button[@name='Don''t Save']"
+				itempath=".//button[@name='Don''t Save']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.DontSaveButton"
+				id="76d2eed8acf84b5f8ade702863f4ea61"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateXMLInstanceKey.cs"
+				codeline="126"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

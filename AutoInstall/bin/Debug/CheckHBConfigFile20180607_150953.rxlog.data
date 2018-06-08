@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.61s"
+		durationms="16611"
+		type="root"
+		rid="14ce40397cd35fae"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 3:09:57 PM"
+		timestampiso="2018-06-07T20:09:57"
+		endtime="6/7/2018 3:10:14 PM"
+		timeoutfactor="1"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.737"
+			timeRelativeToTestModuleStartTime="00:02.738"
+			timeWallClock="15:10:00"
+			time="00:02.737"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\HeavyBid.exe.config' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.826"
+			timeRelativeToTestModuleStartTime="00:02.827"
+			timeWallClock="15:10:00"
+			time="00:02.826"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.206"
+			timeRelativeToTestModuleStartTime="00:05.207"
+			timeWallClock="15:10:02"
+			time="00:05.206"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'HB.2017.0') on item 'Excel.CellC10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.114"
+			timeRelativeToTestModuleStartTime="00:06.115"
+			timeWallClock="15:10:03"
+			time="00:06.114"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.Excel.CellC10' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.120"
+			timeRelativeToTestModuleStartTime="00:06.121"
+			timeWallClock="15:10:03"
+			time="00:06.120"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'2.4') on item 'Excel.CellC12'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="98"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.171"
+			timeRelativeToTestModuleStartTime="00:07.172"
+			timeWallClock="15:10:04"
+			time="00:07.171"
+			level="Success"
+			category="Validation"
+			errimg=".\CheckHBC_f4b10ef1_212ac326_trace.jpg"
+			errthumb=".\CheckHBC_f4b10ef1_212ac326_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.Excel.CellC12' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.178"
+			timeRelativeToTestModuleStartTime="00:07.179"
+			timeWallClock="15:10:04"
+			time="00:07.178"
+			level="Info"
+			category="Application"
+			errimg=".\CheckHBC_f4b10ef1_212ac326_trace.jpg"
+			errthumb=".\CheckHBC_f4b10ef1_212ac326_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Closing application containing item 'Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.447"
+			timeRelativeToTestModuleStartTime="00:07.448"
+			timeWallClock="15:10:04"
+			time="00:07.447"
+			level="Info"
+			category="Mouse"
+			errimg=".\CheckHBC_f4b10ef1_2821e3de_trace.jpg"
+			errthumb=".\CheckHBC_f4b10ef1_2821e3de_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelXMLPopup.DontSaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']//button[@name='Don''t Save']"
+				itempath=".//button[@name='Don''t Save']"
+				fullname="AutoInstallRepository.ExcelXMLPopup.DontSaveButton"
+				id="76d2eed8acf84b5f8ade702863f4ea61"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="108"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.611"
+			timeRelativeToTestModuleStartTime="00:16.612"
+			timeWallClock="15:10:13"
+			time="00:16.611"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.725"
+			timeRelativeToTestModuleStartTime="00:16.726"
+			timeWallClock="15:10:14"
+			time="00:16.725"
+			level="Warn"
+			category="Module"
+			errimg=".\CheckHBC_f4b10ef1_2bb363ff_trace.jpg"
+			errthumb=".\CheckHBC_f4b10ef1_2bb363ff_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="110"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

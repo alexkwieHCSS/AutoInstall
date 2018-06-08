@@ -17,6 +17,7 @@ using System.IO;
 using System.Diagnostics;
 using WinForms = System.Windows.Forms;
 
+
 using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
@@ -35,20 +36,33 @@ namespace AutoInstall
             // Your recording specific initialization code goes here.
         }
 
-		public void CheckFileVersion()
-		{
-			DirectoryInfo d = new DirectoryInfo(@"C:\HeavyBidWS\BIN");//Assuming Test is your Folder
-			FileInfo[] Files = d.GetFiles("*.exe"); //Getting Text files
-			string str = "";
+		public void ValidateEXEReport()
+        {
+			string dir = @"V:\alex.kwie\Script\Reports\";
+            string fileServ = @"oldExeServer.txt";
+            string fileWS = @"oldExeWS.txt";
+            
+            string pathSR = Path.Combine(dir,fileServ);
+            string pathWS = Path.Combine(dir,fileWS);
+            
+      		if (File.Exists(pathSR))
+			   {
+        		Report.Success("File Exist", "Success! " + fileServ + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + fileServ + " does not exists.");
+			   }
 			
-			foreach(FileInfo file in Files )
-			{
-								
-				Report.Success("file check", file.Name + "" );
-							
-			}
-			
-			
+			if (File.Exists(pathWS))
+			   {
+        		Report.Success("File Exist", "Success! " + fileWS + " exists!");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail. " + fileWS + " does not exists.");
+			   }
+        	
         }
 
     }

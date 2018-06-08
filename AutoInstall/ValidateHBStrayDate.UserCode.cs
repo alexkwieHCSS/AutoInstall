@@ -42,9 +42,9 @@ namespace AutoInstall
         {
         	
         	string stray = @"C:\HeavyBid\BIN\STRAY.XML";			//set pathfile to stray as variable
-    	  	string nodeName = "HeavyBid-Stray-Files";				//set name of desired element
-    	   	string rev = "revision";
-        	string mod = "modified";
+    	//  	string nodeName = "HeavyBid-Stray-Files";				//set name of desired element
+    //	   	string rev = "revision";
+//	string mod = "modified";
         	
         	XmlDocument Doc = new XmlDocument();
 

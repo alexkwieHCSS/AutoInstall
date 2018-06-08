@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.62s"
+		durationms="3620"
+		type="root"
+		rid="1578ffd24ddee0b0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 10:57:35 AM"
+		timestampiso="2018-06-07T15:57:35"
+		endtime="6/7/2018 10:57:39 AM"
+		timeoutfactor="1"
+		module="F1HelpButton">
+		<detail>
+			F1HelpButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.376"
+			timeRelativeToTestModuleStartTime="00:02.392"
+			timeWallClock="10:57:38"
+			time="00:02.376"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.HelpTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/tabpagelist/tabpage[@title~'Help']"
+				itempath=".//toolbar/tabpagelist/tabpage[@title~'Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.HelpTab"
+				id="f776058332ad4ea0ae2b7afacacf7a0a"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\F1HelpButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.620"
+			timeRelativeToTestModuleStartTime="00:03.636"
+			timeWallClock="10:57:39"
+			time="00:03.620"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

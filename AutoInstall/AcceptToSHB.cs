@@ -114,9 +114,11 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             // B.4
-            Report.Log(ReportLevel.Info, "Validation", "B.4\r\nValidating AttributeContains (AccessibleState>'Unavailable') on item 'HeavyBidServerSetup.Buttons.NextButton'.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(3));
-            Validate.AttributeContains(repo.HeavyBidServerSetup.Buttons.NextButtonInfo, "AccessibleState", "Unavailable");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.4\r\nValidating AttributeContains (AccessibleState>'Unavailable') on item 'HeavyBidServerSetup.Buttons.NextButton'.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(3));
+                Validate.AttributeContains(repo.HeavyBidServerSetup.Buttons.NextButtonInfo, "AccessibleState", "Unavailable", null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreem'", repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreemInfo, new ActionTimeout(60000), new RecordItemIndex(4));
             repo.HeavyBidServerSetup.IAcceptTheTermsInTheLicenseAgreemInfo.WaitForExists(60000);

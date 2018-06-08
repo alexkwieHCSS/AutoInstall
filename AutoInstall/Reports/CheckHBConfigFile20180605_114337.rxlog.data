@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="32.35s"
+		durationms="32348"
+		type="root"
+		rid="a6175eb083885f5"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/5/2018 11:43:41 AM"
+		timestampiso="2018-06-05T16:43:41"
+		endtime="6/5/2018 11:44:13 AM"
+		timeoutfactor="1"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.553"
+			timeRelativeToTestModuleStartTime="00:02.553"
+			timeWallClock="11:43:43"
+			time="00:02.553"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\HeavyBid.exe.config' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.744"
+			timeRelativeToTestModuleStartTime="00:02.744"
+			timeWallClock="11:43:43"
+			time="00:02.744"
+			level="Info"
+			category="Mouse"
+			errimg=".\CheckHBC_61dc25f9_97df84e2_trace.jpg"
+			errthumb=".\CheckHBC_61dc25f9_97df84e2_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.895"
+			timeRelativeToTestModuleStartTime="00:05.895"
+			timeWallClock="11:43:46"
+			time="00:05.895"
+			level="Info"
+			category="Validation"
+			errimg=".\CheckHBC_61dc25f9_a142b809_trace.jpg"
+			errthumb=".\CheckHBC_61dc25f9_a142b809_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'HB.2017.0') on item 'Excel.CellC10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='2']/cell[@address='C10']"
+				itempath=".//table[@name='Sheet1']/row[@index='2']/cell[@address='C10']"
+				fullname="AutoInstallRepository.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.348"
+			timeRelativeToTestModuleStartTime="00:32.348"
+			timeWallClock="11:44:13"
+			time="00:32.348"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.425"
+			timeRelativeToTestModuleStartTime="00:32.425"
+			timeWallClock="11:44:13"
+			time="00:32.425"
+			level="Warn"
+			category="Module"
+			errimg=".\CheckHBC_61dc25f9_9f1acacc_trace.jpg"
+			errthumb=".\CheckHBC_61dc25f9_9f1acacc_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="96"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

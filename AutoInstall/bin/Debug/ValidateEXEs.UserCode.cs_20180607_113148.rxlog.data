@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ea600602609814"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:31:52 AM"
+		timestampiso="2018-06-07T16:31:52"
+		endtime="6/7/2018 11:31:55 AM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.560"
+			timeRelativeToTestModuleStartTime="00:02.560"
+			timeWallClock="11:31:55"
+			time="00:02.560"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for file version reports<br/>Run application 'oldExesHB' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.685"
+			timeRelativeToTestModuleStartTime="00:02.685"
+			timeWallClock="11:31:55"
+			time="00:02.685"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! WSdifference.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="46"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -117,7 +117,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="c5274e07-fb6c-49c5-a2ee-2ced712b7aa0">
 			<comment>
 			</comment>
@@ -144,7 +144,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="9d60b40a-062b-48ac-a251-529a21fcb13a">
 			<comment>
 			</comment>
@@ -171,7 +171,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="9d60b40a-062b-48ac-a251-529a21fcb13a">
 			<comment>
 			</comment>

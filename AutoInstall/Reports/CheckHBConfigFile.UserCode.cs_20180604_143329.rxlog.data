@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10f1cf858ec25c2e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/4/2018 2:33:32 PM"
+		timestampiso="2018-06-04T19:33:32"
+		endtime="6/4/2018 2:33:35 PM"
+		timeoutfactor="1"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<errormessage>
+			Object reference not set to an instance of an object.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.908"
+			timeRelativeToTestModuleStartTime="00:02.909"
+			timeWallClock="14:33:35"
+			time="00:02.908"
+			level="Error"
+			category="Module"
+			errimg=".\CheckHBC_9f7aa5ab_ddbc600c_trace.jpg"
+			errthumb=".\CheckHBC_9f7aa5ab_ddbc600c_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.CheckHBConfigFile.ValidateConfigVersionSetting() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.UserCode.cs:line 48
+   at AutoInstall.CheckHBConfigFile.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.UserCode.cs"
+				codeline="48"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -73,12 +73,42 @@ namespace AutoInstall
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.00;
+            Mouse.DefaultMoveTime = 0;
+            Keyboard.DefaultKeyPressTime = 20;
+            Delay.SpeedFactor = 0.00;
 
             Init();
 
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nRun application 'Excel.EXE' with arguments 'C:\\HeavyBid\\BIN\\HeavyBid.exe.config' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("Excel.EXE", "C:\\HeavyBid\\BIN\\HeavyBid.exe.config", "C:\\Program Files (x86)\\Microsoft Office", false);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.", repo.ExcelRelated.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(1));
+                repo.ExcelRelated.OfficeActivationSuite.CancelButton.Click();
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.", repo.ExcelRelated.Excel.CellC10Info, new RecordItemIndex(2));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC10Info, "Text", "HB.2017.0", null, false);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'2.4') on item 'ExcelRelated.Excel.CellC12'.", repo.ExcelRelated.Excel.CellC12Info, new RecordItemIndex(3));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC12Info, "Text", "2.4", null, false);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(4));
+                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(5));
+                //repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
         }
 
 #region Image Feature Data

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2887d1561590b4a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:17:04 AM"
+		timestampiso="2018-06-07T16:17:04"
+		endtime="6/7/2018 11:17:07 AM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.660"
+			timeRelativeToTestModuleStartTime="00:02.661"
+			timeWallClock="11:17:07"
+			time="00:02.660"
+			level="Info"
+			category="Application"
+			errimg=".\CompareS_684ffe04_1199c238_trace.jpg"
+			errthumb=".\CompareS_684ffe04_1199c238_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.775"
+			timeRelativeToTestModuleStartTime="00:02.776"
+			timeWallClock="11:17:07"
+			time="00:02.775"
+			level="Failure"
+			category="File Exist"
+			errimg=".\CompareS_684ffe04_a424843f_trace.jpg"
+			errthumb=".\CompareS_684ffe04_a424843f_trace_thumb.jpg">
+			<message>
+				Fail. WSdifference.txt does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="48"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.782"
+			timeRelativeToTestModuleStartTime="00:02.783"
+			timeWallClock="11:17:07"
+			time="00:02.782"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_684ffe04_a424843f_trace.jpg"
+			errthumb=".\CompareS_684ffe04_a424843f_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

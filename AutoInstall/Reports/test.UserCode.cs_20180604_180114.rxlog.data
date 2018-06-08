@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4b6d3c4a21f1d50"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/4/2018 6:01:18 PM"
+		timestampiso="2018-06-04T23:01:18"
+		endtime="6/4/2018 6:01:20 PM"
+		timeoutfactor="1"
+		module="test">
+		<detail>
+			test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.595"
+			timeRelativeToTestModuleStartTime="00:02.596"
+			timeWallClock="18:01:20"
+			time="00:02.595"
+			level="Success"
+			category="Config">
+			<message>
+				HB.2017.02012.22.4SF.Web.2014.0HJ.2015.060
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\test.UserCode.cs"
+				codeline="63"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

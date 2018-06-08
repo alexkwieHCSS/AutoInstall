@@ -9,11 +9,17 @@
 
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Drawing;
 using System.Threading;
+using System.Configuration;
 using WinForms = System.Windows.Forms;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.XPath;
 
 using Ranorex;
 using Ranorex.Core;
@@ -28,10 +34,47 @@ namespace AutoInstall
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
         /// </summary>
+//        private void Init()
+//        {
+//            // Your recording specific initialization code goes here.
+//            ReadAllSettings();
+//            ReadSetting("HB_HDM_API_Version");
+//            ReadAllSettings();
+//        }
+//
+//        public void ReadAllSettings()
+//        {
+//        	
+////           XmlDocument doc = new XmlDocument();
+////			 doc.Load(@"C:\HeavyBid\BIN\HeavyBid.exe.config");
+////			 
+////			 XmlNode node = doc.DocumentElement.SelectSingleNode("HB_HDM_API_Version");
+////			 
+////			 string nodeContent = node.InnerText;
+////			 
+////			 if (nodeContent.Equals("HB.2017.0"))
+////			     {
+////			     	Report.Success("Config", "Config is correct! 2017.");
+////			     }
+////			 else
+////			 	{
+////			 		Report.Failure("Config", "Config is not 2017.");
+////				}
+//			ReadAllSettings()
+//			string content = File.ReadAllLines(System.Configuration.ConfigurationManager.CurrentDomain.SetupInformation.ConfigurationFile);
+//			Report.Info(content);
+        	
+        
+        public void Config()
+        {
+            // TODO: Replace the following line with your code implementation.
+            throw new NotImplementedException();
+        }
+
         private void Init()
         {
             // Your recording specific initialization code goes here.
         }
+}
 
     }
-}

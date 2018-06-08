@@ -5,7 +5,7 @@ id="63bb37b0-fede-45e3-bd41-bf349ce4925f"
 mode="Global"
 rxversion="8.1">
 	<name>
-		sysConfigDoesntExist
+		SysConfigDoesntExist
 	</name>
 	<repeatcount>
 		1
@@ -23,12 +23,28 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="sysConfigDoesntExist"
+	classname="SysConfigDoesntExist"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="SysConfigDoesntExist"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckSysConfigExists"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="17865e9f-1d19-40e9-bf73-da3a5d50548a">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
@@ -46,7 +62,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		sysConfigDoesntExist.UserCode.cs
+		SysConfigDoesntExist.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

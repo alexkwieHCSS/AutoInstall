@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7b6efdb6ea6ee1c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/5/2018 1:28:08 PM"
+		timestampiso="2018-06-05T18:28:08"
+		endtime="6/5/2018 1:28:10 PM"
+		timeoutfactor="1"
+		module="sysConfigDoesntExist">
+		<detail>
+			sysConfigDoesntExist
+		</detail>
+		<errormessage>
+			The method or operation is not implemented.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.584"
+			timeRelativeToTestModuleStartTime="00:02.584"
+			timeWallClock="13:28:10"
+			time="00:02.584"
+			level="Success"
+			category="File Exist"
+			errimg=".\sysConfi_8a55587c_d6a22ed0_trace.jpg"
+			errthumb=".\sysConfi_8a55587c_d6a22ed0_trace_thumb.jpg">
+			<message>
+				Success. File does not exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\sysConfigDoesntExist.UserCode.cs"
+				codeline="53"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.599"
+			timeRelativeToTestModuleStartTime="00:02.599"
+			timeWallClock="13:28:10"
+			time="00:02.599"
+			level="Success"
+			category="File Exist"
+			errimg=".\sysConfi_8a55587c_d6a22ed0_trace.jpg"
+			errthumb=".\sysConfi_8a55587c_d6a22ed0_trace_thumb.jpg">
+			<message>
+				Fail! File exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\sysConfigDoesntExist.UserCode.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.631"
+			timeRelativeToTestModuleStartTime="00:02.631"
+			timeWallClock="13:28:10"
+			time="00:02.631"
+			level="Error"
+			category="Module"
+			errimg=".\sysConfi_8a55587c_d6a22ed0_trace.jpg"
+			errthumb=".\sysConfi_8a55587c_d6a22ed0_trace_thumb.jpg">
+			<message>
+				The method or operation is not implemented.
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.sysConfigDoesntExist.CheckSysConfigExists() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\sysConfigDoesntExist.UserCode.cs:line 68
+   at AutoInstall.sysConfigDoesntExist.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\sysConfigDoesntExist.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\sysConfigDoesntExist.UserCode.cs"
+				codeline="68"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

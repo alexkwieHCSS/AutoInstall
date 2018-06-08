@@ -79,43 +79,59 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'Excel.EXE' with arguments 'C:\\HeavyBidWS\\BIN\\STRAY.XML' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("Excel.EXE", "C:\\HeavyBidWS\\BIN\\STRAY.XML", "C:\\Program Files (x86)\\Microsoft Office", false);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OpenXML.xmlTable' at Center.", repo.OpenXML.xmlTableInfo, new RecordItemIndex(1));
-            repo.OpenXML.xmlTable.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OpenXML.OKButton' at Center.", repo.OpenXML.OKButtonInfo, new RecordItemIndex(2));
-            repo.OpenXML.OKButton.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ExcelXMLPopup.OKButton' at Center.", repo.ExcelXMLPopup.OKButtonInfo, new RecordItemIndex(3));
-            repo.ExcelXMLPopup.OKButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nRun application 'Excel.EXE' with arguments 'C:\\HeavyBidWS\\BIN\\STRAY.XML' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("Excel.EXE", "C:\\HeavyBidWS\\BIN\\STRAY.XML", "C:\\Program Files (x86)\\Microsoft Office", false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'OfficeActivationSuite.CancelButton' at Center.", repo.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(4));
-                repo.OfficeActivationSuite.CancelButton.Click();
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OpenXML.xmlTable' at Center.", repo.ExcelRelated.OpenXML.xmlTableInfo, new RecordItemIndex(1));
+                repo.ExcelRelated.OpenXML.xmlTable.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OpenXML.OKButton' at Center.", repo.ExcelRelated.OpenXML.OKButtonInfo, new RecordItemIndex(2));
+                repo.ExcelRelated.OpenXML.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.OKButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.OKButtonInfo, new RecordItemIndex(3));
+                repo.ExcelRelated.ExcelXMLPopup.OKButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.", repo.ExcelRelated.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(4));
+                repo.ExcelRelated.OfficeActivationSuite.CancelButton.Click();
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='2018') on item 'Excel.CellA2'.", repo.Excel.CellA2Info, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.Excel.CellA2Info, "Text", "2018");
-            Delay.Milliseconds(100);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='2018.1') on item 'ExcelRelated.Excel.CellA2'.", repo.ExcelRelated.Excel.CellA2Info, new RecordItemIndex(5));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellA2Info, "Text", "2018.1", null, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='08/08/2017') on item 'Excel.CellB2'.", repo.Excel.CellB2Info, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.Excel.CellB2Info, "Text", "08/08/2017");
-            Delay.Milliseconds(100);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='08/08/2017') on item 'ExcelRelated.Excel.CellB2'.", repo.ExcelRelated.Excel.CellB2Info, new RecordItemIndex(6));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellB2Info, "Text", "08/08/2017", null, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Excel'.", repo.Excel.SelfInfo, new RecordItemIndex(7));
-            Host.Current.CloseApplication(repo.Excel.Self, new Duration(0));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(7));
+                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(8));
-            repo.ExcelXMLPopup.DontSaveButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(8));
+                repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
             
         }
 

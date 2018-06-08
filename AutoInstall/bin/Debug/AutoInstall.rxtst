@@ -20,6 +20,9 @@ rxversion="8.1">
 			name="ReindexHBExternal"
 			ref="0f03ff28-1812-42f6-8de2-207317b89a6e"
 			type="Recording">
+				<description>
+					<![CDATA[add estimate later]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
@@ -62,6 +65,12 @@ rxversion="8.1">
 			id="0a5ca8f6-5c1f-4bc0-89df-4710f6dc429b"
 			name="CostPrice">
 			</testcase>
+			<testmodule
+			id="0aaadf86-f8d6-4921-80df-1654be9565af"
+			name="CheckMissingDLLsOCXs"
+			ref="a6f15c91-1e6d-43df-ab08-61a8a5bb251d"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="0d2bf09a-8c90-440b-b055-8e2e4313a924"
 			name="Equipment">
@@ -283,6 +292,10 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="4ac000f8-7ec6-47df-99ca-83ef07eb4960"
+			name="ValidateHeavybidConfig">
+			</testcase>
+			<testcase
 			id="4cb0e667-24b6-425a-8c2c-a44efaea29e5"
 			name="Cost">
 			</testcase>
@@ -364,9 +377,15 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="6670317b-cf8f-447d-965a-093a311da231"
+			name="OpenHB"
+			ref="c9da0d9c-dc94-4d77-bdc9-1419198301c6"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="66d2715a-ad00-480a-960b-dbed18e79ed5"
-			name="ExeFileVersion">
+			name="ValidateExeAre2018Version">
 			</testcase>
 			<testmodule
 			id="67f87952-8f90-48e9-b771-72ed0807313e"
@@ -380,6 +399,10 @@ rxversion="8.1">
 			ref="4df77207-444f-446d-9919-9b5e15a1ff43"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="6a412808-ed56-4b80-a5de-ab2592885875"
+			name="ValidateXMLKey">
+			</testcase>
 			<testmodule
 			id="6de0076f-c146-4ef2-90f0-de885e8ba3ad"
 			name="OpenInstallFile"
@@ -470,6 +493,10 @@ rxversion="8.1">
 			ref="9269e0b8-6d70-4b1e-9f83-67340788d9c1"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="8d10eccb-2fce-4313-b590-cb538c166d75"
+			name="CompareFilesServerToWS">
+			</testcase>
 			<testmodule
 			id="8e34bd28-053c-4859-9d3a-8bbb430909ad"
 			name="OpenExistingEstimate"
@@ -500,6 +527,12 @@ rxversion="8.1">
 			id="9772cefa-d91d-4375-8a24-cd153efa4420"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="986237e5-2b03-45c9-888a-ec2b71b9d9a9"
+			name="ValidateWSBin"
+			ref="b53c1488-8b07-4c34-a868-f7481789c702"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="9a41e118-033c-46f8-a32c-4003f9753199"
 			name="BackupEstimate"
@@ -599,6 +632,12 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="ad9fe996-1afa-4004-a24b-123299830849"
+			name="ValidateXMLInstanceKey"
+			ref="d7ad1879-29dd-45c1-b888-80a6d59d0282"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="affa9faf-c0d0-42de-9a85-ec6911bfdd4c"
 			name="InstallWelcomeSQL"
 			ref="3f1ae4a1-f43b-49e5-953c-c9cd46fe916b"
@@ -610,6 +649,10 @@ rxversion="8.1">
 			ref="b7cf6cce-8c18-4a2f-afef-55e95e692e31"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="b169dec5-15ff-4bdb-8b32-282dfe8f6986"
+			name="ValidateFunctionalityHBExternal">
+			</smartfoldernode>
 			<testmodule
 			id="b28be991-2f45-4b6a-aab9-eaca19c8423e"
 			name="UninstallCrystal"
@@ -641,6 +684,12 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b8142107-417e-4c2d-b2aa-48411e4f51b5"
+			name="CompareServerAndWSBin"
+			ref="35759013-d826-4ea8-b07a-a9008891e773"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="ba442f08-a96a-4b25-901b-99b7b429e984"
 			name="F1HelpButton"
 			ref="31c3a7dd-ccf3-4ca1-a8bf-090fec9e4ed8"
@@ -652,7 +701,7 @@ rxversion="8.1">
 			</testcase>
 			<testcase
 			id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
-			name="SQLDriverReadme">
+			name="ValidateSQLDriverReadmeExists">
 			</testcase>
 			<testmodule
 			id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
@@ -750,12 +799,18 @@ rxversion="8.1">
 			</testcase>
 			<setup
 			id="d760d409-2629-4401-88c6-a6b4afdc3dc9"
-			name="setup">
+			name="setup1">
 			</setup>
 			<testmodule
 			id="d91928e0-2c25-4f1e-97df-c2bd69a17469"
 			name="UninstallSQL"
 			ref="e106a164-a92b-45f2-a571-22ddcbdbc5a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d986896e-fe3a-4ae9-a84e-89fc68b07f7c"
+			name="SysConfigDoesntExist"
+			ref="63bb37b0-fede-45e3-bd41-bf349ce4925f"
 			type="Recording">
 			</testmodule>
 			<testcase
@@ -813,15 +868,21 @@ rxversion="8.1">
 			</testmodule>
 			<testcase
 			id="e5ed82b0-fc45-459f-b715-408cd95f119b"
-			name="ReindexHB">
+			name="ReindexHBExternal">
 			</testcase>
+			<testmodule
+			id="e6852385-fb94-4699-a76c-4babc5d5b452"
+			name="CheckHBConfigFile"
+			ref="49c14881-6b01-47a9-a300-59c912a2c2cf"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="e85c240a-6f3f-46cd-aaa3-23a906084d7c"
 			name="TestNavigationLink">
 			</testcase>
 			<testcase
 			id="eadc5bef-9c56-48a2-b7b6-cec597079296"
-			name="CompareFiles2017HB">
+			name="CompareFilesTo2017HB">
 			</testcase>
 			<testcase
 			id="eb269b62-171b-46e6-a194-de77eefa5ac4"
@@ -853,6 +914,10 @@ rxversion="8.1">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testcase
+			id="f1b43b6c-fed6-4dbd-a2d1-84a7432b46cf"
+			name="CheckMissingDLLs">
+			</testcase>
 			<testmodule
 			id="f1f4b9dd-9ae9-403d-8903-38bb6a7420db"
 			name="OpenExistingEstimate"
@@ -867,7 +932,7 @@ rxversion="8.1">
 			</testmodule>
 			<testcase
 			id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
-			name="Bin/Stray.XML">
+			name="ValidateBin/Stray.XML">
 			</testcase>
 			<testcase
 			id="f5a25f64-1bac-469a-9544-4bc99b899a20"
@@ -1017,19 +1082,95 @@ rxversion="8.1">
 							</teardown>
 						</smartfoldernode>
 						<smartfoldernode
+						id="e2647272-bd9d-4014-811f-c32ebdcd6137"
+						name="ValidateFileStructure">
+							<testcase
+							id="8d10eccb-2fce-4313-b590-cb538c166d75"
+							name="CompareFilesServerToWS">
+								<testmodule
+								id="b8142107-417e-4c2d-b2aa-48411e4f51b5"
+								name="CompareServerAndWSBin">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="f1b43b6c-fed6-4dbd-a2d1-84a7432b46cf"
+							name="CheckMissingDLLs">
+								<testmodule
+								id="0aaadf86-f8d6-4921-80df-1654be9565af"
+								name="CheckMissingDLLsOCXs">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
+							name="ValidateBin/Stray.XML">
+								<testmodule
+								id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
+								name="ValidateHBStrayDate">
+								</testmodule>
+								<testmodule
+								id="d6689144-6a60-4ed4-a1fd-3c5db7a3511c"
+								name="ValidateWSStrayDate">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
+							name="ValidateSQLDriverReadmeExists">
+								<testmodule
+								id="b562ba65-5a9f-48dd-a499-7987178bb57c"
+								name="SQLDriverReadmeExists">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="66d2715a-ad00-480a-960b-dbed18e79ed5"
+							name="ValidateExeAre2018Version">
+								<testmodule
+								id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
+								name="ValidateEXEs">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="eadc5bef-9c56-48a2-b7b6-cec597079296"
+							name="CompareFilesTo2017HB">
+								<testmodule
+								id="429a4229-6e64-46d0-b24c-148691a5268b"
+								name="Compare17Folders">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="4ac000f8-7ec6-47df-99ca-83ef07eb4960"
+							name="ValidateHeavybidConfig">
+								<testmodule
+								id="e6852385-fb94-4699-a76c-4babc5d5b452"
+								name="CheckHBConfigFile">
+								</testmodule>
+								<testmodule
+								id="d986896e-fe3a-4ae9-a84e-89fc68b07f7c"
+								name="SysConfigDoesntExist">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="6a412808-ed56-4b80-a5de-ab2592885875"
+							name="ValidateXMLKey">
+								<testmodule
+								id="ad9fe996-1afa-4004-a24b-123299830849"
+								name="ValidateXMLInstanceKey">
+								</testmodule>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
 						id="378888a4-f9ca-424a-8655-56a5032d02ba"
 						name="TestHBFunctionality">
-							<setup
-							id="d760d409-2629-4401-88c6-a6b4afdc3dc9"
-							name="setup">
-								<testmodule
-								id="899a2493-6979-4a75-987b-7f2877e9bdfc"
-								name="OpenHB">
-								</testmodule>
-							</setup>
 							<smartfoldernode
 							id="322f84c3-7566-4e71-b892-55ec692f2934"
 							name="RegisterHB">
+								<setup
+								id="d760d409-2629-4401-88c6-a6b4afdc3dc9"
+								name="setup1">
+									<testmodule
+									id="899a2493-6979-4a75-987b-7f2877e9bdfc"
+									name="OpenHB">
+									</testmodule>
+								</setup>
 								<testcase
 								id="e85c240a-6f3f-46cd-aaa3-23a906084d7c"
 								name="TestNavigationLink">
@@ -1065,6 +1206,10 @@ rxversion="8.1">
 								<setup
 								id="89a7786c-4b7b-47b9-9626-a1942a36013b"
 								name="setup">
+									<testmodule
+									id="6670317b-cf8f-447d-965a-093a311da231"
+									name="OpenHB">
+									</testmodule>
 									<testmodule
 									id="ccde0c24-fa2a-4fee-ae64-8cb43fa457d7"
 									name="LogIn">
@@ -1347,54 +1492,18 @@ rxversion="8.1">
 									</testmodule>
 								</teardown>
 							</smartfoldernode>
-						</smartfoldernode>
-						<smartfoldernode
-						id="e2647272-bd9d-4014-811f-c32ebdcd6137"
-						name="ValidateFileStructure">
-							<testcase
-							id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
-							name="Bin/Stray.XML">
-								<testmodule
-								id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
-								name="ValidateHBStrayDate">
-								</testmodule>
-								<testmodule
-								id="d6689144-6a60-4ed4-a1fd-3c5db7a3511c"
-								name="ValidateWSStrayDate">
-								</testmodule>
-							</testcase>
-							<testcase
-							id="e5ed82b0-fc45-459f-b715-408cd95f119b"
-							name="ReindexHB">
-								<testmodule
-								id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
+							<smartfoldernode
+							id="b169dec5-15ff-4bdb-8b32-282dfe8f6986"
+							name="ValidateFunctionalityHBExternal">
+								<testcase
+								id="e5ed82b0-fc45-459f-b715-408cd95f119b"
 								name="ReindexHBExternal">
-								</testmodule>
-							</testcase>
-							<testcase
-							id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
-							name="SQLDriverReadme">
-								<testmodule
-								id="b562ba65-5a9f-48dd-a499-7987178bb57c"
-								name="SQLDriverReadmeExists">
-								</testmodule>
-							</testcase>
-							<testcase
-							id="66d2715a-ad00-480a-960b-dbed18e79ed5"
-							name="ExeFileVersion">
-								<testmodule
-								id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
-								name="ValidateEXEs">
-								</testmodule>
-							</testcase>
-							<testcase
-							id="eadc5bef-9c56-48a2-b7b6-cec597079296"
-							name="CompareFiles2017HB">
-								<testmodule
-								id="429a4229-6e64-46d0-b24c-148691a5268b"
-								name="Compare17Folders">
-								</testmodule>
-							</testcase>
+									<testmodule
+									id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
+									name="ReindexHBExternal">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
@@ -1429,6 +1538,10 @@ rxversion="8.1">
 								<testmodule
 								id="dccfa2de-90f5-4cbc-81ca-ad0e3cf240ad"
 								name="UninstallHB">
+								</testmodule>
+								<testmodule
+								id="986237e5-2b03-45c9-888a-ec2b71b9d9a9"
+								name="ValidateWSBin">
 								</testmodule>
 							</testcase>
 						</smartfoldernode>
@@ -1737,9 +1850,6 @@ rxversion="8.1">
 		name="TestRun">
 			<testcontainer
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79">
 			</testcontainer>
 			<testcontainer
 			id="712c470d-3a96-4599-b475-7e17c8b5e64d">

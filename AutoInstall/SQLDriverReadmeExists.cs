@@ -79,8 +79,10 @@ namespace AutoInstall
 
             Init();
 
-            ValidateSQLDriver();
-            Delay.Milliseconds(0);
+            try {
+                ValidateSQLDriver();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
         }
 

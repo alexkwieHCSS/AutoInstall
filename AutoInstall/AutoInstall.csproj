@@ -191,6 +191,30 @@
       <UserCode>true</UserCode>
       <id>06ee13e9-9105-408b-af02-f4d1ddb75b7a</id>
     </Compile>
+    <Compile Include="CheckHBConfigFile.cs">
+      <BoundTo>f4e3e7a1-d15a-4a92-aef6-01ab6a7bd7d4</BoundTo>
+      <DependentUpon>CheckHBConfigFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8cf5c374-6ccd-4616-a9e0-e559f47b021d</id>
+    </Compile>
+    <Compile Include="CheckHBConfigFile.UserCode.cs">
+      <BoundTo>f4e3e7a1-d15a-4a92-aef6-01ab6a7bd7d4</BoundTo>
+      <DependentUpon>CheckHBConfigFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>185e87bd-c725-43f1-a05d-5d4961ffca97</id>
+    </Compile>
+    <Compile Include="CheckMissingDLLsOCXs.cs">
+      <BoundTo>98540fd6-53db-4c7e-85f3-9e725153cd6b</BoundTo>
+      <DependentUpon>CheckMissingDLLsOCXs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8fd4559a-ac8e-48d3-9ad5-e4b6e2390df8</id>
+    </Compile>
+    <Compile Include="CheckMissingDLLsOCXs.UserCode.cs">
+      <BoundTo>98540fd6-53db-4c7e-85f3-9e725153cd6b</BoundTo>
+      <DependentUpon>CheckMissingDLLsOCXs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a1a2136b-f270-4d37-abc8-91cfb6f3bdce</id>
+    </Compile>
     <Compile Include="ChiefEstimatorAnalysisReport.cs">
       <BoundTo>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</BoundTo>
       <DependentUpon>ChiefEstimatorAnalysisReport.rxrec</DependentUpon>
@@ -226,6 +250,18 @@
       <DependentUpon>Compare17Folders.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>46896f52-61dd-4171-a70f-b0b41eede8fb</id>
+    </Compile>
+    <Compile Include="CompareServerAndWSBin.cs">
+      <BoundTo>a5dcb4ff-c016-4e77-bb3d-cce93b79ebe3</BoundTo>
+      <DependentUpon>CompareServerAndWSBin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>247f59e7-bd42-4574-aa21-cd1af5e8bd3b</id>
+    </Compile>
+    <Compile Include="CompareServerAndWSBin.UserCode.cs">
+      <BoundTo>a5dcb4ff-c016-4e77-bb3d-cce93b79ebe3</BoundTo>
+      <DependentUpon>CompareServerAndWSBin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cd9f9a77-868b-4989-8ee0-e6480ba40367</id>
     </Compile>
     <Compile Include="ConfirmWSInstallFinish.cs">
       <BoundTo>d5bf3b05-e0e6-4148-b222-822cbb6967df</BoundTo>
@@ -650,6 +686,30 @@
       <UserCode>true</UserCode>
       <id>1ea7ac94-78db-4ddb-80d5-350e5c96d0dc</id>
     </Compile>
+    <Compile Include="SysConfigDoesntExist.cs">
+      <BoundTo>34826778-8e7b-4b55-8056-e212b6b11258</BoundTo>
+      <DependentUpon>SysConfigDoesntExist.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b1a1f4cf-1b7d-4978-9293-4748e48e9c39</id>
+    </Compile>
+    <Compile Include="SysConfigDoesntExist.UserCode.cs">
+      <BoundTo>34826778-8e7b-4b55-8056-e212b6b11258</BoundTo>
+      <DependentUpon>SysConfigDoesntExist.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1299da35-0786-4ce8-b9d7-376bb1e2bdd3</id>
+    </Compile>
+    <Compile Include="test.cs">
+      <BoundTo>d669a59f-860d-4c91-b9d5-7989d777f1d6</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>904dd31d-eca5-40a8-829b-3341ce55c912</id>
+    </Compile>
+    <Compile Include="test.UserCode.cs">
+      <BoundTo>d669a59f-860d-4c91-b9d5-7989d777f1d6</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e1636444-c8f5-4d1d-a87b-3f49279ede19</id>
+    </Compile>
     <Compile Include="TestSARegCode.cs">
       <BoundTo>feadb33d-6ca2-4a02-bddb-31ef9c516ab3</BoundTo>
       <DependentUpon>TestSARegCode.rxrec</DependentUpon>
@@ -758,6 +818,18 @@
       <UserCode>true</UserCode>
       <id>f7f36a96-d5d8-4c45-ad8c-a590265b2af8</id>
     </Compile>
+    <Compile Include="ValidateWSBin.cs">
+      <BoundTo>cb844d9a-0654-448d-aba8-8f2919ebb267</BoundTo>
+      <DependentUpon>ValidateWSBin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8aa81537-dda7-41e8-9c49-826f333d740d</id>
+    </Compile>
+    <Compile Include="ValidateWSBin.UserCode.cs">
+      <BoundTo>cb844d9a-0654-448d-aba8-8f2919ebb267</BoundTo>
+      <DependentUpon>ValidateWSBin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>16420f83-8529-4b2c-90c8-6f8d11927a25</id>
+    </Compile>
     <Compile Include="ValidateWSStrayDate.cs">
       <BoundTo>b3e403da-d856-4f02-a2da-a26b3db55db7</BoundTo>
       <DependentUpon>ValidateWSStrayDate.rxrec</DependentUpon>
@@ -769,6 +841,18 @@
       <DependentUpon>ValidateWSStrayDate.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>134138f6-7e8d-4a68-982c-9c767dcbc3f3</id>
+    </Compile>
+    <Compile Include="ValidateXMLInstanceKey.cs">
+      <BoundTo>272e6af8-642d-4fc3-8b48-2e09fb22c568</BoundTo>
+      <DependentUpon>ValidateXMLInstanceKey.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d51361f-6402-477f-ba50-6f1d35948958</id>
+    </Compile>
+    <Compile Include="ValidateXMLInstanceKey.UserCode.cs">
+      <BoundTo>272e6af8-642d-4fc3-8b48-2e09fb22c568</BoundTo>
+      <DependentUpon>ValidateXMLInstanceKey.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9d7801a-79ca-4f51-a552-3010f48b5b9f</id>
     </Compile>
     <Compile Include="WelcomeImage.cs">
       <BoundTo>2de7d395-7b96-41fa-9ae3-c16a9e95261d</BoundTo>
@@ -948,6 +1032,16 @@
       <id>cd9056d8-b107-49a3-ac41-4ef02ccb220d</id>
       <recordtableid>a1b69bf4-76e7-44b9-8290-252ddd001601</recordtableid>
     </None>
+    <None Include="CheckHBConfigFile.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>f4e3e7a1-d15a-4a92-aef6-01ab6a7bd7d4</id>
+      <recordtableid>49c14881-6b01-47a9-a300-59c912a2c2cf</recordtableid>
+    </None>
+    <None Include="CheckMissingDLLsOCXs.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>98540fd6-53db-4c7e-85f3-9e725153cd6b</id>
+      <recordtableid>a6f15c91-1e6d-43df-ab08-61a8a5bb251d</recordtableid>
+    </None>
     <None Include="ChiefEstimatorAnalysisReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</id>
@@ -962,6 +1056,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>b1c5ebbf-02e1-4289-8d28-fdfe41b91391</id>
       <recordtableid>f7cd7a70-f449-4bef-af7e-ef4d413fe3ed</recordtableid>
+    </None>
+    <None Include="CompareServerAndWSBin.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>a5dcb4ff-c016-4e77-bb3d-cce93b79ebe3</id>
+      <recordtableid>35759013-d826-4ea8-b07a-a9008891e773</recordtableid>
     </None>
     <None Include="ConfirmWSInstallFinish.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -1138,6 +1237,16 @@
       <id>890266ff-7153-4f2b-9f0c-20c5fd865be7</id>
       <recordtableid>b5bcb9d5-1c47-4f4d-a763-e75580fd274e</recordtableid>
     </None>
+    <None Include="SysConfigDoesntExist.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>34826778-8e7b-4b55-8056-e212b6b11258</id>
+      <recordtableid>63bb37b0-fede-45e3-bd41-bf349ce4925f</recordtableid>
+    </None>
+    <None Include="test.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>d669a59f-860d-4c91-b9d5-7989d777f1d6</id>
+      <recordtableid>43b73940-9ffa-4e3c-8873-f3b11bf01680</recordtableid>
+    </None>
     <None Include="TestSARegCode.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>feadb33d-6ca2-4a02-bddb-31ef9c516ab3</id>
@@ -1183,10 +1292,20 @@
       <id>dd86b379-c0e2-4555-8b63-09f883278c1f</id>
       <recordtableid>82ff8626-4ccf-402d-b3ee-db8e600f7d69</recordtableid>
     </None>
+    <None Include="ValidateWSBin.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>cb844d9a-0654-448d-aba8-8f2919ebb267</id>
+      <recordtableid>b53c1488-8b07-4c34-a868-f7481789c702</recordtableid>
+    </None>
     <None Include="ValidateWSStrayDate.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>b3e403da-d856-4f02-a2da-a26b3db55db7</id>
       <recordtableid>5cd0caf7-f833-4d29-aad4-fdd09da5c405</recordtableid>
+    </None>
+    <None Include="ValidateXMLInstanceKey.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>272e6af8-642d-4fc3-8b48-2e09fb22c568</id>
+      <recordtableid>d7ad1879-29dd-45c1-b888-80a6d59d0282</recordtableid>
     </None>
     <None Include="WelcomeImage.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

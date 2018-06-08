@@ -86,22 +86,32 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage.Click();
             Delay.Milliseconds(200);
             
-            // E.6
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeContains (Text>'hcss.com') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(2));
-                Validate.AttributeContains(repo.GoogleChrome.AddressBarInfo, "Text", "hcss.com", null, false);
-                Delay.Milliseconds(0);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Text' to contain the specified value 'hcss.com'. Associated repository item: 'GoogleChrome.AddressBar'", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(2));
+                repo.GoogleChrome.AddressBarInfo.WaitForAttributeContains(5000, "Text", "hcss.com");
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             // E.6
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'(HCSS|hcss)') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(3));
-                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("(HCSS|hcss)"), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeContains (Text>'hcss.com') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(3));
+                Validate.AttributeContains(repo.GoogleChrome.AddressBarInfo, "Text", "hcss.com", null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Title' to contain the specified value 'HCSS'. Associated repository item: 'GoogleChrome.Tab'", repo.GoogleChrome.TabInfo, new RecordItemIndex(4));
+                repo.GoogleChrome.TabInfo.WaitForAttributeContains(5000, "Title", "HCSS");
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
             // E.6
-            //Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(4));
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'(HCSS|hcss)') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(5));
+                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("(HCSS|hcss)"), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            // E.6
+            //Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(6));
             //Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
             //Delay.Milliseconds(0);
             

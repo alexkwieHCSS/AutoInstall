@@ -29,48 +29,30 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
-		<explicitdelayitem
-		duration="30000ms"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="True"
-		optional="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
+		loc="Center"
+		movetime="300ms"
 		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
+		searchpropertyid="fcc50d3e-8b29-4686-948d-2c404e8e1d81"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</keysequenceitem>
-		<explicitdelayitem
-		duration="180000ms"
-		enabled="True"
-		optional="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
-		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</keysequenceitem>
+			<info
+			id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

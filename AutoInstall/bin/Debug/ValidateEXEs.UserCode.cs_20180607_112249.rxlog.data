@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a2e7224cb09ff35"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/7/2018 11:22:53 AM"
+		timestampiso="2018-06-07T16:22:53"
+		endtime="6/7/2018 11:22:56 AM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<errormessage>
+			The method or operation is not implemented.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.659"
+			timeRelativeToTestModuleStartTime="00:02.660"
+			timeWallClock="11:22:55"
+			time="00:02.659"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_9e77d1c6_bddf48a9_trace.jpg"
+			errthumb=".\Validate_9e77d1c6_bddf48a9_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>run powershell script for file version reports<br/>Run application 'oldExesHB' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.780"
+			timeRelativeToTestModuleStartTime="00:02.781"
+			timeWallClock="11:22:55"
+			time="00:02.780"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_9e77d1c6_0b96081e_trace.jpg"
+			errthumb=".\Validate_9e77d1c6_0b96081e_trace_thumb.jpg">
+			<message>
+				The method or operation is not implemented.
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.ValidateEXEs.ValidateEXEReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs:line 57
+   at AutoInstall.ValidateEXEs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs:line 89
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="57"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

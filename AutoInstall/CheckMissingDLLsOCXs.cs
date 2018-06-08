@@ -79,6 +79,19 @@ namespace AutoInstall
 
             Init();
 
+            // script to check DLL and OCX in HB against masterlist on V:
+            Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runDLLcomparison", "", "V:\\alex.kwie\\Script", false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            try {
+                ValidateDLLComparison();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
         }
 
 #region Image Feature Data

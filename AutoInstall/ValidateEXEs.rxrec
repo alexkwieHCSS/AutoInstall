@@ -32,14 +32,14 @@ rxversion="8.1">
 		<runapprecorditem
 		enabled="True"
 		maximized="False"
-		optional="False">
+		optional="True">
 			<comment>
 				run powershell script for file version reports
 			</comment>
 			<bindings>
 			</bindings>
 			<filename>
-				RunFileVerPS1s
+				oldExesHB
 			</filename>
 			<workingdir>
 				V:\alex.kwie\Script
@@ -47,6 +47,31 @@ rxversion="8.1">
 			<args>
 			</args>
 		</runapprecorditem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="ValidateEXEs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateEXEReport"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7630ca49-9327-4636-8e4a-3e551be60cfc">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

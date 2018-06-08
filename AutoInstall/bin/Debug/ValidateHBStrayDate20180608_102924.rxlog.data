@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7ff402017b8018e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/8/2018 10:29:32 AM"
+		timestampiso="2018-06-08T15:29:32"
+		endtime="6/8/2018 10:29:52 AM"
+		timeoutfactor="1"
+		module="ValidateHBStrayDate">
+		<detail>
+			ValidateHBStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.779"
+			timeRelativeToTestModuleStartTime="00:04.781"
+			timeWallClock="10:29:37"
+			time="00:04.779"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.049"
+			timeRelativeToTestModuleStartTime="00:05.051"
+			timeWallClock="10:29:37"
+			time="00:05.049"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OpenXML.xmlTable' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']"
+				itempath="radiobutton[@accessiblename='As an XML table']"
+				fullname="AutoInstallRepository.ExcelRelated.OpenXML.xmlTable"
+				id="16eb6a78000f485e830c2bc07388ac5f"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.777"
+			timeRelativeToTestModuleStartTime="00:09.779"
+			timeWallClock="10:29:42"
+			time="00:09.777"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OpenXML.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelRelated.OpenXML.OKButton"
+				id="7f81cad3b153451ead480d13ebc63e58"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="98"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.657"
+			timeRelativeToTestModuleStartTime="00:10.659"
+			timeWallClock="10:29:43"
+			time="00:10.657"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.ExcelXMLPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.OKButton"
+				id="f93f462d4b5642f6b0c578f32bd1c9d0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="104"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.647"
+			timeRelativeToTestModuleStartTime="00:11.649"
+			timeWallClock="10:29:44"
+			time="00:11.647"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']"
+				itempath="?/?/?/button[@name='Cancel']"
+				fullname="AutoInstallRepository.ExcelRelated.OfficeActivationSuite.CancelButton"
+				id="3e80e15db7ef44ea9fd941677c209169"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="110"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.737"
+			timeRelativeToTestModuleStartTime="00:15.739"
+			timeWallClock="10:29:48"
+			time="00:15.737"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (Text='2018.1') on item 'ExcelRelated.Excel.CellA2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='2']/cell[@address='A2']"
+				itempath=".//table/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="116"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.965"
+			timeRelativeToTestModuleStartTime="00:16.967"
+			timeWallClock="10:29:49"
+			time="00:16.965"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellA2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='2']/cell[@address='A2']"
+				itempath=".//table/row[@index='2']/cell[@address='A2']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellA2"
+				id="ee3237ba6bb641b080fd694144dff066"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.131"
+			timeRelativeToTestModuleStartTime="00:17.133"
+			timeWallClock="10:29:49"
+			time="00:17.131"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (Text='08/08/2017') on item 'ExcelRelated.Excel.CellB2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='2']/cell[@address='B2']"
+				itempath=".//table/row[@index='2']/cell[@address='B2']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellB2"
+				id="073df16318734060ae7ab7ad13e81e01"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="122"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.183"
+			timeRelativeToTestModuleStartTime="00:18.185"
+			timeWallClock="10:29:50"
+			time="00:18.183"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellB2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='2']/cell[@address='B2']"
+				itempath=".//table/row[@index='2']/cell[@address='B2']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellB2"
+				id="073df16318734060ae7ab7ad13e81e01"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.357"
+			timeRelativeToTestModuleStartTime="00:18.359"
+			timeWallClock="10:29:50"
+			time="00:18.357"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Closing application containing item 'ExcelRelated.Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="128"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.625"
+			timeRelativeToTestModuleStartTime="00:18.627"
+			timeWallClock="10:29:51"
+			time="00:18.625"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']//button[@name='Don''t Save']"
+				itempath=".//button[@name='Don''t Save']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.DontSaveButton"
+				id="76d2eed8acf84b5f8ade702863f4ea61"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="134"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
