@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5dfc664d919564"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/15/2018 10:39:40 AM"
+		timestampiso="2018-06-15T15:39:40"
+		endtime="6/15/2018 10:39:41 AM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<errormessage>
+			File not found for comparison in Validate_FileContentEqual: \Reference\dllComparison.txt
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.716"
+			timeRelativeToTestModuleStartTime="00:00.716"
+			timeWallClock="10:39:41"
+			time="00:00.716"
+			level="Warn"
+			category="Data"
+			errimg=".\CheckMis_8f4ae772_e259c242_trace.jpg"
+			errthumb=".\CheckMis_8f4ae772_e259c242_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.747"
+			timeRelativeToTestModuleStartTime="00:00.747"
+			timeWallClock="10:39:41"
+			time="00:00.747"
+			level="Error"
+			category="Module"
+			errimg=".\CheckMis_8f4ae772_e259c242_trace.jpg"
+			errthumb=".\CheckMis_8f4ae772_e259c242_trace_thumb.jpg">
+			<message>
+				File not found for comparison in Validate_FileContentEqual: \Reference\dllComparison.txt
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.CheckMissingDLLsOCXs.ValidateDLLReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs:line 82
+   at AutoInstall.CheckMissingDLLsOCXs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="82"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

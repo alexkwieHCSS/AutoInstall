@@ -8,12 +8,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="AutoInstall.ValidateWSBin.ValidateWSBinRemoved()" />
-      <Element value="AutoInstall.Compare17Folders.ValidateDiffFrom17()" />
-      <Element value="AutoInstall.ValidateEXEs.ValidateEXEReport()" />
-      <Element value="AutoInstall.CheckMissingDLLsOCXs.ValidateDLLComparison()" />
-      <Element value="AutoInstall.CompareServerAndWSBin.ValidateWSComparison()" />
-      <Element value="AutoInstall.sysConfigDoesntExist.CheckSysConfigExists()" />
+      <Element value="AutoInstall.CompareServerAndWSBin.ValidateWSComparisonReportContent()" />
+      <Element value="AutoInstall.CompareServerAndWSBin.TestRun()" />
+      <Element value="AutoInstall.Compare17Folders.ValidateHCSSReportContent()" />
+      <Element value="AutoInstall.Compare17Folders.ValidateSYSReportContent()" />
+      <Element value="AutoInstall.Compare17Folders.ValidateBINReportContent()" />
+      <Element value="AutoInstall.Compare17Folders.ValidateUTILReportContent()" />
     </Array>
   </Properties>
 </Properties>

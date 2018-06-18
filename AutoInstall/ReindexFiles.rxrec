@@ -94,7 +94,7 @@ rxversion="8.1">
 				</path>
 			</info>
 			<AttributeValue>
-				False
+				True
 			</AttributeValue>
 		</setvaluerecorditem>
 		<setvaluerecorditem

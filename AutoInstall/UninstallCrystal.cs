@@ -79,37 +79,55 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ProgramsAndFeatures.SearchEditBox'", repo.ProgramsAndFeatures.SearchEditBoxInfo, new ActionTimeout(5000), new RecordItemIndex(0));
-            repo.ProgramsAndFeatures.SearchEditBoxInfo.WaitForExists(5000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s to exist. Associated repository item: 'ProgramsAndFeatures.SearchEditBox'", repo.ProgramsAndFeatures.SearchEditBoxInfo, new ActionTimeout(5000), new RecordItemIndex(0));
+                repo.ProgramsAndFeatures.SearchEditBoxInfo.WaitForExists(5000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProgramsAndFeatures.SearchEditBox' at Center.", repo.ProgramsAndFeatures.SearchEditBoxInfo, new RecordItemIndex(1));
-            repo.ProgramsAndFeatures.SearchEditBox.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ProgramsAndFeatures.SearchEditBox' at Center.", repo.ProgramsAndFeatures.SearchEditBoxInfo, new RecordItemIndex(1));
+                repo.ProgramsAndFeatures.SearchEditBox.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'hcss{Space}integration' with focus on 'ProgramsAndFeatures.SearchEditBox'.", repo.ProgramsAndFeatures.SearchEditBoxInfo, new RecordItemIndex(2));
-            repo.ProgramsAndFeatures.SearchEditBox.PressKeys("hcss{Space}integration");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence 'hcss{Space}integration' with focus on 'ProgramsAndFeatures.SearchEditBox'.", repo.ProgramsAndFeatures.SearchEditBoxInfo, new RecordItemIndex(2));
+                repo.ProgramsAndFeatures.SearchEditBox.PressKeys("hcss{Space}integration");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration'", repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo.WaitForExists(30000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration'", repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+                repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo.WaitForExists(30000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration' at Center.", repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo, new RecordItemIndex(4));
-            repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration' at Center.", repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegrationInfo, new RecordItemIndex(4));
+                repo.ProgramsAndFeatures.UninstallProgramTable.HCSSCrystalXIIntegration.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ProgramsAndFeatures.Buttons.UninstallButton'", repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo, new ActionTimeout(10000), new RecordItemIndex(5));
-            repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo.WaitForExists(10000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'ProgramsAndFeatures.Buttons.UninstallButton'", repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo, new ActionTimeout(10000), new RecordItemIndex(5));
+                repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo.WaitForExists(10000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProgramsAndFeatures.Buttons.UninstallButton' at Center.", repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo, new RecordItemIndex(6));
-            repo.ProgramsAndFeatures.Buttons.UninstallButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ProgramsAndFeatures.Buttons.UninstallButton' at Center.", repo.ProgramsAndFeatures.Buttons.UninstallButtonInfo, new RecordItemIndex(6));
+                repo.ProgramsAndFeatures.Buttons.UninstallButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ProgramsAndFeatures.Buttons.YesButton'", repo.ProgramsAndFeatures.Buttons.YesButtonInfo, new ActionTimeout(10000), new RecordItemIndex(7));
-            repo.ProgramsAndFeatures.Buttons.YesButtonInfo.WaitForExists(10000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'ProgramsAndFeatures.Buttons.YesButton'", repo.ProgramsAndFeatures.Buttons.YesButtonInfo, new ActionTimeout(10000), new RecordItemIndex(7));
+                repo.ProgramsAndFeatures.Buttons.YesButtonInfo.WaitForExists(10000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProgramsAndFeatures.Buttons.YesButton' at Center.", repo.ProgramsAndFeatures.Buttons.YesButtonInfo, new RecordItemIndex(8));
-            repo.ProgramsAndFeatures.Buttons.YesButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ProgramsAndFeatures.Buttons.YesButton' at Center.", repo.ProgramsAndFeatures.Buttons.YesButtonInfo, new RecordItemIndex(8));
+                repo.ProgramsAndFeatures.Buttons.YesButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
             
         }
 

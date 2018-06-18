@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5c87a813a85834a"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/15/2018 12:44:56 PM"
+		timestampiso="2018-06-15T17:44:56"
+		endtime="6/15/2018 12:45:07 PM"
+		timeoutfactor="1"
+		module="Compare17Folders">
+		<detail>
+			Compare17Folders
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.721"
+			timeRelativeToTestModuleStartTime="00:00.721"
+			timeWallClock="12:44:57"
+			time="00:00.721"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.751"
+			timeRelativeToTestModuleStartTime="00:00.751"
+			timeWallClock="12:44:57"
+			time="00:00.751"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell scripts to find files not in both versions<br/>Run application 'DiffBetween2017.1.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.872"
+			timeRelativeToTestModuleStartTime="00:00.872"
+			timeWallClock="12:44:57"
+			time="00:00.872"
+			level="Info"
+			category="Delay">
+			<message>
+				(Optional Action)<br/>Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.902"
+			timeRelativeToTestModuleStartTime="00:10.902"
+			timeWallClock="12:45:07"
+			time="00:10.902"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! binDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.902"
+			timeRelativeToTestModuleStartTime="00:10.902"
+			timeWallClock="12:45:07"
+			time="00:10.902"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! hcssDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="60"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.902"
+			timeRelativeToTestModuleStartTime="00:10.902"
+			timeWallClock="12:45:07"
+			time="00:10.902"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! sysDiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="69"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.917"
+			timeRelativeToTestModuleStartTime="00:10.917"
+			timeWallClock="12:45:07"
+			time="00:10.917"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! DiffUTIL.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="78"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.967"
+			timeRelativeToTestModuleStartTime="00:10.967"
+			timeWallClock="12:45:07"
+			time="00:10.967"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\binDiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\binDiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="163"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.998"
+			timeRelativeToTestModuleStartTime="00:10.998"
+			timeWallClock="12:45:07"
+			time="00:10.998"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffUTIL.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\DiffUTIL.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="123"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.030"
+			timeRelativeToTestModuleStartTime="00:11.030"
+			timeWallClock="12:45:07"
+			time="00:11.030"
+			level="Success"
+			category="Validation"
+			errimg=".\Compare1_325a7db1_c122563d_trace.jpg"
+			errthumb=".\Compare1_325a7db1_c122563d_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\sysDiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\sysDiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="203"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.063"
+			timeRelativeToTestModuleStartTime="00:11.063"
+			timeWallClock="12:45:07"
+			time="00:11.063"
+			level="Failure"
+			category="Validation"
+			errimg=".\Compare1_325a7db1_c122563d_trace.jpg"
+			errthumb=".\Compare1_325a7db1_c122563d_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\hcssDiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\hcssDiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="243"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.067"
+			timeRelativeToTestModuleStartTime="00:11.067"
+			timeWallClock="12:45:07"
+			time="00:11.067"
+			level="Warn"
+			category="Module"
+			errimg=".\Compare1_325a7db1_c122563d_trace.jpg"
+			errthumb=".\Compare1_325a7db1_c122563d_trace_thumb.jpg">
+			<message>
+				(Optional Action) Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\hcssDiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\hcssDiff.txt)
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\Compare17Folders.cs"
+				codeline="130"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.083"
+			timeRelativeToTestModuleStartTime="00:11.083"
+			timeWallClock="12:45:07"
+			time="00:11.083"
+			level="Error"
+			category="Module"
+			errimg=".\Compare1_325a7db1_c122563d_trace.jpg"
+			errthumb=".\Compare1_325a7db1_c122563d_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

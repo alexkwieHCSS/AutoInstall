@@ -42,10 +42,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<filename>
-				V:\alex.kwie\AutoInstallBatch\copylatestbuild_original.bat
+				PullLatestInstall.bat
 			</filename>
 			<workingdir>
-				V:\alex.kwie\AutoInstallBatch
+				W:\HBDaily\InstallAutomation\Script\
 			</workingdir>
 			<args>
 			</args>

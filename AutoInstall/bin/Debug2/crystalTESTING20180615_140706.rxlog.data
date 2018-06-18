@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15f4d1759c4a676"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1536x864"
+		timestamp="6/15/2018 2:07:11 PM"
+		timestampiso="2018-06-15T19:07:11"
+		endtime="6/15/2018 2:07:25 PM"
+		timeoutfactor="1"
+		module="crystalTESTING">
+		<detail>
+			crystalTESTING
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.500"
+			timeRelativeToTestModuleStartTime="00:01.502"
+			timeWallClock="14:07:13"
+			time="00:01.500"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.433"
+			timeRelativeToTestModuleStartTime="00:04.435"
+			timeWallClock="14:07:16"
+			time="00:04.433"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Press() on item 'CrystalInstallation.CrystalInstaller.NextButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.651"
+			timeRelativeToTestModuleStartTime="00:04.653"
+			timeWallClock="14:07:16"
+			time="00:04.651"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CrystalInstallation.NewAppFolder.NewItem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']/button[@text='&amp;Next >']"
+				itempath="button[@text='&amp;Next >']"
+				fullname="AutoInstallRepository.CrystalInstallation.NewAppFolder.NewItem"
+				id="b3cf54d92f4e4d36b0fa3a51dcafe494"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.477"
+			timeRelativeToTestModuleStartTime="00:05.479"
+			timeWallClock="14:07:17"
+			time="00:05.477"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.806"
+			timeRelativeToTestModuleStartTime="00:10.808"
+			timeWallClock="14:07:22"
+			time="00:10.806"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewAppFolder' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']"
+				itempath="/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']"
+				fullname="AutoInstallRepository.NewAppFolder.Self"
+				id="603e0544a931443899fe3fdae26cd224"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.656"
+			timeRelativeToTestModuleStartTime="00:11.658"
+			timeWallClock="14:07:23"
+			time="00:11.656"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.552"
+			timeRelativeToTestModuleStartTime="00:12.554"
+			timeWallClock="14:07:24"
+			time="00:12.552"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'CrystalInstallation.CrystalInstaller'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']"
+				itempath="/form[@title~'HCSS' and @title~'Crystal']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.Self"
+				id="4901c8ac44014c6bb7b8c50692e0f0bd"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.913"
+			timeRelativeToTestModuleStartTime="00:12.915"
+			timeWallClock="14:07:24"
+			time="00:12.913"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'CrystalInstallation.CrystalInstaller.NextButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="113"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.777"
+			timeRelativeToTestModuleStartTime="00:13.779"
+			timeWallClock="14:07:25"
+			time="00:13.777"
+			level="Info"
+			category="Invoke action">
+			<message>
+				(Optional Action)<br/>Invoking Press() on item 'CrystalInstallation.CrystalInstaller.NextButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\crystalTESTING.cs"
+				codeline="119"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

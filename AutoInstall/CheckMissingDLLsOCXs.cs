@@ -41,6 +41,7 @@ namespace AutoInstall
         /// </summary>
         public CheckMissingDLLsOCXs()
         {
+            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace AutoInstall
         }
 
 #region Variables
+
+        string _ScriptLocation;
+
+        /// <summary>
+        /// Gets or sets the value of variable ScriptLocation.
+        /// </summary>
+        [TestVariable("442a3d90-24df-4f19-96fe-bb7293cac6df")]
+        public string ScriptLocation
+        {
+            get { return _ScriptLocation; }
+            set { _ScriptLocation = value; }
+        }
 
 #endregion
 
@@ -81,7 +94,7 @@ namespace AutoInstall
 
             // script to check DLL and OCX in HB against masterlist on V:
             Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("runDLLcomparison", "", "V:\\alex.kwie\\Script", false);
+            Host.Local.RunApplication("runDLLcomparison", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
@@ -91,6 +104,9 @@ namespace AutoInstall
                 ValidateDLLComparison();
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            ValidateDLLReportContent();
+            Delay.Milliseconds(0);
             
         }
 

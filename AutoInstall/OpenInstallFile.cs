@@ -80,8 +80,8 @@ namespace AutoInstall
             Init();
 
             // B.1
-            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'V:\\alex.kwie\\AutoInstallBatch\\copylatestbuild_original.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("V:\\alex.kwie\\AutoInstallBatch\\copylatestbuild_original.bat", "", "V:\\alex.kwie\\AutoInstallBatch", false);
+            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'PullLatestInstall.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("PullLatestInstall.bat", "", "W:\\HBDaily\\InstallAutomation\\Script\\", false);
             Delay.Milliseconds(0);
             
         }

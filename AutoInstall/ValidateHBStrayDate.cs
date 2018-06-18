@@ -41,6 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateHBStrayDate()
         {
+            YearVersion = "2018.1";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace AutoInstall
         }
 
 #region Variables
+
+        string _YearVersion;
+
+        /// <summary>
+        /// Gets or sets the value of variable YearVersion.
+        /// </summary>
+        [TestVariable("b53c7e93-8ed1-4459-8552-62df97849436")]
+        public string YearVersion
+        {
+            get { return _YearVersion; }
+            set { _YearVersion = value; }
+        }
 
 #endregion
 
@@ -113,8 +126,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='2018.1') on item 'ExcelRelated.Excel.CellA2'.", repo.ExcelRelated.Excel.CellA2Info, new RecordItemIndex(6));
-                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellA2Info, "Text", "2018.1", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text=$YearVersion) on item 'ExcelRelated.Excel.CellA2'.", repo.ExcelRelated.Excel.CellA2Info, new RecordItemIndex(6));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellA2Info, "Text", YearVersion, null, false);
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             

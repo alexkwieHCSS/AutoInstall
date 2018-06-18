@@ -184,8 +184,8 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.SystemInfo.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton' at Center.", repo.HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButtonInfo, new RecordItemIndex(8));
-            repo.HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton' at UpperCenter.", repo.HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButtonInfo, new RecordItemIndex(8));
+            repo.HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton.Click(Location.UpperCenter);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton' at Center.", repo.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButtonInfo, new RecordItemIndex(9));

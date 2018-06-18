@@ -41,6 +41,7 @@ namespace AutoInstall
         /// </summary>
         public Compare17Folders()
         {
+            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace AutoInstall
         }
 
 #region Variables
+
+        string _ScriptLocation;
+
+        /// <summary>
+        /// Gets or sets the value of variable ScriptLocation.
+        /// </summary>
+        [TestVariable("e5f7980a-ecea-45df-a274-22d8b65a2af1")]
+        public string ScriptLocation
+        {
+            get { return _ScriptLocation; }
+            set { _ScriptLocation = value; }
+        }
 
 #endregion
 
@@ -81,16 +94,40 @@ namespace AutoInstall
 
             // run powershell scripts to find files not in both versions
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell scripts to find files not in both versions\r\nRun application 'diff2017' with arguments '' in normal mode.", new RecordItemIndex(0));
-                Host.Local.RunApplication("diff2017", "", "V:\\alex.kwie\\Script", false);
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell scripts to find files not in both versions\r\nRun application 'DiffBetween2017.1.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("DiffBetween2017.1.bat", "", ScriptLocation, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            try {
+                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 10s.", new RecordItemIndex(1));
+                Delay.Duration(10000, false);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            ValidateDiffFrom17();
-            Delay.Milliseconds(0);
+            try {
+                ValidateDiffFrom17();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            try {
+                ValidateBINReportContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
+            try {
+                ValidateUTILReportContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            try {
+                ValidateSYSReportContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            try {
+                ValidateHCSSReportContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
         }
 

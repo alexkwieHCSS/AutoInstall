@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b0babf398fa1420"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/15/2018 12:26:16 PM"
+		timestampiso="2018-06-15T17:26:16"
+		endtime="6/15/2018 12:26:17 PM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.692"
+			timeRelativeToTestModuleStartTime="00:00.694"
+			timeWallClock="12:26:17"
+			time="00:00.692"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_5c6a5f2a_35aa332a_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_35aa332a_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.734"
+			timeRelativeToTestModuleStartTime="00:00.736"
+			timeWallClock="12:26:17"
+			time="00:00.734"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_5c6a5f2a_35aa332a_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_35aa332a_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="103"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.744"
+			timeRelativeToTestModuleStartTime="00:00.746"
+			timeWallClock="12:26:17"
+			time="00:00.744"
+			level="Warn"
+			category="Module"
+			errimg=".\Validate_5c6a5f2a_35aa332a_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_35aa332a_trace_thumb.jpg">
+			<message>
+				(Optional Action) Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="98"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.755"
+			timeRelativeToTestModuleStartTime="00:00.757"
+			timeWallClock="12:26:17"
+			time="00:00.755"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_5c6a5f2a_35aa332a_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_35aa332a_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionWS.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionWS.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="143"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.767"
+			timeRelativeToTestModuleStartTime="00:00.769"
+			timeWallClock="12:26:17"
+			time="00:00.767"
+			level="Warn"
+			category="Module"
+			errimg=".\Validate_5c6a5f2a_35aa332a_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_35aa332a_trace_thumb.jpg">
+			<message>
+				(Optional Action) Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionWS.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionWS.txt)
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="103"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.773"
+			timeRelativeToTestModuleStartTime="00:00.775"
+			timeWallClock="12:26:17"
+			time="00:00.773"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_5c6a5f2a_1b2bf3ad_trace.jpg"
+			errthumb=".\Validate_5c6a5f2a_1b2bf3ad_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

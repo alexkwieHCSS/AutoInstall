@@ -299,6 +299,18 @@
       <UserCode>true</UserCode>
       <id>3c318a33-9476-4e52-8fbc-98a047ce36c2</id>
     </Compile>
+    <Compile Include="crystalTESTING.cs">
+      <BoundTo>527787ed-d27d-4d49-ae4d-a3debce89d53</BoundTo>
+      <DependentUpon>crystalTESTING.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fef7fe4c-8283-4c85-819d-d89ab3d4711e</id>
+    </Compile>
+    <Compile Include="crystalTESTING.UserCode.cs">
+      <BoundTo>527787ed-d27d-4d49-ae4d-a3debce89d53</BoundTo>
+      <DependentUpon>crystalTESTING.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f90e818a-7a6e-443b-b6d7-7ce29e5fda1d</id>
+    </Compile>
     <Compile Include="CustomizedCrystalReport.cs">
       <BoundTo>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</BoundTo>
       <DependentUpon>CustomizedCrystalReport.rxrec</DependentUpon>
@@ -334,6 +346,18 @@
       <DependentUpon>CustomReportClassic.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>dca9f7bc-f9b7-47a6-ba2f-848946b87dcc</id>
+    </Compile>
+    <Compile Include="DeleteAnEstimate.cs">
+      <BoundTo>a377adeb-13a1-4849-ab7a-b91c341d8040</BoundTo>
+      <DependentUpon>DeleteAnEstimate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cec3afd2-dacf-418a-9639-b3dd2a50bee7</id>
+    </Compile>
+    <Compile Include="DeleteAnEstimate.UserCode.cs">
+      <BoundTo>a377adeb-13a1-4849-ab7a-b91c341d8040</BoundTo>
+      <DependentUpon>DeleteAnEstimate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b01ffd89-c796-4a8a-8258-684d210c163e</id>
     </Compile>
     <Compile Include="EquipmentReport.cs">
       <BoundTo>75f28445-c0bb-42cc-8202-a34f4af98051</BoundTo>
@@ -746,6 +770,18 @@
       <UserCode>true</UserCode>
       <id>4e460405-98d6-42d8-a974-a4400f153b48</id>
     </Compile>
+    <Compile Include="TestUserCode.cs">
+      <BoundTo>f3ea8f45-fb1b-4bc2-b1df-6f3cddf4b3cb</BoundTo>
+      <DependentUpon>TestUserCode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5c80a77e-365e-4923-be50-0dd36f55d817</id>
+    </Compile>
+    <Compile Include="TestUserCode.UserCode.cs">
+      <BoundTo>f3ea8f45-fb1b-4bc2-b1df-6f3cddf4b3cb</BoundTo>
+      <DependentUpon>TestUserCode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4dd933cf-da6e-41d6-ad1b-7af46f09fb97</id>
+    </Compile>
     <Compile Include="UninstallCrystal.cs">
       <BoundTo>16e9a356-71f6-462f-a518-f6eedc6b259e</BoundTo>
       <DependentUpon>UninstallCrystal.rxrec</DependentUpon>
@@ -1077,6 +1113,11 @@
       <id>592d97e0-fa38-4332-bf92-1da61235ff05</id>
       <recordtableid>f2dca640-d155-4bc2-8763-41db5cf29aee</recordtableid>
     </None>
+    <None Include="crystalTESTING.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>527787ed-d27d-4d49-ae4d-a3debce89d53</id>
+      <recordtableid>0e9be4f1-8439-46f8-b4f5-a0adbdb1810a</recordtableid>
+    </None>
     <None Include="CustomizedCrystalReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</id>
@@ -1091,6 +1132,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>5a91cafc-6545-4c9e-a121-99a6d61bb543</id>
       <recordtableid>f39b6fad-8ece-43ae-b737-50413a7b16b4</recordtableid>
+    </None>
+    <None Include="DeleteAnEstimate.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>a377adeb-13a1-4849-ab7a-b91c341d8040</id>
+      <recordtableid>86517749-ad94-4a26-9fc2-cc4e93b3c806</recordtableid>
     </None>
     <None Include="EquipmentReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -1261,6 +1307,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>a27f220f-2967-4a42-a69c-802328ae9dda</id>
       <recordtableid>4a8614c1-5018-4048-b323-4ace8f176b90</recordtableid>
+    </None>
+    <None Include="TestUserCode.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>f3ea8f45-fb1b-4bc2-b1df-6f3cddf4b3cb</id>
+      <recordtableid>1186f1dd-2f46-4c46-b48f-9bfd0593d727</recordtableid>
     </None>
     <None Include="UninstallCrystal.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

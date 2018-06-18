@@ -418,7 +418,7 @@ Click Install to begin the installation. Click Back to review or change any of y
 		</validationitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="4025325e-45ac-4b5f-97ea-23118dccb534"
 		waitaction="Exists"
 		waittimeout="60000ms">
@@ -441,7 +441,7 @@ Click Install to begin the installation. Click Back to review or change any of y
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="fb1b268d-de8a-4e30-af69-fd1fef01e56e"
 		sx="1049"
 		sy="684"
@@ -674,7 +674,7 @@ kpaBBRRRTAWikpaBH//Z
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="4025325e-45ac-4b5f-97ea-23118dccb534"
 		waitaction="Exists"
 		waittimeout="900000ms">
@@ -801,7 +801,7 @@ kpaBBRRRTAWikpaBH//Z
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="fa60db61-6bf0-48d4-a7a8-a0f2d1cea292"
 		sx="1094"
 		sy="679"

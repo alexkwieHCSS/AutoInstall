@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1f1dec9ead7e2be0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/14/2018 10:21:16 AM"
+		timestampiso="2018-06-14T15:21:16"
+		endtime="6/14/2018 10:21:17 AM"
+		timeoutfactor="1"
+		module="TestUserCode">
+		<detail>
+			TestUserCode
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.732"
+			timeRelativeToTestModuleStartTime="00:00.732"
+			timeWallClock="10:21:17"
+			time="00:00.732"
+			level="Failure"
+			category="Validation"
+			errimg=".\TestUser_39b9d5e5_1cf2421c_trace.jpg"
+			errthumb=".\TestUser_39b9d5e5_1cf2421c_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\TestUserCode.UserCode.cs"
+				codeline="74"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.747"
+			timeRelativeToTestModuleStartTime="00:00.747"
+			timeWallClock="10:21:17"
+			time="00:00.747"
+			level="Error"
+			category="Module"
+			errimg=".\TestUser_39b9d5e5_1cf2421c_trace.jpg"
+			errthumb=".\TestUser_39b9d5e5_1cf2421c_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.TestUserCode.TestUserCodeCS() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\TestUserCode.UserCode.cs:line 74
+   at AutoInstall.TestUserCode.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\TestUserCode.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\TestUserCode.UserCode.cs"
+				codeline="74"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

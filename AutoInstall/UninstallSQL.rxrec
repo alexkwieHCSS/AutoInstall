@@ -32,7 +32,7 @@ rxversion="8.1">
 		<explicitdelayitem
 		duration="120000ms"
 		enabled="True"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
@@ -40,7 +40,7 @@ rxversion="8.1">
 		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="5ea7d555-58f9-4955-a317-bb50245e9cb7"
 		waitaction="Exists"
 		waittimeout="5000ms">
@@ -171,7 +171,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="2;10"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="4db2289f-e556-4b42-93d3-7dda771f1a61"
 		sx="1452"
 		sy="297"
@@ -342,7 +342,7 @@ AKCU36/41p0UciD6xU/pIyn0meRSr6hIynqCCR/OtGGNooI49wOxQucdcCpKKailsROrKasxPm9R
 		KeySequence="microsoft{Space}SQL{Space}2012"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="b466c1c1-ba21-4f45-8214-74708327bd7b">
 			<comment>
@@ -501,7 +501,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		</keysequenceitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="30000ms">
@@ -524,7 +524,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="c1ff3a26-b61d-4940-bf50-cc56604e88a4"
 		sx="570"
 		sy="451"
@@ -1002,7 +1002,7 @@ UUUAf//Z
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1025,7 +1025,7 @@ UUUAf//Z
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="48079f36-cb7b-44e7-9a37-e067ea367971"
 		sx="613"
 		sy="406"
@@ -1299,7 +1299,7 @@ cdSB/WiigCDU77+z7dZfL8zc+3G7HY/4UUUU0bwgmrs//9k=
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1322,7 +1322,7 @@ cdSB/WiigCDU77+z7dZfL8zc+3G7HY/4UUUU0bwgmrs//9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="a9944cd1-98e3-4131-8c50-e88608d18bd6"
 		sx="1066"
 		sy="526"

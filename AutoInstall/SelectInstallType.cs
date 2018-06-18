@@ -122,8 +122,8 @@ namespace AutoInstall
             
             // B.5
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.5\r\nValidating AttributeRegex (Enabled~'') on item 'HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInT'.", repo.HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInTInfo, new RecordItemIndex(4));
-                Validate.AttributeRegex(repo.HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInTInfo, "Enabled", new Regex(""), null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nB.5\r\nValidating AttributeRegex (Enabled~'') on item 'HeavyBidServerSetup.InstallTypes.MultiUserInstallType'.", repo.HeavyBidServerSetup.InstallTypes.MultiUserInstallTypeInfo, new RecordItemIndex(4));
+                Validate.AttributeRegex(repo.HeavyBidServerSetup.InstallTypes.MultiUserInstallTypeInfo, "Enabled", new Regex(""), null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
@@ -134,8 +134,8 @@ namespace AutoInstall
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInT' at Center.", repo.HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInTInfo, new RecordItemIndex(6));
-            repo.HeavyBidServerSetup.InstallTypes.MultiUserMultipleUsersCanWorkInT.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.InstallTypes.MultiUserInstallType' at Center.", repo.HeavyBidServerSetup.InstallTypes.MultiUserInstallTypeInfo, new RecordItemIndex(6));
+            repo.HeavyBidServerSetup.InstallTypes.MultiUserInstallType.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.NextButton'", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new ActionTimeout(60000), new RecordItemIndex(7));

@@ -32,7 +32,7 @@ rxversion="8.1">
 		<explicitdelayitem
 		duration="120000ms"
 		enabled="True"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
@@ -40,7 +40,7 @@ rxversion="8.1">
 		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="5ea7d555-58f9-4955-a317-bb50245e9cb7"
 		waitaction="Exists"
 		waittimeout="5000ms">
@@ -171,7 +171,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="2;10"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="4db2289f-e556-4b42-93d3-7dda771f1a61"
 		sx="1452"
 		sy="297"
@@ -342,7 +342,7 @@ AKCU36/41p0UciD6xU/pIyn0meRSr6hIynqCCR/OtGGNooI49wOxQucdcCpKKailsROrKasxPm9R
 		KeySequence="heavybid{Space}workstation"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="b466c1c1-ba21-4f45-8214-74708327bd7b">
 			<comment>
@@ -501,7 +501,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		</keysequenceitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -524,7 +524,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="5ec9a563-4950-460d-8920-a99d8bb5bdf1"
 		sx="595"
 		sy="451"
@@ -991,7 +991,7 @@ BjdjnHpmoZP+QlB/1yk/mtWKACig9Kq6Z/yDLf8A65j+VAFqiuf8K/fvf98f1roKACiiigAooooA
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1014,7 +1014,7 @@ BjdjnHpmoZP+QlB/1yk/mtWKACig9Kq6Z/yDLf8A65j+VAFqiuf8K/fvf98f1roKACiiigAooooA
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="7ab7342f-edcb-4d8c-a386-61b161ddc50d"
 		sx="636"
 		sy="405"
@@ -1360,7 +1360,7 @@ QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1383,7 +1383,7 @@ QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="291b2680-7bcd-42bc-a6c1-62d112ad24ab"
 		sx="939"
 		sy="587"

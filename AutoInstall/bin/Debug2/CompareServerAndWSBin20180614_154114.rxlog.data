@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d3c785a6cfdfb94"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/14/2018 3:41:17 PM"
+		timestampiso="2018-06-14T20:41:17"
+		endtime="6/14/2018 3:41:18 PM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.943"
+			timeRelativeToTestModuleStartTime="00:00.945"
+			timeWallClock="15:41:18"
+			time="00:00.943"
+			level="Warn"
+			category="Data"
+			errimg=".\CompareS_93881333_9dfc5d23_trace.jpg"
+			errthumb=".\CompareS_93881333_9dfc5d23_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.989"
+			timeRelativeToTestModuleStartTime="00:00.991"
+			timeWallClock="15:41:18"
+			time="00:00.989"
+			level="Failure"
+			category="Validation"
+			errimg=".\CompareS_93881333_9dfc5d23_trace.jpg"
+			errthumb=".\CompareS_93881333_9dfc5d23_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="109"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.007"
+			timeRelativeToTestModuleStartTime="00:01.009"
+			timeWallClock="15:41:18"
+			time="00:01.007"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_93881333_9dfc5d23_trace.jpg"
+			errthumb=".\CompareS_93881333_9dfc5d23_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.CompareServerAndWSBin.TestRun() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs:line 109
+   at AutoInstall.CompareServerAndWSBin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="109"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

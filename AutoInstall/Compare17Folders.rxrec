@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
+		<var
+		id="e5f7980a-ecea-45df-a274-22d8b65a2af1"
+		name="ScriptLocation">
+			W:\HBDaily\InstallAutomation\Script
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -37,12 +42,16 @@ rxversion="8.1">
 				run powershell scripts to find files not in both versions
 			</comment>
 			<bindings>
+				<binding
+				target="WorkingDirectory"
+				variable="ScriptLocation">
+				</binding>
 			</bindings>
 			<filename>
-				diff2017
+				DiffBetween2017.1.bat
 			</filename>
 			<workingdir>
-				V:\alex.kwie\Script
+				W:\HBDaily\InstallAutomation\Script
 			</workingdir>
 			<args>
 			</args>
@@ -50,7 +59,7 @@ rxversion="8.1">
 		<explicitdelayitem
 		duration="10000ms"
 		enabled="True"
-		optional="False">
+		optional="True">
 			<comment>
 			</comment>
 			<bindings>
@@ -62,7 +71,7 @@ rxversion="8.1">
 		isexternaltestmethod="False"
 		methodname="ValidateDiffFrom17"
 		namespace="AutoInstall"
-		optional="False"
+		optional="True"
 		varname="">
 			<comment>
 			</comment>
@@ -70,6 +79,70 @@ rxversion="8.1">
 			</bindings>
 			<arguments
 			id="76ad1ac3-4b13-4ff9-b127-768902c576ed">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Compare17Folders"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateBINReportContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="71b03a55-7715-4e1a-86f3-be5fcf15f62e">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Compare17Folders"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateUTILReportContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="955f1fdf-19b7-4740-9106-bb6a6a2cfa4e">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Compare17Folders"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateSYSReportContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="40b424ba-4b7c-4fa0-9735-ba28784d070c">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Compare17Folders"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateHCSSReportContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="950115c0-e466-40e2-ba2b-26b35c85d5ad">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

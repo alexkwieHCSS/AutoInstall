@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3866e29c2c01e89b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/11/2018 4:04:59 PM"
+		timestampiso="2018-06-11T21:04:59"
+		endtime="6/11/2018 4:05:10 PM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.716"
+			timeRelativeToTestModuleStartTime="00:00.718"
+			timeWallClock="16:05:00"
+			time="00:00.716"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.738"
+			timeRelativeToTestModuleStartTime="00:00.740"
+			timeWallClock="16:05:00"
+			time="00:00.738"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.822"
+			timeRelativeToTestModuleStartTime="00:00.824"
+			timeWallClock="16:05:00"
+			time="00:00.822"
+			level="Info"
+			category="Delay"
+			errimg=".\CompareS_8c5140e6_af59a24e_trace.jpg"
+			errthumb=".\CompareS_8c5140e6_af59a24e_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.845"
+			timeRelativeToTestModuleStartTime="00:10.847"
+			timeWallClock="16:05:10"
+			time="00:10.845"
+			level="Failure"
+			category="File Exist"
+			errimg=".\CompareS_8c5140e6_875213fb_trace.jpg"
+			errthumb=".\CompareS_8c5140e6_875213fb_trace_thumb.jpg">
+			<message>
+				Fail. runWSComparison.bat.txt does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="48"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.853"
+			timeRelativeToTestModuleStartTime="00:10.855"
+			timeWallClock="16:05:10"
+			time="00:10.853"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_8c5140e6_875213fb_trace.jpg"
+			errthumb=".\CompareS_8c5140e6_875213fb_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -166,6 +166,9 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.FinishButton.Click();
             Delay.Milliseconds(200);
             
+            ValidateEstimateExists();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

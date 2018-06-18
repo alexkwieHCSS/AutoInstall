@@ -431,7 +431,7 @@ rxversion="8.1">
 		False
 	</plugins.wpfnative.enablewpfdebug>
 	<plugins.wpfnative.applicationtrees>
-		WpfImprovedOnly
+		WpfOnly
 	</plugins.wpfnative.applicationtrees>
 	<plugins.wpfnative.proc.ignorelist>
 	</plugins.wpfnative.proc.ignorelist>

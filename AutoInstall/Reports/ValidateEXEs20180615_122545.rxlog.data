@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4a308058a34dc6b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/15/2018 12:25:47 PM"
+		timestampiso="2018-06-15T17:25:47"
+		endtime="6/15/2018 12:25:48 PM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.717"
+			timeRelativeToTestModuleStartTime="00:00.718"
+			timeWallClock="12:25:48"
+			time="00:00.717"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_ff0cd3c6_0df7fe2b_trace.jpg"
+			errthumb=".\Validate_ff0cd3c6_0df7fe2b_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.756"
+			timeRelativeToTestModuleStartTime="00:00.757"
+			timeWallClock="12:25:48"
+			time="00:00.756"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_ff0cd3c6_0df7fe2b_trace.jpg"
+			errthumb=".\Validate_ff0cd3c6_0df7fe2b_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="103"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.773"
+			timeRelativeToTestModuleStartTime="00:00.774"
+			timeWallClock="12:25:48"
+			time="00:00.773"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_ff0cd3c6_0df7fe2b_trace.jpg"
+			errthumb=".\Validate_ff0cd3c6_0df7fe2b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateEXEs.ValidateEXEReportServerContent() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs:line 103
+   at AutoInstall.ValidateEXEs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="103"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

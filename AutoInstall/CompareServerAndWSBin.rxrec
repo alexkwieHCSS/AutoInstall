@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
+		<var
+		id="290a788c-8883-472d-88de-43397cce5b76"
+		name="ScriptLocation">
+			W:\HBDaily\InstallAutomation\Script\
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -37,12 +42,16 @@ rxversion="8.1">
 				run powershell script for any file difference between server and workstation
 			</comment>
 			<bindings>
+				<binding
+				target="WorkingDirectory"
+				variable="ScriptLocation">
+				</binding>
 			</bindings>
 			<filename>
-				runWSComparison
+				runWSComparison.bat
 			</filename>
 			<workingdir>
-				V:\alex.kwie\Script
+				W:\HBDaily\InstallAutomation\Script\
 			</workingdir>
 			<args>
 			</args>
@@ -70,6 +79,22 @@ rxversion="8.1">
 			</bindings>
 			<arguments
 			id="8afc12ff-4ee5-4170-95f6-7885f0aa9ecc">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="CompareServerAndWSBin"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateWSComparisonReportContent"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7d2a967d-8b1e-43ec-b438-ef21cc49c93d">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

@@ -27,23 +27,22 @@ namespace AutoInstall
 {
     public partial class ValidateEXEs
     {
-        /// <summary>
-        /// This method gets called right after the recording has been started.
-        /// It can be used to execute recording specific initialization code.
-        /// </summary>
+        string dir = @"W:\HBDaily\InstallAutomation\Script\Reports\";
+            string refDir = @"W:\HBDaily\InstallAutomation\Script\Reports\Reference\";
+            string fileServ = @"CheckExeVersionServer.txt";
+            string fileWS = @"CheckExeVersionWS.txt";
+            
+            
         private void Init()
         {
-            // Your recording specific initialization code goes here.
+            
         }
 
 		public void ValidateEXEReport()
         {
-			string dir = @"V:\alex.kwie\Script\Reports\";
-            string fileServ = @"oldExeServer.txt";
-            string fileWS = @"oldExeWS.txt";
-            
+			            
             string pathSR = Path.Combine(dir,fileServ);
-            string pathWS = Path.Combine(dir,fileWS);
+            string pathWS = Path.Combine(refDir,fileServ);
             
       		if (File.Exists(pathSR))
 			   {
@@ -63,6 +62,86 @@ namespace AutoInstall
 				Report.Failure("File Exist", "Fail. " + fileWS + " does not exists.");
 			   }
         	
+        }
+
+        public void ValidateEXEReportServerContent()
+        {
+        	string filePath_Expected = Path.Combine(dir,fileServ);
+        	string filePath_Current = Path.Combine(refDir,fileServ);
+				
+			    string customLogMessage = string.Empty;	
+			               // prepare log messages  
+			    const string fileNotFoundMessage = "File not found for comparison in Validate_FileContentEqual: {0}";  
+			    const string logMessage = "Comparing content of files ({0} vs. {1})";  
+			    if (string.IsNullOrEmpty(customLogMessage))  
+			    {  
+			        customLogMessage = string.Format(logMessage, filePath_Expected, filePath_Current);  
+			    }  
+			  
+			    // check if file exists  
+			    if (!System.IO.File.Exists(filePath_Current))  
+			    {  
+			        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Current));  
+			    }  
+			  
+			    // check if referencing file exists  
+			    if (!System.IO.File.Exists(filePath_Expected))  
+			    {  
+			        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Expected));  
+			    }  
+			  
+			    // check if filenames are identical  
+			    if (filePath_Expected.Equals(filePath_Current))  
+			    {  
+			        Ranorex.Validate.IsTrue(true, customLogMessage);  
+			    }  
+			    else  
+			    {  
+			        string current = System.IO.File.ReadAllText(filePath_Current);  
+			        string expected = System.IO.File.ReadAllText(filePath_Expected);  
+			        // validate whether expected value equals to current value  
+			        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
+			    }  
+        }
+
+        public void ValidateEXEReportWSContent()
+        {
+            string filePath_Expected = Path.Combine(dir,fileWS);
+            string filePath_Current = Path.Combine(refDir,fileWS);
+				
+			    string customLogMessage = string.Empty;	
+			               // prepare log messages  
+			    const string fileNotFoundMessage = "File not found for comparison in Validate_FileContentEqual: {0}";  
+			    const string logMessage = "Comparing content of files ({0} vs. {1})";  
+			    if (string.IsNullOrEmpty(customLogMessage))  
+			    {  
+			        customLogMessage = string.Format(logMessage, filePath_Expected, filePath_Current);  
+			    }  
+			  
+			    // check if file exists  
+			    if (!System.IO.File.Exists(filePath_Current))  
+			    {  
+			        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Current));  
+			    }  
+			  
+			    // check if referencing file exists  
+			    if (!System.IO.File.Exists(filePath_Expected))  
+			    {  
+			        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Expected));  
+			    }  
+			  
+			    // check if filenames are identical  
+			    if (filePath_Expected.Equals(filePath_Current))  
+			    {  
+			        Ranorex.Validate.IsTrue(true, customLogMessage);  
+			    }  
+			    else  
+			    {  
+			        string current = System.IO.File.ReadAllText(filePath_Current);  
+			        string expected = System.IO.File.ReadAllText(filePath_Expected);  
+			        // validate whether expected value equals to current value  
+			        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
+			    }  
         }
 
     }

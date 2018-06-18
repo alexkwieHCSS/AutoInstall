@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10b112a47971858"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/13/2018 3:18:52 PM"
+		timestampiso="2018-06-13T20:18:52"
+		endtime="6/13/2018 3:18:53 PM"
+		timeoutfactor="1"
+		module="BackupEstimate">
+		<detail>
+			BackupEstimate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.731"
+			timeRelativeToTestModuleStartTime="00:00.733"
+			timeWallClock="15:18:53"
+			time="00:00.731"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success. C:\HeavyBidWS\HBSave\1-BRIDGE.EST exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BackupEstimate.UserCode.cs"
+				codeline="49"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.748"
+			timeRelativeToTestModuleStartTime="00:00.750"
+			timeWallClock="15:18:53"
+			time="00:00.748"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success. C:\HeavyBidWS\HBSave\1-BRIDGE.ZIP exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BackupEstimate.UserCode.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

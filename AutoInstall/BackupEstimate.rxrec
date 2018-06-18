@@ -221,6 +221,22 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<userrecorditem
+		classname="BackupEstimate"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateBackupEstimate"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a6922b7e-4ce4-48b2-862c-d947eb9a0cd1">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

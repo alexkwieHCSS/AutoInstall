@@ -149,6 +149,22 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<userrecorditem
+		classname="BackupSystem"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateSystemBackup"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d08bb4d5-5fcc-4931-a69b-fd6da530542f">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

@@ -106,9 +106,9 @@ namespace AutoInstall
             
             // E.6
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'HCSS') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(5));
-                Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("HCSS"), null, false);
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'HCSS') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(5));
+                //Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("HCSS"), null, false);
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             // E.6

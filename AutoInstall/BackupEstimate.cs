@@ -113,6 +113,9 @@ namespace AutoInstall
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
+            ValidateBackupEstimate();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

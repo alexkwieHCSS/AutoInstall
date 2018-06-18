@@ -14,6 +14,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
+
 
 using Ranorex;
 using Ranorex.Core;
@@ -31,6 +33,28 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateSystemBackup()
+        {
+            string path = @"C:\HeavyBidWS\HBSave";
+        	string sysBackup = @"HCSSDAT.ZIP";
+        	
+        	
+        	string pathCheck = Path.Combine(path,sysBackup);
+        	
+        	
+        	
+        	if (File.Exists(pathCheck))
+			   {
+        		Report.Success("File Exist", "Success. " + pathCheck + " exists.");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail! " + pathCheck + " does not exists!");
+			   }
+			
+			
         }
 
     }

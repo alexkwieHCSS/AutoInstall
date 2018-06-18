@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
+		<var
+		id="442a3d90-24df-4f19-96fe-bb7293cac6df"
+		name="ScriptLocation">
+			W:\HBDaily\InstallAutomation\Script
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -37,6 +42,10 @@ rxversion="8.1">
 				script to check DLL and OCX in HB against masterlist on V:
 			</comment>
 			<bindings>
+				<binding
+				target="WorkingDirectory"
+				variable="ScriptLocation">
+				</binding>
 			</bindings>
 			<filename>
 				runDLLcomparison
@@ -70,6 +79,22 @@ rxversion="8.1">
 			</bindings>
 			<arguments
 			id="f7a91878-145c-493d-9d0b-68bc25b65ae7">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="CheckMissingDLLsOCXs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateDLLReportContent"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="fe47bd9f-1a07-4f6f-8409-491945a41cb9">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

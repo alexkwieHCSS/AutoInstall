@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="49c4222bce19e66"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/13/2018 2:11:06 PM"
+		timestampiso="2018-06-13T19:11:06"
+		endtime="6/13/2018 2:11:12 PM"
+		timeoutfactor="1"
+		module="ReindexHBExternal">
+		<detail>
+			ReindexHBExternal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.731"
+			timeRelativeToTestModuleStartTime="00:00.733"
+			timeWallClock="14:11:07"
+			time="00:00.731"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'C:\HeavyBidWS\BIN\REINDEX.EXE' with arguments ' HEAVYMULT' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.797"
+			timeRelativeToTestModuleStartTime="00:00.799"
+			timeWallClock="14:11:07"
+			time="00:00.797"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/?/button[@text='...']"
+				itempath="?/?/?/?/button[@text='...']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton"
+				id="43ebab740b1a453cb15ffbb03c9f605d"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.621"
+			timeRelativeToTestModuleStartTime="00:02.623"
+			timeWallClock="14:11:09"
+			time="00:02.621"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating Exists on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']/element[@class='DFformlist']"
+				itempath="element[@class='DFformlist']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates"
+				id="127b01f98a454ec19652a2ddbf0addd1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.786"
+			timeRelativeToTestModuleStartTime="00:02.788"
+			timeWallClock="14:11:09"
+			time="00:02.786"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ListExistingEstimates' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']/element[@class='DFformlist']"
+				itempath="element[@class='DFformlist']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates"
+				id="127b01f98a454ec19652a2ddbf0addd1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.793"
+			timeRelativeToTestModuleStartTime="00:02.795"
+			timeWallClock="14:11:09"
+			time="00:02.793"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//button[@text~'OK']"
+				itempath=".//button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton"
+				id="40be3ffbecab442d971036a7c66920fe"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="114"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.558"
+			timeRelativeToTestModuleStartTime="00:03.560"
+			timeWallClock="14:11:10"
+			time="00:03.558"
+			level="Info"
+			category="Set value">
+			<message>
+				(Optional Action)<br/>Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'estimate']"
+				itempath="?/?/?/checkbox[@text~'estimate']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox"
+				id="a5df4f7b446c4bb482c639356de4e464"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="120"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.729"
+			timeRelativeToTestModuleStartTime="00:03.731"
+			timeWallClock="14:11:10"
+			time="00:03.729"
+			level="Info"
+			category="Set value">
+			<message>
+				(Optional Action)<br/>Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'System']"
+				itempath="?/?/?/checkbox[@text~'System']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox"
+				id="f9f875c418e44e78ba4b8b8b280f648b"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="126"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.887"
+			timeRelativeToTestModuleStartTime="00:03.889"
+			timeWallClock="14:11:10"
+			time="00:03.887"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/button[@text~'OK']"
+				itempath="?/?/?/button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK"
+				id="ebcf1095d44e4f308240deae009ec9d0"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="132"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.690"
+			timeRelativeToTestModuleStartTime="00:04.692"
+			timeWallClock="14:11:11"
+			time="00:04.690"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Reindex' and @accessiblerole~'Dialog']/button[@text~'OK']"
+				itempath="button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexWarningScreen.OKButton"
+				id="0a7b60b17318492791da44a98ba8c417"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexHBExternal.cs"
+				codeline="138"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -205,7 +205,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="b5123f72-64f4-424e-89a6-a2fdd7b99e8a">
 			<comment>
 			</comment>
@@ -231,7 +231,7 @@ rxversion="8.1">
 		</validationitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="44e2ee31-8ddb-4714-81cb-94026c36dd07"
 		waitaction="Exists"
 		waittimeout="5000ms">
@@ -303,7 +303,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="12da50e4-2a96-49ed-aa6d-cff3bcfc63a4"
 		sx="0"
 		sy="0"

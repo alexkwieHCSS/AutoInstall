@@ -41,6 +41,7 @@ namespace AutoInstall
         /// </summary>
         public CompareServerAndWSBin()
         {
+            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script\\";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace AutoInstall
         }
 
 #region Variables
+
+        string _ScriptLocation;
+
+        /// <summary>
+        /// Gets or sets the value of variable ScriptLocation.
+        /// </summary>
+        [TestVariable("290a788c-8883-472d-88de-43397cce5b76")]
+        public string ScriptLocation
+        {
+            get { return _ScriptLocation; }
+            set { _ScriptLocation = value; }
+        }
 
 #endregion
 
@@ -81,8 +94,8 @@ namespace AutoInstall
 
             // run powershell script for any file difference between server and workstation
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell script for any file difference between server and workstation\r\nRun application 'runWSComparison' with arguments '' in normal mode.", new RecordItemIndex(0));
-                Host.Local.RunApplication("runWSComparison", "", "V:\\alex.kwie\\Script", false);
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell script for any file difference between server and workstation\r\nRun application 'runWSComparison.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("runWSComparison.bat", "", ScriptLocation, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
@@ -93,6 +106,9 @@ namespace AutoInstall
                 ValidateWSComparison();
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            ValidateWSComparisonReportContent();
+            Delay.Milliseconds(0);
             
         }
 

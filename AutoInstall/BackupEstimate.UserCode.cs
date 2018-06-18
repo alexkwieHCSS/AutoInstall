@@ -14,6 +14,7 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
 
 using Ranorex;
 using Ranorex.Core;
@@ -31,6 +32,35 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateBackupEstimate()
+        {
+            string path = @"C:\HeavyBidWS\HBSave";
+        	string est = @"1-BRIDGE.EST";
+        	string zip = @"1-BRIDGE.ZIP";
+        	
+        	string pathCheck = Path.Combine(path,est);
+        	string pathValidation = Path.Combine(path,zip);
+        	
+        	
+        	if (File.Exists(pathCheck))
+			   {
+        		Report.Success("File Exist", "Success. " + pathCheck + " exists.");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail! " + pathCheck + " does not exists!");
+			   }
+			
+			if (File.Exists(pathValidation))
+			   {
+        		Report.Success("File Exist", "Success. " + pathValidation + " exists.");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail! " + pathValidation + " does not exists!");
+			   }
         }
 
     }

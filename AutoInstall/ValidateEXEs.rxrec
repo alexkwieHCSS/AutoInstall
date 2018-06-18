@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
+		<var
+		id="f54a8e04-4a1f-4da3-bb8e-267cb8f00d20"
+		name="ScriptLocation">
+			W:\HBDaily\InstallAutomation\Script\
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -37,9 +42,13 @@ rxversion="8.1">
 				run powershell script for file version reports
 			</comment>
 			<bindings>
+				<binding
+				target="WorkingDirectory"
+				variable="ScriptLocation">
+				</binding>
 			</bindings>
 			<filename>
-				oldExesHB
+				CheckExeVersion.bat
 			</filename>
 			<workingdir>
 				V:\alex.kwie\Script
@@ -70,6 +79,38 @@ rxversion="8.1">
 			</bindings>
 			<arguments
 			id="7630ca49-9327-4636-8e4a-3e551be60cfc">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="ValidateEXEs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateEXEReportServerContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0cb9ed35-6b78-4e9f-b725-10ff9cc1cb4f">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="ValidateEXEs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateEXEReportWSContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="48e1545e-87d0-446a-9497-e611e97c7338">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

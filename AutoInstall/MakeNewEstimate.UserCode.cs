@@ -19,6 +19,7 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
+using System.IO;
 
 namespace AutoInstall
 {
@@ -31,6 +32,26 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateEstimateExists()
+        {
+            string path = @"C:\HeavyBid\EST";
+        	string estFolder = @"EST-1";
+        	
+        	
+        	string pathCheck = Path.Combine(path,estFolder);
+        	
+        	
+        	
+        	if (Directory.Exists(pathCheck))
+			   {
+        		Report.Success("File Exist", "Success. " + pathCheck + " exists.");
+			   }
+			else                  
+			   {
+				Report.Failure("File Exist", "Fail! " + pathCheck + " does not exists!");
+			   }
         }
 
     }

@@ -40,7 +40,8 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder _heavybiduninstall;
         AutoInstallRepositoryFolders.ExcelRelatedFolder _excelrelated;
         AutoInstallRepositoryFolders.CrystalInstallationFolder _crystalinstallation;
-        AutoInstallRepositoryFolders.NewAppFolderAppFolder _newappfolder;
+        AutoInstallRepositoryFolders.NewAppFolderAppFolder1 _newappfolder;
+        AutoInstallRepositoryFolders.ExplorerAppFolder _explorer;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -70,7 +71,8 @@ namespace AutoInstall
             _heavybiduninstall = new AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder(this);
             _excelrelated = new AutoInstallRepositoryFolders.ExcelRelatedFolder(this);
             _crystalinstallation = new AutoInstallRepositoryFolders.CrystalInstallationFolder(this);
-            _newappfolder = new AutoInstallRepositoryFolders.NewAppFolderAppFolder(this);
+            _newappfolder = new AutoInstallRepositoryFolders.NewAppFolderAppFolder1(this);
+            _explorer = new AutoInstallRepositoryFolders.ExplorerAppFolder(this);
         }
 
 #region Variables
@@ -246,9 +248,18 @@ namespace AutoInstall
         /// The NewAppFolder folder.
         /// </summary>
         [RepositoryFolder("603e0544-a931-4438-99fe-3fdae26cd224")]
-        public virtual AutoInstallRepositoryFolders.NewAppFolderAppFolder NewAppFolder
+        public virtual AutoInstallRepositoryFolders.NewAppFolderAppFolder1 NewAppFolder
         {
             get { return _newappfolder; }
+        }
+
+        /// <summary>
+        /// The Explorer folder.
+        /// </summary>
+        [RepositoryFolder("bfade183-6bc9-47e4-93a2-e09963e566ff")]
+        public virtual AutoInstallRepositoryFolders.ExplorerAppFolder Explorer
+        {
+            get { return _explorer; }
         }
     }
 
@@ -835,7 +846,7 @@ namespace AutoInstall
         [RepositoryFolder("57f8a040-62c7-4885-974f-122dea3674d9")]
         public partial class InstallTypesFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _multiusermultipleuserscanworkintInfo;
+            RepoItemInfo _multiuserinstalltypeInfo;
             RepoItemInfo _standaloneinstalltypeInfo;
             RepoItemInfo _traininginstalltypeInfo;
 
@@ -845,7 +856,7 @@ namespace AutoInstall
             public InstallTypesFolder(RepoGenBaseFolder parentFolder) :
                     base("InstallTypes", "", parentFolder, 0, null, false, "57f8a040-62c7-4885-974f-122dea3674d9", "")
             {
-                _multiusermultipleuserscanworkintInfo = new RepoItemInfo(this, "MultiUserMultipleUsersCanWorkInT", "?/?/radiobutton[@text~'Multi-user']", 30000, null, "87f3d72a-a7d3-4b0f-9b41-5932103d923d");
+                _multiuserinstalltypeInfo = new RepoItemInfo(this, "MultiUserInstallType", "?/?/radiobutton[@text~'Multi-user']", 30000, null, "87f3d72a-a7d3-4b0f-9b41-5932103d923d");
                 _standaloneinstalltypeInfo = new RepoItemInfo(this, "StandaloneInstallType", "?/?/radiobutton[@text~'Standalone']", 30000, null, "3ca18573-3cd1-442a-82aa-f72fbe2a0b91");
                 _traininginstalltypeInfo = new RepoItemInfo(this, "TrainingInstallType", "?/?/radiobutton[@text~'Training']", 30000, null, "aa762aff-1fe2-4006-acb0-afc3774cf5dd");
             }
@@ -863,26 +874,26 @@ namespace AutoInstall
             }
 
             /// <summary>
-            /// The MultiUserMultipleUsersCanWorkInT item.
+            /// The MultiUserInstallType item.
             /// </summary>
             [RepositoryItem("87f3d72a-a7d3-4b0f-9b41-5932103d923d")]
-            public virtual Ranorex.RadioButton MultiUserMultipleUsersCanWorkInT
+            public virtual Ranorex.RadioButton MultiUserInstallType
             {
                 get
                 {
-                    return _multiusermultipleuserscanworkintInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                    return _multiuserinstalltypeInfo.CreateAdapter<Ranorex.RadioButton>(true);
                 }
             }
 
             /// <summary>
-            /// The MultiUserMultipleUsersCanWorkInT item info.
+            /// The MultiUserInstallType item info.
             /// </summary>
             [RepositoryItemInfo("87f3d72a-a7d3-4b0f-9b41-5932103d923d")]
-            public virtual RepoItemInfo MultiUserMultipleUsersCanWorkInTInfo
+            public virtual RepoItemInfo MultiUserInstallTypeInfo
             {
                 get
                 {
-                    return _multiusermultipleuserscanworkintInfo;
+                    return _multiuserinstalltypeInfo;
                 }
             }
 
@@ -1322,6 +1333,7 @@ namespace AutoInstall
             RepoItemInfo _hcsscrystalxiintegrationinstallsInfo;
             RepoItemInfo _microsoftsqlserver2012nativeclientInfo;
             RepoItemInfo _hbinstallcompleteInfo;
+            RepoItemInfo _googlechrome3runningwindowsInfo;
 
             /// <summary>
             /// Creates a new WindowsMenuBar  folder.
@@ -1332,6 +1344,7 @@ namespace AutoInstall
                 _hcsscrystalxiintegrationinstallsInfo = new RepoItemInfo(this, "HCSSCrystalXIIntegrationInstallS", ".////button[@accessiblename~'HCSS']", 30000, null, "02952637-c2fc-4341-aeb0-52985224b405");
                 _microsoftsqlserver2012nativeclientInfo = new RepoItemInfo(this, "MicrosoftSQLServer2012NativeClient", ".////button[@accessiblename~'Microsoft SQL']", 30000, null, "83dadb04-ebd8-4851-9268-94950ee9e1d5");
                 _hbinstallcompleteInfo = new RepoItemInfo(this, "HBInstallComplete", ".////button[@accessiblename~'HeavyBid']", 30000, null, "de30e6d0-04c0-4acc-b572-ad7b7123327e");
+                _googlechrome3runningwindowsInfo = new RepoItemInfo(this, "GoogleChrome3RunningWindows", ".//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Google\\ Chrome\\ -\\ 3\\ running']", 30000, null, "78c3bdd6-6e55-478c-b9bc-0ca3fb671664");
             }
 
             /// <summary>
@@ -1427,6 +1440,30 @@ namespace AutoInstall
                 get
                 {
                     return _hbinstallcompleteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GoogleChrome3RunningWindows item.
+            /// </summary>
+            [RepositoryItem("78c3bdd6-6e55-478c-b9bc-0ca3fb671664")]
+            public virtual Ranorex.Button GoogleChrome3RunningWindows
+            {
+                get
+                {
+                    return _googlechrome3runningwindowsInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GoogleChrome3RunningWindows item info.
+            /// </summary>
+            [RepositoryItemInfo("78c3bdd6-6e55-478c-b9bc-0ca3fb671664")]
+            public virtual RepoItemInfo GoogleChrome3RunningWindowsInfo
+            {
+                get
+                {
+                    return _googlechrome3runningwindowsInfo;
                 }
             }
         }
@@ -2803,6 +2840,7 @@ namespace AutoInstall
             RepoItemInfo _openestimatebuttonInfo;
             RepoItemInfo _backupestimatebuttonInfo;
             RepoItemInfo _restoreestimatebuttonInfo;
+            RepoItemInfo _deleteestimatebuttonInfo;
 
             /// <summary>
             /// Creates a new File  folder.
@@ -2814,6 +2852,7 @@ namespace AutoInstall
                 _openestimatebuttonInfo = new RepoItemInfo(this, "OpenEstimateButton", ".///toolbar/button[@text~'Open']", 30000, null, "2c368f16-881f-4909-9179-4811ff1b86dd");
                 _backupestimatebuttonInfo = new RepoItemInfo(this, "BackupEstimateButton", ".///toolbar/button[@text~'Backup']", 30000, null, "bc097389-13aa-49f4-a7ae-cc31e4676ec3");
                 _restoreestimatebuttonInfo = new RepoItemInfo(this, "RestoreEstimateButton", ".///toolbar/button[@text~'Restore']", 30000, null, "0264168d-9bc1-4b50-a882-702a1556551e");
+                _deleteestimatebuttonInfo = new RepoItemInfo(this, "DeleteEstimateButton", ".///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']", 30000, null, "aab4ef82-cce5-4c6c-b323-0c24bbccfcc3");
             }
 
             /// <summary>
@@ -2921,6 +2960,30 @@ namespace AutoInstall
                 get
                 {
                     return _restoreestimatebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeleteEstimateButton item.
+            /// </summary>
+            [RepositoryItem("aab4ef82-cce5-4c6c-b323-0c24bbccfcc3")]
+            public virtual Ranorex.Button DeleteEstimateButton
+            {
+                get
+                {
+                    return _deleteestimatebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeleteEstimateButton item info.
+            /// </summary>
+            [RepositoryItemInfo("aab4ef82-cce5-4c6c-b323-0c24bbccfcc3")]
+            public virtual RepoItemInfo DeleteEstimateButtonInfo
+            {
+                get
+                {
+                    return _deleteestimatebuttonInfo;
                 }
             }
         }
@@ -4896,6 +4959,7 @@ namespace AutoInstall
         public partial class FromFileButtonsFolder : RepoGenBaseFolder
         {
             AutoInstallRepositoryFolders.NewEstimateRelatedFolder _newestimaterelated;
+            AutoInstallRepositoryFolders.DeleteEstimateRelatedFolder _deleteestimaterelated;
             AutoInstallRepositoryFolders.BackupEstimateRelatedFolder _backupestimaterelated;
             AutoInstallRepositoryFolders.OpenEstimateRelatedFolder _openestimaterelated;
             AutoInstallRepositoryFolders.RestoreEstimateRelatedFolder _restoreestimaterelated;
@@ -4909,6 +4973,7 @@ namespace AutoInstall
                     base("FromFileButtons", "", parentFolder, 0, null, false, "d3dc8bad-89f6-4b06-9ef6-947cd4a19b9e", "")
             {
                 _newestimaterelated = new AutoInstallRepositoryFolders.NewEstimateRelatedFolder(this);
+                _deleteestimaterelated = new AutoInstallRepositoryFolders.DeleteEstimateRelatedFolder(this);
                 _backupestimaterelated = new AutoInstallRepositoryFolders.BackupEstimateRelatedFolder(this);
                 _openestimaterelated = new AutoInstallRepositoryFolders.OpenEstimateRelatedFolder(this);
                 _restoreestimaterelated = new AutoInstallRepositoryFolders.RestoreEstimateRelatedFolder(this);
@@ -4935,6 +5000,15 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.NewEstimateRelatedFolder NewEstimateRelated
             {
                 get { return _newestimaterelated; }
+            }
+
+            /// <summary>
+            /// The DeleteEstimateRelated folder.
+            /// </summary>
+            [RepositoryFolder("d744d274-6abc-47b8-83cc-09efe078438a")]
+            public virtual AutoInstallRepositoryFolders.DeleteEstimateRelatedFolder DeleteEstimateRelated
+            {
+                get { return _deleteestimaterelated; }
             }
 
             /// <summary>
@@ -5188,6 +5262,267 @@ namespace AutoInstall
                 get
                 {
                     return _finishbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DeleteEstimateRelatedFolder folder.
+        /// </summary>
+        [RepositoryFolder("d744d274-6abc-47b8-83cc-09efe078438a")]
+        public partial class DeleteEstimateRelatedFolder : RepoGenBaseFolder
+        {
+            AutoInstallRepositoryFolders.DeleteEstimateAppFolder _deleteestimate;
+
+            /// <summary>
+            /// Creates a new DeleteEstimateRelated  folder.
+            /// </summary>
+            public DeleteEstimateRelatedFolder(RepoGenBaseFolder parentFolder) :
+                    base("DeleteEstimateRelated", "", parentFolder, 0, null, false, "d744d274-6abc-47b8-83cc-09efe078438a", "")
+            {
+                _deleteestimate = new AutoInstallRepositoryFolders.DeleteEstimateAppFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d744d274-6abc-47b8-83cc-09efe078438a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeleteEstimate folder.
+            /// </summary>
+            [RepositoryFolder("31e70069-1da8-4790-be23-07e0430fe48d")]
+            public virtual AutoInstallRepositoryFolders.DeleteEstimateAppFolder DeleteEstimate
+            {
+                get { return _deleteestimate; }
+            }
+        }
+
+        /// <summary>
+        /// The DeleteEstimateAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("31e70069-1da8-4790-be23-07e0430fe48d")]
+        public partial class DeleteEstimateAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _estimatepathtextboxInfo;
+            RepoItemInfo _estimatenametextboxInfo;
+            RepoItemInfo _estimatecodetextboxInfo;
+            RepoItemInfo _deletepasswordtextboxInfo;
+            RepoItemInfo _nextbuttonInfo;
+            RepoItemInfo _finishbuttonInfo;
+            RepoItemInfo _okbuttonInfo;
+
+            /// <summary>
+            /// Creates a new DeleteEstimate  folder.
+            /// </summary>
+            public DeleteEstimateAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("DeleteEstimate", "/form[@title='Delete Estimate']", parentFolder, 30000, null, false, "31e70069-1da8-4790-be23-07e0430fe48d", "")
+            {
+                _estimatepathtextboxInfo = new RepoItemInfo(this, "EstimatePathTextbox", "?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']", 30000, null, "91096934-5968-4a0b-a0fb-9a259a1316ef");
+                _estimatenametextboxInfo = new RepoItemInfo(this, "EstimateNameTextbox", "element[@class='DFDialogClass']//element[@class='DFentry'][2]", 30000, null, "f60b8e1e-d8a3-473e-b2b9-2e39f83e3bf1");
+                _estimatecodetextboxInfo = new RepoItemInfo(this, "EstimateCodeTextbox", "element[@class='DFDialogClass']//element[@class='DFentry'][3]", 30000, null, "019270d6-b82c-4630-b5dd-b5e06d9f39b7");
+                _deletepasswordtextboxInfo = new RepoItemInfo(this, "DeletePasswordTextbox", "element[@class='DFDialogClass']/?/?/element[@class='DFentry']", 30000, null, "eb4e5701-a4be-441d-b809-f3269ed6b658");
+                _nextbuttonInfo = new RepoItemInfo(this, "NextButton", ".//button[@text~'Next']", 30000, null, "7576c351-5e5f-461b-8e9c-af31a89d309c");
+                _finishbuttonInfo = new RepoItemInfo(this, "FinishButton", ".//button[@text~'Finish']", 30000, null, "caf46daa-aecf-4b5f-958c-170a0eca90e8");
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "ee6296d5-8baf-4dd1-9e59-4ef9db698cd5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("31e70069-1da8-4790-be23-07e0430fe48d")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("31e70069-1da8-4790-be23-07e0430fe48d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EstimatePathTextbox item.
+            /// </summary>
+            [RepositoryItem("91096934-5968-4a0b-a0fb-9a259a1316ef")]
+            public virtual Ranorex.Unknown EstimatePathTextbox
+            {
+                get
+                {
+                    return _estimatepathtextboxInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EstimatePathTextbox item info.
+            /// </summary>
+            [RepositoryItemInfo("91096934-5968-4a0b-a0fb-9a259a1316ef")]
+            public virtual RepoItemInfo EstimatePathTextboxInfo
+            {
+                get
+                {
+                    return _estimatepathtextboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EstimateNameTextbox item.
+            /// </summary>
+            [RepositoryItem("f60b8e1e-d8a3-473e-b2b9-2e39f83e3bf1")]
+            public virtual Ranorex.Unknown EstimateNameTextbox
+            {
+                get
+                {
+                    return _estimatenametextboxInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EstimateNameTextbox item info.
+            /// </summary>
+            [RepositoryItemInfo("f60b8e1e-d8a3-473e-b2b9-2e39f83e3bf1")]
+            public virtual RepoItemInfo EstimateNameTextboxInfo
+            {
+                get
+                {
+                    return _estimatenametextboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EstimateCodeTextbox item.
+            /// </summary>
+            [RepositoryItem("019270d6-b82c-4630-b5dd-b5e06d9f39b7")]
+            public virtual Ranorex.Unknown EstimateCodeTextbox
+            {
+                get
+                {
+                    return _estimatecodetextboxInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EstimateCodeTextbox item info.
+            /// </summary>
+            [RepositoryItemInfo("019270d6-b82c-4630-b5dd-b5e06d9f39b7")]
+            public virtual RepoItemInfo EstimateCodeTextboxInfo
+            {
+                get
+                {
+                    return _estimatecodetextboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeletePasswordTextbox item.
+            /// </summary>
+            [RepositoryItem("eb4e5701-a4be-441d-b809-f3269ed6b658")]
+            public virtual Ranorex.Unknown DeletePasswordTextbox
+            {
+                get
+                {
+                    return _deletepasswordtextboxInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeletePasswordTextbox item info.
+            /// </summary>
+            [RepositoryItemInfo("eb4e5701-a4be-441d-b809-f3269ed6b658")]
+            public virtual RepoItemInfo DeletePasswordTextboxInfo
+            {
+                get
+                {
+                    return _deletepasswordtextboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NextButton item.
+            /// </summary>
+            [RepositoryItem("7576c351-5e5f-461b-8e9c-af31a89d309c")]
+            public virtual Ranorex.Button NextButton
+            {
+                get
+                {
+                    return _nextbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NextButton item info.
+            /// </summary>
+            [RepositoryItemInfo("7576c351-5e5f-461b-8e9c-af31a89d309c")]
+            public virtual RepoItemInfo NextButtonInfo
+            {
+                get
+                {
+                    return _nextbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FinishButton item.
+            /// </summary>
+            [RepositoryItem("caf46daa-aecf-4b5f-958c-170a0eca90e8")]
+            public virtual Ranorex.Button FinishButton
+            {
+                get
+                {
+                    return _finishbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishButton item info.
+            /// </summary>
+            [RepositoryItemInfo("caf46daa-aecf-4b5f-958c-170a0eca90e8")]
+            public virtual RepoItemInfo FinishButtonInfo
+            {
+                get
+                {
+                    return _finishbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item.
+            /// </summary>
+            [RepositoryItem("ee6296d5-8baf-4dd1-9e59-4ef9db698cd5")]
+            public virtual Ranorex.Button OKButton
+            {
+                get
+                {
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item info.
+            /// </summary>
+            [RepositoryItemInfo("ee6296d5-8baf-4dd1-9e59-4ef9db698cd5")]
+            public virtual RepoItemInfo OKButtonInfo
+            {
+                get
+                {
+                    return _okbuttonInfo;
                 }
             }
         }
@@ -8408,6 +8743,7 @@ namespace AutoInstall
         public partial class CrystalInstallationFolder : RepoGenBaseFolder
         {
             AutoInstallRepositoryFolders.CrystalInstallerAppFolder _crystalinstaller;
+            AutoInstallRepositoryFolders.NewAppFolderAppFolder _newappfolder;
 
             /// <summary>
             /// Creates a new CrystalInstallation  folder.
@@ -8416,6 +8752,7 @@ namespace AutoInstall
                     base("CrystalInstallation", "", parentFolder, 0, null, false, "151035fa-f425-49a0-b774-4f422c0f9c99", "")
             {
                 _crystalinstaller = new AutoInstallRepositoryFolders.CrystalInstallerAppFolder(this);
+                _newappfolder = new AutoInstallRepositoryFolders.NewAppFolderAppFolder(this);
             }
 
             /// <summary>
@@ -8437,6 +8774,15 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.CrystalInstallerAppFolder CrystalInstaller
             {
                 get { return _crystalinstaller; }
+            }
+
+            /// <summary>
+            /// The NewAppFolder folder.
+            /// </summary>
+            [RepositoryFolder("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
+            public virtual AutoInstallRepositoryFolders.NewAppFolderAppFolder NewAppFolder
+            {
+                get { return _newappfolder; }
             }
         }
 
@@ -8535,14 +8881,80 @@ namespace AutoInstall
         /// <summary>
         /// The NewAppFolderAppFolder folder.
         /// </summary>
-        [RepositoryFolder("603e0544-a931-4438-99fe-3fdae26cd224")]
+        [RepositoryFolder("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
         public partial class NewAppFolderAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _newitemInfo;
 
             /// <summary>
             /// Creates a new NewAppFolder  folder.
             /// </summary>
             public NewAppFolderAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NewAppFolder", "/form[@title~'^HCSS\\ -\\ Crystal\\ XI\\ Integra']", parentFolder, 30000, null, false, "ed9a8efe-2c47-4c01-bdc1-386c85a20acc", "")
+            {
+                _newitemInfo = new RepoItemInfo(this, "NewItem", "button[@text='&Next >']", 30000, null, "b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NewItem item.
+            /// </summary>
+            [RepositoryItem("b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494")]
+            public virtual Ranorex.Button NewItem
+            {
+                get
+                {
+                    return _newitemInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NewItem item info.
+            /// </summary>
+            [RepositoryItemInfo("b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494")]
+            public virtual RepoItemInfo NewItemInfo
+            {
+                get
+                {
+                    return _newitemInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NewAppFolderAppFolder1 folder.
+        /// </summary>
+        [RepositoryFolder("603e0544-a931-4438-99fe-3fdae26cd224")]
+        public partial class NewAppFolderAppFolder1 : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new NewAppFolder  folder.
+            /// </summary>
+            public NewAppFolderAppFolder1(RepoGenBaseFolder parentFolder) :
                     base("NewAppFolder", "/form[@title~'^HCSS\\ -\\ Crystal\\ XI\\ Integra']", parentFolder, 30000, null, false, "603e0544-a931-4438-99fe-3fdae26cd224", "")
             {
             }
@@ -8568,6 +8980,72 @@ namespace AutoInstall
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExplorerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bfade183-6bc9-47e4-93a2-e09963e566ff")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _untitledformgoogleformsgooglechInfo;
+
+            /// <summary>
+            /// Creates a new Explorer  folder.
+            /// </summary>
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/form[@processname='explorer' and @class='TaskListThumbnailWnd']", parentFolder, 30000, null, false, "bfade183-6bc9-47e4-93a2-e09963e566ff", "")
+            {
+                _untitledformgoogleformsgooglechInfo = new RepoItemInfo(this, "UntitledFormGoogleFormsGoogleCh", "?/?/listitem[@accessiblename~'^Untitled\\ form\\ -\\ Google\\ Fo']", 30000, null, "f12150cd-6682-495c-893b-33611c0654cb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bfade183-6bc9-47e4-93a2-e09963e566ff")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bfade183-6bc9-47e4-93a2-e09963e566ff")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UntitledFormGoogleFormsGoogleCh item.
+            /// </summary>
+            [RepositoryItem("f12150cd-6682-495c-893b-33611c0654cb")]
+            public virtual Ranorex.ListItem UntitledFormGoogleFormsGoogleCh
+            {
+                get
+                {
+                    return _untitledformgoogleformsgooglechInfo.CreateAdapter<Ranorex.ListItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UntitledFormGoogleFormsGoogleCh item info.
+            /// </summary>
+            [RepositoryItemInfo("f12150cd-6682-495c-893b-33611c0654cb")]
+            public virtual RepoItemInfo UntitledFormGoogleFormsGoogleChInfo
+            {
+                get
+                {
+                    return _untitledformgoogleformsgooglechInfo;
                 }
             }
         }

@@ -156,7 +156,7 @@ rxversion="8.1">
 				addcaps="radiobutton,nativewindow"
 				capname="radiobutton"
 				id="87f3d72a-a7d3-4b0f-9b41-5932103d923d"
-				name="MultiUserMultipleUsersCanWorkInT"
+				name="MultiUserInstallType"
 				refimgid="699e75d1-7208-4645-9ffc-9fce085dad9c"
 				searchtimeout="30000ms">
 					/form[@title~'HeavyBid' and @title~'Setup']/?/?/radiobutton[@text~'Multi-user']
@@ -357,6 +357,16 @@ ScFYBYnEDIwAZrVtzFp5vMYAAAAASUVORK5CYII=
 			name="HBInstallComplete"
 			searchtimeout="30000ms">
 				/menubar////button[@accessiblename~'HeavyBid']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="78c3bdd6-6e55-478c-b9bc-0ca3fb671664"
+			name="GoogleChrome3RunningWindows"
+			refimgid="8a02ceea-e75a-4133-bb94-3ac152b4f13b"
+			refpath="/menubar[@processname='explorer' and @class='Shell_SecondaryTrayWnd']/element[@class='WorkerW']/element/toolbar/button[@accessiblename~'^Google\ Chrome\ -\ 3\ running']"
+			searchtimeout="30000ms">
+				/menubar//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Google\ Chrome\ -\ 3\ running']
 			</item>
 			<basepath>
 				/menubar
@@ -799,6 +809,14 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					refimgid="58bbfc7b-2eeb-4966-ba84-30171d01c03b"
 					searchtimeout="30000ms">
 						/form[@title~'HB']///toolbar/button[@text~'Restore']
+					</item>
+					<item
+					capname="button"
+					id="aab4ef82-cce5-4c6c-b323-0c24bbccfcc3"
+					name="DeleteEstimateButton"
+					refimgid="ddf62428-4723-4a26-8fda-22a5ca17d2b2"
+					searchtimeout="30000ms">
+						/form[@title~'HB']///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']
 					</item>
 				</folder>
 				<folder
@@ -1470,6 +1488,76 @@ SUVORK5CYII=
 						</item>
 						<basepath>
 							/form[@title~'New Estimate']
+						</basepath>
+					</appfolder>
+				</folder>
+				<folder
+				capname="unknown"
+				id="d744d274-6abc-47b8-83cc-09efe078438a"
+				isrooted="False"
+				name="DeleteEstimateRelated"
+				searchtimeout="0ms">
+					<appfolder
+					capname="form"
+					id="31e70069-1da8-4790-be23-07e0430fe48d"
+					isrooted="True"
+					name="DeleteEstimate"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="unknown"
+						id="91096934-5968-4a0b-a0fb-9a259a1316ef"
+						name="EstimatePathTextbox"
+						refimgid="598b2fcf-daba-469b-82f8-92ac77b5ee97"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']/?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']
+						</item>
+						<item
+						capname="unknown"
+						id="f60b8e1e-d8a3-473e-b2b9-2e39f83e3bf1"
+						name="EstimateNameTextbox"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][2]
+						</item>
+						<item
+						capname="unknown"
+						id="019270d6-b82c-4630-b5dd-b5e06d9f39b7"
+						name="EstimateCodeTextbox"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][3]
+						</item>
+						<item
+						capname="unknown"
+						id="eb4e5701-a4be-441d-b809-f3269ed6b658"
+						name="DeletePasswordTextbox"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']/element[@class='DFDialogClass']/?/?/element[@class='DFentry']
+						</item>
+						<item
+						capname="button"
+						id="7576c351-5e5f-461b-8e9c-af31a89d309c"
+						name="NextButton"
+						refimgid="60b35b77-b50e-4f99-9bb6-c867c024a7ad"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']//button[@text~'Next']
+						</item>
+						<item
+						capname="button"
+						id="caf46daa-aecf-4b5f-958c-170a0eca90e8"
+						name="FinishButton"
+						refimgid="37d40ca5-d860-40dd-8dd4-bc2fa0c3985e"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']//button[@text~'Finish']
+						</item>
+						<item
+						capname="button"
+						id="ee6296d5-8baf-4dd1-9e59-4ef9db698cd5"
+						name="OKButton"
+						searchtimeout="30000ms">
+							/form[@title='Delete Estimate']/button[@text='OK']
+						</item>
+						<basepath>
+							/form[@title='Delete Estimate']
 						</basepath>
 					</appfolder>
 				</folder>
@@ -2394,6 +2482,24 @@ gg==
 					/form[@title~'HCSS' and @title~'Crystal']
 				</basepath>
 			</appfolder>
+			<appfolder
+			capname="form"
+			id="ed9a8efe-2c47-4c01-bdc1-386c85a20acc"
+			isrooted="True"
+			name="NewAppFolder"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494"
+				name="NewItem"
+				searchtimeout="30000ms">
+					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']/button[@text='&amp;Next &gt;']
+				</item>
+				<basepath>
+					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
+				</basepath>
+			</appfolder>
 		</folder>
 		<appfolder
 		capname="form"
@@ -2405,6 +2511,36 @@ gg==
 			<basepath>
 				/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
 			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bfade183-6bc9-47e4-93a2-e09963e566ff"
+		isrooted="True"
+		name="Explorer"
+		refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="f12150cd-6682-495c-893b-33611c0654cb"
+			name="UntitledFormGoogleFormsGoogleCh"
+			refimgid="d866e52a-d755-4ebb-84bc-f4d6b228ee6f"
+			refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']/list/listitem[@accessiblename~'^Untitled\ form\ -\ Google\ Fo']"
+			searchtimeout="30000ms">
+				/form[@processname='explorer' and @class='TaskListThumbnailWnd']/?/?/listitem[@accessiblename~'^Untitled\ form\ -\ Google\ Fo']
+			</item>
+			<basepath>
+				/form[@processname='explorer' and @class='TaskListThumbnailWnd']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACCSURBVDhPY6AY/L5gf+H3RYf/6PjXBfsN/8/b
+C0CV4QYgxVZbn/1HBnCDgIYTNASuGA3/ueL1/9+Dyv//n0/Gif89m3yBAZsEKXi4GbD1yiZwjODD
+IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
+AElFTkSuQmCC
+			</icon>
 		</appfolder>
 		<basepath>
 		</basepath>

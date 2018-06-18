@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d17d3497b0918a1"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/15/2018 12:24:34 PM"
+		timestampiso="2018-06-15T17:24:34"
+		endtime="6/15/2018 12:24:45 PM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.698"
+			timeRelativeToTestModuleStartTime="00:00.700"
+			timeWallClock="12:24:34"
+			time="00:00.698"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.721"
+			timeRelativeToTestModuleStartTime="00:00.723"
+			timeWallClock="12:24:34"
+			time="00:00.721"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for file version reports<br/>Run application 'CheckExeVersion.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.827"
+			timeRelativeToTestModuleStartTime="00:00.829"
+			timeWallClock="12:24:34"
+			time="00:00.827"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.853"
+			timeRelativeToTestModuleStartTime="00:10.855"
+			timeWallClock="12:24:44"
+			time="00:10.853"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CheckExeVersionServer.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="49"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.863"
+			timeRelativeToTestModuleStartTime="00:10.865"
+			timeWallClock="12:24:44"
+			time="00:10.863"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CheckExeVersionWS.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.892"
+			timeRelativeToTestModuleStartTime="00:10.894"
+			timeWallClock="12:24:44"
+			time="00:10.892"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionServer.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionServer.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="103"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.924"
+			timeRelativeToTestModuleStartTime="00:10.926"
+			timeWallClock="12:24:45"
+			time="00:10.924"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\CheckExeVersionWS.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\CheckExeVersionWS.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="143"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

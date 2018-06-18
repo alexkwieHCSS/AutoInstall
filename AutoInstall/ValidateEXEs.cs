@@ -41,6 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateEXEs()
         {
+            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script\\";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace AutoInstall
         }
 
 #region Variables
+
+        string _ScriptLocation;
+
+        /// <summary>
+        /// Gets or sets the value of variable ScriptLocation.
+        /// </summary>
+        [TestVariable("f54a8e04-4a1f-4da3-bb8e-267cb8f00d20")]
+        public string ScriptLocation
+        {
+            get { return _ScriptLocation; }
+            set { _ScriptLocation = value; }
+        }
 
 #endregion
 
@@ -81,8 +94,8 @@ namespace AutoInstall
 
             // run powershell script for file version reports
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell script for file version reports\r\nRun application 'oldExesHB' with arguments '' in normal mode.", new RecordItemIndex(0));
-                Host.Local.RunApplication("oldExesHB", "", "V:\\alex.kwie\\Script", false);
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nrun powershell script for file version reports\r\nRun application 'CheckExeVersion.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+                Host.Local.RunApplication("CheckExeVersion.bat", "", ScriptLocation, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
@@ -93,6 +106,16 @@ namespace AutoInstall
                 ValidateEXEReport();
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            try {
+                ValidateEXEReportServerContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            
+            try {
+                ValidateEXEReportWSContent();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
         }
 

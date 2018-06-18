@@ -34,7 +34,7 @@ rxversion="8.1">
 	<recorditems>
 		<WaitForRecordItem
 		enabled="True"
-		optional="True"
+		optional="False"
 		searchpropertyid="aed5ec4f-52ff-49fe-ac1f-36957d2f8ade"
 		waitaction="Exists"
 		waittimeout="30000ms">
@@ -98,10 +98,10 @@ rxversion="8.1">
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
-		optional="True"
+		optional="False"
 		searchpropertyid="6bbc9c3f-5c73-4c38-979b-e3ac5d0d6fb8"
 		sx="0"
 		sy="0"
@@ -162,80 +162,12 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="35f890e9-d11f-4149-ae6f-e40c1dd72c9f"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="94174d84-d4f3-455d-942d-be25b746cc94"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="4b170e50-29d7-4a21-b198-06ce5efecdcc"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="603e0544-a931-4438-99fe-3fdae26cd224"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
-				</path>
-			</info>
-		</mouseitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
+		<invokeactionrecorditem
+		action="Focus"
 		enabled="True"
 		optional="False"
-		presstime="100ms"
-		searchpropertyid="315198fc-eac4-40f0-83f5-da032a72bc41">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="02952637-c2fc-4341-aeb0-52985224b405"
-			sourcename="RepositoryEditor">
-				<path>
-					/menubar////button[@accessiblename~'HCSS']
-				</path>
-			</info>
-		</keysequenceitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		presstime="100ms"
-		searchpropertyid="315198fc-eac4-40f0-83f5-da032a72bc41">
+		searchpropertyid="e1adba91-b6da-46cb-ab7e-84f35990074e"
+		varname="">
 			<comment>
 			</comment>
 			<bindings>
@@ -247,22 +179,30 @@ rxversion="8.1">
 					/form[@title~'HCSS' and @title~'Crystal']
 				</path>
 			</info>
-		</keysequenceitem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
+			<arguments
+			id="f9c89cbf-8b6b-4a3d-a9d0-6569a8dba56a">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
 		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="82fcec3f-cf07-40ee-9f2f-6c6a95565949"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ad9fe1bf-cfeb-4c41-bc0b-f2886b343c23"
 		sx="0"
 		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
@@ -275,13 +215,28 @@ rxversion="8.1">
 					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
 				</path>
 			</info>
-		</touchrecorditem>
-		<invokeactionrecorditem
-		action="Press"
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
 		enabled="True"
-		optional="True"
-		searchpropertyid="0f289a4e-7ce9-4050-a8be-e7f85ef855f0"
-		varname="">
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ad9fe1bf-cfeb-4c41-bc0b-f2886b343c23"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
@@ -293,10 +248,31 @@ rxversion="8.1">
 					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
 				</path>
 			</info>
-			<arguments
-			id="9b678c75-e2e7-4d1f-85bf-e64386f36e39">
-			</arguments>
-		</invokeactionrecorditem>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0ad2b422-f628-43b6-8404-9bd1c28a41b7"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

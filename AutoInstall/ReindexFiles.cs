@@ -87,8 +87,8 @@ namespace AutoInstall
             repo.HeavyBidApp.Buttons.Tools.ReindexFilesButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Checked to 'False' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox'.", repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckboxInfo, new RecordItemIndex(2));
-            repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox.Element.SetAttributeValue("Checked", "False");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Checked to 'True' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox'.", repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckboxInfo, new RecordItemIndex(2));
+            repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.CurrentEstimateCheckbox.Element.SetAttributeValue("Checked", "True");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Checked to 'True' on item 'HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckbox'.", repo.HBPopUpScreens.FromFileButtons.ReindexRelated.ReindexScreen.SystemFilesCheckboxInfo, new RecordItemIndex(3));

@@ -79,11 +79,9 @@ namespace AutoInstall
 
             Init();
 
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(0));
-                repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
-                Delay.Milliseconds(200);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(0));
+            Keyboard.Press("{Return}");
+            Delay.Milliseconds(0);
             
         }
 

@@ -14,6 +14,14 @@ rxversion="8.1">
 			name="ValidateEXEs"
 			ref="40845dfb-b593-4feb-8ed3-f231d56123ba"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="f54a8e04-4a1f-4da3-bb8e-267cb8f00d20"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="046341d0-67d3-4fa0-bed9-6cd72d7b49da"
@@ -29,6 +37,14 @@ rxversion="8.1">
 			name="ValidateHBStrayDate"
 			ref="82ff8626-4ccf-402d-b3ee-db8e600f7d69"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="b53c7e93-8ed1-4459-8552-62df97849436"
+					variablename="YearVersion">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="07b9e26f-4a29-45e2-89a6-55e982ea3ad2"
@@ -70,6 +86,14 @@ rxversion="8.1">
 			name="CheckMissingDLLsOCXs"
 			ref="a6f15c91-1e6d-43df-ab08-61a8a5bb251d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="442a3d90-24df-4f19-96fe-bb7293cac6df"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="0d2bf09a-8c90-440b-b055-8e2e4313a924"
@@ -264,6 +288,14 @@ rxversion="8.1">
 			name="Compare17Folders"
 			ref="f7cd7a70-f449-4bef-af7e-ef4d413fe3ed"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="e5f7980a-ecea-45df-a274-22d8b65a2af1"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="459aaa2d-dd25-462b-b413-1992a073c051"
@@ -488,6 +520,7 @@ rxversion="8.1">
 			name="setup">
 			</setup>
 			<testmodule
+			enabled="False"
 			id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
 			name="ReadyToInstallCrystal"
 			ref="9269e0b8-6d70-4b1e-9f83-67340788d9c1"
@@ -688,6 +721,14 @@ rxversion="8.1">
 			name="CompareServerAndWSBin"
 			ref="35759013-d826-4ea8-b07a-a9008891e773"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="290a788c-8883-472d-88de-43397cce5b76"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="ba442f08-a96a-4b25-901b-99b7b429e984"
@@ -788,6 +829,20 @@ rxversion="8.1">
 			name="ValidateWSStrayDate"
 			ref="5cd0caf7-f833-4d29-aad4-fdd09da5c405"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="HBRelease"
+					datasourceid="fccdc805-60c5-4344-8628-1c395167233f"
+					variableid="3f7db780-52cc-4d9c-b6e6-3d81a6624051"
+					variablename="YearVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="d66fbf15-dab5-4c93-8202-d14504ff97ef"
+			name="DeleteAnEstimate"
+			ref="86517749-ad94-4a26-9fc2-cc4e93b3c806"
+			type="Recording">
 			</testmodule>
 			<testcase
 			id="d6b2a929-96d8-4811-a0c5-d2081a4c6f46"
@@ -851,6 +906,7 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
+			datasource="ScriptLocation"
 			id="e2647272-bd9d-4014-811f-c32ebdcd6137"
 			name="ValidateFileStructure">
 			</smartfoldernode>
@@ -870,6 +926,13 @@ rxversion="8.1">
 			id="e5ed82b0-fc45-459f-b715-408cd95f119b"
 			name="ReindexHBExternal">
 			</testcase>
+			<testmodule
+			enabled="False"
+			id="e64c0237-6b76-4610-a1ed-754344046bce"
+			name="crystalTESTING"
+			ref="0e9be4f1-8439-46f8-b4f5-a0adbdb1810a"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="e6852385-fb94-4699-a76c-4babc5d5b452"
 			name="CheckHBConfigFile"
@@ -1051,6 +1114,10 @@ rxversion="8.1">
 								id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
 								name="ReadyToInstallCrystal">
 								</testmodule>
+								<testmodule
+								id="e64c0237-6b76-4610-a1ed-754344046bce"
+								name="crystalTESTING">
+								</testmodule>
 							</testcase>
 							<testcase
 							id="ac0cfe3a-03a8-45fc-8523-829ef00648ed"
@@ -1101,26 +1168,6 @@ rxversion="8.1">
 								</testmodule>
 							</testcase>
 							<testcase
-							id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
-							name="ValidateBin/Stray.XML">
-								<testmodule
-								id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
-								name="ValidateHBStrayDate">
-								</testmodule>
-								<testmodule
-								id="d6689144-6a60-4ed4-a1fd-3c5db7a3511c"
-								name="ValidateWSStrayDate">
-								</testmodule>
-							</testcase>
-							<testcase
-							id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
-							name="ValidateSQLDriverReadmeExists">
-								<testmodule
-								id="b562ba65-5a9f-48dd-a499-7987178bb57c"
-								name="SQLDriverReadmeExists">
-								</testmodule>
-							</testcase>
-							<testcase
 							id="66d2715a-ad00-480a-960b-dbed18e79ed5"
 							name="ValidateExeAre2018Version">
 								<testmodule
@@ -1137,6 +1184,18 @@ rxversion="8.1">
 								</testmodule>
 							</testcase>
 							<testcase
+							id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
+							name="ValidateBin/Stray.XML">
+								<testmodule
+								id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
+								name="ValidateHBStrayDate">
+								</testmodule>
+								<testmodule
+								id="d6689144-6a60-4ed4-a1fd-3c5db7a3511c"
+								name="ValidateWSStrayDate">
+								</testmodule>
+							</testcase>
+							<testcase
 							id="4ac000f8-7ec6-47df-99ca-83ef07eb4960"
 							name="ValidateHeavybidConfig">
 								<testmodule
@@ -1146,6 +1205,14 @@ rxversion="8.1">
 								<testmodule
 								id="d986896e-fe3a-4ae9-a84e-89fc68b07f7c"
 								name="SysConfigDoesntExist">
+								</testmodule>
+							</testcase>
+							<testcase
+							id="c03c3bc1-c9a8-4347-a065-f2983a0f4777"
+							name="ValidateSQLDriverReadmeExists">
+								<testmodule
+								id="b562ba65-5a9f-48dd-a499-7987178bb57c"
+								name="SQLDriverReadmeExists">
 								</testmodule>
 							</testcase>
 							<testcase
@@ -1257,6 +1324,10 @@ rxversion="8.1">
 									<testmodule
 									id="dcf43f79-961e-47b7-8e27-68107c5bac5d"
 									name="MakeNewEstimate">
+									</testmodule>
+									<testmodule
+									id="d66fbf15-dab5-4c93-8202-d14504ff97ef"
+									name="DeleteAnEstimate">
 									</testmodule>
 									<testmodule
 									id="f1f4b9dd-9ae9-403d-8903-38bb6a7420db"
@@ -1819,6 +1890,31 @@ rxversion="8.1">
 			</table>
 		</DataSource>
 		<DataSource
+		id="38027322-5055-47a0-bbee-0130088e55d1"
+		lastknownrowcount="1"
+		name="ScriptLocation"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					ScriptLocation
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						ScriptLocation
+					</th>
+				</tr>
+				<tr>
+					<td>
+						W:\HBDaily\InstallAutomation\Script\
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
 		id="6f4266b6-3ba7-426b-98aa-31e3ae9e02b1"
 		lastknownrowcount="1"
 		name="WSInstallLocation"
@@ -1852,16 +1948,13 @@ rxversion="8.1">
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
 			</testcontainer>
 			<testcontainer
+			id="278b8420-8e4e-4e20-a51e-390434d1fb15">
+			</testcontainer>
+			<testcontainer
 			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
 			</testcontainer>
 			<testcontainer
-			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87">
-			</testcontainer>
-			<testcontainer
-			id="eb269b62-171b-46e6-a194-de77eefa5ac4">
-			</testcontainer>
-			<testcontainer
-			id="febe7363-b15c-4a59-80ce-69f92cfeac38">
+			id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

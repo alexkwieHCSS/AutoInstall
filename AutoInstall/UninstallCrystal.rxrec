@@ -31,7 +31,7 @@ rxversion="8.1">
 	<recorditems>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="5ea7d555-58f9-4955-a317-bb50245e9cb7"
 		waitaction="Exists"
 		waittimeout="5000ms">
@@ -162,7 +162,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="4db2289f-e556-4b42-93d3-7dda771f1a61"
 		sx="1452"
 		sy="297"
@@ -333,7 +333,7 @@ AKCU36/41p0UciD6xU/pIyn0meRSr6hIynqCCR/OtGGNooI49wOxQucdcCpKKailsROrKasxPm9R
 		KeySequence="hcss{Space}integration"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		presstime="100ms"
 		searchpropertyid="b466c1c1-ba21-4f45-8214-74708327bd7b">
 			<comment>
@@ -492,7 +492,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		</keysequenceitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="30000ms">
@@ -515,7 +515,7 @@ sIf02HMyEwMRzIT9al+b1H5UtFXCnGHwibbE+b1H5UhDEEZHPtTqKsR//9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="9c7ef800-3ead-4e58-ad6a-95eb25c2e291"
 		sx="682"
 		sy="456"
@@ -994,7 +994,7 @@ Jv5UdA62NaisCX/kbLP/AK4/0at+gAooooA//9k=
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1017,7 +1017,7 @@ Jv5UdA62NaisCX/kbLP/AK4/0at+gAooooA//9k=
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="4bca46b2-410a-49e1-93d0-7fbc9caae415"
 		sx="617"
 		sy="399"
@@ -1292,7 +1292,7 @@ QBnPQkUUUAT0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
 		waittimeout="10000ms">
@@ -1315,7 +1315,7 @@ QBnPQkUUUAT0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="d68f1635-67c6-458e-b4f2-cf48bb727eba"
 		sx="1055"
 		sy="529"

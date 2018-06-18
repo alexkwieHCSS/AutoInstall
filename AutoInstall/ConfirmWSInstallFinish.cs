@@ -132,19 +132,27 @@ namespace AutoInstall
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.InstallButton'", repo.HeavyBidServerSetup.Buttons.InstallButtonInfo, new ActionTimeout(60000), new RecordItemIndex(4));
-            repo.HeavyBidServerSetup.Buttons.InstallButtonInfo.WaitForExists(60000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 1m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.InstallButton'", repo.HeavyBidServerSetup.Buttons.InstallButtonInfo, new ActionTimeout(60000), new RecordItemIndex(4));
+                repo.HeavyBidServerSetup.Buttons.InstallButtonInfo.WaitForExists(60000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Buttons.InstallButton' at Center.", repo.HeavyBidServerSetup.Buttons.InstallButtonInfo, new RecordItemIndex(5));
-            repo.HeavyBidServerSetup.Buttons.InstallButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidServerSetup.Buttons.InstallButton' at Center.", repo.HeavyBidServerSetup.Buttons.InstallButtonInfo, new RecordItemIndex(5));
+                repo.HeavyBidServerSetup.Buttons.InstallButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 15m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.FinishButton'", repo.HeavyBidServerSetup.Buttons.FinishButtonInfo, new ActionTimeout(900000), new RecordItemIndex(6));
-            repo.HeavyBidServerSetup.Buttons.FinishButtonInfo.WaitForExists(900000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 15m to exist. Associated repository item: 'HeavyBidServerSetup.Buttons.FinishButton'", repo.HeavyBidServerSetup.Buttons.FinishButtonInfo, new ActionTimeout(900000), new RecordItemIndex(6));
+                repo.HeavyBidServerSetup.Buttons.FinishButtonInfo.WaitForExists(900000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Buttons.FinishButton' at Center.", repo.HeavyBidServerSetup.Buttons.FinishButtonInfo, new RecordItemIndex(7));
-            repo.HeavyBidServerSetup.Buttons.FinishButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidServerSetup.Buttons.FinishButton' at Center.", repo.HeavyBidServerSetup.Buttons.FinishButtonInfo, new RecordItemIndex(7));
+                repo.HeavyBidServerSetup.Buttons.FinishButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
         }
 

@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
+		<var
+		id="b53c7e93-8ed1-4459-8552-62df97849436"
+		name="YearVersion">
+			2018.1
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
@@ -169,6 +174,10 @@ rxversion="8.1">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="YearVersion">
+				</binding>
 			</bindings>
 			<info
 			id="ee3237ba-6bb6-41b0-80fd-694144dff066"

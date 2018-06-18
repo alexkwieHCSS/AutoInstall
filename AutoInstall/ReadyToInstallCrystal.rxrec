@@ -29,30 +29,18 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="fcc50d3e-8b29-4686-948d-2c404e8e1d81"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="9d8c0feb-ae24-45f4-a634-175fa361ceb0">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
-				</path>
-			</info>
-		</mouseitem>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
