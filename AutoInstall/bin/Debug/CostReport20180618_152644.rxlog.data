@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="166c877945e5a476"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 3:26:47 PM"
+		timestampiso="2018-06-18T20:26:47"
+		endtime="6/18/2018 3:26:54 PM"
+		timeoutfactor="1"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.755"
+			timeRelativeToTestModuleStartTime="00:00.756"
+			timeWallClock="15:26:48"
+			time="00:00.755"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.449"
+			timeRelativeToTestModuleStartTime="00:04.449"
+			timeWallClock="15:26:51"
+			time="00:04.449"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CostReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']"
+				itempath="?/?/toolbar/button[@text~'Cost Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CostReportsButton"
+				id="c972e2915f874f21a5a43bc3f2feb563"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.700"
+			timeRelativeToTestModuleStartTime="00:05.701"
+			timeWallClock="15:26:53"
+			time="00:05.700"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport"
+				id="9276b5650af9420689e0d0cf7040c0cb"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

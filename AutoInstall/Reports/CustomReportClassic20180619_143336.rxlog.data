@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4661a1a00c8e34e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/19/2018 2:33:38 PM"
+		timestampiso="2018-06-19T19:33:38"
+		endtime="6/19/2018 2:34:30 PM"
+		timeoutfactor="1"
+		module="CustomReportClassic">
+		<detail>
+			CustomReportClassic
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HBReportViewers.PrintPreview.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.712"
+			timeRelativeToTestModuleStartTime="00:00.713"
+			timeWallClock="14:33:38"
+			time="00:00.712"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.770"
+			timeRelativeToTestModuleStartTime="00:03.771"
+			timeWallClock="14:33:42"
+			time="00:03.770"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CostReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']"
+				itempath="?/?/toolbar/button[@text~'Cost Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CostReportsButton"
+				id="c972e2915f874f21a5a43bc3f2feb563"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.022"
+			timeRelativeToTestModuleStartTime="00:05.023"
+			timeWallClock="14:33:43"
+			time="00:05.022"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report Classic']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Cost Report Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic"
+				id="92ec3f14cb7b400eb2a23f7ff49cee61"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.249"
+			timeRelativeToTestModuleStartTime="00:06.249"
+			timeWallClock="14:33:44"
+			time="00:06.249"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TextRadioButtonExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']///radiobutton[@accessiblename='Text']"
+				itempath=".///radiobutton[@accessiblename='Text']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TextRadioButtonExport"
+				id="35a4fd7b185b41d390fc1d52050637a3"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.015"
+			timeRelativeToTestModuleStartTime="00:08.016"
+			timeWallClock="14:33:46"
+			time="00:08.015"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report Classic']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Cost Report Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic"
+				id="92ec3f14cb7b400eb2a23f7ff49cee61"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.438"
+			timeRelativeToTestModuleStartTime="00:09.438"
+			timeWallClock="14:33:47"
+			time="00:09.438"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=0,Y=0}.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.118"
+			timeRelativeToTestModuleStartTime="00:10.118"
+			timeWallClock="14:33:48"
+			time="00:10.118"
+			level="Info"
+			category="Delay"
+			errimg=".\CustomRe_dec91d5_c55bb3b2_trace.jpg"
+			errthumb=".\CustomRe_dec91d5_c55bb3b2_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.133"
+			timeRelativeToTestModuleStartTime="00:20.133"
+			timeWallClock="14:33:58"
+			time="00:20.133"
+			level="Info"
+			category="Application"
+			errimg=".\CustomRe_dec91d5_338fd611_trace.jpg"
+			errthumb=".\CustomRe_dec91d5_338fd611_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'HBReportViewers.PrintPreview'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Print Preview']"
+				itempath="/form[@title~'Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintPreview.Self"
+				id="c91afe55239b47e8ac1aa6364e311f5d"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.902"
+			timeRelativeToTestModuleStartTime="00:51.903"
+			timeWallClock="14:34:30"
+			time="00:51.902"
+			level="Error"
+			category="Module"
+			errimg=".\CustomRe_dec91d5_92324dac_trace.jpg"
+			errthumb=".\CustomRe_dec91d5_92324dac_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HBReportViewers.PrintPreview.Self'.<br/>No element found for path '/form[@title~'Print Preview']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.PrintPreviewAppFolder.get_Self() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 7798&#13;&#10;   at AutoInstall.CustomReportClassic.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs:line 111&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReportClassic.cs"
+				codeline="111"
+				type="repoitem"
+				path="/form[@title~'Print Preview']"
+				itempath="/form[@title~'Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintPreview.Self"
+				id="c91afe55239b47e8ac1aa6364e311f5d"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

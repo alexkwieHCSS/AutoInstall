@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bbbc881c30838a8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/19/2018 1:49:01 PM"
+		timestampiso="2018-06-19T18:49:01"
+		endtime="6/19/2018 1:49:09 PM"
+		timeoutfactor="1"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.711"
+			timeRelativeToTestModuleStartTime="00:00.712"
+			timeWallClock="13:49:02"
+			time="00:00.711"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HBReportPlus.SaveAsExport.FilePathURL' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']//element[@class='Breadcrumb Parent']"
+				itempath=".//element[@class='Breadcrumb Parent']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.SaveAsExport.FilePathURL"
+				id="7e70db7860b4486d8c0089d996e95388"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="82"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.517"
+			timeRelativeToTestModuleStartTime="00:02.518"
+			timeWallClock="13:49:04"
+			time="00:02.517"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'W:\HBDaily\InstallAutomation\HBReportsExportFiles' with focus on 'HBReportViewers.HBReportPlus.SaveAsExport.FilePathURL'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']//element[@class='Breadcrumb Parent']"
+				itempath=".//element[@class='Breadcrumb Parent']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.SaveAsExport.FilePathURL"
+				id="7e70db7860b4486d8c0089d996e95388"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="86"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

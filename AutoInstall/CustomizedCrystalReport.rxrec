@@ -125,6 +125,29 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<validationitem
+		action="AttributeRegex"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9710ef87-7c00-4e55-be04-2d5cadca3fc5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd8d30e2-1e4b-4bd4-a324-6a9fbeb9c4c4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'Custom Crystal Report']
+				</path>
+			</info>
+			<matchname>
+				Title
+			</matchname>
+			<matchvalue>
+				Bid Proposal: Labor and Material
+			</matchvalue>
+		</validationitem>
 		<mouseitem
 		action="Click"
 		button="Left"

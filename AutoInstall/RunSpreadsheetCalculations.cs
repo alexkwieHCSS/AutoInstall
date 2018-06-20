@@ -79,23 +79,35 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButtonInfo, new RecordItemIndex(0));
-            repo.HeavyBidApp.DocumentInterface.Buttons.ExpandAllTreeviewButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity' at Center.", repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivityInfo, new RecordItemIndex(0));
+            repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.", repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditemInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Right}'.", new RecordItemIndex(1));
+            Keyboard.Press("{Right}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.", repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditemInfo, new RecordItemIndex(2));
             repo.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButtonInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Right}'.", new RecordItemIndex(3));
+            Keyboard.Press("{Right}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButtonInfo, new RecordItemIndex(4));
             repo.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations' at Center.", repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculationsInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations' at Center.", repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculationsInfo, new RecordItemIndex(5));
             repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Title~'Spreadsheet Calculation') on item 'HBReportViewers.SpreadsheetCalculationViewer'.", repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, new RecordItemIndex(6));
+            Validate.AttributeRegex(repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, "Title", new Regex("Spreadsheet Calculation"));
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(7));
             repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButton.Click();
             Delay.Milliseconds(200);
             

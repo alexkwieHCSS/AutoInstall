@@ -94,8 +94,8 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.HBReportPlusViewer.ClosePreviewButton'.", repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
-            Host.Current.CloseApplication(repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButton, new Duration(0));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton'.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
+            Host.Current.CloseApplication(repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton, new Duration(0));
             Delay.Milliseconds(0);
             
         }

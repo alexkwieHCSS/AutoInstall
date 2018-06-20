@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29a8df0292acb678"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/20/2018 12:57:03 PM"
+		timestampiso="2018-06-20T17:57:03"
+		endtime="6/20/2018 12:58:10 PM"
+		timeoutfactor="1"
+		module="EstimateRecapReportClassic">
+		<detail>
+			EstimateRecapReportClassic
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HBReportViewers.PrintPreview.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.918"
+			timeRelativeToTestModuleStartTime="00:00.918"
+			timeWallClock="12:57:04"
+			time="00:00.918"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.881"
+			timeRelativeToTestModuleStartTime="00:03.881"
+			timeWallClock="12:57:07"
+			time="00:03.881"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.SummaryReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Summary Reports']"
+				itempath="?/?/toolbar/button[@text~'Summary Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.SummaryReportsButton"
+				id="b359b12403734f6b82f47640a6ca9e51"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.131"
+			timeRelativeToTestModuleStartTime="00:05.132"
+			timeWallClock="12:57:08"
+			time="00:05.131"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic"
+				id="1667e8af4b7947e48aa49731676894fe"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.473"
+			timeRelativeToTestModuleStartTime="00:06.474"
+			timeWallClock="12:57:09"
+			time="00:06.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TextRadioButtonExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']///radiobutton[@accessiblename='Text']"
+				itempath=".///radiobutton[@accessiblename='Text']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TextRadioButtonExport"
+				id="35a4fd7b185b41d390fc1d52050637a3"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.119"
+			timeRelativeToTestModuleStartTime="00:08.119"
+			timeWallClock="12:57:11"
+			time="00:08.119"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic"
+				id="1667e8af4b7947e48aa49731676894fe"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.603"
+			timeRelativeToTestModuleStartTime="00:09.604"
+			timeWallClock="12:57:12"
+			time="00:09.603"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.SaveAsExport.FilePathURL' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']//element[@class='Breadcrumb Parent']"
+				itempath=".//element[@class='Breadcrumb Parent']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.FilePathURL"
+				id="7e70db7860b4486d8c0089d996e95388"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.875"
+			timeRelativeToTestModuleStartTime="00:13.876"
+			timeWallClock="12:57:17"
+			time="00:13.875"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'W:\HBDaily\InstallAutomation\HBReportsExportFiles{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.105"
+			timeRelativeToTestModuleStartTime="00:19.105"
+			timeWallClock="12:57:22"
+			time="00:19.105"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.SaveAsExport.FileName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']"
+				itempath="element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.FileName"
+				id="542c7fc99f7f43f1bff83e4118ea322f"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.237"
+			timeRelativeToTestModuleStartTime="00:20.237"
+			timeWallClock="12:57:23"
+			time="00:20.237"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'EstimateRecapReportClassic.txt'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="114"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.409"
+			timeRelativeToTestModuleStartTime="00:23.409"
+			timeWallClock="12:57:26"
+			time="00:23.409"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']/button[@text~'Save']"
+				itempath="button[@text~'Save']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.SaveButton"
+				id="3b603e92fd9447dea5b7c3b9c4f848e5"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.176"
+			timeRelativeToTestModuleStartTime="00:24.176"
+			timeWallClock="12:57:27"
+			time="00:24.176"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Confirm Save As']//button[@text~'Yes']"
+				itempath=".//button[@text~'Yes']"
+				fullname="AutoInstallRepository.HBReportViewers.ConfirmSaveAs.YesButton"
+				id="8e6ab588c44d4a94ada01c708079e46e"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.026"
+			timeRelativeToTestModuleStartTime="00:25.027"
+			timeWallClock="12:57:28"
+			time="00:25.026"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.PrintToFile.YesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Print to File']/button[@text~'Yes']"
+				itempath="button[@text~'Yes']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintToFile.YesButton"
+				id="e88fef6e54a141e88d44a410deecaf99"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.215"
+			timeRelativeToTestModuleStartTime="00:27.216"
+			timeWallClock="12:57:30"
+			time="00:27.215"
+			level="Info"
+			category="Delay"
+			errimg=".\Estimate_b812975b_12ecaa73_trace.jpg"
+			errthumb=".\Estimate_b812975b_12ecaa73_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="130"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.239"
+			timeRelativeToTestModuleStartTime="00:37.240"
+			timeWallClock="12:57:40"
+			time="00:37.239"
+			level="Info"
+			category="Mouse"
+			errimg=".\Estimate_b812975b_13568488_trace.jpg"
+			errthumb=".\Estimate_b812975b_13568488_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HBReportViewers.PrintPreview' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Print Preview']"
+				itempath="/form[@title~'Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintPreview.Self"
+				id="c91afe55239b47e8ac1aa6364e311f5d"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="133"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.352"
+			timeRelativeToTestModuleStartTime="01:07.353"
+			timeWallClock="12:58:10"
+			time="01:07.352"
+			level="Error"
+			category="Module"
+			errimg=".\Estimate_b812975b_c8f00e21_trace.jpg"
+			errthumb=".\Estimate_b812975b_c8f00e21_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HBReportViewers.PrintPreview.Self'.<br/>No element found for path '/form[@title~'Print Preview']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.PrintPreviewAppFolder.get_Self() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 8015&#13;&#10;   at AutoInstall.EstimateRecapReportClassic.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs:line 134&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="134"
+				type="repoitem"
+				path="/form[@title~'Print Preview']"
+				itempath="/form[@title~'Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintPreview.Self"
+				id="c91afe55239b47e8ac1aa6364e311f5d"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="13">
+			</metainfo>
+		</item>
+	</activity>
+</report>

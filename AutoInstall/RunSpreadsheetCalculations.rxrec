@@ -46,47 +46,84 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="928c2480-db66-4c98-a3f3-5fd6e0e3da74"
+			id="96fc5c33-4e46-42f9-baaf-aba1ff09d141"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="accessible"
+				capabilities="accessible, accessibletreeitem"
 				dontcache="False"
 				enabled="True"
 				flavor="msaa"
 				hasfocus="False"
 				index="0"
-				prefcap="button"
-				rect="-31986,-30992,22,22"
-				role="button"
+				prefcap="treeitem"
+				rect="54,226,118,18"
+				role="treeitem"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="pressed"
+					name="checked"
 					type="System.Boolean">
 						False
 					</attribute>
 					<attribute
+					name="expanded"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&#32;      100 : Mobilization
+					</attribute>
+					<attribute
 					name="accessibledefaultaction"
 					type="System.String">
-						Press
+						Collapse
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						&#32;      100 : Mobilization
 					</attribute>
 					<attribute
 					name="accessiblerole"
 					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
+						OutlineItem
 					</attribute>
 					<attribute
 					name="accessiblestate"
 					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
+						Selected, Expanded, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						1
 					</attribute>
 				</element>
 				<path>
-					/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu' and @controlid='3355']//button
+					/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem
 				</path>
 			</info>
 		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Right}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="c313f43b-c978-4ffc-9fed-81c184cbd48d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -111,6 +148,18 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Right}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="c313f43b-c978-4ffc-9fed-81c184cbd48d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -193,6 +242,29 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<validationitem
+		action="AttributeRegex"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0c179a99-18c2-4d74-8660-281e46659435">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'Spreadsheet Calculation']
+				</path>
+			</info>
+			<matchname>
+				Title
+			</matchname>
+			<matchvalue>
+				Spreadsheet Calculation
+			</matchvalue>
+		</validationitem>
 		<mouseitem
 		action="Click"
 		button="Left"

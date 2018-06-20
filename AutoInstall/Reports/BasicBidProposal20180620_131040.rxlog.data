@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="103527c06a245c8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/20/2018 1:10:42 PM"
+		timestampiso="2018-06-20T18:10:42"
+		endtime="6/20/2018 1:11:00 PM"
+		timeoutfactor="1"
+		module="BasicBidProposal">
+		<detail>
+			BasicBidProposal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.898"
+			timeRelativeToTestModuleStartTime="00:00.899"
+			timeWallClock="13:10:43"
+			time="00:00.898"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BasicBidProposal.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.717"
+			timeRelativeToTestModuleStartTime="00:04.718"
+			timeWallClock="13:10:47"
+			time="00:04.717"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.SummaryReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Summary Reports']"
+				itempath="?/?/toolbar/button[@text~'Summary Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.SummaryReportsButton"
+				id="b359b12403734f6b82f47640a6ca9e51"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BasicBidProposal.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.962"
+			timeRelativeToTestModuleStartTime="00:05.963"
+			timeWallClock="13:10:48"
+			time="00:05.962"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.SummaryReports.ConciseBidProposal' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text~'Concise Bid Proposal']"
+				itempath="?/?/?/tree/?/?/treeitem[@text~'Concise Bid Proposal']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.SummaryReports.ConciseBidProposal"
+				id="66e81a8ad86f4d50bd55300418909da0"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BasicBidProposal.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.273"
+			timeRelativeToTestModuleStartTime="00:07.274"
+			timeWallClock="13:10:50"
+			time="00:07.273"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BasicBidProposal.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.283"
+			timeRelativeToTestModuleStartTime="00:17.284"
+			timeWallClock="13:11:00"
+			time="00:17.283"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'HBReportViewers.PrintPreview'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Print Preview']"
+				itempath="/form[@title~'Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintPreview.Self"
+				id="c91afe55239b47e8ac1aa6364e311f5d"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\BasicBidProposal.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

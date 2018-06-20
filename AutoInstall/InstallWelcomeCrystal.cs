@@ -97,16 +97,16 @@ namespace AutoInstall
             repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
-            Delay.Duration(1000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            //Delay.Duration(1000, false);
             
             //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(6));
             //repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
             //Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(7));
-            repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(7));
+            //repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
+            //Delay.Milliseconds(200);
             
         }
 

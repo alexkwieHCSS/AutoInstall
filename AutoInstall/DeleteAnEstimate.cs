@@ -143,9 +143,9 @@ namespace AutoInstall
             repo.HBDropDownOptions.Estimate.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(3));
-            repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox.Click();
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(3));
+            //repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox.DoubleClick();
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$EstimatePath' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(4));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox.PressKeys(EstimatePath);
@@ -182,6 +182,9 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButtonInfo, new RecordItemIndex(12));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButton.Click();
             Delay.Milliseconds(200);
+            
+            ValidateEstimateDeleted();
+            Delay.Milliseconds(0);
             
         }
 

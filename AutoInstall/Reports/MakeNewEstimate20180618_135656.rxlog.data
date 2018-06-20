@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c4869e17997274"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 1:56:59 PM"
+		timestampiso="2018-06-18T18:56:59"
+		endtime="6/18/2018 1:57:00 PM"
+		timeoutfactor="1"
+		module="MakeNewEstimate">
+		<detail>
+			MakeNewEstimate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.799"
+			timeRelativeToTestModuleStartTime="00:00.800"
+			timeWallClock="13:56:59"
+			time="00:00.799"
+			level="Warn"
+			category="Data"
+			errimg=".\MakeNewE_2a2f0c7b_2e8a08a2_trace.jpg"
+			errthumb=".\MakeNewE_2a2f0c7b_2e8a08a2_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>EstimateCode, EstimateName, EstimateDescription
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.828"
+			timeRelativeToTestModuleStartTime="00:00.829"
+			timeWallClock="13:56:59"
+			time="00:00.828"
+			level="Failure"
+			category="File Exist"
+			errimg=".\MakeNewE_2a2f0c7b_2e8a08a2_trace.jpg"
+			errthumb=".\MakeNewE_2a2f0c7b_2e8a08a2_trace_thumb.jpg">
+			<message>
+				Fail! C:\HeavyBid\EST\EST-1 does not exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\MakeNewEstimate.UserCode.cs"
+				codeline="53"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.836"
+			timeRelativeToTestModuleStartTime="00:00.837"
+			timeWallClock="13:56:59"
+			time="00:00.836"
+			level="Error"
+			category="Module"
+			errimg=".\MakeNewE_2a2f0c7b_2e8a08a2_trace.jpg"
+			errthumb=".\MakeNewE_2a2f0c7b_2e8a08a2_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

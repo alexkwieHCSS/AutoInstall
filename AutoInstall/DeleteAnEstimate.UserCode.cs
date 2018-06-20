@@ -13,6 +13,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
+using System.IO;
 using WinForms = System.Windows.Forms;
 
 using Ranorex;
@@ -31,6 +32,26 @@ namespace AutoInstall
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void ValidateEstimateDeleted()
+        {
+            string path = @"C:\HeavyBid\EST\";
+        	string estFolder = @"EST-1";
+        	
+        	
+        	string pathCheck = Path.Combine(path,estFolder);
+        	
+        	
+        	
+        	if (Directory.Exists(pathCheck))
+			   {
+        		Report.Failure("File Exist", "Fail. " + pathCheck + " exists.");
+			   }
+			else                  
+			   {
+				Report.Success("File Exist", "Success! " + pathCheck + " does not exists!");
+			   }
         }
 
     }

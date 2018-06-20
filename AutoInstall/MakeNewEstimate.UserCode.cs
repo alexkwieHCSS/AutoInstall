@@ -36,7 +36,7 @@ namespace AutoInstall
 
         public void ValidateEstimateExists()
         {
-            string path = @"C:\HeavyBid\EST";
+            string path = @"C:\HeavyBid\EST\";
         	string estFolder = @"EST-1";
         	
         	

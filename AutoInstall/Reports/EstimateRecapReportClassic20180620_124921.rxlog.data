@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1ef93f1e9ce916c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/20/2018 12:49:25 PM"
+		timestampiso="2018-06-20T17:49:25"
+		endtime="6/20/2018 12:50:43 PM"
+		timeoutfactor="1"
+		module="EstimateRecapReportClassic">
+		<detail>
+			EstimateRecapReportClassic
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.177"
+			timeRelativeToTestModuleStartTime="00:01.178"
+			timeWallClock="12:49:26"
+			time="00:01.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.319"
+			timeRelativeToTestModuleStartTime="00:05.320"
+			timeWallClock="12:49:30"
+			time="00:05.319"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.SummaryReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Summary Reports']"
+				itempath="?/?/toolbar/button[@text~'Summary Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.SummaryReportsButton"
+				id="b359b12403734f6b82f47640a6ca9e51"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.463"
+			timeRelativeToTestModuleStartTime="00:06.464"
+			timeWallClock="12:49:31"
+			time="00:06.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Estimate Recap Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.SummaryReports.EstimateRecapClassic"
+				id="1667e8af4b7947e48aa49731676894fe"
+				timeout="90000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.956"
+			timeRelativeToTestModuleStartTime="00:07.957"
+			timeWallClock="12:49:33"
+			time="00:07.956"
+			level="Info"
+			category="Delay"
+			errimg=".\Estimate_8691f7d6_05bba47e_trace.jpg"
+			errthumb=".\Estimate_8691f7d6_05bba47e_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.963"
+			timeRelativeToTestModuleStartTime="00:17.964"
+			timeWallClock="12:49:43"
+			time="00:17.963"
+			level="Info"
+			category="Mouse"
+			errimg=".\Estimate_8691f7d6_0ad78313_trace.jpg"
+			errthumb=".\Estimate_8691f7d6_0ad78313_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']"
+				itempath="?//?/button[@text~'Close Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton"
+				id="cb18577a8a9a44bab5892341b2976cd9"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.098"
+			timeRelativeToTestModuleStartTime="01:18.099"
+			timeWallClock="12:50:43"
+			time="01:18.098"
+			level="Error"
+			category="Module"
+			errimg=".\Estimate_8691f7d6_e3194ee9_trace.jpg"
+			errthumb=".\Estimate_8691f7d6_e3194ee9_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton'.<br/>No element found for path '/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.HBReportPlusViewerAppFolder.get_ClosePreviewButton() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 8177&#13;&#10;   at AutoInstall.EstimateRecapReportClassic.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs:line 98&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EstimateRecapReportClassic.cs"
+				codeline="98"
+				type="repoitem"
+				path="/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']"
+				itempath="?//?/button[@text~'Close Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton"
+				id="cb18577a8a9a44bab5892341b2976cd9"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

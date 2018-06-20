@@ -91,14 +91,18 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.PreviewReportButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.HBReportViewers.CustomizedBidProposal.SelfInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(5));
             Host.Current.CloseApplication(repo.HBReportViewers.CustomizedBidProposal.Self, new Duration(0));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(6));
             repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton.Click();
             Delay.Milliseconds(200);
             

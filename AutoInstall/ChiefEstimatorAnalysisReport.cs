@@ -94,8 +94,8 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
-            repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
+            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton.Click();
             Delay.Milliseconds(200);
             
         }

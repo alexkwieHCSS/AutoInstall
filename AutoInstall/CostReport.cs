@@ -94,8 +94,57 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
-            repo.HBReportViewers.HBReportPlusViewer.ClosePreviewButton.Click();
+            try {
+                //Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles'.", new RecordItemIndex(4));
+                //Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles");
+                //Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportToInfo, new RecordItemIndex(5));
+                //repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo.Click(Location.LowerCenter);
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.Text' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.TextInfo, new RecordItemIndex(6));
+                //repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.Text.Click();
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.HBReportPlus.TextExportOptions.OKButton' at Center.", repo.HBReportViewers.HBReportPlus.TextExportOptions.OKButtonInfo, new RecordItemIndex(7));
+                //repo.HBReportViewers.HBReportPlus.TextExportOptions.OKButton.Click();
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.SaveAsExport.FilePathURL' at CenterRight.", repo.HBReportViewers.SaveAsExport.FilePathURLInfo, new RecordItemIndex(8));
+                //repo.HBReportViewers.SaveAsExport.FilePathURL.Click(Location.CenterRight);
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click at {X=0,Y=0}.", new RecordItemIndex(9));
+                //Mouse.MoveTo(0, 0);
+                //Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence 'CostReport.txt'.", new RecordItemIndex(10));
+                //Keyboard.Press("CostReport.txt");
+                //Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.", repo.HBReportViewers.SaveAsExport.SaveButtonInfo, new RecordItemIndex(11));
+                //repo.HBReportViewers.SaveAsExport.SaveButton.Click();
+                //Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(11)); }
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(12));
+            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton.Click();
             Delay.Milliseconds(200);
             
         }

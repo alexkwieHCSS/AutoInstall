@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2e50f19f5da7cf00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/20/2018 3:52:40 PM"
+		timestampiso="2018-06-20T20:52:40"
+		endtime="6/20/2018 3:53:45 PM"
+		timeoutfactor="1"
+		module="InstallWelcomeCrystal">
+		<detail>
+			InstallWelcomeCrystal
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.CrystalInstallation.CrystalInstaller.InstallButton'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.843"
+			timeRelativeToTestModuleStartTime="00:00.844"
+			timeWallClock="15:52:41"
+			time="00:00.843"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar////button[@accessiblename~'HCSS']"
+				itempath=".////button[@accessiblename~'HCSS']"
+				fullname="AutoInstallRepository.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS"
+				id="02952637c2fc4341aeb052985224b405"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.613"
+			timeRelativeToTestModuleStartTime="00:01.614"
+			timeWallClock="15:52:42"
+			time="00:01.613"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'CrystalInstallation.CrystalInstaller'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']"
+				itempath="/form[@title~'HCSS' and @title~'Crystal']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.Self"
+				id="4901c8ac44014c6bb7b8c50692e0f0bd"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.706"
+			timeRelativeToTestModuleStartTime="00:01.707"
+			timeWallClock="15:52:42"
+			time="00:01.706"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.713"
+			timeRelativeToTestModuleStartTime="00:02.714"
+			timeWallClock="15:52:43"
+			time="00:02.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.NextButton"
+				id="94174d84d4f3455d942dbe25b746cc94"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.497"
+			timeRelativeToTestModuleStartTime="00:03.498"
+			timeWallClock="15:52:43"
+			time="00:03.497"
+			level="Info"
+			category="Delay"
+			errimg=".\InstallW_95d04d66_e4542eb6_trace.jpg"
+			errthumb=".\InstallW_95d04d66_e4542eb6_trace_thumb.jpg">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.506"
+			timeRelativeToTestModuleStartTime="00:04.507"
+			timeWallClock="15:52:44"
+			time="00:04.506"
+			level="Info"
+			category="Mouse"
+			errimg=".\InstallW_95d04d66_aba5b920_trace.jpg"
+			errthumb=".\InstallW_95d04d66_aba5b920_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']"
+				itempath="button[@text~'Install']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.InstallButton"
+				id="94f97a7e01a044558345e3b9a19e0c02"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="107"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.655"
+			timeRelativeToTestModuleStartTime="01:04.656"
+			timeWallClock="15:53:45"
+			time="01:04.655"
+			level="Error"
+			category="Module"
+			errimg=".\InstallW_95d04d66_7edd15e4_trace.jpg"
+			errthumb=".\InstallW_95d04d66_7edd15e4_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.CrystalInstallation.CrystalInstaller.InstallButton'.<br/>No element found for path '/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.CrystalInstallerAppFolder.get_InstallButton() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 9419&#13;&#10;   at AutoInstall.InstallWelcomeCrystal.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs:line 108&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\InstallWelcomeCrystal.cs"
+				codeline="108"
+				type="repoitem"
+				path="/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']"
+				itempath="button[@text~'Install']"
+				fullname="AutoInstallRepository.CrystalInstallation.CrystalInstaller.InstallButton"
+				id="94f97a7e01a044558345e3b9a19e0c02"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

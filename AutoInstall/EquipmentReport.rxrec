@@ -110,6 +110,29 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<validationitem
+		action="AttributeRegex"
+		enabled="True"
+		optional="False"
+		searchpropertyid="507e74d1-ac0b-45de-8a58-91f3e84456a3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bae78860-d83b-4734-a95d-0878f5e7f9d2"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HeavyBid Pivot Reports']
+				</path>
+			</info>
+			<matchname>
+				Title
+			</matchname>
+			<matchvalue>
+				Equipment
+			</matchvalue>
+		</validationitem>
 		<mouseitem
 		action="Click"
 		button="Left"

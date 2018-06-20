@@ -657,18 +657,11 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					capname="button"
 					id="0cfd4034-86e4-477a-8ca6-0b8da559a846"
 					name="AddActivitiesButton"
+					refimgid="b801c131-ddcd-4ebe-84f8-e31ee510a78e"
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu']//button[@accessiblename='Add Activities']
 					</item>
 				</folder>
-				<item
-				capname="unknown"
-				comment="awkward path"
-				id="1b300847-611d-4536-a482-20d67adc4032"
-				name="FilenameTextboxExportHJ"
-				searchtimeout="30000ms">
-					/form[@title~'HB']/element[@class='DFMDIClient']/form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]
-				</item>
 				<folder
 				capname="tree"
 				id="347e3a2a-4349-4d25-a2eb-4bf49817ce92"
@@ -683,10 +676,33 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem/treeitem
 					</item>
+					<item
+					capname="treeitem"
+					id="96fc5c33-4e46-42f9-baaf-aba1ff09d141"
+					name="FirstAvailableActivity"
+					searchtimeout="30000ms">
+						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem
+					</item>
 					<basepath>
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree
 					</basepath>
 				</folder>
+				<item
+				capname="unknown"
+				comment="awkward path"
+				id="1b300847-611d-4536-a482-20d67adc4032"
+				name="FilenameTextboxExportHJ"
+				searchtimeout="30000ms">
+					/form[@title~'HB']/element[@class='DFMDIClient']/form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]
+				</item>
+				<item
+				capname="radiobutton"
+				id="35a4fd7b-185b-41d3-90fc-1d52050637a3"
+				name="TextRadioButtonExport"
+				refimgid="4ecc10d6-dac9-454e-8b48-b58e58ffee3f"
+				searchtimeout="30000ms">
+					/form[@title~'HB']/element[@class='DFMDIClient']///radiobutton[@accessiblename='Text']
+				</item>
 				<basepath>
 					/form[@title~'HB']/element[@class='DFMDIClient']
 				</basepath>
@@ -974,6 +990,15 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					/form[@title~'HB']//toolbar/button[@accessiblename='App']
 				</item>
 			</folder>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="92495397-6ba9-4eb8-92bd-f9adb754e2ef"
+			name="XTPToolBar"
+			refpath="/form[@title='HB 2018.1 - 1-BRIDGE - Bridge Sample Estimate  - [Reports]']/element[@controlid='59419']/element[@class='XTPToolBar' and @instance='0']"
+			searchtimeout="30000ms">
+				/form[@title~'HB']/element[@controlid='59419']/element[2]
+			</item>
 			<basepath>
 				/form[@title~'HB']
 			</basepath>
@@ -2061,21 +2086,55 @@ SUVORK5CYII=
 		searchtimeout="0ms">
 			<appfolder
 			capname="form"
-			id="854ea1ed-2e7a-4fac-80af-d7ed4d5d8940"
+			id="7ba02816-3ef3-4cbf-a5bc-9388b77b92d5"
 			isrooted="True"
-			name="HBReportPlusViewer"
+			name="ConfirmSaveAs"
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
 				capname="button"
-				id="cb18577a-8a9a-44ba-b589-2341b2976cd9"
-				name="ClosePreviewButton"
-				refimgid="1b49d8ae-f94d-472f-a578-9084bccce8ce"
+				id="8e6ab588-c44d-4a94-ada0-1c708079e46e"
+				name="YesButton"
 				searchtimeout="30000ms">
-					/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']
+					/form[@title='Confirm Save As']//button[@text~'Yes']
 				</item>
 				<basepath>
-					/form[@text~'HeavyBid Reports Plus']
+					/form[@title='Confirm Save As']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="ab37c6b6-30fd-45aa-bbdc-3a374c38d759"
+			isrooted="True"
+			name="SaveAsExport"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="unknown"
+				id="7e70db78-60b4-486d-8c00-89d996e95388"
+				name="FilePathURL"
+				refimgid="dfb45867-90b3-475e-b377-f85489f73352"
+				searchtimeout="30000ms">
+					/form[@title='Save As']//element[@class='Breadcrumb Parent']
+				</item>
+				<item
+				capname="text"
+				id="542c7fc9-9f7f-43f1-bff8-3e4118ea322f"
+				name="FileName"
+				refimgid="e685cbd9-676a-4f57-b982-122023cf3cd5"
+				searchtimeout="30000ms">
+					/form[@title='Save As']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']
+				</item>
+				<item
+				capname="button"
+				id="3b603e92-fd94-47de-a5b7-c3b9c4f848e5"
+				name="SaveButton"
+				refimgid="60fdfd77-37b1-4d7c-9403-217e9a70ea7f"
+				searchtimeout="30000ms">
+					/form[@title='Save As']/button[@text~'Save']
+				</item>
+				<basepath>
+					/form[@title='Save As']
 				</basepath>
 			</appfolder>
 			<appfolder
@@ -2138,6 +2197,95 @@ SUVORK5CYII=
 			usecache="False">
 				<basepath>
 					/form[@title='Customized Bid Proposal']
+				</basepath>
+			</appfolder>
+			<folder
+			capname="unknown"
+			id="12fcffbb-ac4a-447f-a6b4-6ac831f2ac2d"
+			isrooted="False"
+			name="HBReportPlus"
+			searchtimeout="0ms">
+				<appfolder
+				capname="form"
+				id="854ea1ed-2e7a-4fac-80af-d7ed4d5d8940"
+				isrooted="True"
+				name="HBReportPlusViewer"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="button"
+					id="cb18577a-8a9a-44ba-b589-2341b2976cd9"
+					name="ClosePreviewButton"
+					refimgid="1b49d8ae-f94d-472f-a578-9084bccce8ce"
+					searchtimeout="30000ms">
+						/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']
+					</item>
+					<item
+					capname="button"
+					id="d3a4583f-5165-4e75-b323-6cc05b80c1bf"
+					name="ExportTo"
+					refimgid="9b7e91a1-d0dd-431a-8aa9-9fcf686c8bad"
+					searchtimeout="30000ms">
+						/form[@text~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']
+					</item>
+					<item
+					capname="listitem"
+					id="b6bf0fc6-9f27-473a-a2fd-2db81913cf88"
+					name="Text"
+					refimgid="5fc471cd-676e-478a-86de-b895c825e53e"
+					searchtimeout="30000ms">
+						/form[@text~'HeavyBid Reports Plus']/form//list/list/listitem[@accessiblename='Text File']
+					</item>
+					<item
+					addcaps="unknown,control,nativewindow"
+					capname="unknown"
+					id="f8ae4930-b5aa-46d4-8806-b3230536cad0"
+					name="DocumentViewer"
+					refimgid="3db4a33c-8e49-4ca0-ae75-d3fc023b731b"
+					refpath="/form[@controlname='Viewer' and @title='HeavyBid Reports Plus' and @processname='HbReportViewer' and @controltypename='Viewer' and @instance='0']/container[@controlname='printControl1']/element[@controlname='DocumentViewer']"
+					searchtimeout="30000ms">
+						/form[@text~'HeavyBid Reports Plus']/?/?/element[@controlname='DocumentViewer']
+					</item>
+					<basepath>
+						/form[@text~'HeavyBid Reports Plus']
+					</basepath>
+				</appfolder>
+				<appfolder
+				capname="form"
+				id="5c01f2c0-71f0-4d09-826c-4135036958c2"
+				isrooted="True"
+				name="TextExportOptions"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="button"
+					id="0b28a9ab-0355-4a48-bc51-4f4c7b844dc7"
+					name="OKButton"
+					refimgid="c2b48ffe-7859-45cf-940c-3b69d90cadd0"
+					searchtimeout="30000ms">
+						/form[@title='Text Export Options']//button[@accessiblename='OK']
+					</item>
+					<basepath>
+						/form[@title='Text Export Options']
+					</basepath>
+				</appfolder>
+			</folder>
+			<appfolder
+			capname="form"
+			id="4c19fe4a-d3cc-4736-8e0c-5ac5c801291c"
+			isrooted="True"
+			name="PrintToFile"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="e88fef6e-54a1-41e8-8d44-a410deecaf99"
+				name="YesButton"
+				searchtimeout="30000ms">
+					/form[@title='Print to File']/button[@text~'Yes']
+				</item>
+				<basepath>
+					/form[@title='Print to File']
 				</basepath>
 			</appfolder>
 		</folder>
@@ -2513,33 +2661,39 @@ gg==
 			</basepath>
 		</appfolder>
 		<appfolder
-		addcaps="form,nativewindow"
+		addcaps="form,control,nativewindow"
 		capname="form"
-		id="bfade183-6bc9-47e4-93a2-e09963e566ff"
+		id="83d1f779-ec28-4230-a268-a35793224d7e"
 		isrooted="True"
-		name="Explorer"
-		refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']"
+		name="HbReportViewer"
+		refpath="/form[@title='' and @processname='HbReportViewer']"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="listitem,accessible"
-			capname="listitem"
-			id="f12150cd-6682-495c-893b-33611c0654cb"
-			name="UntitledFormGoogleFormsGoogleCh"
-			refimgid="d866e52a-d755-4ebb-84bc-f4d6b228ee6f"
-			refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']/list/listitem[@accessiblename~'^Untitled\ form\ -\ Google\ Fo']"
+			addcaps="list,accessible"
+			capname="list"
+			id="d288c3e6-d7a4-4618-9764-873d12f18c41"
+			name="List"
+			refimgid="6b9e9740-be07-45e4-ba23-971c93fca7fc"
+			refpath="/form[@title='' and @processname='HbReportViewer']/element[@controltypename='GalleryDropDownBarControl']/list[@accessiblerole='List']"
 			searchtimeout="30000ms">
-				/form[@processname='explorer' and @class='TaskListThumbnailWnd']/?/?/listitem[@accessiblename~'^Untitled\ form\ -\ Google\ Fo']
+				/form[@title='' and @processname='HbReportViewer']/element/list[@accessiblerole='List']
 			</item>
 			<basepath>
-				/form[@processname='explorer' and @class='TaskListThumbnailWnd']
+				/form[@title='' and @processname='HbReportViewer']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACCSURBVDhPY6AY/L5gf+H3RYf/6PjXBfsN/8/b
-C0CV4QYgxVZbn/1HBnCDgIYTNASuGA3/ueL1/9+Dyv//n0/Gif89m3yBAZsEKXi4GbD1yiZwjODD
-IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
-AElFTkSuQmCC
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

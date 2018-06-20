@@ -1,19 +1,26 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="AutoInstall.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
+    <Element value="CostReport.rxrec" />
+    <Element value="CustomReportClassic.rxrec" />
+    <Element value="EstimateRecapReportClassic.rxrec" />
+    <Element value="InstallWelcomeCrystal.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.DeleteAnEstimate.ValidateEstimateDeleted()" />
       <Element value="AutoInstall.CompareServerAndWSBin.ValidateWSComparisonReportContent()" />
       <Element value="AutoInstall.CompareServerAndWSBin.TestRun()" />
       <Element value="AutoInstall.Compare17Folders.ValidateHCSSReportContent()" />
       <Element value="AutoInstall.Compare17Folders.ValidateSYSReportContent()" />
       <Element value="AutoInstall.Compare17Folders.ValidateBINReportContent()" />
-      <Element value="AutoInstall.Compare17Folders.ValidateUTILReportContent()" />
     </Array>
   </Properties>
 </Properties>

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16afc92a33147430"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 12:57:06 PM"
+		timestampiso="2018-06-18T17:57:06"
+		endtime="6/18/2018 12:57:31 PM"
+		timeoutfactor="1"
+		module="DeleteAnEstimate">
+		<detail>
+			DeleteAnEstimate
+		</detail>
+		<errormessage>
+			Attribute 'WindowText' of element for item 'AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox' does not match the specified RegEx (actual='                                        ', regex='Estimate 1').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.729"
+			timeRelativeToTestModuleStartTime="00:00.730"
+			timeWallClock="12:57:07"
+			time="00:00.729"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>EstimateCode, EstimateName, EstimateDescription, EstimatePath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.763"
+			timeRelativeToTestModuleStartTime="00:00.764"
+			timeWallClock="12:57:07"
+			time="00:00.763"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="134"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.591"
+			timeRelativeToTestModuleStartTime="00:02.592"
+			timeWallClock="12:57:08"
+			time="00:02.591"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.DeleteEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				itempath=".///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.DeleteEstimateButton"
+				id="aab4ef82cce54c6cb3230c24bbccfcc3"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="138"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.611"
+			timeRelativeToTestModuleStartTime="00:03.612"
+			timeWallClock="12:57:09"
+			time="00:03.611"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.Estimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Estimate']"
+				itempath="?/?/menuitem[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.Estimate"
+				id="946675a5690847e583ea655a6f7dd425"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="142"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.515"
+			timeRelativeToTestModuleStartTime="00:04.516"
+			timeWallClock="12:57:10"
+			time="00:04.515"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox"
+				id="9109693459684a0ba0fb9a259a1316ef"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="146"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.651"
+			timeRelativeToTestModuleStartTime="00:22.652"
+			timeWallClock="12:57:28"
+			time="00:22.651"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$EstimatePath' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox"
+				id="9109693459684a0ba0fb9a259a1316ef"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="150"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.025"
+			timeRelativeToTestModuleStartTime="00:25.026"
+			timeWallClock="12:57:31"
+			time="00:25.025"
+			level="Info"
+			category="Validation"
+			errimg=".\DeleteAn_2b229ac0_e3c2c4be_trace.jpg"
+			errthumb=".\DeleteAn_2b229ac0_e3c2c4be_trace_thumb.jpg">
+			<message>
+				Validating AttributeRegex (WindowText~$EstimateName) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				itempath="element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox"
+				id="f60b8e1ed8a3473eb2b92e39f83e3bf1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="154"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.177"
+			timeRelativeToTestModuleStartTime="00:25.178"
+			timeWallClock="12:57:31"
+			time="00:25.177"
+			level="Failure"
+			category="Validation"
+			errimg=".\DeleteAn_2b229ac0_b441f210_trace.jpg"
+			errthumb=".\DeleteAn_2b229ac0_b441f210_trace_thumb.jpg">
+			<message>
+				Attribute 'WindowText' of element for item 'AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox' does not match the specified RegEx (actual='                                        ', regex='Estimate 1').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				itempath="element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox"
+				id="f60b8e1ed8a3473eb2b92e39f83e3bf1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="155"
+				loglvl="Failure"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.187"
+			timeRelativeToTestModuleStartTime="00:25.188"
+			timeWallClock="12:57:31"
+			time="00:25.187"
+			level="Error"
+			category="Module"
+			errimg=".\DeleteAn_2b229ac0_b441f210_trace.jpg"
+			errthumb=".\DeleteAn_2b229ac0_b441f210_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'WindowText' of element for item 'AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox' does not match the specified RegEx (actual='                                        ', regex='Estimate 1').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass41_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex)&#13;&#10;   at AutoInstall.DeleteAnEstimate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs:line 155&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="155"
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				itempath="element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox"
+				id="f60b8e1ed8a3473eb2b92e39f83e3bf1"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.31s"
+		durationms="9306"
+		type="root"
+		rid="9fbde85ad697518"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 1:18:36 PM"
+		timestampiso="2018-06-18T18:18:36"
+		endtime="6/18/2018 1:18:45 PM"
+		timeoutfactor="1"
+		module="DeleteAnEstimate">
+		<detail>
+			DeleteAnEstimate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.847"
+			timeRelativeToTestModuleStartTime="00:00.848"
+			timeWallClock="13:18:36"
+			time="00:00.847"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>EstimateCode, EstimateName, EstimateDescription, EstimatePath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.879"
+			timeRelativeToTestModuleStartTime="00:00.879"
+			timeWallClock="13:18:36"
+			time="00:00.879"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="134"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.010"
+			timeRelativeToTestModuleStartTime="00:04.011"
+			timeWallClock="13:18:40"
+			time="00:04.010"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'HeavyBidApp.Buttons.File.DeleteEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				itempath=".///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.DeleteEstimateButton"
+				id="aab4ef82cce54c6cb3230c24bbccfcc3"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="138"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.109"
+			timeRelativeToTestModuleStartTime="00:05.109"
+			timeWallClock="13:18:41"
+			time="00:05.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.Estimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Estimate']"
+				itempath="?/?/menuitem[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.Estimate"
+				id="946675a5690847e583ea655a6f7dd425"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\DeleteAnEstimate.cs"
+				codeline="143"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.306"
+			timeRelativeToTestModuleStartTime="00:09.306"
+			timeWallClock="13:18:45"
+			time="00:09.306"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

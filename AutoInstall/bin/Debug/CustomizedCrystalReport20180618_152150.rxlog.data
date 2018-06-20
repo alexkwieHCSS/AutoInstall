@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25b302edf8caf82"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 3:21:52 PM"
+		timestampiso="2018-06-18T20:21:52"
+		endtime="6/18/2018 3:22:03 PM"
+		timeoutfactor="1"
+		module="CustomizedCrystalReport">
+		<detail>
+			CustomizedCrystalReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.702"
+			timeRelativeToTestModuleStartTime="00:00.702"
+			timeWallClock="15:21:53"
+			time="00:00.702"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.139"
+			timeRelativeToTestModuleStartTime="00:04.139"
+			timeWallClock="15:21:56"
+			time="00:04.139"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Customized Crystal Reports']"
+				itempath="?/?/toolbar/button[@text~'Customized Crystal Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton"
+				id="381f3ef89c30404ba6facea364c855d2"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.347"
+			timeRelativeToTestModuleStartTime="00:05.347"
+			timeWallClock="15:21:57"
+			time="00:05.347"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.BidProposalLaborAndMaterialUP' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Bid Proposal']"
+				itempath="?/?/menuitem[@text~'Bid Proposal']"
+				fullname="AutoInstallRepository.HBDropDownOptions.BidProposalLaborAndMaterialUP"
+				id="86fa88964ed24e8cbd4e574f93eb0fcd"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.124"
+			timeRelativeToTestModuleStartTime="00:06.124"
+			timeWallClock="15:21:58"
+			time="00:06.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.PrintCustomizedCrystalReports.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Print Customized Crystal Report']/?/?/?/?/button[@text~'OK']"
+				itempath="?/?/?/?/button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.PrintCustomizedCrystalReports.OKButton"
+				id="a8813abbdb534145a7b5444dd429a4af"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.891"
+			timeRelativeToTestModuleStartTime="00:06.891"
+			timeWallClock="15:21:59"
+			time="00:06.891"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Title~'Bid Proposal: Labor and Material') on item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Custom Crystal Report']"
+				itempath="/form[@title~'Custom Crystal Report']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.Self"
+				id="fd8d30e21e4b4bd4a3246a9fbeb9c4c4"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.850"
+			timeRelativeToTestModuleStartTime="00:09.850"
+			timeWallClock="15:22:02"
+			time="00:09.850"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Title' of element for item 'AutoInstallRepository.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.Self' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Custom Crystal Report']"
+				itempath="/form[@title~'Custom Crystal Report']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.Self"
+				id="fd8d30e21e4b4bd4a3246a9fbeb9c4c4"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.863"
+			timeRelativeToTestModuleStartTime="00:09.863"
+			timeWallClock="15:22:02"
+			time="00:09.863"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Custom Crystal Report']/?/button[@text~'Close']"
+				itempath="?/button[@text~'Close']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton"
+				id="744a008177a54e7a8c69b478fff77d1b"
+				timeout="60000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomizedCrystalReport.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

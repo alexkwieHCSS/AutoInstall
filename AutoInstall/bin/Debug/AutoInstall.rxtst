@@ -32,6 +32,10 @@ rxversion="8.1">
 					<![CDATA[add estimate later]]>
 				</description>
 			</testmodule>
+			<testcase
+			id="05d0f263-7c7b-4f54-8342-9631388d54dc"
+			name="BackupEstimateSystem">
+			</testcase>
 			<testmodule
 			id="07aad2bc-3fd4-4cba-a0a0-69d6d0710f7a"
 			name="ValidateHBStrayDate"
@@ -103,6 +107,10 @@ rxversion="8.1">
 			datasource="WSInstallLocation"
 			id="0ec1b407-a101-4237-9051-405219d3d3e0"
 			name="InstallWS">
+			</testcase>
+			<testcase
+			id="0f2b22af-b73a-4100-867a-f32d4ba6bfe1"
+			name="DeleteEstimate">
 			</testcase>
 			<testmodule
 			id="10eea7aa-c45c-41c6-a24c-4526a7639607"
@@ -311,12 +319,20 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="46228216-aa2c-4849-8cf7-4aa374c03f82"
+			name="EstimateFunctionality">
+			</smartfoldernode>
 			<testmodule
 			id="4677394d-75dd-4f75-911e-33b41deefced"
 			name="OpenExistingEstimate"
 			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="468fb101-e293-4bfb-9e0f-4e8f32806e0d"
+			name="RestoreEstimateSystem">
+			</testcase>
 			<testmodule
 			id="483500b9-f3cc-4621-a265-1911f983341f"
 			name="BiditemStructureReport"
@@ -326,6 +342,10 @@ rxversion="8.1">
 			<testcase
 			id="4ac000f8-7ec6-47df-99ca-83ef07eb4960"
 			name="ValidateHeavybidConfig">
+			</testcase>
+			<testcase
+			id="4c66de44-a5ac-4f79-ab74-5129779d9663"
+			name="ReindexFiles">
 			</testcase>
 			<testcase
 			id="4cb0e667-24b6-425a-8c2c-a44efaea29e5"
@@ -509,6 +529,10 @@ rxversion="8.1">
 			minrange="1"
 			name="SuccessfullyRegisterHBMU">
 			</testcase>
+			<testcase
+			id="894fea91-965c-46f6-9547-1b51b7edec75"
+			name="OpenEstimate">
+			</testcase>
 			<testmodule
 			id="899a2493-6979-4a75-987b-7f2877e9bdfc"
 			name="OpenHB"
@@ -550,6 +574,12 @@ rxversion="8.1">
 			id="92ad197e-f908-4139-afb9-0c09ea5d0c04"
 			name="OpenExistingEstimate"
 			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="96bb5136-15ef-453f-b913-fdb0ef303b43"
+			name="ValidateCustomReport"
+			ref="c8b6fc27-7614-4169-8a0a-ab5557a91cb9"
 			type="Recording">
 			</testmodule>
 			<testcase
@@ -870,7 +900,7 @@ rxversion="8.1">
 			</testmodule>
 			<testcase
 			id="d9ea4b38-7f61-45c7-9854-2c8457e8c550"
-			name="EstimateFunctionality">
+			name="CreateEstimate">
 			</testcase>
 			<testmodule
 			id="dbf8c2c8-362e-4e15-94f4-fc56363a3ae8"
@@ -1318,42 +1348,66 @@ rxversion="8.1">
 									name="WhatsNewButton">
 									</testmodule>
 								</testcase>
-								<testcase
-								id="d9ea4b38-7f61-45c7-9854-2c8457e8c550"
+								<smartfoldernode
+								id="46228216-aa2c-4849-8cf7-4aa374c03f82"
 								name="EstimateFunctionality">
-									<testmodule
-									id="dcf43f79-961e-47b7-8e27-68107c5bac5d"
-									name="MakeNewEstimate">
-									</testmodule>
-									<testmodule
-									id="d66fbf15-dab5-4c93-8202-d14504ff97ef"
-									name="DeleteAnEstimate">
-									</testmodule>
-									<testmodule
-									id="f1f4b9dd-9ae9-403d-8903-38bb6a7420db"
-									name="OpenExistingEstimate">
-									</testmodule>
-									<testmodule
-									id="9a41e118-033c-46f8-a32c-4003f9753199"
-									name="BackupEstimate">
-									</testmodule>
-									<testmodule
-									id="cc100305-2190-4035-a168-9d719bb55dc4"
-									name="BackupSystem">
-									</testmodule>
-									<testmodule
-									id="ddfb49cd-24ff-46f0-8f94-21d11a78076d"
-									name="RestoreEstimate">
-									</testmodule>
-									<testmodule
-									id="e2c11700-c195-4e02-862f-f5a9b85ec077"
-									name="RestoreSystem">
-									</testmodule>
-									<testmodule
-									id="782c5174-4b14-4041-9121-0a5d69331e9e"
+									<testcase
+									id="d9ea4b38-7f61-45c7-9854-2c8457e8c550"
+									name="CreateEstimate">
+										<testmodule
+										id="dcf43f79-961e-47b7-8e27-68107c5bac5d"
+										name="MakeNewEstimate">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="0f2b22af-b73a-4100-867a-f32d4ba6bfe1"
+									name="DeleteEstimate">
+										<testmodule
+										id="d66fbf15-dab5-4c93-8202-d14504ff97ef"
+										name="DeleteAnEstimate">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="894fea91-965c-46f6-9547-1b51b7edec75"
+									name="OpenEstimate">
+										<testmodule
+										id="f1f4b9dd-9ae9-403d-8903-38bb6a7420db"
+										name="OpenExistingEstimate">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="05d0f263-7c7b-4f54-8342-9631388d54dc"
+									name="BackupEstimateSystem">
+										<testmodule
+										id="9a41e118-033c-46f8-a32c-4003f9753199"
+										name="BackupEstimate">
+										</testmodule>
+										<testmodule
+										id="cc100305-2190-4035-a168-9d719bb55dc4"
+										name="BackupSystem">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="468fb101-e293-4bfb-9e0f-4e8f32806e0d"
+									name="RestoreEstimateSystem">
+										<testmodule
+										id="ddfb49cd-24ff-46f0-8f94-21d11a78076d"
+										name="RestoreEstimate">
+										</testmodule>
+										<testmodule
+										id="e2c11700-c195-4e02-862f-f5a9b85ec077"
+										name="RestoreSystem">
+										</testmodule>
+									</testcase>
+									<testcase
+									id="4c66de44-a5ac-4f79-ab74-5129779d9663"
 									name="ReindexFiles">
-									</testmodule>
-								</testcase>
+										<testmodule
+										id="782c5174-4b14-4041-9121-0a5d69331e9e"
+										name="ReindexFiles">
+										</testmodule>
+									</testcase>
+								</smartfoldernode>
 								<smartfoldernode
 								id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae"
 								name="Reports">
@@ -1403,6 +1457,10 @@ rxversion="8.1">
 										<testmodule
 										id="10eea7aa-c45c-41c6-a24c-4526a7639607"
 										name="CustomReportClassic">
+										</testmodule>
+										<testmodule
+										id="96bb5136-15ef-453f-b913-fdb0ef303b43"
+										name="ValidateCustomReport">
 										</testmodule>
 									</testcase>
 									<testcase
@@ -1945,6 +2003,9 @@ rxversion="8.1">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="0ec1b407-a101-4237-9051-405219d3d3e0">
+			</testcontainer>
+			<testcontainer
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
 			</testcontainer>
 			<testcontainer
@@ -1955,6 +2016,9 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9">
+			</testcontainer>
+			<testcontainer
+			id="ac0cfe3a-03a8-45fc-8523-829ef00648ed">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

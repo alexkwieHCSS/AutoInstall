@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7e413957dde0972"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/18/2018 2:51:07 PM"
+		timestampiso="2018-06-18T19:51:07"
+		endtime="6/18/2018 2:51:09 PM"
+		timeoutfactor="1"
+		module="CustomReport">
+		<detail>
+			CustomReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.709"
+			timeRelativeToTestModuleStartTime="00:00.709"
+			timeWallClock="14:51:08"
+			time="00:00.709"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'HBReportViewers.CustomizedBidProposal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Customized Bid Proposal']"
+				itempath="/form[@title='Customized Bid Proposal']"
+				fullname="AutoInstallRepository.HBReportViewers.CustomizedBidProposal.Self"
+				id="959dd8da908d4810a350c3a5e4b9b839"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.148"
+			timeRelativeToTestModuleStartTime="00:01.148"
+			timeWallClock="14:51:09"
+			time="00:01.148"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Customized Bid Proposal']"
+				itempath="/form[@title='Customized Bid Proposal']"
+				fullname="AutoInstallRepository.HBReportViewers.CustomizedBidProposal.Self"
+				id="959dd8da908d4810a350c3a5e4b9b839"
+				timeout="30000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -830,6 +830,18 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
+    <Compile Include="ValidateCustomReport.cs">
+      <BoundTo>6ef52520-3952-4367-9eac-eff99de30309</BoundTo>
+      <DependentUpon>ValidateCustomReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ff0b2e4-c289-4eac-b8d2-9b3d9d0455c8</id>
+    </Compile>
+    <Compile Include="ValidateCustomReport.UserCode.cs">
+      <BoundTo>6ef52520-3952-4367-9eac-eff99de30309</BoundTo>
+      <DependentUpon>ValidateCustomReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>775cad78-d564-46e2-807a-c3f07ade695f</id>
+    </Compile>
     <Compile Include="ValidateEXEs.cs">
       <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
       <DependentUpon>ValidateEXEs.rxrec</DependentUpon>
@@ -1332,6 +1344,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
+    </None>
+    <None Include="ValidateCustomReport.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>6ef52520-3952-4367-9eac-eff99de30309</id>
+      <recordtableid>c8b6fc27-7614-4169-8a0a-ab5557a91cb9</recordtableid>
     </None>
     <None Include="ValidateEXEs.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

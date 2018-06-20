@@ -87,16 +87,48 @@ namespace AutoInstall
             repo.HeavyBidApp.Buttons.Report.CostReportsButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassicInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassicInfo, new RecordItemIndex(2));
+            repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.TextRadioButtonExport' at Center.", repo.HeavyBidApp.DocumentInterface.TextRadioButtonExportInfo, new RecordItemIndex(3));
+            repo.HeavyBidApp.DocumentInterface.TextRadioButtonExport.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassicInfo, new RecordItemIndex(4));
             repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReportClassic.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SaveAsExport.FilePathURL' at CenterRight.", repo.HBReportViewers.SaveAsExport.FilePathURLInfo, new RecordItemIndex(5));
+            repo.HBReportViewers.SaveAsExport.FilePathURL.Click(Location.CenterRight);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}'.", new RecordItemIndex(6));
+            Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SaveAsExport.FileName' at Center.", repo.HBReportViewers.SaveAsExport.FileNameInfo, new RecordItemIndex(7));
+            repo.HBReportViewers.SaveAsExport.FileName.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'CostReportClassic.txt'.", new RecordItemIndex(8));
+            Keyboard.Press("CostReportClassic.txt");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.", repo.HBReportViewers.SaveAsExport.SaveButtonInfo, new RecordItemIndex(9));
+            repo.HBReportViewers.SaveAsExport.SaveButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(10));
+            repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.PrintPreview'.", repo.HBReportViewers.PrintPreview.SelfInfo, new RecordItemIndex(4));
-            Host.Current.CloseApplication(repo.HBReportViewers.PrintPreview.Self, new Duration(0));
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.PrintToFile.YesButton' at Center.", repo.HBReportViewers.PrintToFile.YesButtonInfo, new RecordItemIndex(12));
+            repo.HBReportViewers.PrintToFile.YesButton.Click();
+            Delay.Milliseconds(200);
             
         }
 

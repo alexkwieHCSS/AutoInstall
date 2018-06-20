@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e39f390e9221cb0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="6/20/2018 2:47:04 PM"
+		timestampiso="2018-06-20T19:47:04"
+		endtime="6/20/2018 2:47:05 PM"
+		timeoutfactor="1"
+		module="ValidateCustomReport">
+		<detail>
+			ValidateCustomReport
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassic.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.179"
+			timeRelativeToTestModuleStartTime="00:01.180"
+			timeWallClock="14:47:05"
+			time="00:01.179"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_a7ab94e3_b40a7efa_trace.jpg"
+			errthumb=".\Validate_a7ab94e3_b40a7efa_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassic.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomReport.UserCode.cs"
+				codeline="82"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.211"
+			timeRelativeToTestModuleStartTime="00:01.212"
+			timeWallClock="14:47:05"
+			time="00:01.211"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_a7ab94e3_b40a7efa_trace.jpg"
+			errthumb=".\Validate_a7ab94e3_b40a7efa_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassic.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCustomReport.ValidateCustomerReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomReport.UserCode.cs:line 82
+   at AutoInstall.ValidateCustomReport.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomReport.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomReport.UserCode.cs"
+				codeline="82"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
