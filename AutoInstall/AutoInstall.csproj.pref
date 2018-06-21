@@ -1,26 +1,24 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="CodeTest.UserCode.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="CostReport.rxrec" />
-    <Element value="CustomReportClassic.rxrec" />
-    <Element value="EstimateRecapReportClassic.rxrec" />
-    <Element value="InstallWelcomeCrystal.rxrec" />
+    <Element value="CodeTest.rxrec" />
+    <Element value="CodeTest.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="AutoInstall.DeleteAnEstimate.ValidateEstimateDeleted()" />
-      <Element value="AutoInstall.CompareServerAndWSBin.ValidateWSComparisonReportContent()" />
-      <Element value="AutoInstall.CompareServerAndWSBin.TestRun()" />
-      <Element value="AutoInstall.Compare17Folders.ValidateHCSSReportContent()" />
-      <Element value="AutoInstall.Compare17Folders.ValidateSYSReportContent()" />
-      <Element value="AutoInstall.Compare17Folders.ValidateBINReportContent()" />
+      <Element value="AutoInstall.CodeTest.TestingUserCode2()" />
+      <Element value="AutoInstall.CodeTest.TestingUserCode()" />
+      <Element value="AutoInstall.CodeTest.ReplaceStringInFile()" />
+      <Element value="AutoInstall.CodeTest.Testing()" />
+      <Element value="AutoInstall.ValidateCustomReport.ValidateContentCustomReport()" />
+      <Element value="AutoInstall.ValidateCustomReport.ValidateCustomReportExists()" />
     </Array>
   </Properties>
 </Properties>

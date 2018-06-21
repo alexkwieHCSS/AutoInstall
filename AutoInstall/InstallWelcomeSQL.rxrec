@@ -40,10 +40,153 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="83dadb04-ebd8-4851-9268-94950ee9e1d5"
+			id="2618e6c1-8b18-4058-85a9-33d4f5aa1d39"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="16"
+				prefcap="form"
+				rect="708,328,504,383"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHJSURBVDhPlZJBaxpBGIb3B+xd9ujFkwfBi4J0
+C15FRcjBgyiLRM976KkwZ8tqJEHDQg4huhVpDGXRUNB0wNDb3lLo3jyIP6D+gbfzjdEk6pb2hRdm
+Zud9vu8bVglSOBzGdDoNdLPZhLhGPq50Og3GOOKnHBGTQ6f1857Oe73evwGKPsCwMa01x/8/wH5Y
+sb1gAM09n8+lXwNehyPm+jiAwvV6HeVyGe91fQfQxPxa0YWS+QxVd6HF996gWq3uqrbbbRnuX19L
+wGKxCPSbDkzTBDmZTMowmToiSJCz2Szy+fwGQNVJjLEdoFQq4ep+iIeHTxgOP6Db7WI0Gu26pS4I
+dAC4sm2cn53h3eVXFB0H67UFzzvFnQi3LAupVAqVSgWz2Ux2eQDoXFyg0Wgg43vQHQ6L2+Dcwt3t
+LVarFXK53Hb2TZg0mUzkR3oHArRaLXz58Q2Mu1DjcUSjUfx8eoIjOqrVai/BrfYBnU5HVOVwXRex
+WAyJRALj8RiDwUDeeY69aB9gGIYM05y+byMi1t9//8JyuUShUPg7gB4mFAqh3+/j8fFenNvIeOIP
+FBDmOVBV9RAgRIdbSxHEME5wc/MRRYtB0zNHworyBwgd/ef4Dy06AAAAAElFTkSuQmCC
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Microsoft SQL Server 2012 Native Client  Setup
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						MsiDialogCloseClass
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1640098
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						7500
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						msiexec
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, WindowEdge, ApplicationWindow
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, SystemMenu, Caption, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Microsoft SQL Server 2012 Native Client  Setup
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
 				<path>
-					/menubar[@class='Shell_TrayWnd']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Microsoft\ SQL\ Server\ 2012']
+					/form[@title~'SQL Server']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -64,34 +207,62 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="83dadb04-ebd8-4851-9268-94950ee9e1d5"
+			id="94174d84-d4f3-455d-942d-be25b746cc94"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="0,0,0,0"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						394444
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Overlapped
+					</attribute>
+				</element>
 				<path>
-					/menubar[@class='Shell_TrayWnd']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Microsoft\ SQL\ Server\ 2012']
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
 				</path>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="10000ms"
-		enabled="True"
-		optional="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
-		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

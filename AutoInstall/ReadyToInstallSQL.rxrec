@@ -29,69 +29,72 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
-		<explicitdelayitem
-		duration="30000ms"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="True"
-		optional="True">
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="62a86eb1-4b71-4be6-8732-e5678af459aa"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
+			<info
+			id="9e877f6f-c17b-4715-9cd7-80220f7a92d4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'SQL Server']/button[@text~'Install']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
 		enabled="True"
-		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
+		optional="False"
+		searchpropertyid="5e1ee646-2e98-4e4d-b15e-9c02689a61c3"
+		waitaction="Exists"
+		waittimeout="10000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</keysequenceitem>
-		<explicitdelayitem
-		duration="300000ms"
+			<info
+			id="940848c7-c032-44d9-ac22-091249f38ca8"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'SQL Server']/button[@text~'Finish']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="True"
-		optional="True">
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d9ba39a-49e7-4919-a16f-0f3a63be494c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
-		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</keysequenceitem>
-		<explicitdelayitem
-		duration="30000ms"
-		enabled="True"
-		optional="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="100ms"
-		enabled="True"
-		optional="True"
-		presstime="100ms"
-		searchpropertyid="c6c2dd3e-f76c-431d-a67b-f4b80b9ffedc">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</keysequenceitem>
+			<info
+			id="940848c7-c032-44d9-ac22-091249f38ca8"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'SQL Server']/button[@text~'Finish']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

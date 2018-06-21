@@ -80,26 +80,15 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'WindowsMenuBar.MicrosoftSQLServer2012NativeClient'", repo.WindowsMenuBar.MicrosoftSQLServer2012NativeClientInfo, new ActionTimeout(180000), new RecordItemIndex(0));
-                repo.WindowsMenuBar.MicrosoftSQLServer2012NativeClientInfo.WaitForExists(180000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller'", repo.SQLServerInstallation.SQLInstaller.SelfInfo, new ActionTimeout(180000), new RecordItemIndex(0));
+                repo.SQLServerInstallation.SQLInstaller.SelfInfo.WaitForExists(180000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'WindowsMenuBar.MicrosoftSQLServer2012NativeClient' at Center.", repo.WindowsMenuBar.MicrosoftSQLServer2012NativeClientInfo, new RecordItemIndex(1));
-                repo.WindowsMenuBar.MicrosoftSQLServer2012NativeClient.Click();
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(1));
+                repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 10s.", new RecordItemIndex(2));
-                Delay.Duration(10000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(3));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

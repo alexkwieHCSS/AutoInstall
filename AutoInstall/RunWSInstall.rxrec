@@ -44,18 +44,6 @@ rxversion="8.1">
 			<args>
 			</args>
 		</runapprecorditem>
-		<keysequenceitem
-		KeySequence="{Escape}{Escape}{Escape}"
-		duration="100ms"
-		enabled="False"
-		optional="False"
-		presstime="100ms"
-		searchpropertyid="06d5b360-ef4f-49f9-8fa6-318bf6f001c6">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

@@ -43,54 +43,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="02952637-c2fc-4341-aeb0-52985224b405"
+			id="4901c8ac-4401-4c6b-b7b8-c50692e0f0bd"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="10"
-				prefcap="button"
-				rect="933,1040,49,40"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						HCSS - Crystal XI Integration - InstallShield Wizard - 1 running window
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Press
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						HCSS - Crystal XI Integration - InstallShield Wizard - 1 running window
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						HasPopup
-					</attribute>
-				</element>
 				<path>
-					/menubar[@class='Shell_TrayWnd']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^HCSS\ -\ Crystal\ XI\ Integra']
+					/form[@title~'HCSS' and @title~'Crystal']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -98,104 +54,6 @@ rxversion="8.1">
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="False"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="6bbc9c3f-5c73-4c38-979b-e3ac5d0d6fb8"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="02952637-c2fc-4341-aeb0-52985224b405"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="10"
-				prefcap="button"
-				rect="933,1040,49,40"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						HCSS - Crystal XI Integration - InstallShield Wizard - 1 running window
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Press
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						HCSS - Crystal XI Integration - InstallShield Wizard - 1 running window
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						HasPopup
-					</attribute>
-				</element>
-				<path>
-					/menubar[@class='Shell_TrayWnd']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^HCSS\ -\ Crystal\ XI\ Integra']
-				</path>
-			</info>
-		</mouseitem>
-		<invokeactionrecorditem
-		action="Focus"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e1adba91-b6da-46cb-ab7e-84f35990074e"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="4901c8ac-4401-4c6b-b7b8-c50692e0f0bd"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'HCSS' and @title~'Crystal']
-				</path>
-			</info>
-			<arguments
-			id="f9c89cbf-8b6b-4a3d-a9d0-6569a8dba56a">
-			</arguments>
-		</invokeactionrecorditem>
-		<explicitdelayitem
-		duration="1000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
@@ -216,44 +74,11 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="1000ms"
-		enabled="False"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="False"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="ad9fe1bf-cfeb-4c41-bc0b-f2886b343c23"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="94174d84-d4f3-455d-942d-be25b746cc94"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
+		enabled="True"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -270,6 +95,159 @@ rxversion="8.1">
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="14d4a8c5-e615-4a35-82a0-a20f3db8199b"
+		sx="1061"
+		sy="689"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4b9f6ee-ceff-4992-ab47-bd59d894f067"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="1017,678,88,22"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Finish
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6907
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2164074
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12192
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						msiexec
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Finish
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Finish']
 				</path>
 			</info>
 		</mouseitem>

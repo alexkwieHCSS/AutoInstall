@@ -84,10 +84,6 @@ namespace AutoInstall
             Host.Local.RunApplication("C:\\HeavyBid\\WSINST.MSI", "", "", false);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Escape}{Escape}{Escape}'.", new RecordItemIndex(1));
-            //Keyboard.Press("{Escape}{Escape}{Escape}");
-            //Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

@@ -338,30 +338,6 @@ rxversion="8.1">
 		<mouseitem
 		action="Click"
 		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="577400b0-62ad-4a6d-8958-f879aab4ff15"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']/button[@text='&amp;Next &gt;']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
 		duration="5000ms"
 		enabled="True"
 		loc="Center"
@@ -380,30 +356,6 @@ rxversion="8.1">
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="4b170e50-29d7-4a21-b198-06ce5efecdcc"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="603e0544-a931-4438-99fe-3fdae26cd224"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
 				</path>
 			</info>
 		</mouseitem>

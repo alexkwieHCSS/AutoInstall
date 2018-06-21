@@ -39,9 +39,9 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder _programsandfeatures;
         AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder _heavybiduninstall;
         AutoInstallRepositoryFolders.ExcelRelatedFolder _excelrelated;
-        AutoInstallRepositoryFolders.CrystalInstallationFolder _crystalinstallation;
-        AutoInstallRepositoryFolders.NewAppFolderAppFolder1 _newappfolder;
         AutoInstallRepositoryFolders.HbReportViewerAppFolder _hbreportviewer;
+        AutoInstallRepositoryFolders.CrystalInstallationFolder _crystalinstallation;
+        AutoInstallRepositoryFolders.SQLServerInstallationFolder _sqlserverinstallation;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -70,9 +70,9 @@ namespace AutoInstall
             _programsandfeatures = new AutoInstallRepositoryFolders.ProgramsAndFeaturesAppFolder(this);
             _heavybiduninstall = new AutoInstallRepositoryFolders.HeavyBidUninstallAppFolder(this);
             _excelrelated = new AutoInstallRepositoryFolders.ExcelRelatedFolder(this);
-            _crystalinstallation = new AutoInstallRepositoryFolders.CrystalInstallationFolder(this);
-            _newappfolder = new AutoInstallRepositoryFolders.NewAppFolderAppFolder1(this);
             _hbreportviewer = new AutoInstallRepositoryFolders.HbReportViewerAppFolder(this);
+            _crystalinstallation = new AutoInstallRepositoryFolders.CrystalInstallationFolder(this);
+            _sqlserverinstallation = new AutoInstallRepositoryFolders.SQLServerInstallationFolder(this);
         }
 
 #region Variables
@@ -236,6 +236,15 @@ namespace AutoInstall
         }
 
         /// <summary>
+        /// The HbReportViewer folder.
+        /// </summary>
+        [RepositoryFolder("83d1f779-ec28-4230-a268-a35793224d7e")]
+        public virtual AutoInstallRepositoryFolders.HbReportViewerAppFolder HbReportViewer
+        {
+            get { return _hbreportviewer; }
+        }
+
+        /// <summary>
         /// The CrystalInstallation folder.
         /// </summary>
         [RepositoryFolder("151035fa-f425-49a0-b774-4f422c0f9c99")]
@@ -245,21 +254,12 @@ namespace AutoInstall
         }
 
         /// <summary>
-        /// The NewAppFolder folder.
+        /// The SQLServerInstallation folder.
         /// </summary>
-        [RepositoryFolder("603e0544-a931-4438-99fe-3fdae26cd224")]
-        public virtual AutoInstallRepositoryFolders.NewAppFolderAppFolder1 NewAppFolder
+        [RepositoryFolder("4b6620ed-c457-49e9-9d2e-a40be134daab")]
+        public virtual AutoInstallRepositoryFolders.SQLServerInstallationFolder SQLServerInstallation
         {
-            get { return _newappfolder; }
-        }
-
-        /// <summary>
-        /// The HbReportViewer folder.
-        /// </summary>
-        [RepositoryFolder("83d1f779-ec28-4230-a268-a35793224d7e")]
-        public virtual AutoInstallRepositoryFolders.HbReportViewerAppFolder HbReportViewer
-        {
-            get { return _hbreportviewer; }
+            get { return _sqlserverinstallation; }
         }
     }
 
@@ -9292,13 +9292,78 @@ namespace AutoInstall
         }
 
         /// <summary>
+        /// The HbReportViewerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("83d1f779-ec28-4230-a268-a35793224d7e")]
+        public partial class HbReportViewerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _listInfo;
+
+            /// <summary>
+            /// Creates a new HbReportViewer  folder.
+            /// </summary>
+            public HbReportViewerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HbReportViewer", "/form[@title='' and @processname='HbReportViewer']", parentFolder, 30000, null, false, "83d1f779-ec28-4230-a268-a35793224d7e", "")
+            {
+                _listInfo = new RepoItemInfo(this, "List", "element/list[@accessiblerole='List']", 30000, null, "d288c3e6-d7a4-4618-9764-873d12f18c41");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("83d1f779-ec28-4230-a268-a35793224d7e")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("83d1f779-ec28-4230-a268-a35793224d7e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The List item.
+            /// </summary>
+            [RepositoryItem("d288c3e6-d7a4-4618-9764-873d12f18c41")]
+            public virtual Ranorex.List List
+            {
+                get
+                {
+                    return _listInfo.CreateAdapter<Ranorex.List>(true);
+                }
+            }
+
+            /// <summary>
+            /// The List item info.
+            /// </summary>
+            [RepositoryItemInfo("d288c3e6-d7a4-4618-9764-873d12f18c41")]
+            public virtual RepoItemInfo ListInfo
+            {
+                get
+                {
+                    return _listInfo;
+                }
+            }
+        }
+
+        /// <summary>
         /// The CrystalInstallationFolder folder.
         /// </summary>
         [RepositoryFolder("151035fa-f425-49a0-b774-4f422c0f9c99")]
         public partial class CrystalInstallationFolder : RepoGenBaseFolder
         {
             AutoInstallRepositoryFolders.CrystalInstallerAppFolder _crystalinstaller;
-            AutoInstallRepositoryFolders.NewAppFolderAppFolder _newappfolder;
 
             /// <summary>
             /// Creates a new CrystalInstallation  folder.
@@ -9307,7 +9372,6 @@ namespace AutoInstall
                     base("CrystalInstallation", "", parentFolder, 0, null, false, "151035fa-f425-49a0-b774-4f422c0f9c99", "")
             {
                 _crystalinstaller = new AutoInstallRepositoryFolders.CrystalInstallerAppFolder(this);
-                _newappfolder = new AutoInstallRepositoryFolders.NewAppFolderAppFolder(this);
             }
 
             /// <summary>
@@ -9330,15 +9394,6 @@ namespace AutoInstall
             {
                 get { return _crystalinstaller; }
             }
-
-            /// <summary>
-            /// The NewAppFolder folder.
-            /// </summary>
-            [RepositoryFolder("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
-            public virtual AutoInstallRepositoryFolders.NewAppFolderAppFolder NewAppFolder
-            {
-                get { return _newappfolder; }
-            }
         }
 
         /// <summary>
@@ -9349,6 +9404,7 @@ namespace AutoInstall
         {
             RepoItemInfo _nextbuttonInfo;
             RepoItemInfo _installbuttonInfo;
+            RepoItemInfo _finishbuttonInfo;
 
             /// <summary>
             /// Creates a new CrystalInstaller  folder.
@@ -9358,6 +9414,7 @@ namespace AutoInstall
             {
                 _nextbuttonInfo = new RepoItemInfo(this, "NextButton", "button[@text~'Next']", 30000, null, "94174d84-d4f3-455d-942d-be25b746cc94");
                 _installbuttonInfo = new RepoItemInfo(this, "InstallButton", "button[@text~'Install']", 30000, null, "94f97a7e-01a0-4455-8345-e3b9a19e0c02");
+                _finishbuttonInfo = new RepoItemInfo(this, "FinishButton", "button[@text~'Finish']", 30000, null, "d4b9f6ee-ceff-4992-ab47-bd59d894f067");
             }
 
             /// <summary>
@@ -9431,29 +9488,98 @@ namespace AutoInstall
                     return _installbuttonInfo;
                 }
             }
+
+            /// <summary>
+            /// The FinishButton item.
+            /// </summary>
+            [RepositoryItem("d4b9f6ee-ceff-4992-ab47-bd59d894f067")]
+            public virtual Ranorex.Button FinishButton
+            {
+                get
+                {
+                    return _finishbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishButton item info.
+            /// </summary>
+            [RepositoryItemInfo("d4b9f6ee-ceff-4992-ab47-bd59d894f067")]
+            public virtual RepoItemInfo FinishButtonInfo
+            {
+                get
+                {
+                    return _finishbuttonInfo;
+                }
+            }
         }
 
         /// <summary>
-        /// The NewAppFolderAppFolder folder.
+        /// The SQLServerInstallationFolder folder.
         /// </summary>
-        [RepositoryFolder("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
-        public partial class NewAppFolderAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("4b6620ed-c457-49e9-9d2e-a40be134daab")]
+        public partial class SQLServerInstallationFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _newitemInfo;
+            AutoInstallRepositoryFolders.SQLInstallerAppFolder _sqlinstaller;
 
             /// <summary>
-            /// Creates a new NewAppFolder  folder.
+            /// Creates a new SQLServerInstallation  folder.
             /// </summary>
-            public NewAppFolderAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("NewAppFolder", "/form[@title~'^HCSS\\ -\\ Crystal\\ XI\\ Integra']", parentFolder, 30000, null, false, "ed9a8efe-2c47-4c01-bdc1-386c85a20acc", "")
+            public SQLServerInstallationFolder(RepoGenBaseFolder parentFolder) :
+                    base("SQLServerInstallation", "", parentFolder, 0, null, false, "4b6620ed-c457-49e9-9d2e-a40be134daab", "")
             {
-                _newitemInfo = new RepoItemInfo(this, "NewItem", "button[@text='&Next >']", 30000, null, "b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494");
+                _sqlinstaller = new AutoInstallRepositoryFolders.SQLInstallerAppFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4b6620ed-c457-49e9-9d2e-a40be134daab")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SQLInstaller folder.
+            /// </summary>
+            [RepositoryFolder("2618e6c1-8b18-4058-85a9-33d4f5aa1d39")]
+            public virtual AutoInstallRepositoryFolders.SQLInstallerAppFolder SQLInstaller
+            {
+                get { return _sqlinstaller; }
+            }
+        }
+
+        /// <summary>
+        /// The SQLInstallerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2618e6c1-8b18-4058-85a9-33d4f5aa1d39")]
+        public partial class SQLInstallerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _nextbuttonInfo;
+            RepoItemInfo _accepttermsradiobuttonInfo;
+            RepoItemInfo _installbuttonInfo;
+            RepoItemInfo _finishbuttonInfo;
+
+            /// <summary>
+            /// Creates a new SQLInstaller  folder.
+            /// </summary>
+            public SQLInstallerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SQLInstaller", "/form[@title~'SQL Server']", parentFolder, 30000, null, false, "2618e6c1-8b18-4058-85a9-33d4f5aa1d39", "")
+            {
+                _nextbuttonInfo = new RepoItemInfo(this, "NextButton", "button[@text~'Next']", 30000, null, "7c6a126f-d7f5-4573-a6ae-a0e669fddd5e");
+                _accepttermsradiobuttonInfo = new RepoItemInfo(this, "AcceptTermsRadioButton", ".//radiobutton[@text!~'not']", 30000, null, "77af3eba-34c8-4947-9b84-d7c078db2cf0");
+                _installbuttonInfo = new RepoItemInfo(this, "InstallButton", "button[@text~'Install']", 30000, null, "9e877f6f-c17b-4715-9cd7-80220f7a92d4");
+                _finishbuttonInfo = new RepoItemInfo(this, "FinishButton", "button[@text~'Finish']", 30000, null, "940848c7-c032-44d9-ac22-091249f38ca8");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
+            [RepositoryItem("2618e6c1-8b18-4058-85a9-33d4f5aa1d39")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -9465,7 +9591,7 @@ namespace AutoInstall
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("ed9a8efe-2c47-4c01-bdc1-386c85a20acc")]
+            [RepositoryItemInfo("2618e6c1-8b18-4058-85a9-33d4f5aa1d39")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -9475,132 +9601,98 @@ namespace AutoInstall
             }
 
             /// <summary>
-            /// The NewItem item.
+            /// The NextButton item.
             /// </summary>
-            [RepositoryItem("b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494")]
-            public virtual Ranorex.Button NewItem
+            [RepositoryItem("7c6a126f-d7f5-4573-a6ae-a0e669fddd5e")]
+            public virtual Ranorex.Button NextButton
             {
                 get
                 {
-                    return _newitemInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _nextbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The NewItem item info.
+            /// The NextButton item info.
             /// </summary>
-            [RepositoryItemInfo("b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494")]
-            public virtual RepoItemInfo NewItemInfo
+            [RepositoryItemInfo("7c6a126f-d7f5-4573-a6ae-a0e669fddd5e")]
+            public virtual RepoItemInfo NextButtonInfo
             {
                 get
                 {
-                    return _newitemInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The NewAppFolderAppFolder1 folder.
-        /// </summary>
-        [RepositoryFolder("603e0544-a931-4438-99fe-3fdae26cd224")]
-        public partial class NewAppFolderAppFolder1 : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new NewAppFolder  folder.
-            /// </summary>
-            public NewAppFolderAppFolder1(RepoGenBaseFolder parentFolder) :
-                    base("NewAppFolder", "/form[@title~'^HCSS\\ -\\ Crystal\\ XI\\ Integra']", parentFolder, 30000, null, false, "603e0544-a931-4438-99fe-3fdae26cd224", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("603e0544-a931-4438-99fe-3fdae26cd224")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _nextbuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The AcceptTermsRadioButton item.
             /// </summary>
-            [RepositoryItemInfo("603e0544-a931-4438-99fe-3fdae26cd224")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItem("77af3eba-34c8-4947-9b84-d7c078db2cf0")]
+            public virtual Ranorex.RadioButton AcceptTermsRadioButton
             {
                 get
                 {
-                    return _selfInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The HbReportViewerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("83d1f779-ec28-4230-a268-a35793224d7e")]
-        public partial class HbReportViewerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _listInfo;
-
-            /// <summary>
-            /// Creates a new HbReportViewer  folder.
-            /// </summary>
-            public HbReportViewerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("HbReportViewer", "/form[@title='' and @processname='HbReportViewer']", parentFolder, 30000, null, false, "83d1f779-ec28-4230-a268-a35793224d7e", "")
-            {
-                _listInfo = new RepoItemInfo(this, "List", "element/list[@accessiblerole='List']", 30000, null, "d288c3e6-d7a4-4618-9764-873d12f18c41");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("83d1f779-ec28-4230-a268-a35793224d7e")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _accepttermsradiobuttonInfo.CreateAdapter<Ranorex.RadioButton>(true);
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The AcceptTermsRadioButton item info.
             /// </summary>
-            [RepositoryItemInfo("83d1f779-ec28-4230-a268-a35793224d7e")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItemInfo("77af3eba-34c8-4947-9b84-d7c078db2cf0")]
+            public virtual RepoItemInfo AcceptTermsRadioButtonInfo
             {
                 get
                 {
-                    return _selfInfo;
+                    return _accepttermsradiobuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The List item.
+            /// The InstallButton item.
             /// </summary>
-            [RepositoryItem("d288c3e6-d7a4-4618-9764-873d12f18c41")]
-            public virtual Ranorex.List List
+            [RepositoryItem("9e877f6f-c17b-4715-9cd7-80220f7a92d4")]
+            public virtual Ranorex.Button InstallButton
             {
                 get
                 {
-                    return _listInfo.CreateAdapter<Ranorex.List>(true);
+                    return _installbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The List item info.
+            /// The InstallButton item info.
             /// </summary>
-            [RepositoryItemInfo("d288c3e6-d7a4-4618-9764-873d12f18c41")]
-            public virtual RepoItemInfo ListInfo
+            [RepositoryItemInfo("9e877f6f-c17b-4715-9cd7-80220f7a92d4")]
+            public virtual RepoItemInfo InstallButtonInfo
             {
                 get
                 {
-                    return _listInfo;
+                    return _installbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FinishButton item.
+            /// </summary>
+            [RepositoryItem("940848c7-c032-44d9-ac22-091249f38ca8")]
+            public virtual Ranorex.Button FinishButton
+            {
+                get
+                {
+                    return _finishbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishButton item info.
+            /// </summary>
+            [RepositoryItemInfo("940848c7-c032-44d9-ac22-091249f38ca8")]
+            public virtual RepoItemInfo FinishButtonInfo
+            {
+                get
+                {
+                    return _finishbuttonInfo;
                 }
             }
         }

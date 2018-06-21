@@ -79,27 +79,13 @@ namespace AutoInstall
 
             Init();
 
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(0));
-                Delay.Duration(30000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton' at Center.", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton.Click();
+            Delay.Milliseconds(200);
             
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Up}'.", new RecordItemIndex(1));
-                Keyboard.Press("{Up}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(2));
-                Delay.Duration(30000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(3));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(1));
+            repo.SQLServerInstallation.SQLInstaller.NextButton.Click();
+            Delay.Milliseconds(200);
             
         }
 

@@ -79,16 +79,9 @@ namespace AutoInstall
 
             Init();
 
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(0));
-                Delay.Duration(30000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(1));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.NextButton.Click();
+            Delay.Milliseconds(200);
             
         }
 

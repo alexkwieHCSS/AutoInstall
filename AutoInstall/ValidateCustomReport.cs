@@ -79,7 +79,7 @@ namespace AutoInstall
 
             Init();
 
-            ValidateCustomerReport();
+            ValidateContentCustomReport();
             Delay.Milliseconds(0);
             
         }

@@ -79,34 +79,20 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS'", repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo, new ActionTimeout(30000), new RecordItemIndex(0));
-            repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller'", repo.CrystalInstallation.CrystalInstaller.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.CrystalInstallation.CrystalInstaller.SelfInfo.WaitForExists(30000);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WindowsMenuBar.HCSSCrystalXIIntegrationInstallS' at Center.", repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallSInfo, new RecordItemIndex(1));
-            //repo.WindowsMenuBar.HCSSCrystalXIIntegrationInstallS.Click();
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'CrystalInstallation.CrystalInstaller'.", repo.CrystalInstallation.CrystalInstaller.SelfInfo, new RecordItemIndex(2));
-            repo.CrystalInstallation.CrystalInstaller.Self.Focus();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(1));
             repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
-            //Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(2));
+            repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
+            Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(6));
-            //repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(7));
-            //repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
-            //Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.FinishButton' at Center.", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new RecordItemIndex(3));
+            repo.CrystalInstallation.CrystalInstaller.FinishButton.Click();
+            Delay.Milliseconds(200);
             
         }
 

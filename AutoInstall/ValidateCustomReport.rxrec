@@ -33,7 +33,7 @@ rxversion="8.1">
 		classname="ValidateCustomReport"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="ValidateCustomerReport"
+		methodname="ValidateContentCustomReport"
 		namespace="AutoInstall"
 		optional="False"
 		varname="">
@@ -42,7 +42,7 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<arguments
-			id="11ab4287-2f3c-4fba-8315-a1a2eab82bbe">
+			id="bcc874bf-1a06-46c5-a0e9-e1a27ce28052">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

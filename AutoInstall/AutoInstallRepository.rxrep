@@ -2599,67 +2599,6 @@ gg==
 				</icon>
 			</appfolder>
 		</folder>
-		<folder
-		capname="unknown"
-		id="151035fa-f425-49a0-b774-4f422c0f9c99"
-		isrooted="False"
-		name="CrystalInstallation"
-		searchtimeout="0ms">
-			<appfolder
-			capname="form"
-			id="4901c8ac-4401-4c6b-b7b8-c50692e0f0bd"
-			isrooted="True"
-			name="CrystalInstaller"
-			searchtimeout="30000ms"
-			usecache="False">
-				<item
-				capname="button"
-				id="94174d84-d4f3-455d-942d-be25b746cc94"
-				name="NextButton"
-				searchtimeout="30000ms">
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
-				</item>
-				<item
-				capname="button"
-				id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
-				name="InstallButton"
-				searchtimeout="30000ms">
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
-				</item>
-				<basepath>
-					/form[@title~'HCSS' and @title~'Crystal']
-				</basepath>
-			</appfolder>
-			<appfolder
-			capname="form"
-			id="ed9a8efe-2c47-4c01-bdc1-386c85a20acc"
-			isrooted="True"
-			name="NewAppFolder"
-			searchtimeout="30000ms"
-			usecache="False">
-				<item
-				capname="button"
-				id="b3cf54d9-2f4e-4d36-b0fa-3a51dcafe494"
-				name="NewItem"
-				searchtimeout="30000ms">
-					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']/button[@text='&amp;Next &gt;']
-				</item>
-				<basepath>
-					/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
-				</basepath>
-			</appfolder>
-		</folder>
-		<appfolder
-		capname="form"
-		id="603e0544-a931-4438-99fe-3fdae26cd224"
-		isrooted="True"
-		name="NewAppFolder"
-		searchtimeout="30000ms"
-		usecache="False">
-			<basepath>
-				/form[@title~'^HCSS\ -\ Crystal\ XI\ Integra']
-			</basepath>
-		</appfolder>
 		<appfolder
 		addcaps="form,control,nativewindow"
 		capname="form"
@@ -2696,6 +2635,91 @@ DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
 XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<folder
+		capname="unknown"
+		id="151035fa-f425-49a0-b774-4f422c0f9c99"
+		isrooted="False"
+		name="CrystalInstallation"
+		searchtimeout="0ms">
+			<appfolder
+			capname="form"
+			id="4901c8ac-4401-4c6b-b7b8-c50692e0f0bd"
+			isrooted="True"
+			name="CrystalInstaller"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="94174d84-d4f3-455d-942d-be25b746cc94"
+				name="NextButton"
+				searchtimeout="30000ms">
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
+				</item>
+				<item
+				capname="button"
+				id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
+				name="InstallButton"
+				searchtimeout="30000ms">
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</item>
+				<item
+				capname="button"
+				id="d4b9f6ee-ceff-4992-ab47-bd59d894f067"
+				name="FinishButton"
+				searchtimeout="30000ms">
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Finish']
+				</item>
+				<basepath>
+					/form[@title~'HCSS' and @title~'Crystal']
+				</basepath>
+			</appfolder>
+		</folder>
+		<folder
+		capname="unknown"
+		id="4b6620ed-c457-49e9-9d2e-a40be134daab"
+		isrooted="False"
+		name="SQLServerInstallation"
+		searchtimeout="0ms">
+			<appfolder
+			capname="form"
+			id="2618e6c1-8b18-4058-85a9-33d4f5aa1d39"
+			isrooted="True"
+			name="SQLInstaller"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="7c6a126f-d7f5-4573-a6ae-a0e669fddd5e"
+				name="NextButton"
+				searchtimeout="30000ms">
+					/form[@title~'SQL Server']/button[@text~'Next']
+				</item>
+				<item
+				capname="radiobutton"
+				id="77af3eba-34c8-4947-9b84-d7c078db2cf0"
+				name="AcceptTermsRadioButton"
+				searchtimeout="30000ms">
+					/form[@title~'SQL Server']//radiobutton[@text!~'not']
+				</item>
+				<item
+				capname="button"
+				id="9e877f6f-c17b-4715-9cd7-80220f7a92d4"
+				name="InstallButton"
+				searchtimeout="30000ms">
+					/form[@title~'SQL Server']/button[@text~'Install']
+				</item>
+				<item
+				capname="button"
+				id="940848c7-c032-44d9-ac22-091249f38ca8"
+				name="FinishButton"
+				searchtimeout="30000ms">
+					/form[@title~'SQL Server']/button[@text~'Finish']
+				</item>
+				<basepath>
+					/form[@title~'SQL Server']
+				</basepath>
+			</appfolder>
+		</folder>
 		<basepath>
 		</basepath>
 	</rootfolder>

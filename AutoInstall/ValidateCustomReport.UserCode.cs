@@ -34,6 +34,7 @@ namespace AutoInstall
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
         string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference";
         string file = @"CostReportClassic.txt";
+          
         
         
         private void Init()
@@ -44,44 +45,21 @@ namespace AutoInstall
         public void ValidateCustomerReport()
         {
           
-            string filePath_Current = Path.Combine(dir,file);
-            string filePath_Expected = Path.Combine(refDir,file);
-            string customLogMessage = string.Empty;
-			
-    	
-		               // prepare log messages  
-		    const string fileNotFoundMessage = "File not found for comparison in Validate_FileContentEqual: {0}";  
-		    const string logMessage = "Comparing content of files ({0} vs. {1})";  
-		    if (string.IsNullOrEmpty(customLogMessage))  
-		    {  
-		        customLogMessage = string.Format(logMessage, filePath_Expected, filePath_Current);  
-		    }  
-		  
-		    // check if file exists  
-		    if (!System.IO.File.Exists(filePath_Current))  
-		    {  
-		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Current));  
-		    }  
-		  
-		    // check if referencing file exists  
-		    if (!System.IO.File.Exists(filePath_Expected))  
-		    {  
-		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Expected));  
-		    }  
-		  
-		    // check if filenames are identical  
-		    if (filePath_Expected.Equals(filePath_Current))  
-		    {  
-		        Ranorex.Validate.IsTrue(true, customLogMessage);  
-		    }  
-		    else  
-		    {  
-		        string current = System.IO.File.ReadAllText(filePath_Current);  
-		        string expected = System.IO.File.ReadAllText(filePath_Expected);  
-		        // validate whether expected value equals to current value  
-		        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
-		    }  
+        
         }
+   
+
+      
+
+        public void ValidateContentCustomReport()
+        {
+            // TODO: Replace the following line with your code implementation.
+            throw new NotImplementedException();
+        }   
+		    
+		    
+		    
+        
 
     }
 }

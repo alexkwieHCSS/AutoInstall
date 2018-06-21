@@ -79,38 +79,16 @@ namespace AutoInstall
 
             Init();
 
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(0));
-                Delay.Duration(30000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.InstallButton' at Center.", repo.SQLServerInstallation.SQLInstaller.InstallButtonInfo, new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.InstallButton.Click();
+            Delay.Milliseconds(200);
             
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(1));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.FinishButton'", repo.SQLServerInstallation.SQLInstaller.FinishButtonInfo, new ActionTimeout(10000), new RecordItemIndex(1));
+            repo.SQLServerInstallation.SQLInstaller.FinishButtonInfo.WaitForExists(10000);
             
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 5m.", new RecordItemIndex(2));
-                Delay.Duration(300000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(3));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 30s.", new RecordItemIndex(4));
-                Delay.Duration(30000, false);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence '{Return}'.", new RecordItemIndex(5));
-                Keyboard.Press("{Return}");
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.FinishButton' at Center.", repo.SQLServerInstallation.SQLInstaller.FinishButtonInfo, new RecordItemIndex(2));
+            repo.SQLServerInstallation.SQLInstaller.FinishButton.Click();
+            Delay.Milliseconds(200);
             
         }
 
