@@ -6,8 +6,15 @@
       <string>{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>a6f15c91-1e6d-43df-ab08-61a8a5bb251d</string>
+      <string>442a3d90-24df-4f19-96fe-bb7293cac6df</string>
+      <string>c221907e-09d3-4656-b4d7-b53d220313ca</string>
+      <string>401a5605-5915-4d7a-978d-db1302934759</string>
+      <string>f7cd7a70-f449-4bef-af7e-ef4d413fe3ed</string>
+      <string>e5f7980a-ecea-45df-a274-22d8b65a2af1</string>
+      <string>35759013-d826-4ea8-b07a-a9008891e773</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[CheckHBConfigFile.rxrec[]ValidateEXEs.rxrec[]ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\CodeTest.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\Compare17Folders.rxrec" />
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[CheckHBConfigFile.rxrec[]crystalTESTING.rxrec[]ValidateEXEs.rxrec[]ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\OpenInstallFile.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst" />
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>

@@ -80,8 +80,8 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller'", repo.SQLServerInstallation.SQLInstaller.SelfInfo, new ActionTimeout(180000), new RecordItemIndex(0));
-                repo.SQLServerInstallation.SQLInstaller.SelfInfo.WaitForExists(180000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5m to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller'", repo.SQLServerInstallation.SQLInstaller.SelfInfo, new ActionTimeout(300000), new RecordItemIndex(0));
+                repo.SQLServerInstallation.SQLInstaller.SelfInfo.WaitForExists(300000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {

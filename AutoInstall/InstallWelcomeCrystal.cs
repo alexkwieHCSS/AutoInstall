@@ -79,8 +79,8 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller'", repo.CrystalInstallation.CrystalInstaller.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(0));
-            repo.CrystalInstallation.CrystalInstaller.SelfInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5m to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller'", repo.CrystalInstallation.CrystalInstaller.SelfInfo, new ActionTimeout(300000), new RecordItemIndex(0));
+            repo.CrystalInstallation.CrystalInstaller.SelfInfo.WaitForExists(300000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(1));
             repo.CrystalInstallation.CrystalInstaller.NextButton.Click();

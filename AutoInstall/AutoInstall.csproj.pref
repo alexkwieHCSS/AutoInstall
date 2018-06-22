@@ -1,12 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="CodeTest.UserCode.cs" />
+    <Element value="OpenInstallFile.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="CodeTest.rxrec" />
-    <Element value="CodeTest.UserCode.cs" />
+    <Element value="crystalTESTING.rxrec" />
+    <Element value="AcceptToSSQL.rxrec" />
+    <Element value="FeatureSelectionSQL.rxrec" />
+    <Element value="ReadyToInstallSQL.rxrec" />
+    <Element value="InstallWelcomeSQL.rxrec" />
+    <Element value="OpenInstallFile.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

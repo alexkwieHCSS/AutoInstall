@@ -543,13 +543,6 @@ rxversion="8.1">
 			id="89a7786c-4b7b-47b9-9626-a1942a36013b"
 			name="setup">
 			</setup>
-			<testmodule
-			enabled="False"
-			id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
-			name="ReadyToInstallCrystal"
-			ref="9269e0b8-6d70-4b1e-9f83-67340788d9c1"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="8d10eccb-2fce-4313-b590-cb538c166d75"
 			name="CompareFilesServerToWS">
@@ -957,13 +950,6 @@ rxversion="8.1">
 			name="ReindexHBExternal">
 			</testcase>
 			<testmodule
-			enabled="False"
-			id="e64c0237-6b76-4610-a1ed-754344046bce"
-			name="crystalTESTING"
-			ref="0e9be4f1-8439-46f8-b4f5-a0adbdb1810a"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="e6852385-fb94-4699-a76c-4babc5d5b452"
 			name="CheckHBConfigFile"
 			ref="49c14881-6b01-47a9-a300-59c912a2c2cf"
@@ -1139,14 +1125,6 @@ rxversion="8.1">
 								<testmodule
 								id="7488a64b-9553-431b-87e5-9228ef52cd10"
 								name="InstallWelcomeCrystal">
-								</testmodule>
-								<testmodule
-								id="8b991df9-613d-4ae9-8471-c6f61b19d7a6"
-								name="ReadyToInstallCrystal">
-								</testmodule>
-								<testmodule
-								id="e64c0237-6b76-4610-a1ed-754344046bce"
-								name="crystalTESTING">
 								</testmodule>
 							</testcase>
 							<testcase
@@ -2002,6 +1980,24 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="0ec1b407-a101-4237-9051-405219d3d3e0">
+			</testcontainer>
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="278b8420-8e4e-4e20-a51e-390434d1fb15">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="801a753e-b5d0-44b4-a685-a3fa5bc4ace9">
+			</testcontainer>
+			<testcontainer
+			id="ac0cfe3a-03a8-45fc-8523-829ef00648ed">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
