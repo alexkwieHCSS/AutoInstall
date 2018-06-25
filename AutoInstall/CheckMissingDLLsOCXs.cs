@@ -97,8 +97,8 @@ namespace AutoInstall
             Host.Local.RunApplication("runDLLcomparison", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(1));
+            Delay.Duration(60000, false);
             
             try {
                 ValidateDLLComparison();

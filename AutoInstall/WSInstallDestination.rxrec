@@ -234,7 +234,7 @@ rxversion="8.1">
 		optional="True"
 		searchpropertyid="44e2ee31-8ddb-4714-81cb-94026c36dd07"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

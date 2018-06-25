@@ -57,7 +57,7 @@ rxversion="8.1">
 			</args>
 		</runapprecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="60000ms"
 		enabled="True"
 		optional="False">
 			<comment>

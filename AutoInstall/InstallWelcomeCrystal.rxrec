@@ -98,6 +98,24 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c0e382f4-0399-473d-a17c-d941baa152a7"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4b9f6ee-ceff-4992-ab47-bd59d894f067"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Finish']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"

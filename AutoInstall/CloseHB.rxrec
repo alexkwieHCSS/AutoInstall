@@ -31,7 +31,7 @@ rxversion="8.1">
 	<recorditems>
 		<closeapprecorditem
 		enabled="True"
-		graceperiod="0ms"
+		graceperiod="30000ms"
 		method="CloseWindow"
 		optional="False"
 		searchpropertyid="c7edc827-a190-474e-80b6-42aea299e691">

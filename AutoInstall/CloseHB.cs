@@ -80,7 +80,7 @@ namespace AutoInstall
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HeavyBidApp'.", repo.HeavyBidApp.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.HeavyBidApp.Self, new Duration(0));
+            Host.Current.CloseApplication(repo.HeavyBidApp.Self, 30000);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton'", repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo, new ActionTimeout(10000), new RecordItemIndex(1));

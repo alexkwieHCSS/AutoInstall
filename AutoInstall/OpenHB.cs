@@ -79,8 +79,11 @@ namespace AutoInstall
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            Delay.Duration(10000, false);
+            
             // E.1
-            Report.Log(ReportLevel.Info, "Application", "E.1\r\nRun application 'HEAVYBID.EXE' with arguments ' HEAVYMULT' in normal mode.", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Application", "E.1\r\nRun application 'HEAVYBID.EXE' with arguments ' HEAVYMULT' in normal mode.", new RecordItemIndex(1));
             Host.Local.RunApplication("HEAVYBID.EXE", " HEAVYMULT", "C:\\HeavyBidWS\\BIN\\", false);
             Delay.Milliseconds(0);
             

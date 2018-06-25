@@ -39,7 +39,7 @@ rxversion="8.1">
 		optional="True"
 		searchpropertyid="fb69ef21-ad9e-4a58-b6d1-d12e4e11f47f"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

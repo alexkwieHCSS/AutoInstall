@@ -29,6 +29,15 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<runapprecorditem
 		enabled="True"
 		maximized="False"

@@ -90,7 +90,10 @@ namespace AutoInstall
             repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.FinishButton' at Center.", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.FinishButton'", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new ActionTimeout(5000), new RecordItemIndex(3));
+            repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CrystalInstallation.CrystalInstaller.FinishButton' at Center.", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new RecordItemIndex(4));
             repo.CrystalInstallation.CrystalInstaller.FinishButton.Click();
             Delay.Milliseconds(200);
             

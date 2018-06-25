@@ -93,8 +93,8 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s to exist. Associated repository item: 'HeavyBidRegistration.RegEntryTextbox'", repo.HeavyBidRegistration.RegEntryTextboxInfo, new ActionTimeout(5000), new RecordItemIndex(0));
-                repo.HeavyBidRegistration.RegEntryTextboxInfo.WaitForExists(5000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'HeavyBidRegistration.RegEntryTextbox'", repo.HeavyBidRegistration.RegEntryTextboxInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+                repo.HeavyBidRegistration.RegEntryTextboxInfo.WaitForExists(30000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
