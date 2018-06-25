@@ -207,59 +207,10 @@ FBDmOVBV9RAgRIdbSxHEME5wc/MRRYtB0zNHworyBwgd/ef4Dy06AAAAAElFTkSuQmCC
 			<bindings>
 			</bindings>
 			<info
-			id="94174d84-d4f3-455d-942d-be25b746cc94"
+			id="7c6a126f-d7f5-4573-a6ae-a0e669fddd5e"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="nativewindow"
-				dontcache="False"
-				enabled="True"
-				flavor="win32"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="0,0,0,0"
-				role="button"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="apphung"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="class"
-					type="System.String">
-						Button
-					</attribute>
-					<attribute
-					name="handle"
-					type="System.IntPtr">
-						394444
-					</attribute>
-					<attribute
-					name="processid"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="windowextendedstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
-						LeftToRightReading
-					</attribute>
-					<attribute
-					name="windowstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Overlapped
-					</attribute>
-				</element>
 				<path>
-					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
+					/form[@title~'SQL Server']/button[@text~'Next']
 				</path>
 			</info>
 		</mouseitem>

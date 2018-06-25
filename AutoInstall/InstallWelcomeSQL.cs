@@ -85,8 +85,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(1));
-                repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(1));
+                repo.SQLServerInstallation.SQLInstaller.NextButton.Click();
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             

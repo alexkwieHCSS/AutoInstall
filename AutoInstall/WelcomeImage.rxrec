@@ -72,7 +72,7 @@ rxversion="8.1">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		matchname="Text"
 		matchvalue="hcss.com"
 		optional="True"
@@ -93,7 +93,7 @@ rxversion="8.1">
 		</WaitForRecordItem>
 		<validationitem
 		action="AttributeContains"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="2558fef9-5944-4b2e-bde5-8c6b128b8b45">
 			<comment>
@@ -116,7 +116,7 @@ rxversion="8.1">
 			</matchvalue>
 		</validationitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		matchname="Title"
 		matchvalue="HCSS"
 		optional="True"
@@ -137,7 +137,7 @@ rxversion="8.1">
 		</WaitForRecordItem>
 		<validationitem
 		action="AttributeRegex"
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="2558fef9-5944-4b2e-bde5-8c6b128b8b45">
 			<comment>
