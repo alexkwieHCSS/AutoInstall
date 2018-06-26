@@ -15,6 +15,6 @@
       <string>35759013-d826-4ea8-b07a-a9008891e773</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[CheckHBConfigFile.rxrec[]crystalTESTING.rxrec[]ValidateEXEs.rxrec[]ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\InstallWelcomeCrystal.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\InstallWelcomeSQL.rxrec" />
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[CheckHBConfigFile.rxrec[]crystalTESTING.rxrec[]ValidateEXEs.rxrec[]ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst" />
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>

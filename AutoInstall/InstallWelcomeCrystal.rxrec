@@ -50,6 +50,24 @@ rxversion="8.1">
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="92190017-6941-4ca6-b83b-2b79fbed406e"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94174d84-d4f3-455d-942d-be25b746cc94"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -57,10 +75,10 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
-		searchpropertyid="ad9fe1bf-cfeb-4c41-bc0b-f2886b343c23"
-		sx="0"
-		sy="0"
+		optional="True"
+		searchpropertyid="14d4a8c5-e615-4a35-82a0-a20f3db8199b"
+		sx="1061"
+		sy="689"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
@@ -81,7 +99,73 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
+		searchpropertyid="14d4a8c5-e615-4a35-82a0-a20f3db8199b"
+		sx="1061"
+		sy="689"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94174d84-d4f3-455d-942d-be25b746cc94"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Next']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="c0e382f4-0399-473d-a17c-d941baa152a7"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="0ad2b422-f628-43b6-8404-9bd1c28a41b7"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94f97a7e-01a0-4455-8345-e3b9a19e0c02"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HCSS' and @title~'Crystal']/button[@text~'Install']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
 		searchpropertyid="0ad2b422-f628-43b6-8404-9bd1c28a41b7"
 		sx="0"
 		sy="0"
@@ -100,10 +184,10 @@ rxversion="8.1">
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="c0e382f4-0399-473d-a17c-d941baa152a7"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="15000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -123,7 +207,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="14d4a8c5-e615-4a35-82a0-a20f3db8199b"
 		sx="1061"
 		sy="689"

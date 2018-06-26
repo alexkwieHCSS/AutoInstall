@@ -1,17 +1,16 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="InstallWelcomeCrystal.rxrec" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="LookupRegCode.rxrec" />
-    <Element value="TestSARegCode.rxrec" />
-    <Element value="NewUserLink.rxrec" />
-    <Element value="WelcomeImage.rxrec" />
-    <Element value="F1HelpButton.rxrec" />
+    <Element value="AutoInstallRepository.rxrep" />
     <Element value="WhatsNewButton.rxrec" />
+    <Element value="NewUserLink.rxrec" />
+    <Element value="Compare17Folders.rxrec" />
+    <Element value="Compare17Folders.UserCode.cs" />
     <Element value="InstallWelcomeCrystal.rxrec" />
+    <Element value="CheckHBConfigFile.rxrec" />
+    <Element value="LookupRegCode.rxrec" />
+    <Element value="CloseHB.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

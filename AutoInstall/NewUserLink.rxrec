@@ -318,7 +318,7 @@ rxversion="8.1">
 		enabled="False"
 		matchname="Text"
 		matchvalue="hcss.com"
-		optional="True"
+		optional="False"
 		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
 		waitaction="AttributeContains"
 		waittimeout="5000ms">
@@ -337,7 +337,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeContains"
 		enabled="False"
-		optional="True"
+		optional="False"
 		searchpropertyid="2558fef9-5944-4b2e-bde5-8c6b128b8b45">
 			<comment>
 				E.6
@@ -362,7 +362,7 @@ rxversion="8.1">
 		enabled="False"
 		matchname="Title"
 		matchvalue="(Article List|HCSS)"
-		optional="True"
+		optional="False"
 		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
 		waitaction="AttributeContains"
 		waittimeout="5000ms">
@@ -381,7 +381,7 @@ rxversion="8.1">
 		<validationitem
 		action="AttributeRegex"
 		enabled="False"
-		optional="True"
+		optional="False"
 		searchpropertyid="2558fef9-5944-4b2e-bde5-8c6b128b8b45">
 			<comment>
 				E.6
