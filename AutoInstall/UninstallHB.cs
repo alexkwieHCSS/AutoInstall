@@ -80,8 +80,8 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 2m.", new RecordItemIndex(0));
-                Delay.Duration(120000, false);
+                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 1m.", new RecordItemIndex(0));
+                Delay.Duration(60000, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {

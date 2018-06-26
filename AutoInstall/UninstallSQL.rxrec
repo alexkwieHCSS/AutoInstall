@@ -30,7 +30,7 @@ rxversion="8.1">
 	</variables>
 	<recorditems>
 		<explicitdelayitem
-		duration="120000ms"
+		duration="60000ms"
 		enabled="True"
 		optional="True">
 			<comment>
