@@ -103,9 +103,9 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButtonInfo, new RecordItemIndex(6));
-            repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton.Click();
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButtonInfo, new RecordItemIndex(6));
+            //repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton.Click();
+            //Delay.Milliseconds(200);
             
         }
 

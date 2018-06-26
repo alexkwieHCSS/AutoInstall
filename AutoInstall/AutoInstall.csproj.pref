@@ -1,6 +1,11 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="RestoreEstimate.rxrec" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="RestoreEstimate.rxrec" />
+    <Element value="BackupEstimate.rxrec" />
     <Element value="AutoInstall.rxtst" />
     <Element value="AutoInstallRepository.rxrep" />
     <Element value="WhatsNewButton.rxrec" />
