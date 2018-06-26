@@ -1,25 +1,17 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="InstallWelcomeCrystal.rxrec" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
     <Element value="LookupRegCode.rxrec" />
-    <Element value="OpenHB.rxrec" />
-    <Element value="ValidateXMLInstanceKey.rxrec" />
-    <Element value="SQLDriverReadmeExists.rxrec" />
-    <Element value="CheckHBConfigFile.rxrec" />
-    <Element value="ValidateHBStrayDate.rxrec" />
-    <Element value="Compare17Folders.rxrec" />
-    <Element value="ValidateEXEs.rxrec" />
-    <Element value="crystalTESTING.rxrec" />
-    <Element value="AcceptToSSQL.rxrec" />
-    <Element value="FeatureSelectionSQL.rxrec" />
-    <Element value="ReadyToInstallSQL.rxrec" />
-    <Element value="InstallWelcomeSQL.rxrec" />
-    <Element value="OpenInstallFile.rxrec" />
+    <Element value="TestSARegCode.rxrec" />
+    <Element value="NewUserLink.rxrec" />
+    <Element value="WelcomeImage.rxrec" />
+    <Element value="F1HelpButton.rxrec" />
+    <Element value="WhatsNewButton.rxrec" />
     <Element value="InstallWelcomeCrystal.rxrec" />
-    <Element value="ConfirmWSInstallFinish.rxrec" />
-    <Element value="CompareServerAndWSBin.rxrec" />
-    <Element value="CheckMissingDLLsOCXs.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
