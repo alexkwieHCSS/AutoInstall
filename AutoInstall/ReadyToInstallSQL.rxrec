@@ -29,6 +29,24 @@ rxversion="8.1">
 	<variables>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1bad96a6-7355-419d-ae2a-62901c380e29"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9e877f6f-c17b-4715-9cd7-80220f7a92d4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'SQL Server']/button[@text~'Install']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"

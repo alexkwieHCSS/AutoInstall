@@ -83,8 +83,8 @@ namespace AutoInstall
             repo.CrystalInstallation.CrystalInstaller.SelfInfo.WaitForExists(300000);
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.NextButton'", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new ActionTimeout(10000), new RecordItemIndex(1));
-                repo.CrystalInstallation.CrystalInstaller.NextButtonInfo.WaitForExists(10000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 15s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.NextButton'", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new ActionTimeout(15000), new RecordItemIndex(1));
+                repo.CrystalInstallation.CrystalInstaller.NextButtonInfo.WaitForExists(15000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {
@@ -94,38 +94,26 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.NextButton' at Center.", repo.CrystalInstallation.CrystalInstaller.NextButtonInfo, new RecordItemIndex(3));
-                repo.CrystalInstallation.CrystalInstaller.NextButton.Click();
-                Delay.Milliseconds(200);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 15s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.InstallButton'", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new ActionTimeout(15000), new RecordItemIndex(3));
+                repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo.WaitForExists(15000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.InstallButton'", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new ActionTimeout(10000), new RecordItemIndex(4));
-                repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo.WaitForExists(10000);
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(4));
+                repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
+                Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(5));
-                repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
-                Delay.Milliseconds(200);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.FinishButton'", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new ActionTimeout(30000), new RecordItemIndex(5));
+                repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo.WaitForExists(30000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.InstallButton' at Center.", repo.CrystalInstallation.CrystalInstaller.InstallButtonInfo, new RecordItemIndex(6));
-                repo.CrystalInstallation.CrystalInstaller.InstallButton.Click();
-                Delay.Milliseconds(200);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 15s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.FinishButton'", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new ActionTimeout(15000), new RecordItemIndex(7));
-                repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo.WaitForExists(15000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.FinishButton' at Center.", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new RecordItemIndex(8));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'CrystalInstallation.CrystalInstaller.FinishButton' at Center.", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new RecordItemIndex(6));
                 repo.CrystalInstallation.CrystalInstaller.FinishButton.Click();
                 Delay.Milliseconds(200);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
         }
 

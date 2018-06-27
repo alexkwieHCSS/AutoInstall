@@ -79,11 +79,17 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton' at Center.", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton'", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new ActionTimeout(10000), new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo.WaitForExists(10000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton' at Center.", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new RecordItemIndex(1));
             repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.NextButton'", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new ActionTimeout(10000), new RecordItemIndex(2));
+            repo.SQLServerInstallation.SQLInstaller.NextButtonInfo.WaitForExists(10000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(3));
             repo.SQLServerInstallation.SQLInstaller.NextButton.Click();
             Delay.Milliseconds(200);
             

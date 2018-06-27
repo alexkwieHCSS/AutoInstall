@@ -190,6 +190,24 @@ FBDmOVBV9RAgRIdbSxHEME5wc/MRRYtB0zNHworyBwgd/ef4Dy06AAAAAElFTkSuQmCC
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1bad96a6-7355-419d-ae2a-62901c380e29"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7c6a126f-d7f5-4573-a6ae-a0e669fddd5e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'SQL Server']/button[@text~'Next']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"

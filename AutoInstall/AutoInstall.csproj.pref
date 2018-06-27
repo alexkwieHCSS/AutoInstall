@@ -1,20 +1,7 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="AutoInstall.rxtst" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="SQLDriverReadmeExists.rxrec" />
     <Element value="AutoInstall.rxtst" />
-    <Element value="UninstallCrystal.rxrec" />
-    <Element value="UninstallSQL.rxrec" />
-    <Element value="UninstallHB.rxrec" />
-    <Element value="CompareServerAndWSBin.rxrec" />
-    <Element value="CheckMissingDLLsOCXs.rxrec" />
-    <Element value="ValidateEXEs.rxrec" />
-    <Element value="Compare17Folders.rxrec" />
-    <Element value="ValidateHBStrayDate.rxrec" />
-    <Element value="SysConfigDoesntExist.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

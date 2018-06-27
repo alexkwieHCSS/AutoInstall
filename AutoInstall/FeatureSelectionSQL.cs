@@ -79,7 +79,10 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.NextButton'", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new ActionTimeout(10000), new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.NextButtonInfo.WaitForExists(10000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.NextButton' at Center.", repo.SQLServerInstallation.SQLInstaller.NextButtonInfo, new RecordItemIndex(1));
             repo.SQLServerInstallation.SQLInstaller.NextButton.Click();
             Delay.Milliseconds(200);
             
