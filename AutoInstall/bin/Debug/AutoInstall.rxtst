@@ -288,6 +288,7 @@ rxversion="8.1">
 			name="RSMeans">
 			</testcase>
 			<testcase
+			datasource="HBInstallLocation"
 			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79"
 			name="UninstallHB">
 			</testcase>
@@ -477,6 +478,20 @@ rxversion="8.1">
 			name="CloseHB"
 			ref="401a5605-5915-4d7a-978d-db1302934759"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="777928da-7c9d-4cbc-937c-db118b3d3ed1"
+			name="DeleteHBFolder"
+			ref="a011b0c9-7a7b-4515-9444-0fb7f1a336c4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HBInstallLocation"
+					datasourceid="08b99ff2-e5e9-4dd2-b39f-00c2861809e4"
+					variableid="da66bd54-edff-4287-871f-34f781216c9a"
+					variablename="InstallLocation">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="782c5174-4b14-4041-9121-0a5d69331e9e"
@@ -1649,6 +1664,10 @@ rxversion="8.1">
 								<testmodule
 								id="986237e5-2b03-45c9-888a-ec2b71b9d9a9"
 								name="ValidateWSBin">
+								</testmodule>
+								<testmodule
+								id="777928da-7c9d-4cbc-937c-db118b3d3ed1"
+								name="DeleteHBFolder">
 								</testmodule>
 							</testcase>
 						</smartfoldernode>

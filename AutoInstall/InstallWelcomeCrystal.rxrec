@@ -50,6 +50,15 @@ rxversion="8.1">
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="True"

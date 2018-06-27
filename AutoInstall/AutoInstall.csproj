@@ -360,6 +360,18 @@
       <UserCode>true</UserCode>
       <id>b01ffd89-c796-4a8a-8258-684d210c163e</id>
     </Compile>
+    <Compile Include="DeleteHBFolder.cs">
+      <BoundTo>359c093a-74ef-40bc-8e67-78441867f476</BoundTo>
+      <DependentUpon>DeleteHBFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4b4e387-1b0e-4415-8076-600e35f7f24e</id>
+    </Compile>
+    <Compile Include="DeleteHBFolder.UserCode.cs">
+      <BoundTo>359c093a-74ef-40bc-8e67-78441867f476</BoundTo>
+      <DependentUpon>DeleteHBFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b8807fc0-0e2a-4dfb-aa63-900eec02a2c6</id>
+    </Compile>
     <Compile Include="EquipmentReport.cs">
       <BoundTo>75f28445-c0bb-42cc-8202-a34f4af98051</BoundTo>
       <DependentUpon>EquipmentReport.rxrec</DependentUpon>
@@ -1150,6 +1162,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>a377adeb-13a1-4849-ab7a-b91c341d8040</id>
       <recordtableid>86517749-ad94-4a26-9fc2-cc4e93b3c806</recordtableid>
+    </None>
+    <None Include="DeleteHBFolder.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>359c093a-74ef-40bc-8e67-78441867f476</id>
+      <recordtableid>a011b0c9-7a7b-4515-9444-0fb7f1a336c4</recordtableid>
     </None>
     <None Include="EquipmentReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
