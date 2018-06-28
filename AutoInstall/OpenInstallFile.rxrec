@@ -42,10 +42,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<filename>
-				PullLatestInstall.bat
+				HeavyBid2018.1_Regression.msi
 			</filename>
 			<workingdir>
-				W:\HBDaily\InstallAutomation\Script\
+				\\hbprodmgmt\installs\2018.1
 			</workingdir>
 			<args>
 			</args>

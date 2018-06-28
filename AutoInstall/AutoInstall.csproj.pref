@@ -1,9 +1,7 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="AutoInstall.rxtst" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="CheckMissingDLLsOCXs.rxrec" />
     <Element value="AutoInstall.rxtst" />
     <Element value="OpenInstallFile.rxrec" />
     <Element value="VerifyServerReleaseVersion.rxrec" />
