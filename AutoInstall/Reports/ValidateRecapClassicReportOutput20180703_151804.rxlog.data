@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9ec90d0c6d8420b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/3/2018 3:18:09 PM"
+		timestampiso="2018-07-03T20:18:09"
+		endtime="7/3/2018 3:18:12 PM"
+		timeoutfactor="1.3"
+		module="ValidateRecapClassicReportOutput">
+		<detail>
+			ValidateRecapClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.020"
+			timeRelativeToTestModuleStartTime="00:03.021"
+			timeWallClock="15:18:12"
+			time="00:03.020"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.046"
+			timeRelativeToTestModuleStartTime="00:03.047"
+			timeWallClock="15:18:12"
+			time="00:03.046"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runRecapReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.174"
+			timeRelativeToTestModuleStartTime="00:03.175"
+			timeWallClock="15:18:12"
+			time="00:03.174"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_52f38acd_1324aaef_trace.jpg"
+			errthumb=".\Validate_52f38acd_1324aaef_trace_thumb.jpg">
+			<message>
+				Success! RecapReportClassic.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.196"
+			timeRelativeToTestModuleStartTime="00:03.197"
+			timeWallClock="15:18:12"
+			time="00:03.196"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_52f38acd_1324aaef_trace.jpg"
+			errthumb=".\Validate_52f38acd_1324aaef_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="91"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.225"
+			timeRelativeToTestModuleStartTime="00:03.226"
+			timeWallClock="15:18:12"
+			time="00:03.225"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_52f38acd_ee3aa862_trace.jpg"
+			errthumb=".\Validate_52f38acd_ee3aa862_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateRecapClassicReportOutput.ValidateContentRecapReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs:line 91
+   at AutoInstall.ValidateRecapClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.cs:line 102
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="91"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

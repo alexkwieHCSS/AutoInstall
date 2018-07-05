@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3f281a13108d92b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 5:07:06 PM"
+		timestampiso="2018-06-28T22:07:06"
+		endtime="6/28/2018 5:08:28 PM"
+		timeoutfactor="1.3"
+		module="ReindexFiles">
+		<detail>
+			ReindexFiles
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.787"
+			timeRelativeToTestModuleStartTime="00:02.788"
+			timeWallClock="17:07:09"
+			time="00:02.787"
+			level="Info"
+			category="Mouse"
+			errimg=".\ReindexF_dc012b72_792ee703_trace.jpg"
+			errthumb=".\ReindexF_dc012b72_792ee703_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ToolsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.035"
+			timeRelativeToTestModuleStartTime="01:21.036"
+			timeWallClock="17:08:27"
+			time="01:21.035"
+			level="Error"
+			category="Module"
+			errimg=".\ReindexF_dc012b72_b55245d2_trace.jpg"
+			errthumb=".\ReindexF_dc012b72_b55245d2_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab'.<br/>No element found for path '/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']' within 1.3m (timeout factor = 1.3).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.TabsFolder.get_ToolsTab() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 2704&#13;&#10;   at AutoInstall.ReindexFiles.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ReindexFiles.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="78000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -47,6 +47,27 @@ rxversion="8.1">
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a9e23d2b-94b1-4cc1-8479-5e1d6125457c"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20d564df-3720-4fc5-9f5d-f07bcfb0f3a6"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='User Login']//element[@class='DFentry'][3]
+				</path>
+			</info>
+			<arguments
+			id="469ed75e-c3ac-44ae-9c99-2f6bfc90156d">
+			</arguments>
+		</invokeactionrecorditem>
 		<mouseitem
 		action="DoubleClick"
 		button="Left"

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2157586cb03b5d74"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/2/2018 3:29:14 PM"
+		timestampiso="2018-07-02T20:29:14"
+		endtime="7/2/2018 3:31:19 PM"
+		timeoutfactor="1.3"
+		module="RunSpreadsheetCalculations">
+		<detail>
+			RunSpreadsheetCalculations
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.792"
+			timeRelativeToTestModuleStartTime="00:02.793"
+			timeWallClock="15:29:17"
+			time="00:02.792"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem"
+				itempath="treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity"
+				id="96fc5c334e4642f9baafaba1ff09d141"
+				timeout="156000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.267"
+			timeRelativeToTestModuleStartTime="00:05.268"
+			timeWallClock="15:29:19"
+			time="00:05.267"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.488"
+			timeRelativeToTestModuleStartTime="00:05.489"
+			timeWallClock="15:29:20"
+			time="00:05.488"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem/treeitem"
+				itempath="treeitem/treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem"
+				id="18beab79b8694bc6ba7a7df4060cbb30"
+				timeout="156000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.023"
+			timeRelativeToTestModuleStartTime="00:07.024"
+			timeWallClock="15:29:21"
+			time="00:07.023"
+			level="Info"
+			category="Keyboard"
+			errimg=".\RunSprea_ba432808_3ff1db50_trace.jpg"
+			errthumb=".\RunSprea_ba432808_3ff1db50_trace_thumb.jpg">
+			<message>
+				Key sequence '{Right}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.231"
+			timeRelativeToTestModuleStartTime="00:07.232"
+			timeWallClock="15:29:21"
+			time="00:07.231"
+			level="Info"
+			category="Mouse"
+			errimg=".\RunSprea_ba432808_ead616fc_trace.jpg"
+			errthumb=".\RunSprea_ba432808_ead616fc_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']"
+				itempath="form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton"
+				id="f0e4f1c22e5444119701e54b7dc90e5d"
+				timeout="117000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:04.487"
+			timeRelativeToTestModuleStartTime="02:04.488"
+			timeWallClock="15:31:19"
+			time="02:04.487"
+			level="Error"
+			category="Module"
+			errimg=".\RunSprea_ba432808_113c5149_trace.jpg"
+			errthumb=".\RunSprea_ba432808_113c5149_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton'.<br/>No element found for path '/form[@title~'HB']/element[@class='DFMDIClient']/form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']' within 2m (timeout factor = 1.3).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.ButtonsFolder2.get_SpreadsheetCalculationButton() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\AutoInstallRepository.cs:line 2376&#13;&#10;   at AutoInstall.RunSpreadsheetCalculations.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs:line 99&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="99"
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']"
+				itempath="form[@accessiblename~'Estimate Entry']/element[@controlid='3813']//button[@accessiblerole='PushButton']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.SpreadsheetCalculationButton"
+				id="f0e4f1c22e5444119701e54b7dc90e5d"
+				timeout="117000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

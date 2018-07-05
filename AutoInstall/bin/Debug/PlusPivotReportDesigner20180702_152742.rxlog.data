@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f309096d203cbca"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/2/2018 3:27:46 PM"
+		timestampiso="2018-07-02T20:27:46"
+		endtime="7/2/2018 3:28:09 PM"
+		timeoutfactor="1.3"
+		module="PlusPivotReportDesigner">
+		<detail>
+			PlusPivotReportDesigner
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.632"
+			timeRelativeToTestModuleStartTime="00:02.633"
+			timeWallClock="15:27:48"
+			time="00:02.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.QueryTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Query']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Query']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.QueryTab"
+				id="d67e9e897e0f43c3805d510a2b64275e"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.877"
+			timeRelativeToTestModuleStartTime="00:06.878"
+			timeWallClock="15:27:53"
+			time="00:06.877"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Query.PivotReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				itempath="?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Query.PivotReportsButton"
+				id="c426ef588e704534ad50cc8bf1d78e28"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.084"
+			timeRelativeToTestModuleStartTime="00:08.085"
+			timeWallClock="15:27:54"
+			time="00:08.084"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				itempath="?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner"
+				id="225b396430ef400682189c808d58925e"
+				timeout="117000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.813"
+			timeRelativeToTestModuleStartTime="00:09.814"
+			timeWallClock="15:27:56"
+			time="00:09.813"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.824"
+			timeRelativeToTestModuleStartTime="00:19.825"
+			timeWallClock="15:28:06"
+			time="00:19.824"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'HBReportViewers.HeavyBidPivotReports.CloseButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/?/?/?/button[@text~'Close']"
+				itempath="?/?/?/button[@text~'Close']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.CloseButton"
+				id="fc1e7fdda2b94bb987fe224e293b2469"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16beef9ba745087a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 5:34:28 PM"
+		timestampiso="2018-06-28T22:34:28"
+		endtime="6/28/2018 5:34:37 PM"
+		timeoutfactor="1.3"
+		module="RestoreSystem">
+		<detail>
+			RestoreSystem
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.358"
+			timeRelativeToTestModuleStartTime="00:03.359"
+			timeWallClock="17:34:31"
+			time="00:03.358"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RestoreSystem.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.636"
+			timeRelativeToTestModuleStartTime="00:05.637"
+			timeWallClock="17:34:34"
+			time="00:05.636"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.RestoreEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'Restore']"
+				itempath=".///toolbar/button[@text~'Restore']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.RestoreEstimateButton"
+				id="0264168d9bc14b50a882702a1556551e"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RestoreSystem.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.942"
+			timeRelativeToTestModuleStartTime="00:06.943"
+			timeWallClock="17:34:35"
+			time="00:06.942"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.System' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'System']"
+				itempath="?/?/menuitem[@text~'System']"
+				fullname="AutoInstallRepository.HBDropDownOptions.System"
+				id="437e13f4d7bf479a80bbbf1782d2e3f5"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RestoreSystem.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.714"
+			timeRelativeToTestModuleStartTime="00:07.715"
+			timeWallClock="17:34:36"
+			time="00:07.714"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreSystemFiles.RestoreSystemButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Restore System Files']////button[@text~'Restore System']"
+				itempath=".////button[@text~'Restore System']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreSystemFiles.RestoreSystemButton"
+				id="52005dc74e4d41599a8843c03c9140d0"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RestoreSystem.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.632"
+			timeRelativeToTestModuleStartTime="00:08.633"
+			timeWallClock="17:34:37"
+			time="00:08.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreSystemFiles.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Restore System Files']/button[@text~'OK']"
+				itempath="button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreSystemFiles.OKButton"
+				id="362988d1b6d54ac2b9a0d4cacaa5a650"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\RestoreSystem.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

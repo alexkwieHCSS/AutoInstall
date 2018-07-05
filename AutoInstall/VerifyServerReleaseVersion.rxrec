@@ -540,6 +540,15 @@ rxversion="8.1">
 				yourtext
 			</matchvalue>
 		</validationitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"

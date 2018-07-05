@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8ac82a3a6aa77a3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:50:48 PM"
+		timestampiso="2018-06-28T20:50:48"
+		endtime="6/28/2018 3:50:56 PM"
+		timeoutfactor="1.3"
+		module="WhatsNewButton">
+		<detail>
+			WhatsNewButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.189"
+			timeRelativeToTestModuleStartTime="00:03.190"
+			timeWallClock="15:50:51"
+			time="00:03.189"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.WhatsNewTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'What''s New']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'What''s New']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.WhatsNewTab"
+				id="840fcc6bd04e419f9b950058e7db6b96"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.248"
+			timeRelativeToTestModuleStartTime="00:06.249"
+			timeWallClock="15:50:54"
+			time="00:06.248"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'New HeavyBid Features']"
+				itempath=".///toolbar/button[@text~'New HeavyBid Features']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton"
+				id="86f8a615a73941c783d8b9ea1053dc08"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WhatsNewButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

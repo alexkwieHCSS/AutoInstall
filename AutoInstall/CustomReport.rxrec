@@ -135,13 +135,13 @@ rxversion="8.1">
 					name="appicon"
 					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
 						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE3SURBVDhPY2CZ6tEJxL+B+D+JGKSnE2QAhmaZ
-+ZH/5RfE4MTcM3zhhoAMQNFcc3z+f1zg379//wO21v9P2NP9n3O6N1g9hgFnX93+v+7O4f8rbh0A
-4+PPr0G1////9vun/16bqv+H72j5r7gwFrsBl9/c/7/z4Zn/W+6fAONdQPaRZ1fA+N7H5yhqQZig
-AciYfgYsvrH7/5yr2zEw0QbMv7bz/8zLW8D48edX/3MOTvk/7fLm//c/vkBRC8I4DZgB1AzC54Cx
-YrgiE+wFkgyAueDq2wf/8w5N/W+5Op94A5ABKPGsv3v0/8XXd3EbAEoUoMQBSiSTLqz/v+D6LhT8
-4us7sGG3PzzFbgAoWYKSp/GKLKx4+a39YAO6z63CagA4M4EyCLaMA8Oy86MwNAMxODNRkJ09OgGc
-1Hi8SftA8gAAAABJRU5ErkJggg==
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2AKUO9kmez+m2Wqx3+SMFAPSC8D
+Ns0y8yP/yy+IwYm5Z/jCDWFA11xzfP5/XODfv3//A7bW/0/Y0/2fc7o3WD2GAWdf3f6/7s7h/ytu
+HQDj48+vQbX////2+6f/Xpuq/4fvaPmvuDAWuwGX39z/v/Phmf9b7p8A411A9pFnV8D43sfnKGpB
+mKAByJh+Biy+sfv/nKvbMTDRBsy/tvP/zMtbwPjx51f/cw5O+T/t8ub/9z++QFELwjgNmAHUDMLn
+gLFiuCIT7AWSDIC54OrbB//zDk39b7k6n3gDkAEo8ay/e/T/xdd3cRsAShSgxAFKJJMurP+/4Pou
+FPzi6zuwYbc/PMVuAChZgpKn8YosrHj5rf1gA7rPrcJiADQzgTIItowDw7LzozA0gzMTZdlZvRMA
+Ho93BGOp2uAAAAAASUVORK5CYII=
 					</attribute>
 					<attribute
 					name="state"
@@ -265,6 +265,395 @@ YrgiE+wFkgyAueDq2wf/8w5N/W+5Op94A5ABKPGsv3v0/8XXd3EbAEoUoMQBSiSTLqz/v+D6LhT8
 				yourtext
 			</matchvalue>
 		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d24baa7-d4de-4b51-a405-7ccbbe151a2a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="284b62a2-bd5b-4d63-8f20-14d542e4b14c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="7,24,24,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Export Report
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Export Report
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Customized Bid Proposal']//button[@accessiblename='Export Report']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dde9a272-5979-4c4b-8504-d81ac87cf01c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7652997c-40e7-4e64-b046-49b0f09fde8b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1044,479,15,20"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&gt;
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Export']//button[@text='&gt;'][1]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="01093fd1-6eed-4605-9b31-2f36d0e68f9a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="41c79c9f-e5db-4187-8264-685dd3548655"
+			sourcename="RepositoryEditor">
+				<path>
+					/list[@controlid='1000']/listitem[@text~'TXT']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4edc1926-fd8e-48d7-b6ad-1c095cf2cfb4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="344a2c32-5d4f-4430-912a-a3e8a3fd0d2f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="1077,476,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						OK
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						262904
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5336
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						HEAVYBID
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						OK
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Export']/button[@text='OK']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="CenterRight"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="05f55a1f-4558-480a-bfcd-fde5905881c6"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5be0ae6f-b26e-445b-9820-e29795bd28f5"
+			sourcename="RepositoryEditor">
+				<path>
+					/element//element[@class='Breadcrumb Parent']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="W:\HBDaily\InstallAutomation\HBReportsExportFiles{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="6f3c1fce-cced-4eaf-8eaa-4acd59d5ec8f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8d410b5b-2749-4409-a168-4ca1703fa146"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="488d5382-ab17-4454-b6b3-6fcd15938a95"
+			sourcename="RepositoryEditor">
+				<path>
+					/element/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="CustomizedBidProposal.txt"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="7adbf293-6530-4c36-b48b-0066ac168a7a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a08ce072-67c1-4504-92d2-8d8d1624bda4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="02c1aff6-27ce-4052-8ffd-c12113ba5819"
+			sourcename="RepositoryEditor">
+				<path>
+					/element/button[@text~'Save']
+				</path>
+			</info>
+		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
 		enabled="True"
@@ -274,6 +663,159 @@ YrgiE+wFkgyAueDq2wf/8w5N/W+5Op94A5ABKPGsv3v0/8XXd3EbAEoUoMQBSiSTLqz/v+D6LhT8
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="11dd5347-fa68-45da-a69c-d12a49184513"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a3cd0104-c2c6-431b-b856-22d545ce404e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="894,585,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						724512
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5336
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						HEAVYBID
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='File already exists']/button[@text~'Yes']
+				</path>
+			</info>
+		</mouseitem>
 		<closeapprecorditem
 		enabled="True"
 		graceperiod="0ms"
@@ -309,13 +851,13 @@ YrgiE+wFkgyAueDq2wf/8w5N/W+5Op94A5ABKPGsv3v0/8XXd3EbAEoUoMQBSiSTLqz/v+D6LhT8
 					name="appicon"
 					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
 						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2BkZOxkMZb/zTLV4z9JGKgHpJcB
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2BkZOxkMZL/zTLV4z9JGKgHpJcB
 m2aZ+ZH/5RfE4MTcM3zhhjCga645Pv8/LvDv37//AVvr/yfs6f7POd0brB7DgLOvbv9fd+fw/xW3
 DoDx8efXoNr//3/7/dN/r03V/8N3tPxXXBiL3YDLb+7/3/nwzP8t90+A8S4g+8izK2B87+NzFLUg
 TNAAZEw/Axbf2P1/ztXtGJhoA+Zf2/l/5uUtYPz486v/OQen/J92efP/+x9foKgFYZwGzABqBuFz
 wFgxXJEJ9gJJBsBccPXtg/95h6b+t1ydT7wByACUeNbfPfr/4uu7uA0AJQpQ4gAlkkkX1v9fcH0X
 Cn7x9R3YsNsfnmI3AJQsQcnTeEUWVrz81n6wAd3nVmExAJqZQBkEW8aBYdn5URiawZmJsuzM2AkA
-u9Rw7AbnXvMAAAAASUVORK5CYII=
+q5Bw5FS43rMAAAAASUVORK5CYII=
 					</attribute>
 					<attribute
 					name="state"

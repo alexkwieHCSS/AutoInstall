@@ -1703,6 +1703,13 @@ SUVORK5CYII=
 						searchtimeout="30000ms">
 							/form[@title~'Restore Estimate']//button[@text~'Finish']
 						</item>
+						<item
+						capname="button"
+						id="43603178-151c-4c9e-8887-e4ab71f59bdc"
+						name="EllipsisButton"
+						searchtimeout="30000ms">
+							/form[@title~'Restore Estimate']//button[@text='...']
+						</item>
 						<basepath>
 							/form[@title~'Restore Estimate']
 						</basepath>
@@ -2195,6 +2202,13 @@ SUVORK5CYII=
 			refimgid="99afcd4f-fe47-485f-96a0-cc308dc454ad"
 			searchtimeout="30000ms"
 			usecache="False">
+				<item
+				capname="button"
+				id="284b62a2-bd5b-4d63-8f20-14d542e4b14c"
+				name="ExportReportButton"
+				searchtimeout="30000ms">
+					/form[@title='Customized Bid Proposal']//button[@accessiblename='Export Report']
+				</item>
 				<basepath>
 					/form[@title='Customized Bid Proposal']
 				</basepath>
@@ -2284,8 +2298,187 @@ SUVORK5CYII=
 				searchtimeout="30000ms">
 					/form[@title='Print to File']/button[@text~'Yes']
 				</item>
+				<item
+				capname="button"
+				id="7da1fb25-36a4-494c-9852-2da1f40f3b04"
+				name="NoButton"
+				searchtimeout="30000ms">
+					/form[@title='Print to File']/button[@text~'No']
+				</item>
 				<basepath>
 					/form[@title='Print to File']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4"
+			isrooted="True"
+			name="ExportScreen"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="7652997c-40e7-4e64-b046-49b0f09fde8b"
+				name="FirstComboBox"
+				searchtimeout="30000ms">
+					/form[@title='Export']//button[@text='&gt;'][1]
+				</item>
+				<item
+				capname="button"
+				id="344a2c32-5d4f-4430-912a-a3e8a3fd0d2f"
+				name="OKButton"
+				searchtimeout="30000ms">
+					/form[@title='Export']/button[@text='OK']
+				</item>
+				<basepath>
+					/form[@title='Export']
+				</basepath>
+			</appfolder>
+			<appfolder
+			addcaps="list,nativewindow"
+			capname="list"
+			id="8fdea27c-6b94-4401-8bda-f5300d0a0811"
+			isrooted="True"
+			name="ListFormatExports"
+			refpath="/list[@controlid='1000']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="41c79c9f-e5db-4187-8264-685dd3548655"
+				name="TXTFormat"
+				refimgid="f8d4c4f6-95ec-4a5f-bdb5-8dd918be4733"
+				searchtimeout="30000ms">
+					/list[@controlid='1000']/listitem[@text~'TXT']
+				</item>
+				<basepath>
+					/list[@controlid='1000']
+				</basepath>
+				<icon>
+					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
+				</icon>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="3952a8da-fc24-4087-a229-19bc7a7bbeb2"
+			isrooted="True"
+			name="ExportToText"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="fec685c3-54de-4439-a07d-c750ec34b89e"
+				name="OKButton"
+				searchtimeout="30000ms">
+					/form[@title='Export to Text']/button[@text='OK']
+				</item>
+				<basepath>
+					/form[@title='Export to Text']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="66c23701-44b3-4754-a2c6-724f93a876bc"
+			isrooted="True"
+			name="ChooseExportFileSaveDialog"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="02c1aff6-27ce-4052-8ffd-c12113ba5819"
+				name="SaveButton"
+				refimgid="810d243b-f501-4d72-be09-b40fd0a61fc6"
+				searchtimeout="30000ms">
+					/form[@title='Choose Export File']/button[@text~'Save']
+				</item>
+				<item
+				capname="unknown"
+				id="5be0ae6f-b26e-445b-9820-e29795bd28f5"
+				name="FilePathURL"
+				refimgid="4ed3ecfe-fcab-4d97-a1e6-970d508c2577"
+				searchtimeout="30000ms">
+					/form[@title='Choose Export File']//element[@class='Breadcrumb Parent']
+				</item>
+				<item
+				capname="text"
+				id="488d5382-ab17-4454-b6b3-6fcd15938a95"
+				name="FileName"
+				refimgid="9bb33157-98c9-4e70-a6fd-2bf7d0975393"
+				searchtimeout="30000ms">
+					/form[@title='Choose Export File']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']
+				</item>
+				<basepath>
+					/form[@title='Choose Export File']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="b3cb880b-c910-44ec-a7af-3e90caa92add"
+			isrooted="True"
+			name="FileAlreadyExists"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="a3cd0104-c2c6-431b-b856-22d545ce404e"
+				name="YesButton"
+				searchtimeout="30000ms">
+					/form[@title='File already exists']/button[@text~'Yes']
+				</item>
+				<basepath>
+					/form[@title='File already exists']
 				</basepath>
 			</appfolder>
 		</folder>

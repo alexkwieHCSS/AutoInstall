@@ -336,15 +336,15 @@
       <UserCode>true</UserCode>
       <id>94ba4009-ed72-4f33-bff1-25610a02e5c9</id>
     </Compile>
-    <Compile Include="CustomReportClassic.cs">
+    <Compile Include="CustomCostReportClassic.cs">
       <BoundTo>5a91cafc-6545-4c9e-a121-99a6d61bb543</BoundTo>
-      <DependentUpon>CustomReportClassic.rxrec</DependentUpon>
+      <DependentUpon>CustomCostReportClassic.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>dbc0e635-021f-401c-882d-364091f790c7</id>
     </Compile>
-    <Compile Include="CustomReportClassic.UserCode.cs">
+    <Compile Include="CustomCostReportClassic.UserCode.cs">
       <BoundTo>5a91cafc-6545-4c9e-a121-99a6d61bb543</BoundTo>
-      <DependentUpon>CustomReportClassic.rxrec</DependentUpon>
+      <DependentUpon>CustomCostReportClassic.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>dca9f7bc-f9b7-47a6-ba2f-848946b87dcc</id>
     </Compile>
@@ -843,15 +843,27 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
-    <Compile Include="ValidateCustomReport.cs">
+    <Compile Include="ValidateConciseBidProposalOutput.cs">
+      <BoundTo>67632fd8-e3e9-44a5-915b-d2df533ddfbf</BoundTo>
+      <DependentUpon>ValidateConciseBidProposalOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b95e40ac-90c5-47cc-9ecd-e50043e6e62b</id>
+    </Compile>
+    <Compile Include="ValidateConciseBidProposalOutput.UserCode.cs">
+      <BoundTo>67632fd8-e3e9-44a5-915b-d2df533ddfbf</BoundTo>
+      <DependentUpon>ValidateConciseBidProposalOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f466b6f-679d-49e6-95a5-ec5900d2debb</id>
+    </Compile>
+    <Compile Include="ValidateCostClassicReportOutput.cs">
       <BoundTo>6ef52520-3952-4367-9eac-eff99de30309</BoundTo>
-      <DependentUpon>ValidateCustomReport.rxrec</DependentUpon>
+      <DependentUpon>ValidateCostClassicReportOutput.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1ff0b2e4-c289-4eac-b8d2-9b3d9d0455c8</id>
     </Compile>
-    <Compile Include="ValidateCustomReport.UserCode.cs">
+    <Compile Include="ValidateCostClassicReportOutput.UserCode.cs">
       <BoundTo>6ef52520-3952-4367-9eac-eff99de30309</BoundTo>
-      <DependentUpon>ValidateCustomReport.rxrec</DependentUpon>
+      <DependentUpon>ValidateCostClassicReportOutput.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>775cad78-d564-46e2-807a-c3f07ade695f</id>
     </Compile>
@@ -878,6 +890,18 @@
       <DependentUpon>ValidateHBStrayDate.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>f7f36a96-d5d8-4c45-ad8c-a590265b2af8</id>
+    </Compile>
+    <Compile Include="ValidateRecapClassicReportOutput.cs">
+      <BoundTo>885921b6-bbf0-44a0-859e-3e767544e289</BoundTo>
+      <DependentUpon>ValidateRecapClassicReportOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37c0f2d3-0670-4412-84cf-326ef59082e7</id>
+    </Compile>
+    <Compile Include="ValidateRecapClassicReportOutput.UserCode.cs">
+      <BoundTo>885921b6-bbf0-44a0-859e-3e767544e289</BoundTo>
+      <DependentUpon>ValidateRecapClassicReportOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8292c126-6edb-4702-b4b6-66cfa4e4d78e</id>
     </Compile>
     <Compile Include="ValidateWSBin.cs">
       <BoundTo>cb844d9a-0654-448d-aba8-8f2919ebb267</BoundTo>
@@ -1153,7 +1177,7 @@
       <id>8f03e5f6-7528-45a6-a92b-61122b87ebab</id>
       <recordtableid>192ecfb1-f9cd-4c22-8a6b-79d148535b72</recordtableid>
     </None>
-    <None Include="CustomReportClassic.rxrec">
+    <None Include="CustomCostReportClassic.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>5a91cafc-6545-4c9e-a121-99a6d61bb543</id>
       <recordtableid>f39b6fad-8ece-43ae-b737-50413a7b16b4</recordtableid>
@@ -1363,7 +1387,12 @@
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
     </None>
-    <None Include="ValidateCustomReport.rxrec">
+    <None Include="ValidateConciseBidProposalOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>67632fd8-e3e9-44a5-915b-d2df533ddfbf</id>
+      <recordtableid>e7d73eeb-3a6a-4a1f-aa12-62def58c83af</recordtableid>
+    </None>
+    <None Include="ValidateCostClassicReportOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>6ef52520-3952-4367-9eac-eff99de30309</id>
       <recordtableid>c8b6fc27-7614-4169-8a0a-ab5557a91cb9</recordtableid>
@@ -1377,6 +1406,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>dd86b379-c0e2-4555-8b63-09f883278c1f</id>
       <recordtableid>82ff8626-4ccf-402d-b3ee-db8e600f7d69</recordtableid>
+    </None>
+    <None Include="ValidateRecapClassicReportOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>885921b6-bbf0-44a0-859e-3e767544e289</id>
+      <recordtableid>ed72442e-bafc-4ad6-82e2-4b1f1e8c270d</recordtableid>
     </None>
     <None Include="ValidateWSBin.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

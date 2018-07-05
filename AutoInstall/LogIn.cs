@@ -82,15 +82,19 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new ActionTimeout(30000), new RecordItemIndex(0));
             repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry' at Center.", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'.", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new RecordItemIndex(1));
+            repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry' at Center.", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new RecordItemIndex(2));
             repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '13' with focus on 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'.", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '13' with focus on 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'.", repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntryInfo, new RecordItemIndex(3));
             repo.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry.PressKeys("13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.LogInHB.UserLogin.ButtonOK' at Center.", repo.HBPopUpScreens.LogInHB.UserLogin.ButtonOKInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.LogInHB.UserLogin.ButtonOK' at Center.", repo.HBPopUpScreens.LogInHB.UserLogin.ButtonOKInfo, new RecordItemIndex(4));
             repo.HBPopUpScreens.LogInHB.UserLogin.ButtonOK.Click();
             Delay.Milliseconds(200);
             

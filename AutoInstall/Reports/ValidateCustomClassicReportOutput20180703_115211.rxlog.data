@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ed4abfc45d43746"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/3/2018 11:52:15 AM"
+		timestampiso="2018-07-03T16:52:15"
+		endtime="7/3/2018 11:52:19 AM"
+		timeoutfactor="1.3"
+		module="ValidateCustomClassicReportOutput">
+		<detail>
+			ValidateCustomClassicReportOutput
+		</detail>
+		<errormessage>
+			File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\Script\Reports\Reference\CostReportClassic.txt
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.092"
+			timeRelativeToTestModuleStartTime="00:03.092"
+			timeWallClock="11:52:18"
+			time="00:03.092"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_9dbf0a7a_eef3d1a5_trace.jpg"
+			errthumb=".\Validate_9dbf0a7a_eef3d1a5_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.122"
+			timeRelativeToTestModuleStartTime="00:03.122"
+			timeWallClock="11:52:18"
+			time="00:03.122"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_9dbf0a7a_eef3d1a5_trace.jpg"
+			errthumb=".\Validate_9dbf0a7a_eef3d1a5_trace_thumb.jpg">
+			<message>
+				Run application 'runCostReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.255"
+			timeRelativeToTestModuleStartTime="00:03.255"
+			timeWallClock="11:52:18"
+			time="00:03.255"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_9dbf0a7a_9b89a840_trace.jpg"
+			errthumb=".\Validate_9dbf0a7a_9b89a840_trace_thumb.jpg">
+			<message>
+				Success! CostReportClassic.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.278"
+			timeRelativeToTestModuleStartTime="00:03.279"
+			timeWallClock="11:52:18"
+			time="00:03.278"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_9dbf0a7a_9b89a840_trace.jpg"
+			errthumb=".\Validate_9dbf0a7a_9b89a840_trace_thumb.jpg">
+			<message>
+				File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\Script\Reports\Reference\CostReportClassic.txt
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.ValidateCustomClassicReportOutput.ValidateContentCustomReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs:line 82
+   at AutoInstall.ValidateCustomClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.cs:line 102
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs"
+				codeline="82"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

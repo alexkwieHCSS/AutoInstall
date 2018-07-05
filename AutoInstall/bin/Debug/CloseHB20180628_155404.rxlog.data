@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ea698aac1de54db"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:54:08 PM"
+		timestampiso="2018-06-28T20:54:08"
+		endtime="6/28/2018 3:54:36 PM"
+		timeoutfactor="1.3"
+		module="CloseHB">
+		<detail>
+			CloseHB
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.213"
+			timeRelativeToTestModuleStartTime="00:03.215"
+			timeWallClock="15:54:11"
+			time="00:03.213"
+			level="Info"
+			category="Application"
+			errimg=".\CloseHB2_a0917d85_3abf7b72_trace.jpg"
+			errthumb=".\CloseHB2_a0917d85_3abf7b72_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'HeavyBidApp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']"
+				itempath="/form[@title~'HB']"
+				fullname="AutoInstallRepository.HeavyBidApp.Self"
+				id="52c006538bd0447bab870bfa9eb0f1f7"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CloseHB.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.599"
+			timeRelativeToTestModuleStartTime="00:14.601"
+			timeWallClock="15:54:22"
+			time="00:14.599"
+			level="Info"
+			category="Wait"
+			errimg=".\CloseHB2_a0917d85_d8db6d3b_trace.jpg"
+			errthumb=".\CloseHB2_a0917d85_d8db6d3b_trace_thumb.jpg">
+			<message>
+				Waiting 10s to exist. Associated repository item: 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Exit HeavyBid']/button[@text='&amp;Yes']"
+				itempath="button[@text='&amp;Yes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton"
+				id="dca97808edc8466b925586e9a6c316ef"
+				timeout="13000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CloseHB.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.866"
+			timeRelativeToTestModuleStartTime="00:27.867"
+			timeWallClock="15:54:36"
+			time="00:27.866"
+			level="Error"
+			category="Module"
+			errimg=".\CloseHB2_a0917d85_73f9c796_trace.jpg"
+			errthumb=".\CloseHB2_a0917d85_73f9c796_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'AutoInstallRepository.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton'.<br/>No element found for path '/form[@title~'Exit HeavyBid']/button[@text='&amp;Yes']' within 13s (timeout factor = 1.3).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at AutoInstall.CloseHB.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CloseHB.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CloseHB.cs"
+				codeline="87"
+				loglvl="Error"
+				id="dca97808edc8466b925586e9a6c316ef"
+				path="/form[@title~'Exit HeavyBid']/button[@text='&amp;Yes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

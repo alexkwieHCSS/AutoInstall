@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bd9590a34bb1cba"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:41:41 PM"
+		timestampiso="2018-06-28T20:41:41"
+		endtime="6/28/2018 3:41:48 PM"
+		timeoutfactor="1.3"
+		module="LogIn">
+		<detail>
+			LogIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.256"
+			timeRelativeToTestModuleStartTime="00:03.257"
+			timeWallClock="15:41:44"
+			time="00:03.256"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='User Login']//element[@class='DFentry'][3]"
+				itempath=".//element[@class='DFentry'][3]"
+				fullname="AutoInstallRepository.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry"
+				id="20d564df37204fc59f5df07bcfb0f3a6"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\LogIn.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.385"
+			timeRelativeToTestModuleStartTime="00:04.386"
+			timeWallClock="15:41:45"
+			time="00:04.385"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='User Login']//element[@class='DFentry'][3]"
+				itempath=".//element[@class='DFentry'][3]"
+				fullname="AutoInstallRepository.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry"
+				id="20d564df37204fc59f5df07bcfb0f3a6"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\LogIn.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.572"
+			timeRelativeToTestModuleStartTime="00:04.573"
+			timeWallClock="15:41:45"
+			time="00:04.572"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='User Login']//element[@class='DFentry'][3]"
+				itempath=".//element[@class='DFentry'][3]"
+				fullname="AutoInstallRepository.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry"
+				id="20d564df37204fc59f5df07bcfb0f3a6"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\LogIn.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.569"
+			timeRelativeToTestModuleStartTime="00:05.570"
+			timeWallClock="15:41:46"
+			time="00:05.569"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '13' with focus on 'HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='User Login']//element[@class='DFentry'][3]"
+				itempath=".//element[@class='DFentry'][3]"
+				fullname="AutoInstallRepository.HBPopUpScreens.LogInHB.UserLogin.UserNumberEntry"
+				id="20d564df37204fc59f5df07bcfb0f3a6"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\LogIn.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.075"
+			timeRelativeToTestModuleStartTime="00:06.076"
+			timeWallClock="15:41:47"
+			time="00:06.075"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.LogInHB.UserLogin.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='User Login']//button[@text='OK']"
+				itempath=".//button[@text='OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.LogInHB.UserLogin.ButtonOK"
+				id="85e7fd6b968f480fa2cebfb073585d89"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\LogIn.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

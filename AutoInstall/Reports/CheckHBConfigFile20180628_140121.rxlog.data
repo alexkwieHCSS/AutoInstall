@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ac8187f61444fd3"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 2:01:25 PM"
+		timestampiso="2018-06-28T19:01:25"
+		endtime="6/28/2018 2:01:36 PM"
+		timeoutfactor="1.3"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.799"
+			timeRelativeToTestModuleStartTime="00:02.801"
+			timeWallClock="14:01:28"
+			time="00:02.799"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\HeavyBid.exe.config' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.894"
+			timeRelativeToTestModuleStartTime="00:02.896"
+			timeWallClock="14:01:28"
+			time="00:02.894"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.323"
+			timeRelativeToTestModuleStartTime="00:08.326"
+			timeWallClock="14:01:34"
+			time="00:08.323"
+			level="Failure"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC10' does not contain the specified value (actual='', expected='HB.2017.0').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="94"
+				loglvl="Failure"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.326"
+			timeRelativeToTestModuleStartTime="00:08.329"
+			timeWallClock="14:01:34"
+			time="00:08.326"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'2.4') on item 'ExcelRelated.Excel.CellC12'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="98"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.603"
+			timeRelativeToTestModuleStartTime="00:10.606"
+			timeWallClock="14:01:36"
+			time="00:10.603"
+			level="Failure"
+			category="Validation"
+			errimg=".\CheckHBC_149099f5_9d947345_trace.jpg"
+			errthumb=".\CheckHBC_149099f5_9d947345_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC12' does not contain the specified value (actual='', expected='2.4').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="99"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.606"
+			timeRelativeToTestModuleStartTime="00:10.609"
+			timeWallClock="14:01:36"
+			time="00:10.606"
+			level="Info"
+			category="Application"
+			errimg=".\CheckHBC_149099f5_9d947345_trace.jpg"
+			errthumb=".\CheckHBC_149099f5_9d947345_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Closing application containing item 'ExcelRelated.Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.841"
+			timeRelativeToTestModuleStartTime="00:10.844"
+			timeWallClock="14:01:36"
+			time="00:10.841"
+			level="Error"
+			category="Module"
+			errimg=".\CheckHBC_149099f5_2375b069_trace.jpg"
+			errthumb=".\CheckHBC_149099f5_2375b069_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="114ba03bf68a62e9"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:48:31 PM"
+		timestampiso="2018-06-28T20:48:31"
+		endtime="6/28/2018 3:48:39 PM"
+		timeoutfactor="1.3"
+		module="WelcomeImage">
+		<detail>
+			WelcomeImage
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.591"
+			timeRelativeToTestModuleStartTime="00:04.592"
+			timeWallClock="15:48:35"
+			time="00:04.591"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="6500"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.370"
+			timeRelativeToTestModuleStartTime="00:07.371"
+			timeWallClock="15:48:38"
+			time="00:07.370"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@class='cGDIImageContainer']"
+				itempath="element[@class='cGDIImageContainer']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.BitmapImage"
+				id="5d5ba874a6d848c184083395bc3687a3"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\WelcomeImage.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

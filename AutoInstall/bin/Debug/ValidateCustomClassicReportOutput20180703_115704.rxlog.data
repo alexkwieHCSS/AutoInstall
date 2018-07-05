@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26eac5a67e7cd554"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/3/2018 11:57:08 AM"
+		timestampiso="2018-07-03T16:57:08"
+		endtime="7/3/2018 11:57:11 AM"
+		timeoutfactor="1.3"
+		module="ValidateCustomClassicReportOutput">
+		<detail>
+			ValidateCustomClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.915"
+			timeRelativeToTestModuleStartTime="00:02.916"
+			timeWallClock="11:57:11"
+			time="00:02.915"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.940"
+			timeRelativeToTestModuleStartTime="00:02.941"
+			timeWallClock="11:57:11"
+			time="00:02.940"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCostReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.072"
+			timeRelativeToTestModuleStartTime="00:03.073"
+			timeWallClock="11:57:11"
+			time="00:03.072"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_f95c7f15_b9e524e5_trace.jpg"
+			errthumb=".\Validate_f95c7f15_b9e524e5_trace_thumb.jpg">
+			<message>
+				Success! CostReportClassic.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.109"
+			timeRelativeToTestModuleStartTime="00:03.110"
+			timeWallClock="11:57:11"
+			time="00:03.109"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_f95c7f15_b9e524e5_trace.jpg"
+			errthumb=".\Validate_f95c7f15_b9e524e5_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.153"
+			timeRelativeToTestModuleStartTime="00:03.154"
+			timeWallClock="11:57:11"
+			time="00:03.153"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_f95c7f15_f98fd6f6_trace.jpg"
+			errthumb=".\Validate_f95c7f15_f98fd6f6_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassic.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCustomClassicReportOutput.ValidateContentCustomReport() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs:line 95
+   at AutoInstall.ValidateCustomClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.cs:line 102
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\ValidateCustomClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

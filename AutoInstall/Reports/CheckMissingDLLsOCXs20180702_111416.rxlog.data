@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3f5399f8d1734dc"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="7/2/2018 11:14:20 AM"
+		timestampiso="2018-07-02T16:14:20"
+		endtime="7/2/2018 11:14:53 AM"
+		timeoutfactor="1.3"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.994"
+			timeRelativeToTestModuleStartTime="00:02.995"
+			timeWallClock="11:14:23"
+			time="00:02.994"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.027"
+			timeRelativeToTestModuleStartTime="00:03.028"
+			timeWallClock="11:14:23"
+			time="00:03.027"
+			level="Info"
+			category="Application">
+			<message>
+				script to check DLL and OCX in HB against masterlist on V:<br/>Run application 'runDLLcomparison' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.179"
+			timeRelativeToTestModuleStartTime="00:03.180"
+			timeWallClock="11:14:23"
+			time="00:03.179"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.203"
+			timeRelativeToTestModuleStartTime="00:33.204"
+			timeWallClock="11:14:53"
+			time="00:33.203"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! dllComparison.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="50"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.219"
+			timeRelativeToTestModuleStartTime="00:33.220"
+			timeWallClock="11:14:53"
+			time="00:33.219"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\Reference\dllComparison.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="95"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

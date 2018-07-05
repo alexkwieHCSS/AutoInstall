@@ -95,14 +95,54 @@ namespace AutoInstall
             Validate.Exists(repo.HBReportViewers.CustomizedBidProposal.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.CustomizedBidProposal.ExportReportButton' at Center.", repo.HBReportViewers.CustomizedBidProposal.ExportReportButtonInfo, new RecordItemIndex(4));
+            repo.HBReportViewers.CustomizedBidProposal.ExportReportButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ExportScreen.FirstComboBox' at Center.", repo.HBReportViewers.ExportScreen.FirstComboBoxInfo, new RecordItemIndex(5));
+            repo.HBReportViewers.ExportScreen.FirstComboBox.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ListFormatExports.TXTFormat' at Center.", repo.HBReportViewers.ListFormatExports.TXTFormatInfo, new RecordItemIndex(6));
+            repo.HBReportViewers.ListFormatExports.TXTFormat.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ExportScreen.OKButton' at Center.", repo.HBReportViewers.ExportScreen.OKButtonInfo, new RecordItemIndex(7));
+            repo.HBReportViewers.ExportScreen.OKButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.FilePathURL' at CenterRight.", repo.HBReportViewers.ChooseExportFileSaveDialog.FilePathURLInfo, new RecordItemIndex(8));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.FilePathURL.Click(Location.CenterRight);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}'.", new RecordItemIndex(9));
+            Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.FileName' at Center.", repo.HBReportViewers.ChooseExportFileSaveDialog.FileNameInfo, new RecordItemIndex(10));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.FileName.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'CustomizedBidProposal.txt'.", new RecordItemIndex(11));
+            Keyboard.Press("CustomizedBidProposal.txt");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.SaveButton' at Center.", repo.HBReportViewers.ChooseExportFileSaveDialog.SaveButtonInfo, new RecordItemIndex(12));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.SaveButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(14));
+            repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(15));
             Host.Current.CloseApplication(repo.HBReportViewers.CustomizedBidProposal.Self, new Duration(0));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(16));
             repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton.Click();
             Delay.Milliseconds(200);
             

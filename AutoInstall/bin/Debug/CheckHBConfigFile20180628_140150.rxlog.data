@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11d7e99049b0baa8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 2:01:53 PM"
+		timestampiso="2018-06-28T19:01:53"
+		endtime="6/28/2018 2:02:00 PM"
+		timeoutfactor="1.3"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.820"
+			timeRelativeToTestModuleStartTime="00:02.821"
+			timeWallClock="14:01:56"
+			time="00:02.820"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\HeavyBid.exe.config' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.916"
+			timeRelativeToTestModuleStartTime="00:02.917"
+			timeWallClock="14:01:56"
+			time="00:02.916"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.892"
+			timeRelativeToTestModuleStartTime="00:04.893"
+			timeWallClock="14:01:58"
+			time="00:04.892"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC10' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.897"
+			timeRelativeToTestModuleStartTime="00:04.898"
+			timeWallClock="14:01:58"
+			time="00:04.897"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'2.4') on item 'ExcelRelated.Excel.CellC12'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="98"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.179"
+			timeRelativeToTestModuleStartTime="00:06.180"
+			timeWallClock="14:02:00"
+			time="00:06.179"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC12' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.182"
+			timeRelativeToTestModuleStartTime="00:06.183"
+			timeWallClock="14:02:00"
+			time="00:06.182"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Closing application containing item 'ExcelRelated.Excel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.Self"
+				id="061ebdafc03d41c1afce3bb97d5e010b"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CheckHBConfigFile.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -80,15 +80,15 @@ namespace AutoInstall
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HeavyBidApp'.", repo.HeavyBidApp.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.HeavyBidApp.Self, 30000);
+            Host.Current.CloseApplication(repo.HeavyBidApp.Self, 100);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton'", repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo, new ActionTimeout(10000), new RecordItemIndex(1));
-            repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo.WaitForExists(10000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton'", repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo, new ActionTimeout(10000), new RecordItemIndex(1));
+            //repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo.WaitForExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton' at Center.", repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo, new RecordItemIndex(2));
-            repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton.Click();
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton' at Center.", repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButtonInfo, new RecordItemIndex(2));
+            //repo.HBPopUpScreens.ExitHB.ExitHeavyBid.YesButton.Click();
+            //Delay.Milliseconds(200);
             
         }
 

@@ -1,27 +1,19 @@
 ﻿<Properties>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="CheckMissingDLLsOCXs.rxrec" />
     <Element value="AutoInstall.rxtst" />
-    <Element value="OpenInstallFile.rxrec" />
-    <Element value="VerifyServerReleaseVersion.rxrec" />
-    <Element value="AcceptToSHB.rxrec" />
-    <Element value="InstallWelcomeCrystal.rxrec" />
-    <Element value="DeleteHBFolder.rxrec" />
-    <Element value="ServerInstallDestination.rxrec" />
-    <Element value="DeleteHBFolder.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="AutoInstall.DeleteHBFolder.DeleteHBDirectory()" />
-      <Element value="AutoInstall.CodeTest.TestingUserCode2()" />
-      <Element value="AutoInstall.CodeTest.TestingUserCode()" />
-      <Element value="AutoInstall.CodeTest.ReplaceStringInFile()" />
-      <Element value="AutoInstall.CodeTest.Testing()" />
-      <Element value="AutoInstall.ValidateCustomReport.ValidateContentCustomReport()" />
+      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ValidateContentConciseBidProposal()" />
+      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ConciseBidProposalExists()" />
+      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ValidateContentConciseBidProposal()" />
+      <Element value="AutoInstall.ValidateRecapClassicReportOutput.ValidateContentRecapReport()" />
+      <Element value="AutoInstall.ValidateCostClassicReportOutput.ValidateContentCostReport()" />
+      <Element value="AutoInstall.ValidateCostClassicReportOutput.ValidateContentCustomReport()" />
     </Array>
   </Properties>
 </Properties>

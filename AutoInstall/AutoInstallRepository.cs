@@ -6024,6 +6024,7 @@ namespace AutoInstall
         {
             RepoItemInfo _nextbuttonInfo;
             RepoItemInfo _finishbuttonInfo;
+            RepoItemInfo _ellipsisbuttonInfo;
 
             /// <summary>
             /// Creates a new RestoreEstimates  folder.
@@ -6033,6 +6034,7 @@ namespace AutoInstall
             {
                 _nextbuttonInfo = new RepoItemInfo(this, "NextButton", ".//button[@text~'Next']", 30000, null, "97bd57a5-794c-480d-bdfb-545401b88266");
                 _finishbuttonInfo = new RepoItemInfo(this, "FinishButton", ".//button[@text~'Finish']", 30000, null, "3d3123c1-a6f1-42a7-bc61-cb1d5c181dd1");
+                _ellipsisbuttonInfo = new RepoItemInfo(this, "EllipsisButton", ".//button[@text='...']", 30000, null, "43603178-151c-4c9e-8887-e4ab71f59bdc");
             }
 
             /// <summary>
@@ -6104,6 +6106,30 @@ namespace AutoInstall
                 get
                 {
                     return _finishbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EllipsisButton item.
+            /// </summary>
+            [RepositoryItem("43603178-151c-4c9e-8887-e4ab71f59bdc")]
+            public virtual Ranorex.Button EllipsisButton
+            {
+                get
+                {
+                    return _ellipsisbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EllipsisButton item info.
+            /// </summary>
+            [RepositoryItemInfo("43603178-151c-4c9e-8887-e4ab71f59bdc")]
+            public virtual RepoItemInfo EllipsisButtonInfo
+            {
+                get
+                {
+                    return _ellipsisbuttonInfo;
                 }
             }
         }
@@ -7571,6 +7597,11 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.CustomizedBidProposalAppFolder _customizedbidproposal;
             AutoInstallRepositoryFolders.HBReportPlusFolder _hbreportplus;
             AutoInstallRepositoryFolders.PrintToFileAppFolder _printtofile;
+            AutoInstallRepositoryFolders.ExportScreenAppFolder _exportscreen;
+            AutoInstallRepositoryFolders.ListFormatExportsAppFolder _listformatexports;
+            AutoInstallRepositoryFolders.ExportToTextAppFolder _exporttotext;
+            AutoInstallRepositoryFolders.ChooseExportFileSaveDialogAppFolder _chooseexportfilesavedialog;
+            AutoInstallRepositoryFolders.FileAlreadyExistsAppFolder _filealreadyexists;
 
             /// <summary>
             /// Creates a new HBReportViewers  folder.
@@ -7586,6 +7617,11 @@ namespace AutoInstall
                 _customizedbidproposal = new AutoInstallRepositoryFolders.CustomizedBidProposalAppFolder(this);
                 _hbreportplus = new AutoInstallRepositoryFolders.HBReportPlusFolder(this);
                 _printtofile = new AutoInstallRepositoryFolders.PrintToFileAppFolder(this);
+                _exportscreen = new AutoInstallRepositoryFolders.ExportScreenAppFolder(this);
+                _listformatexports = new AutoInstallRepositoryFolders.ListFormatExportsAppFolder(this);
+                _exporttotext = new AutoInstallRepositoryFolders.ExportToTextAppFolder(this);
+                _chooseexportfilesavedialog = new AutoInstallRepositoryFolders.ChooseExportFileSaveDialogAppFolder(this);
+                _filealreadyexists = new AutoInstallRepositoryFolders.FileAlreadyExistsAppFolder(this);
             }
 
             /// <summary>
@@ -7670,6 +7706,51 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.PrintToFileAppFolder PrintToFile
             {
                 get { return _printtofile; }
+            }
+
+            /// <summary>
+            /// The ExportScreen folder.
+            /// </summary>
+            [RepositoryFolder("d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4")]
+            public virtual AutoInstallRepositoryFolders.ExportScreenAppFolder ExportScreen
+            {
+                get { return _exportscreen; }
+            }
+
+            /// <summary>
+            /// The ListFormatExports folder.
+            /// </summary>
+            [RepositoryFolder("8fdea27c-6b94-4401-8bda-f5300d0a0811")]
+            public virtual AutoInstallRepositoryFolders.ListFormatExportsAppFolder ListFormatExports
+            {
+                get { return _listformatexports; }
+            }
+
+            /// <summary>
+            /// The ExportToText folder.
+            /// </summary>
+            [RepositoryFolder("3952a8da-fc24-4087-a229-19bc7a7bbeb2")]
+            public virtual AutoInstallRepositoryFolders.ExportToTextAppFolder ExportToText
+            {
+                get { return _exporttotext; }
+            }
+
+            /// <summary>
+            /// The ChooseExportFileSaveDialog folder.
+            /// </summary>
+            [RepositoryFolder("66c23701-44b3-4754-a2c6-724f93a876bc")]
+            public virtual AutoInstallRepositoryFolders.ChooseExportFileSaveDialogAppFolder ChooseExportFileSaveDialog
+            {
+                get { return _chooseexportfilesavedialog; }
+            }
+
+            /// <summary>
+            /// The FileAlreadyExists folder.
+            /// </summary>
+            [RepositoryFolder("b3cb880b-c910-44ec-a7af-3e90caa92add")]
+            public virtual AutoInstallRepositoryFolders.FileAlreadyExistsAppFolder FileAlreadyExists
+            {
+                get { return _filealreadyexists; }
             }
         }
 
@@ -8035,6 +8116,7 @@ namespace AutoInstall
         [RepositoryFolder("959dd8da-908d-4810-a350-c3a5e4b9b839")]
         public partial class CustomizedBidProposalAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _exportreportbuttonInfo;
 
             /// <summary>
             /// Creates a new CustomizedBidProposal  folder.
@@ -8042,6 +8124,7 @@ namespace AutoInstall
             public CustomizedBidProposalAppFolder(RepoGenBaseFolder parentFolder) :
                     base("CustomizedBidProposal", "/form[@title='Customized Bid Proposal']", parentFolder, 30000, null, false, "959dd8da-908d-4810-a350-c3a5e4b9b839", "")
             {
+                _exportreportbuttonInfo = new RepoItemInfo(this, "ExportReportButton", ".//button[@accessiblename='Export Report']", 30000, null, "284b62a2-bd5b-4d63-8f20-14d542e4b14c");
             }
 
             /// <summary>
@@ -8065,6 +8148,30 @@ namespace AutoInstall
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ExportReportButton item.
+            /// </summary>
+            [RepositoryItem("284b62a2-bd5b-4d63-8f20-14d542e4b14c")]
+            public virtual Ranorex.Button ExportReportButton
+            {
+                get
+                {
+                    return _exportreportbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExportReportButton item info.
+            /// </summary>
+            [RepositoryItemInfo("284b62a2-bd5b-4d63-8f20-14d542e4b14c")]
+            public virtual RepoItemInfo ExportReportButtonInfo
+            {
+                get
+                {
+                    return _exportreportbuttonInfo;
                 }
             }
         }
@@ -8336,6 +8443,7 @@ namespace AutoInstall
         public partial class PrintToFileAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _yesbuttonInfo;
+            RepoItemInfo _nobuttonInfo;
 
             /// <summary>
             /// Creates a new PrintToFile  folder.
@@ -8344,6 +8452,7 @@ namespace AutoInstall
                     base("PrintToFile", "/form[@title='Print to File']", parentFolder, 30000, null, false, "4c19fe4a-d3cc-4736-8e0c-5ac5c801291c", "")
             {
                 _yesbuttonInfo = new RepoItemInfo(this, "YesButton", "button[@text~'Yes']", 30000, null, "e88fef6e-54a1-41e8-8d44-a410deecaf99");
+                _nobuttonInfo = new RepoItemInfo(this, "NoButton", "button[@text~'No']", 30000, null, "7da1fb25-36a4-494c-9852-2da1f40f3b04");
             }
 
             /// <summary>
@@ -8386,6 +8495,438 @@ namespace AutoInstall
             /// The YesButton item info.
             /// </summary>
             [RepositoryItemInfo("e88fef6e-54a1-41e8-8d44-a410deecaf99")]
+            public virtual RepoItemInfo YesButtonInfo
+            {
+                get
+                {
+                    return _yesbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NoButton item.
+            /// </summary>
+            [RepositoryItem("7da1fb25-36a4-494c-9852-2da1f40f3b04")]
+            public virtual Ranorex.Button NoButton
+            {
+                get
+                {
+                    return _nobuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NoButton item info.
+            /// </summary>
+            [RepositoryItemInfo("7da1fb25-36a4-494c-9852-2da1f40f3b04")]
+            public virtual RepoItemInfo NoButtonInfo
+            {
+                get
+                {
+                    return _nobuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExportScreenAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4")]
+        public partial class ExportScreenAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _firstcomboboxInfo;
+            RepoItemInfo _okbuttonInfo;
+
+            /// <summary>
+            /// Creates a new ExportScreen  folder.
+            /// </summary>
+            public ExportScreenAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ExportScreen", "/form[@title='Export']", parentFolder, 30000, null, false, "d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4", "")
+            {
+                _firstcomboboxInfo = new RepoItemInfo(this, "FirstComboBox", ".//button[@text='>'][1]", 30000, null, "7652997c-40e7-4e64-b046-49b0f09fde8b");
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "344a2c32-5d4f-4430-912a-a3e8a3fd0d2f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d69eb2d4-a761-4359-b1ef-bc7a08d1f9c4")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstComboBox item.
+            /// </summary>
+            [RepositoryItem("7652997c-40e7-4e64-b046-49b0f09fde8b")]
+            public virtual Ranorex.Button FirstComboBox
+            {
+                get
+                {
+                    return _firstcomboboxInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstComboBox item info.
+            /// </summary>
+            [RepositoryItemInfo("7652997c-40e7-4e64-b046-49b0f09fde8b")]
+            public virtual RepoItemInfo FirstComboBoxInfo
+            {
+                get
+                {
+                    return _firstcomboboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item.
+            /// </summary>
+            [RepositoryItem("344a2c32-5d4f-4430-912a-a3e8a3fd0d2f")]
+            public virtual Ranorex.Button OKButton
+            {
+                get
+                {
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item info.
+            /// </summary>
+            [RepositoryItemInfo("344a2c32-5d4f-4430-912a-a3e8a3fd0d2f")]
+            public virtual RepoItemInfo OKButtonInfo
+            {
+                get
+                {
+                    return _okbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ListFormatExportsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8fdea27c-6b94-4401-8bda-f5300d0a0811")]
+        public partial class ListFormatExportsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txtformatInfo;
+
+            /// <summary>
+            /// Creates a new ListFormatExports  folder.
+            /// </summary>
+            public ListFormatExportsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ListFormatExports", "/list[@controlid='1000']", parentFolder, 30000, null, false, "8fdea27c-6b94-4401-8bda-f5300d0a0811", "")
+            {
+                _txtformatInfo = new RepoItemInfo(this, "TXTFormat", "listitem[@text~'TXT']", 30000, null, "41c79c9f-e5db-4187-8264-685dd3548655");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8fdea27c-6b94-4401-8bda-f5300d0a0811")]
+            public virtual Ranorex.List Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.List>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8fdea27c-6b94-4401-8bda-f5300d0a0811")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TXTFormat item.
+            /// </summary>
+            [RepositoryItem("41c79c9f-e5db-4187-8264-685dd3548655")]
+            public virtual Ranorex.ListItem TXTFormat
+            {
+                get
+                {
+                    return _txtformatInfo.CreateAdapter<Ranorex.ListItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TXTFormat item info.
+            /// </summary>
+            [RepositoryItemInfo("41c79c9f-e5db-4187-8264-685dd3548655")]
+            public virtual RepoItemInfo TXTFormatInfo
+            {
+                get
+                {
+                    return _txtformatInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExportToTextAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3952a8da-fc24-4087-a229-19bc7a7bbeb2")]
+        public partial class ExportToTextAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _okbuttonInfo;
+
+            /// <summary>
+            /// Creates a new ExportToText  folder.
+            /// </summary>
+            public ExportToTextAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ExportToText", "/form[@title='Export to Text']", parentFolder, 30000, null, false, "3952a8da-fc24-4087-a229-19bc7a7bbeb2", "")
+            {
+                _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "fec685c3-54de-4439-a07d-c750ec34b89e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3952a8da-fc24-4087-a229-19bc7a7bbeb2")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3952a8da-fc24-4087-a229-19bc7a7bbeb2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item.
+            /// </summary>
+            [RepositoryItem("fec685c3-54de-4439-a07d-c750ec34b89e")]
+            public virtual Ranorex.Button OKButton
+            {
+                get
+                {
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OKButton item info.
+            /// </summary>
+            [RepositoryItemInfo("fec685c3-54de-4439-a07d-c750ec34b89e")]
+            public virtual RepoItemInfo OKButtonInfo
+            {
+                get
+                {
+                    return _okbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ChooseExportFileSaveDialogAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("66c23701-44b3-4754-a2c6-724f93a876bc")]
+        public partial class ChooseExportFileSaveDialogAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _savebuttonInfo;
+            RepoItemInfo _filepathurlInfo;
+            RepoItemInfo _filenameInfo;
+
+            /// <summary>
+            /// Creates a new ChooseExportFileSaveDialog  folder.
+            /// </summary>
+            public ChooseExportFileSaveDialogAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ChooseExportFileSaveDialog", "/form[@title='Choose Export File']", parentFolder, 30000, null, false, "66c23701-44b3-4754-a2c6-724f93a876bc", "")
+            {
+                _savebuttonInfo = new RepoItemInfo(this, "SaveButton", "button[@text~'Save']", 30000, null, "02c1aff6-27ce-4052-8ffd-c12113ba5819");
+                _filepathurlInfo = new RepoItemInfo(this, "FilePathURL", ".//element[@class='Breadcrumb Parent']", 30000, null, "5be0ae6f-b26e-445b-9820-e29795bd28f5");
+                _filenameInfo = new RepoItemInfo(this, "FileName", "element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']", 30000, null, "488d5382-ab17-4454-b6b3-6fcd15938a95");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("66c23701-44b3-4754-a2c6-724f93a876bc")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("66c23701-44b3-4754-a2c6-724f93a876bc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SaveButton item.
+            /// </summary>
+            [RepositoryItem("02c1aff6-27ce-4052-8ffd-c12113ba5819")]
+            public virtual Ranorex.Button SaveButton
+            {
+                get
+                {
+                    return _savebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SaveButton item info.
+            /// </summary>
+            [RepositoryItemInfo("02c1aff6-27ce-4052-8ffd-c12113ba5819")]
+            public virtual RepoItemInfo SaveButtonInfo
+            {
+                get
+                {
+                    return _savebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FilePathURL item.
+            /// </summary>
+            [RepositoryItem("5be0ae6f-b26e-445b-9820-e29795bd28f5")]
+            public virtual Ranorex.Unknown FilePathURL
+            {
+                get
+                {
+                    return _filepathurlInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FilePathURL item info.
+            /// </summary>
+            [RepositoryItemInfo("5be0ae6f-b26e-445b-9820-e29795bd28f5")]
+            public virtual RepoItemInfo FilePathURLInfo
+            {
+                get
+                {
+                    return _filepathurlInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FileName item.
+            /// </summary>
+            [RepositoryItem("488d5382-ab17-4454-b6b3-6fcd15938a95")]
+            public virtual Ranorex.Text FileName
+            {
+                get
+                {
+                    return _filenameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FileName item info.
+            /// </summary>
+            [RepositoryItemInfo("488d5382-ab17-4454-b6b3-6fcd15938a95")]
+            public virtual RepoItemInfo FileNameInfo
+            {
+                get
+                {
+                    return _filenameInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The FileAlreadyExistsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("b3cb880b-c910-44ec-a7af-3e90caa92add")]
+        public partial class FileAlreadyExistsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _yesbuttonInfo;
+
+            /// <summary>
+            /// Creates a new FileAlreadyExists  folder.
+            /// </summary>
+            public FileAlreadyExistsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FileAlreadyExists", "/form[@title='File already exists']", parentFolder, 30000, null, false, "b3cb880b-c910-44ec-a7af-3e90caa92add", "")
+            {
+                _yesbuttonInfo = new RepoItemInfo(this, "YesButton", "button[@text~'Yes']", 30000, null, "a3cd0104-c2c6-431b-b856-22d545ce404e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b3cb880b-c910-44ec-a7af-3e90caa92add")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b3cb880b-c910-44ec-a7af-3e90caa92add")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YesButton item.
+            /// </summary>
+            [RepositoryItem("a3cd0104-c2c6-431b-b856-22d545ce404e")]
+            public virtual Ranorex.Button YesButton
+            {
+                get
+                {
+                    return _yesbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YesButton item info.
+            /// </summary>
+            [RepositoryItemInfo("a3cd0104-c2c6-431b-b856-22d545ce404e")]
             public virtual RepoItemInfo YesButtonInfo
             {
                 get

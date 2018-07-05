@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="126934656b070ba0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:46:58 PM"
+		timestampiso="2018-06-28T20:46:58"
+		endtime="6/28/2018 3:47:04 PM"
+		timeoutfactor="1.3"
+		module="NewUserLink">
+		<detail>
+			NewUserLink
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.311"
+			timeRelativeToTestModuleStartTime="00:03.312"
+			timeWallClock="15:47:02"
+			time="00:03.311"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating Exists on item 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.LinkNewUserWelcomeScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@windowtext~'Click']"
+				itempath="element[@windowtext~'Click']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.LinkNewUserWelcomeScreen"
+				id="b5dbd5015fe545c39563db23af03d02c"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\NewUserLink.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.293"
+			timeRelativeToTestModuleStartTime="00:04.294"
+			timeWallClock="15:47:03"
+			time="00:04.293"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'LinkNewUserWelcomeScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@windowtext~'Click']"
+				itempath="element[@windowtext~'Click']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.LinkNewUserWelcomeScreen"
+				id="b5dbd5015fe545c39563db23af03d02c"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\NewUserLink.cs"
+				codeline="84"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.299"
+			timeRelativeToTestModuleStartTime="00:04.300"
+			timeWallClock="15:47:03"
+			time="00:04.299"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.LinkNewUserWelcomeScreen' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Welcome' and @title~'HeavyBid']/element[@windowtext~'Click']"
+				itempath="element[@windowtext~'Click']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.WelcomeToHeavyBidScreen.LinkNewUserWelcomeScreen"
+				id="b5dbd5015fe545c39563db23af03d02c"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\NewUserLink.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

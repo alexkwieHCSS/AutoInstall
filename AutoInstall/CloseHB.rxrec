@@ -31,7 +31,7 @@ rxversion="8.1">
 	<recorditems>
 		<closeapprecorditem
 		enabled="True"
-		graceperiod="30000ms"
+		graceperiod="100ms"
 		method="CloseWindow"
 		optional="False"
 		searchpropertyid="c7edc827-a190-474e-80b6-42aea299e691">
@@ -48,7 +48,7 @@ rxversion="8.1">
 			</info>
 		</closeapprecorditem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="72da6c51-8416-44e2-b7be-06db9c3e90f1"
 		waitaction="Exists"
@@ -69,7 +69,7 @@ rxversion="8.1">
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"

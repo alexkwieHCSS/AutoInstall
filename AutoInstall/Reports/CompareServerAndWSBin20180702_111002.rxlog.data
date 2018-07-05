@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10ab4f581f1b0bff"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="7/2/2018 11:10:07 AM"
+		timestampiso="2018-07-02T16:10:07"
+		endtime="7/2/2018 11:10:41 AM"
+		timeoutfactor="1.3"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.499"
+			timeRelativeToTestModuleStartTime="00:03.500"
+			timeWallClock="11:10:10"
+			time="00:03.499"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.545"
+			timeRelativeToTestModuleStartTime="00:03.546"
+			timeWallClock="11:10:10"
+			time="00:03.545"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.711"
+			timeRelativeToTestModuleStartTime="00:03.713"
+			timeWallClock="11:10:11"
+			time="00:03.711"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.725"
+			timeRelativeToTestModuleStartTime="00:33.727"
+			timeWallClock="11:10:41"
+			time="00:33.725"
+			level="Success"
+			category="File Exist"
+			errimg=".\CompareS_4b5ff351_68dc1da2_trace.jpg"
+			errthumb=".\CompareS_4b5ff351_68dc1da2_trace_thumb.jpg">
+			<message>
+				Success! DiffBetweenServWsBIN.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="49"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.741"
+			timeRelativeToTestModuleStartTime="00:33.742"
+			timeWallClock="11:10:41"
+			time="00:33.741"
+			level="Failure"
+			category="Validation"
+			errimg=".\CompareS_4b5ff351_68dc1da2_trace.jpg"
+			errthumb=".\CompareS_4b5ff351_68dc1da2_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="111"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.773"
+			timeRelativeToTestModuleStartTime="00:33.775"
+			timeWallClock="11:10:41"
+			time="00:33.773"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_4b5ff351_66dfd203_trace.jpg"
+			errthumb=".\CompareS_4b5ff351_66dfd203_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.CompareServerAndWSBin.ValidateWSComparisonReportContent() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs:line 111
+   at AutoInstall.CompareServerAndWSBin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.cs:line 110
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="111"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

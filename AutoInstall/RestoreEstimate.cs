@@ -95,17 +95,21 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.NextButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButtonInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.EllipsisButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.EllipsisButtonInfo, new RecordItemIndex(4));
+            repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.EllipsisButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButtonInfo, new RecordItemIndex(5));
             repo.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButtonInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButtonInfo, new RecordItemIndex(6));
             repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimates.FinishButton.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButtonInfo, new RecordItemIndex(6));
-            //repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton.Click();
-            //Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButtonInfo, new RecordItemIndex(7));
+            repo.HBPopUpScreens.FromFileButtons.RestoreEstimateRelated.RestoreEstimatesPopup.OKButton.Click();
+            Delay.Milliseconds(200);
             
         }
 

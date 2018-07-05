@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.22s"
+		durationms="35216"
+		type="root"
+		rid="19cae4d821cae88"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/5/2018 10:48:13 AM"
+		timestampiso="2018-07-05T15:48:13"
+		endtime="7/5/2018 10:48:49 AM"
+		timeoutfactor="1.3"
+		module="CustomReport">
+		<detail>
+			CustomReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.374"
+			timeRelativeToTestModuleStartTime="00:02.390"
+			timeWallClock="10:48:16"
+			time="00:02.374"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.SummaryTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Summary']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Summary']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.SummaryTab"
+				id="6148dba9921d472aab45f5436a302652"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.484"
+			timeRelativeToTestModuleStartTime="00:05.499"
+			timeWallClock="10:48:19"
+			time="00:05.484"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Summary.CustomizedReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar[1]/button[@accessiblename='Customized']"
+				itempath="?/?/toolbar[1]/button[@accessiblename='Customized']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Summary.CustomizedReportsButton"
+				id="5c354878490f49f4be86ec18b767aa42"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.499"
+			timeRelativeToTestModuleStartTime="00:06.515"
+			timeWallClock="10:48:20"
+			time="00:06.499"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.PreviewReportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Customized Bid Proposal Setup']/?/?/?/button[@text~'Preview Report']"
+				itempath="?/?/?/button[@text~'Preview Report']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.PreviewReportButton"
+				id="aef67740d53848a9b5860e90e49d9f40"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.843"
+			timeRelativeToTestModuleStartTime="00:07.859"
+			timeWallClock="10:48:21"
+			time="00:07.843"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'HBReportViewers.CustomizedBidProposal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Customized Bid Proposal']"
+				itempath="/form[@title='Customized Bid Proposal']"
+				fullname="AutoInstallRepository.HBReportViewers.CustomizedBidProposal.Self"
+				id="959dd8da908d4810a350c3a5e4b9b839"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.453"
+			timeRelativeToTestModuleStartTime="00:12.468"
+			timeWallClock="10:48:26"
+			time="00:12.453"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Customized Bid Proposal']"
+				itempath="/form[@title='Customized Bid Proposal']"
+				fullname="AutoInstallRepository.HBReportViewers.CustomizedBidProposal.Self"
+				id="959dd8da908d4810a350c3a5e4b9b839"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.453"
+			timeRelativeToTestModuleStartTime="00:12.468"
+			timeWallClock="10:48:26"
+			time="00:12.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.CustomizedBidProposal.ExportReportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Customized Bid Proposal']//button[@accessiblename='Export Report']"
+				itempath=".//button[@accessiblename='Export Report']"
+				fullname="AutoInstallRepository.HBReportViewers.CustomizedBidProposal.ExportReportButton"
+				id="284b62a2bd5b4d638f2014d542e4b14c"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.484"
+			timeRelativeToTestModuleStartTime="00:13.499"
+			timeWallClock="10:48:27"
+			time="00:13.484"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ExportScreen.FirstComboBox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export']//button[@text='>'][1]"
+				itempath=".//button[@text='>'][1]"
+				fullname="AutoInstallRepository.HBReportViewers.ExportScreen.FirstComboBox"
+				id="7652997c40e74e64b04649b0f09fde8b"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.250"
+			timeRelativeToTestModuleStartTime="00:14.265"
+			timeWallClock="10:48:28"
+			time="00:14.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ListFormatExports.TXTFormat' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text~'TXT']"
+				itempath="listitem[@text~'TXT']"
+				fullname="AutoInstallRepository.HBReportViewers.ListFormatExports.TXTFormat"
+				id="41c79c9fe5db41878264685dd3548655"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.015"
+			timeRelativeToTestModuleStartTime="00:15.031"
+			timeWallClock="10:48:28"
+			time="00:15.015"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ExportScreen.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.HBReportViewers.ExportScreen.OKButton"
+				id="344a2c325d4f4430912aa3e8a3fd0d2f"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.781"
+			timeRelativeToTestModuleStartTime="00:15.796"
+			timeWallClock="10:48:29"
+			time="00:15.781"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ExportToText.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export to Text']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.HBReportViewers.ExportToText.OKButton"
+				id="fec685c354de4439a07dc750ec34b89e"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CustomReport.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.216"
+			timeRelativeToTestModuleStartTime="00:35.232"
+			timeWallClock="10:48:49"
+			time="00:35.216"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

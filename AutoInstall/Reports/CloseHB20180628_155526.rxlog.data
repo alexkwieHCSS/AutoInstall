@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="32e0e35218b04b32"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="6/28/2018 3:55:31 PM"
+		timestampiso="2018-06-28T20:55:31"
+		endtime="6/28/2018 3:55:36 PM"
+		timeoutfactor="1.3"
+		module="CloseHB">
+		<detail>
+			CloseHB
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.087"
+			timeRelativeToTestModuleStartTime="00:03.088"
+			timeWallClock="15:55:34"
+			time="00:03.087"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'HeavyBidApp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']"
+				itempath="/form[@title~'HB']"
+				fullname="AutoInstallRepository.HeavyBidApp.Self"
+				id="52c006538bd0447bab870bfa9eb0f1f7"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CloseHB.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

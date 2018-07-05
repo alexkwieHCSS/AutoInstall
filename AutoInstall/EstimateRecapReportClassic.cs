@@ -123,16 +123,12 @@ namespace AutoInstall
             repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.PrintToFile.YesButton' at Center.", repo.HBReportViewers.PrintToFile.YesButtonInfo, new RecordItemIndex(11));
-            repo.HBReportViewers.PrintToFile.YesButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.PrintToFile.NoButton' at Center.", repo.HBReportViewers.PrintToFile.NoButtonInfo, new RecordItemIndex(11));
+            repo.HBReportViewers.PrintToFile.NoButton.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
             Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.PrintPreview' at Center.", repo.HBReportViewers.PrintPreview.SelfInfo, new RecordItemIndex(13));
-            repo.HBReportViewers.PrintPreview.Self.Click();
-            Delay.Milliseconds(200);
             
         }
 
