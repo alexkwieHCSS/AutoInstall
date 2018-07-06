@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2601dd2fda93dbe4"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/5/2018 4:57:59 PM"
+		timestampiso="2018-07-05T21:57:59"
+		endtime="7/5/2018 5:00:40 PM"
+		timeoutfactor="1.3"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.862"
+			timeRelativeToTestModuleStartTime="00:02.863"
+			timeWallClock="16:58:01"
+			time="00:02.862"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo"
+				id="d3a4583f51654e75b3236cc05b80c1bf"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="83"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.935"
+			timeRelativeToTestModuleStartTime="00:04.936"
+			timeWallClock="16:58:03"
+			time="00:04.935"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/form//listitem[@accessiblename='Text File']"
+				itempath="form//listitem[@accessiblename='Text File']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.Text"
+				id="b6bf0fc69f27473aa2fd2db81913cf88"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="89"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.636"
+			timeRelativeToTestModuleStartTime="00:55.637"
+			timeWallClock="16:58:54"
+			time="00:55.636"
+			level="Warn"
+			category="WinForms">
+			<message>
+				This control (from process '(Unknown)') seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.<br/>If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.<br/>Process: (pid 0)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-.NETWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="90"
+				loglvl="Warn"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.302"
+			timeRelativeToTestModuleStartTime="01:23.303"
+			timeWallClock="16:59:22"
+			time="01:23.302"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.Text'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="92"
+				loglvl="Warn"
+				id="b6bf0fc69f27473aa2fd2db81913cf88"
+				path="/form[@title~'HeavyBid Reports Plus']/form//listitem[@accessiblename='Text File']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.Text">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.307"
+			timeRelativeToTestModuleStartTime="01:23.308"
+			timeWallClock="16:59:22"
+			time="01:23.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.HBReportPlus.TextExportOptions.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Text Export Options']//button[@accessiblename='OK']"
+				itempath=".//button[@accessiblename='OK']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.TextExportOptions.OKButton"
+				id="0b28a9ab03554a48bc514f4c7b844dc7"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="95"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:41.471"
+			timeRelativeToTestModuleStartTime="02:41.472"
+			timeWallClock="17:00:40"
+			time="02:41.471"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBReportViewers.HBReportPlus.TextExportOptions.OKButton'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="98"
+				loglvl="Warn"
+				id="0b28a9ab03554a48bc514f4c7b844dc7"
+				path="/form[@title='Text Export Options']//button[@accessiblename='OK']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.TextExportOptions.OKButton">
+			</metainfo>
+		</item>
+	</activity>
+</report>

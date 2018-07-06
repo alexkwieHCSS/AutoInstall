@@ -2,6 +2,7 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
+    <Element value="CostReport.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

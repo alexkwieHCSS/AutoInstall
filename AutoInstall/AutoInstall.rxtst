@@ -175,6 +175,7 @@ rxversion="8.1">
 				</databinding>
 			</testmodule>
 			<smartfoldernode
+			datasource="ScriptLocation"
 			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae"
 			name="Reports">
 			</smartfoldernode>
@@ -478,7 +479,7 @@ rxversion="8.1">
 			</testcase>
 			<testmodule
 			id="67f87952-8f90-48e9-b771-72ed0807313e"
-			name="CustomizedCrystalReport"
+			name="CustomizedCrystalMaterialLaborReport"
 			ref="62891f38-cf04-4408-9359-faea7ab15c9f"
 			type="Recording">
 			</testmodule>
@@ -539,8 +540,21 @@ rxversion="8.1">
 			ref="8a5b70e5-0a39-4536-90fe-dc74cc71554b"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="788f8ab7-4e74-4dca-9f09-a2765e5cdd0b"
+			name="ValidateBidMaterialLaborOutput"
+			ref="b74955f0-d224-4390-b176-5deb93cf53c9"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="e9acc794-1e22-4e6e-a25d-d852c5e2cee2"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
-			datasource="ScriptLocation"
 			id="7bd80aac-77ae-440c-9e3f-3c07bb73d930"
 			name="ClassicReportViewer">
 			</smartfoldernode>
@@ -800,6 +814,20 @@ rxversion="8.1">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b469ef5b-2689-4f7e-8ea7-08bd04c96953"
+			name="ValidateCustomBidProposalReportOutput"
+			ref="c72ff7a6-47fa-4473-8ec4-5be94722d871"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ScriptLocation"
+					datasourceid="38027322-5055-47a0-bbee-0130088e55d1"
+					variableid="8c8517c6-993f-499f-ac71-0f60e0ad7a2a"
+					variablename="ScriptLocation">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="b49576cc-4bac-4e25-b12c-ceabffd7bfc8"
 			name="ReadyToInstallSQL"
 			ref="0e43be61-ce2b-40e9-916a-d6cba4419ec3"
@@ -841,7 +869,7 @@ rxversion="8.1">
 			</testcase>
 			<testmodule
 			id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
-			name="CustomReport"
+			name="CustomBidProposalReport"
 			ref="192ecfb1-f9cd-4c22-8a6b-79d148535b72"
 			type="Recording">
 			</testmodule>
@@ -1487,7 +1515,11 @@ rxversion="8.1">
 											</testmodule>
 											<testmodule
 											id="c1a7dc5d-d7fd-4b61-97b6-662d92e54eee"
-											name="CustomReport">
+											name="CustomBidProposalReport">
+											</testmodule>
+											<testmodule
+											id="b469ef5b-2689-4f7e-8ea7-08bd04c96953"
+											name="ValidateCustomBidProposalReportOutput">
 											</testmodule>
 										</testcase>
 										<testcase
@@ -1499,7 +1531,11 @@ rxversion="8.1">
 											</testmodule>
 											<testmodule
 											id="67f87952-8f90-48e9-b771-72ed0807313e"
-											name="CustomizedCrystalReport">
+											name="CustomizedCrystalMaterialLaborReport">
+											</testmodule>
+											<testmodule
+											id="788f8ab7-4e74-4dca-9f09-a2765e5cdd0b"
+											name="ValidateBidMaterialLaborOutput">
 											</testmodule>
 										</testcase>
 									</smartfoldernode>
@@ -2094,33 +2130,6 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae">
-			</testcontainer>
-			<testcontainer
-			id="22ab66ec-81cf-4376-80cd-9e46a43d513c">
-			</testcontainer>
-			<testcontainer
-			id="378888a4-f9ca-424a-8655-56a5032d02ba">
-			</testcontainer>
-			<testcontainer
-			id="5041e242-6505-4f43-ad80-1c66cbfc0e07">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="7bd80aac-77ae-440c-9e3f-3c07bb73d930">
-			</testcontainer>
-			<testcontainer
-			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
-			</testcontainer>
-			<testcontainer
-			id="f5a25f64-1bac-469a-9544-4bc99b899a20">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

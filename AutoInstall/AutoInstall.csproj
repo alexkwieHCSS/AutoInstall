@@ -312,27 +312,27 @@
       <UserCode>true</UserCode>
       <id>f90e818a-7a6e-443b-b6d7-7ce29e5fda1d</id>
     </Compile>
-    <Compile Include="CustomizedCrystalReport.cs">
+    <Compile Include="CustomizedCrystalMaterialLaborReport.cs">
       <BoundTo>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</BoundTo>
-      <DependentUpon>CustomizedCrystalReport.rxrec</DependentUpon>
+      <DependentUpon>CustomizedCrystalMaterialLaborReport.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>2b5d626f-9fd7-4f9e-bacc-f67752b19b3d</id>
     </Compile>
-    <Compile Include="CustomizedCrystalReport.UserCode.cs">
+    <Compile Include="CustomizedCrystalMaterialLaborReport.UserCode.cs">
       <BoundTo>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</BoundTo>
-      <DependentUpon>CustomizedCrystalReport.rxrec</DependentUpon>
+      <DependentUpon>CustomizedCrystalMaterialLaborReport.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>9e77c9e7-bea8-42c8-bf18-2a798f36ddf5</id>
     </Compile>
-    <Compile Include="CustomReport.cs">
+    <Compile Include="CustomBidProposalReport.cs">
       <BoundTo>8f03e5f6-7528-45a6-a92b-61122b87ebab</BoundTo>
-      <DependentUpon>CustomReport.rxrec</DependentUpon>
+      <DependentUpon>CustomBidProposalReport.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1305fe3b-b30c-4084-bcbe-fa2c94581bbd</id>
     </Compile>
-    <Compile Include="CustomReport.UserCode.cs">
+    <Compile Include="CustomBidProposalReport.UserCode.cs">
       <BoundTo>8f03e5f6-7528-45a6-a92b-61122b87ebab</BoundTo>
-      <DependentUpon>CustomReport.rxrec</DependentUpon>
+      <DependentUpon>CustomBidProposalReport.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>94ba4009-ed72-4f33-bff1-25610a02e5c9</id>
     </Compile>
@@ -843,6 +843,18 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
+    <Compile Include="ValidateBidMaterialLaborOutput.cs">
+      <BoundTo>195c964c-630f-4623-bdda-3982aa66fcdc</BoundTo>
+      <DependentUpon>ValidateBidMaterialLaborOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f12befd-6abd-48f7-99f8-1ed8291c8962</id>
+    </Compile>
+    <Compile Include="ValidateBidMaterialLaborOutput.UserCode.cs">
+      <BoundTo>195c964c-630f-4623-bdda-3982aa66fcdc</BoundTo>
+      <DependentUpon>ValidateBidMaterialLaborOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ebb8953b-e045-46d2-9721-faa4cde781e4</id>
+    </Compile>
     <Compile Include="ValidateConciseBidProposalOutput.cs">
       <BoundTo>67632fd8-e3e9-44a5-915b-d2df533ddfbf</BoundTo>
       <DependentUpon>ValidateConciseBidProposalOutput.rxrec</DependentUpon>
@@ -866,6 +878,18 @@
       <DependentUpon>ValidateCostClassicReportOutput.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>775cad78-d564-46e2-807a-c3f07ade695f</id>
+    </Compile>
+    <Compile Include="ValidateCustomBidProposalReportOutput.cs">
+      <BoundTo>05b7b23c-5258-45f3-bb83-af2fd9d45782</BoundTo>
+      <DependentUpon>ValidateCustomBidProposalReportOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49dd5c4f-960f-48bc-870d-d7ac34391053</id>
+    </Compile>
+    <Compile Include="ValidateCustomBidProposalReportOutput.UserCode.cs">
+      <BoundTo>05b7b23c-5258-45f3-bb83-af2fd9d45782</BoundTo>
+      <DependentUpon>ValidateCustomBidProposalReportOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0d5db3e1-2206-43bb-9ff2-e2c75d01058c</id>
     </Compile>
     <Compile Include="ValidateEXEs.cs">
       <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
@@ -1167,12 +1191,12 @@
       <id>527787ed-d27d-4d49-ae4d-a3debce89d53</id>
       <recordtableid>0e9be4f1-8439-46f8-b4f5-a0adbdb1810a</recordtableid>
     </None>
-    <None Include="CustomizedCrystalReport.rxrec">
+    <None Include="CustomizedCrystalMaterialLaborReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>6c3b5bf0-1bb5-479a-a351-7bff8d18c16e</id>
       <recordtableid>62891f38-cf04-4408-9359-faea7ab15c9f</recordtableid>
     </None>
-    <None Include="CustomReport.rxrec">
+    <None Include="CustomBidProposalReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>8f03e5f6-7528-45a6-a92b-61122b87ebab</id>
       <recordtableid>192ecfb1-f9cd-4c22-8a6b-79d148535b72</recordtableid>
@@ -1387,6 +1411,11 @@
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
     </None>
+    <None Include="ValidateBidMaterialLaborOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>195c964c-630f-4623-bdda-3982aa66fcdc</id>
+      <recordtableid>b74955f0-d224-4390-b176-5deb93cf53c9</recordtableid>
+    </None>
     <None Include="ValidateConciseBidProposalOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>67632fd8-e3e9-44a5-915b-d2df533ddfbf</id>
@@ -1396,6 +1425,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>6ef52520-3952-4367-9eac-eff99de30309</id>
       <recordtableid>c8b6fc27-7614-4169-8a0a-ab5557a91cb9</recordtableid>
+    </None>
+    <None Include="ValidateCustomBidProposalReportOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>05b7b23c-5258-45f3-bb83-af2fd9d45782</id>
+      <recordtableid>c72ff7a6-47fa-4473-8ec4-5be94722d871</recordtableid>
     </None>
     <None Include="ValidateEXEs.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

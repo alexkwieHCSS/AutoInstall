@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CustomReport recording.
+    ///The CustomBidProposalReport recording.
     /// </summary>
     [TestModule("192ecfb1-f9cd-4c22-8a6b-79d148535b72", ModuleType.Recording, 1)]
-    public partial class CustomReport : ITestModule
+    public partial class CustomBidProposalReport : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static CustomReport instance = new CustomReport();
+        static CustomBidProposalReport instance = new CustomBidProposalReport();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CustomReport()
+        public CustomBidProposalReport()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CustomReport Instance
+        public static CustomBidProposalReport Instance
         {
             get { return instance; }
         }
@@ -134,9 +134,11 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(14));
-            repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(14));
+                repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(14)); }
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(15));
             Host.Current.CloseApplication(repo.HBReportViewers.CustomizedBidProposal.Self, new Duration(0));

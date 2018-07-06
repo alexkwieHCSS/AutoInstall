@@ -24,29 +24,29 @@ namespace AutoInstall
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CustomizedCrystalReport recording.
+    ///The CustomizedCrystalMaterialLaborReport recording.
     /// </summary>
     [TestModule("62891f38-cf04-4408-9359-faea7ab15c9f", ModuleType.Recording, 1)]
-    public partial class CustomizedCrystalReport : ITestModule
+    public partial class CustomizedCrystalMaterialLaborReport : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AutoInstallRepository repository.
         /// </summary>
         public static AutoInstallRepository repo = AutoInstallRepository.Instance;
 
-        static CustomizedCrystalReport instance = new CustomizedCrystalReport();
+        static CustomizedCrystalMaterialLaborReport instance = new CustomizedCrystalMaterialLaborReport();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CustomizedCrystalReport()
+        public CustomizedCrystalMaterialLaborReport()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CustomizedCrystalReport Instance
+        public static CustomizedCrystalMaterialLaborReport Instance
         {
             get { return instance; }
         }
@@ -99,7 +99,50 @@ namespace AutoInstall
             Validate.AttributeRegex(repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.SelfInfo, "Title", new Regex("Bid Proposal: Labor and Material"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at Center.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButtonInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.ExportReportButton' at Center.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.ExportReportButtonInfo, new RecordItemIndex(5));
+            repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.ExportReportButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ExportScreen.FirstComboBox' at Center.", repo.HBReportViewers.ExportScreen.FirstComboBoxInfo, new RecordItemIndex(6));
+            repo.HBReportViewers.ExportScreen.FirstComboBox.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ListFormatExports.TXTFormat' at Center.", repo.HBReportViewers.ListFormatExports.TXTFormatInfo, new RecordItemIndex(7));
+            repo.HBReportViewers.ListFormatExports.TXTFormat.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ExportScreen.OKButton' at Center.", repo.HBReportViewers.ExportScreen.OKButtonInfo, new RecordItemIndex(8));
+            repo.HBReportViewers.ExportScreen.OKButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.FilePathURL' at CenterRight.", repo.HBReportViewers.ChooseExportFileSaveDialog.FilePathURLInfo, new RecordItemIndex(9));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.FilePathURL.Click(Location.CenterRight);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}'.", new RecordItemIndex(10));
+            Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.FileName' at Center.", repo.HBReportViewers.ChooseExportFileSaveDialog.FileNameInfo, new RecordItemIndex(11));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.FileName.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'BidLaborMaterial'.", new RecordItemIndex(12));
+            Keyboard.Press("BidLaborMaterial");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.SaveButton' at Center.", repo.HBReportViewers.ChooseExportFileSaveDialog.SaveButtonInfo, new RecordItemIndex(13));
+            repo.HBReportViewers.ChooseExportFileSaveDialog.SaveButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(14));
+            Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
+            repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at Center.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButtonInfo, new RecordItemIndex(16));
             repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton.Click();
             Delay.Milliseconds(200);
             

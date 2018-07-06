@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace AutoInstall
 {
-    public partial class CustomReport
+    public partial class CustomBidProposalReport
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

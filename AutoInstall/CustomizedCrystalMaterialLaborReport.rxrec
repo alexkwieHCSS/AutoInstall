@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="192ecfb1-f9cd-4c22-8a6b-79d148535b72"
+id="62891f38-cf04-4408-9359-faea7ab15c9f"
 mode="Global"
 rxversion="8.1">
 	<name>
-		CustomReport
+		CustomizedCrystalMaterialLaborReport
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CustomReport"
+	classname="CustomizedCrystalMaterialLaborReport"
 	namespace="AutoInstall">
 	</codegen>
 	<variables>
@@ -46,10 +46,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="6148dba9-921d-472a-ab45-f5436a302652"
+			id="5048bb26-2beb-4526-b63f-95ca95f2b8d1"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Summary']
+					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']
 				</path>
 			</info>
 		</mouseitem>
@@ -70,10 +70,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="5c354878-490f-49f4-be86-ec18b767aa42"
+			id="381f3ef8-9c30-404b-a6fa-cea364c855d2"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'HB']/?/?/toolbar[1]/button[@accessiblename='Customized']
+					/form[@title~'HB']/?/?/toolbar/button[@text~'Customized Crystal Reports']
 				</path>
 			</info>
 		</mouseitem>
@@ -94,175 +94,58 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<info
-			id="aef67740-d538-48a9-b586-0e90e49d9f40"
+			id="86fa8896-4ed2-4e8c-bd4e-574f93eb0fcd"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'Customized Bid Proposal Setup']/?/?/?/button[@text~'Preview Report']
+					/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Bid Proposal']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dd07c795-bcbe-4458-8b18-c2879ba2e3b3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a8813abb-db53-4145-a7b5-444dd429a4af"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'Print Customized Crystal Report']/?/?/?/?/button[@text~'OK']
 				</path>
 			</info>
 		</mouseitem>
 		<validationitem
-		action="Exists"
+		action="AttributeRegex"
 		enabled="True"
 		optional="False"
-		searchpropertyid="de19f0ff-5434-4c33-8010-a8dc2bd78b52">
+		searchpropertyid="9710ef87-7c00-4e55-be04-2d5cadca3fc5">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="959dd8da-908d-4810-a350-c3a5e4b9b839"
+			id="fd8d30e2-1e4b-4bd4-a324-6a9fbeb9c4c4"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="nativewindow"
-				dontcache="False"
-				enabled="True"
-				flavor="win32"
-				hasfocus="False"
-				index="5"
-				prefcap="form"
-				rect="1912,-8,1936,1056"
-				role="form"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="active"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="appicon"
-					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2AKUO9kmez+m2Wqx3+SMFAPSC8D
-Ns0y8yP/yy+IwYm5Z/jCDWFA11xzfP5/XODfv3//A7bW/0/Y0/2fc7o3WD2GAWdf3f6/7s7h/ytu
-HQDj48+vQbX////2+6f/Xpuq/4fvaPmvuDAWuwGX39z/v/Phmf9b7p8A411A9pFnV8D43sfnKGpB
-mKAByJh+Biy+sfv/nKvbMTDRBsy/tvP/zMtbwPjx51f/cw5O+T/t8ub/9z++QFELwjgNmAHUDMLn
-gLFiuCIT7AWSDIC54OrbB//zDk39b7k6n3gDkAEo8ay/e/T/xdd3cRsAShSgxAFKJJMurP+/4Pou
-FPzi6zuwYbc/PMVuAChZgpKn8YosrHj5rf1gA7rPrcJiADQzgTIItowDw7LzozA0gzMTZdlZvRMA
-Ho93BGOp2uAAAAAASUVORK5CYII=
-					</attribute>
-					<attribute
-					name="state"
-					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Maximized
-					</attribute>
-					<attribute
-					name="title"
-					type="System.String">
-						Customized Bid Proposal
-					</attribute>
-					<attribute
-					name="apphung"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="class"
-					type="System.String">
-						DFDialogClass
-					</attribute>
-					<attribute
-					name="handle"
-					type="System.IntPtr">
-						1707568
-					</attribute>
-					<attribute
-					name="instance"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="processid"
-					type="System.Int32">
-						3044
-					</attribute>
-					<attribute
-					name="processname"
-					type="System.String">
-						HEAVYBID
-					</attribute>
-					<attribute
-					name="windowextendedstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
-						RightScrollBar, Left, WindowEdge
-					</attribute>
-					<attribute
-					name="windowstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, MaximizeBox, Group, SizeBox, DialogFrame, Maximize, ClipChildren, ClipSiblings, Visible, PopupWindow
-					</attribute>
-					<attribute
-					name="windowtext"
-					type="System.String">
-						Customized Bid Proposal
-					</attribute>
-					<dynamicattribute
-					description="The default action of the accessible object."
-					name="AccessibleDefaultAction"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The description of the accessible object."
-					name="AccessibleDescription"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The help string of the accessible object."
-					name="AccessibleHelp"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
-					name="AccessibleHelpTopic"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The keyboard shortcut of the accessible object."
-					name="AccessibleKeyboardShortcut"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The name of the accessible object."
-					name="AccessibleName"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The role of the accessible object."
-					name="AccessibleRole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The state of the accessible object."
-					name="AccessibleState"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The value of the accessible object."
-					name="AccessibleValue"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicaction
-					description="Invokes the default action of the accessible object."
-					displayName="AccessibleDoDefaultAction">
-					</dynamicaction>
-				</element>
 				<path>
-					/form[@title='Customized Bid Proposal']
+					/form[@title~'Custom Crystal Report']
 				</path>
 			</info>
 			<matchname>
-				Text
+				Title
 			</matchname>
 			<matchvalue>
-				yourtext
+				Bid Proposal: Labor and Material
 			</matchvalue>
 		</validationitem>
 		<mouseitem
@@ -282,7 +165,7 @@ Ho93BGOp2uAAAAAASUVORK5CYII=
 			<bindings>
 			</bindings>
 			<info
-			id="284b62a2-bd5b-4d63-8f20-14d542e4b14c"
+			id="2ce6e4a8-e676-4225-86db-68235cd1d23f"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="accessible"
@@ -329,7 +212,7 @@ Ho93BGOp2uAAAAAASUVORK5CYII=
 					</attribute>
 				</element>
 				<path>
-					/form[@title='Customized Bid Proposal']//button[@accessiblename='Export Report']
+					/form[@title~'Custom Crystal Report']//button[@accessiblename='Export Report']
 				</path>
 			</info>
 		</mouseitem>
@@ -619,7 +502,7 @@ Ho93BGOp2uAAAAAASUVORK5CYII=
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="CustomizedBidProposal.txt"
+		KeySequence="BidLaborMaterial"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -816,165 +699,6 @@ Ho93BGOp2uAAAAAASUVORK5CYII=
 				</path>
 			</info>
 		</mouseitem>
-		<closeapprecorditem
-		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="d84cc440-efc3-4971-986b-628af42c4cf4">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="959dd8da-908d-4810-a350-c3a5e4b9b839"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="nativewindow"
-				dontcache="False"
-				enabled="True"
-				flavor="win32"
-				hasfocus="False"
-				index="5"
-				prefcap="form"
-				rect="-8,-8,1936,1056"
-				role="form"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="active"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="appicon"
-					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2BkZOxkMZL/zTLV4z9JGKgHpJcB
-m2aZ+ZH/5RfE4MTcM3zhhjCga645Pv8/LvDv37//AVvr/yfs6f7POd0brB7DgLOvbv9fd+fw/xW3
-DoDx8efXoNr//3/7/dN/r03V/8N3tPxXXBiL3YDLb+7/3/nwzP8t90+A8S4g+8izK2B87+NzFLUg
-TNAAZEw/Axbf2P1/ztXtGJhoA+Zf2/l/5uUtYPz486v/OQen/J92efP/+x9foKgFYZwGzABqBuFz
-wFgxXJEJ9gJJBsBccPXtg/95h6b+t1ydT7wByACUeNbfPfr/4uu7uA0AJQpQ4gAlkkkX1v9fcH0X
-Cn7x9R3YsNsfnmI3AJQsQcnTeEUWVrz81n6wAd3nVmExAJqZQBkEW8aBYdn5URiawZmJsuzM2AkA
-q5Bw5FS43rMAAAAASUVORK5CYII=
-					</attribute>
-					<attribute
-					name="state"
-					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Maximized
-					</attribute>
-					<attribute
-					name="title"
-					type="System.String">
-						Customized Bid Proposal
-					</attribute>
-					<attribute
-					name="apphung"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="class"
-					type="System.String">
-						DFDialogClass
-					</attribute>
-					<attribute
-					name="handle"
-					type="System.IntPtr">
-						6292626
-					</attribute>
-					<attribute
-					name="instance"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="processid"
-					type="System.Int32">
-						6648
-					</attribute>
-					<attribute
-					name="processname"
-					type="System.String">
-						HEAVYBID
-					</attribute>
-					<attribute
-					name="windowextendedstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
-						RightScrollBar, Left, WindowEdge
-					</attribute>
-					<attribute
-					name="windowstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, MaximizeBox, Group, SizeBox, DialogFrame, Maximize, ClipChildren, ClipSiblings, Visible, PopupWindow
-					</attribute>
-					<attribute
-					name="windowtext"
-					type="System.String">
-						Customized Bid Proposal
-					</attribute>
-					<dynamicattribute
-					description="The default action of the accessible object."
-					name="AccessibleDefaultAction"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The description of the accessible object."
-					name="AccessibleDescription"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The help string of the accessible object."
-					name="AccessibleHelp"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
-					name="AccessibleHelpTopic"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The keyboard shortcut of the accessible object."
-					name="AccessibleKeyboardShortcut"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The name of the accessible object."
-					name="AccessibleName"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The role of the accessible object."
-					name="AccessibleRole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The state of the accessible object."
-					name="AccessibleState"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The value of the accessible object."
-					name="AccessibleValue"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicaction
-					description="Invokes the default action of the accessible object."
-					displayName="AccessibleDoDefaultAction">
-					</dynamicaction>
-				</element>
-				<path>
-					/form[@title='Customized Bid Proposal']
-				</path>
-			</info>
-		</closeapprecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -992,10 +716,10 @@ q5Bw5FS43rMAAAAASUVORK5CYII=
 			<bindings>
 			</bindings>
 			<info
-			id="d2350da4-370b-4fdf-b08f-589e7c95d66b"
+			id="744a0081-77a5-4e7a-8c69-b478fff77d1b"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'Customized Bid Proposal Setup']/?/?/?/button[@text~'Cancel']
+					/form[@title~'Custom Crystal Report']/?/button[@text~'Close']
 				</path>
 			</info>
 		</mouseitem>
@@ -1016,7 +740,7 @@ q5Bw5FS43rMAAAAASUVORK5CYII=
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CustomReport.UserCode.cs
+		CustomizedCrystalMaterialLaborReport.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

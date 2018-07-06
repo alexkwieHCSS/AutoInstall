@@ -80,8 +80,8 @@ namespace AutoInstall
             Init();
 
             // B.1
-            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'HeavyBid2018.1_Regression.msi' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("HeavyBid2018.1_Regression.msi", "", "\\\\hbprodmgmt\\installs\\2018.1", false);
+            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'HeavyBid2018.1_2018-06-12_1447.msi' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("HeavyBid2018.1_2018-06-12_1447.msi", "", "\\\\hbprodmgmt\\installs\\2018.1", false);
             Delay.Milliseconds(0);
             
         }

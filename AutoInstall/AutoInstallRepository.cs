@@ -42,6 +42,7 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.HbReportViewerAppFolder _hbreportviewer;
         AutoInstallRepositoryFolders.CrystalInstallationFolder _crystalinstallation;
         AutoInstallRepositoryFolders.SQLServerInstallationFolder _sqlserverinstallation;
+        AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder _hcssheavybidreportspluspivotreportsd;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -73,6 +74,7 @@ namespace AutoInstall
             _hbreportviewer = new AutoInstallRepositoryFolders.HbReportViewerAppFolder(this);
             _crystalinstallation = new AutoInstallRepositoryFolders.CrystalInstallationFolder(this);
             _sqlserverinstallation = new AutoInstallRepositoryFolders.SQLServerInstallationFolder(this);
+            _hcssheavybidreportspluspivotreportsd = new AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder(this);
         }
 
 #region Variables
@@ -260,6 +262,15 @@ namespace AutoInstall
         public virtual AutoInstallRepositoryFolders.SQLServerInstallationFolder SQLServerInstallation
         {
             get { return _sqlserverinstallation; }
+        }
+
+        /// <summary>
+        /// The HCSSHeavyBidReportsPlusPivotReportsD folder.
+        /// </summary>
+        [RepositoryFolder("1a9dd040-d3ee-4faa-a456-bcd97c26e243")]
+        public virtual AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder HCSSHeavyBidReportsPlusPivotReportsD
+        {
+            get { return _hcssheavybidreportspluspivotreportsd; }
         }
     }
 
@@ -7068,6 +7079,7 @@ namespace AutoInstall
         public partial class CustomCrystalBidProposalPreviewAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _closexbuttonInfo;
+            RepoItemInfo _exportreportbuttonInfo;
 
             /// <summary>
             /// Creates a new CustomCrystalBidProposalPreview  folder.
@@ -7076,6 +7088,7 @@ namespace AutoInstall
                     base("CustomCrystalBidProposalPreview", "/form[@title~'Custom Crystal Report']", parentFolder, 30000, null, false, "fd8d30e2-1e4b-4bd4-a324-6a9fbeb9c4c4", "")
             {
                 _closexbuttonInfo = new RepoItemInfo(this, "CloseXButton", "?/button[@text~'Close']", 30000, null, "744a0081-77a5-4e7a-8c69-b478fff77d1b");
+                _exportreportbuttonInfo = new RepoItemInfo(this, "ExportReportButton", ".//button[@accessiblename='Export Report']", 30000, null, "2ce6e4a8-e676-4225-86db-68235cd1d23f");
             }
 
             /// <summary>
@@ -7123,6 +7136,30 @@ namespace AutoInstall
                 get
                 {
                     return _closexbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ExportReportButton item.
+            /// </summary>
+            [RepositoryItem("2ce6e4a8-e676-4225-86db-68235cd1d23f")]
+            public virtual Ranorex.Button ExportReportButton
+            {
+                get
+                {
+                    return _exportreportbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExportReportButton item info.
+            /// </summary>
+            [RepositoryItemInfo("2ce6e4a8-e676-4225-86db-68235cd1d23f")]
+            public virtual RepoItemInfo ExportReportButtonInfo
+            {
+                get
+                {
+                    return _exportreportbuttonInfo;
                 }
             }
         }
@@ -8241,11 +8278,11 @@ namespace AutoInstall
             /// Creates a new HBReportPlusViewer  folder.
             /// </summary>
             public HBReportPlusViewerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("HBReportPlusViewer", "/form[@text~'HeavyBid Reports Plus']", parentFolder, 30000, null, false, "854ea1ed-2e7a-4fac-80af-d7ed4d5d8940", "")
+                    base("HBReportPlusViewer", "/form[@title~'HeavyBid Reports Plus']", parentFolder, 30000, null, false, "854ea1ed-2e7a-4fac-80af-d7ed4d5d8940", "")
             {
                 _closepreviewbuttonInfo = new RepoItemInfo(this, "ClosePreviewButton", "?//?/button[@text~'Close Print Preview']", 30000, null, "cb18577a-8a9a-44ba-b589-2341b2976cd9");
                 _exporttoInfo = new RepoItemInfo(this, "ExportTo", "element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']", 30000, null, "d3a4583f-5165-4e75-b323-6cc05b80c1bf");
-                _textInfo = new RepoItemInfo(this, "Text", "form//list/list/listitem[@accessiblename='Text File']", 30000, null, "b6bf0fc6-9f27-473a-a2fd-2db81913cf88");
+                _textInfo = new RepoItemInfo(this, "Text", "form//listitem[@accessiblename='Text File']", 30000, null, "b6bf0fc6-9f27-473a-a2fd-2db81913cf88");
                 _documentviewerInfo = new RepoItemInfo(this, "DocumentViewer", "?/?/element[@controlname='DocumentViewer']", 30000, null, "f8ae4930-b5aa-46d4-8806-b3230536cad0");
             }
 
@@ -8536,6 +8573,7 @@ namespace AutoInstall
         {
             RepoItemInfo _firstcomboboxInfo;
             RepoItemInfo _okbuttonInfo;
+            RepoItemInfo _nobuttonInfo;
 
             /// <summary>
             /// Creates a new ExportScreen  folder.
@@ -8545,6 +8583,7 @@ namespace AutoInstall
             {
                 _firstcomboboxInfo = new RepoItemInfo(this, "FirstComboBox", ".//button[@text='>'][1]", 30000, null, "7652997c-40e7-4e64-b046-49b0f09fde8b");
                 _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "344a2c32-5d4f-4430-912a-a3e8a3fd0d2f");
+                _nobuttonInfo = new RepoItemInfo(this, "NoButton", "?/button[@accessiblename~'No']", 30000, null, "0147988c-b676-4003-9684-440548d7676f");
             }
 
             /// <summary>
@@ -8616,6 +8655,30 @@ namespace AutoInstall
                 get
                 {
                     return _okbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NoButton item.
+            /// </summary>
+            [RepositoryItem("0147988c-b676-4003-9684-440548d7676f")]
+            public virtual Ranorex.Button NoButton
+            {
+                get
+                {
+                    return _nobuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NoButton item info.
+            /// </summary>
+            [RepositoryItemInfo("0147988c-b676-4003-9684-440548d7676f")]
+            public virtual RepoItemInfo NoButtonInfo
+            {
+                get
+                {
+                    return _nobuttonInfo;
                 }
             }
         }
@@ -10234,6 +10297,72 @@ namespace AutoInstall
                 get
                 {
                     return _finishbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HCSSHeavyBidReportsPlusPivotReportsDAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("1a9dd040-d3ee-4faa-a456-bcd97c26e243")]
+        public partial class HCSSHeavyBidReportsPlusPivotReportsDAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _textfileInfo;
+
+            /// <summary>
+            /// Creates a new HCSSHeavyBidReportsPlusPivotReportsD  folder.
+            /// </summary>
+            public HCSSHeavyBidReportsPlusPivotReportsDAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HCSSHeavyBidReportsPlusPivotReportsD", "/contextmenu[@processname='HCSS.HeavyBid.ReportsPlus.PivotReports.Designer']", parentFolder, 30000, null, false, "1a9dd040-d3ee-4faa-a456-bcd97c26e243", "")
+            {
+                _textfileInfo = new RepoItemInfo(this, "TextFile", ".//list/element/container/container[2]/container[2]/container[2]/element[8]/container[@automationid='PART_LayoutPanel']/?/?/text[@caption='Text File']", 30000, null, "4e7684a4-da81-480e-85da-61dae4eccb36");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("1a9dd040-d3ee-4faa-a456-bcd97c26e243")]
+            public virtual Ranorex.ContextMenu Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.ContextMenu>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("1a9dd040-d3ee-4faa-a456-bcd97c26e243")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextFile item.
+            /// </summary>
+            [RepositoryItem("4e7684a4-da81-480e-85da-61dae4eccb36")]
+            public virtual Ranorex.Text TextFile
+            {
+                get
+                {
+                    return _textfileInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextFile item info.
+            /// </summary>
+            [RepositoryItemInfo("4e7684a4-da81-480e-85da-61dae4eccb36")]
+            public virtual RepoItemInfo TextFileInfo
+            {
+                get
+                {
+                    return _textfileInfo;
                 }
             }
         }

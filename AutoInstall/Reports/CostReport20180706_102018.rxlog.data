@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="49.55s"
+		durationms="49549"
+		type="root"
+		rid="1fd6421d59910f38"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/6/2018 10:20:22 AM"
+		timestampiso="2018-07-06T15:20:22"
+		endtime="7/6/2018 10:21:12 AM"
+		timeoutfactor="1.3"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.625"
+			timeRelativeToTestModuleStartTime="00:02.625"
+			timeWallClock="10:20:25"
+			time="00:02.625"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.453"
+			timeRelativeToTestModuleStartTime="00:06.453"
+			timeWallClock="10:20:28"
+			time="00:06.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CostReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']"
+				itempath="?/?/toolbar/button[@text~'Cost Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CostReportsButton"
+				id="c972e2915f874f21a5a43bc3f2feb563"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.765"
+			timeRelativeToTestModuleStartTime="00:07.765"
+			timeWallClock="10:20:30"
+			time="00:07.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport"
+				id="9276b5650af9420689e0d0cf7040c0cb"
+				timeout="117000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.375"
+			timeRelativeToTestModuleStartTime="00:09.375"
+			timeWallClock="10:20:31"
+			time="00:09.375"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.381"
+			timeRelativeToTestModuleStartTime="00:19.381"
+			timeWallClock="10:20:41"
+			time="00:19.381"
+			level="Info"
+			category="Mouse"
+			errimg=".\CostRepo_8eb084a9_27ac3eda_trace.jpg"
+			errthumb=".\CostRepo_8eb084a9_27ac3eda_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo"
+				id="d3a4583f51654e75b3236cc05b80c1bf"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.756"
+			timeRelativeToTestModuleStartTime="00:21.756"
+			timeWallClock="10:20:44"
+			time="00:21.756"
+			level="Info"
+			category="Mouse"
+			errimg=".\CostRepo_8eb084a9_8ac59f5f_trace.jpg"
+			errthumb=".\CostRepo_8eb084a9_8ac59f5f_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Up item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/form//listitem[@accessiblename='Text File']"
+				itempath="form//listitem[@accessiblename='Text File']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.Text"
+				id="b6bf0fc69f27473aa2fd2db81913cf88"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.549"
+			timeRelativeToTestModuleStartTime="00:49.549"
+			timeWallClock="10:21:12"
+			time="00:49.549"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.627"
+			timeRelativeToTestModuleStartTime="00:49.627"
+			timeWallClock="10:21:12"
+			time="00:49.627"
+			level="Warn"
+			category="Module"
+			errimg=".\CostRepo_8eb084a9_d4d836bb_trace.jpg"
+			errthumb=".\CostRepo_8eb084a9_d4d836bb_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="108"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

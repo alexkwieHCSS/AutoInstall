@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4069ad547a21a88"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/6/2018 10:25:29 AM"
+		timestampiso="2018-07-06T15:25:29"
+		endtime="7/6/2018 10:25:52 AM"
+		timeoutfactor="1.3"
+		module="EquipmentReport">
+		<detail>
+			EquipmentReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.669"
+			timeRelativeToTestModuleStartTime="00:02.669"
+			timeWallClock="10:25:32"
+			time="00:02.669"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.047"
+			timeRelativeToTestModuleStartTime="00:06.047"
+			timeWallClock="10:25:35"
+			time="00:06.047"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CostReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']"
+				itempath="?/?/toolbar/button[@text~'Cost Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CostReportsButton"
+				id="c972e2915f874f21a5a43bc3f2feb563"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.355"
+			timeRelativeToTestModuleStartTime="00:07.355"
+			timeWallClock="10:25:37"
+			time="00:07.355"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.EquipmentReport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Equipment Report']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Equipment Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.EquipmentReport"
+				id="fb173a9a3e6d4b338b5788ba1b10051e"
+				timeout="117000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.927"
+			timeRelativeToTestModuleStartTime="00:08.927"
+			timeWallClock="10:25:38"
+			time="00:08.927"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.927"
+			timeRelativeToTestModuleStartTime="00:18.927"
+			timeWallClock="10:25:48"
+			time="00:18.927"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Title~'Equipment') on item 'HBReportViewers.HeavyBidPivotReports'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']"
+				itempath="/form[@title~'HeavyBid Pivot Reports']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.Self"
+				id="bae78860d83b4734a95d0878f5e7f9d2"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.668"
+			timeRelativeToTestModuleStartTime="00:20.668"
+			timeWallClock="10:25:50"
+			time="00:20.668"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Title' of element for item 'AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.Self' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']"
+				itempath="/form[@title~'HeavyBid Pivot Reports']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.Self"
+				id="bae78860d83b4734a95d0878f5e7f9d2"
+				timeout="39000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="98"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.668"
+			timeRelativeToTestModuleStartTime="00:20.668"
+			timeWallClock="10:25:50"
+			time="00:20.668"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/?/?/?/button[@text~'Close']"
+				itempath="?/?/?/button[@text~'Close']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.CloseButton"
+				id="fc1e7fdda2b94bb987fe224e293b2469"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\EquipmentReport.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
