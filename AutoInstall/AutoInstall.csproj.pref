@@ -1,8 +1,15 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="AutoInstall.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="CostReport.rxrec" />
+    <Element value="ValidateEstimateRecapOutput.rxrec" />
+    <Element value="ValidateChiefEstimatorOutput.rxrec" />
+    <Element value="ValidateCostPriceOutput.rxrec" />
+    <Element value="ValidateBiditemStructureOutput.rxrec" />
+    <Element value="ValidateCostReportOutput.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

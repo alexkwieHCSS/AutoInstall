@@ -94,8 +94,62 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportToInfo, new RecordItemIndex(4));
+            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo.Click(Location.LowerCenter);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Return}' with focus on 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo'.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportToInfo, new RecordItemIndex(5));
+            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo.PressKeys("{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.TextExportOptions.OKButton' at Center.", repo.HBReportViewers.HBReportPlus.TextExportOptions.OKButtonInfo, new RecordItemIndex(6));
+            repo.HBReportViewers.HBReportPlus.TextExportOptions.OKButton.Click();
+            Delay.Milliseconds(200);
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.SaveAsExport.FilePathURL' at CenterRight.", repo.HBReportViewers.SaveAsExport.FilePathURLInfo, new RecordItemIndex(7));
+                repo.HBReportViewers.SaveAsExport.FilePathURL.Click(Location.CenterRight);
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}'.", new RecordItemIndex(8));
+                Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.SaveAsExport.FileName' at Center.", repo.HBReportViewers.SaveAsExport.FileNameInfo, new RecordItemIndex(9));
+                repo.HBReportViewers.SaveAsExport.FileName.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Keyboard", "(Optional Action)\r\nKey sequence 'CostPriceReport.txt'.", new RecordItemIndex(10));
+                Keyboard.Press("CostPriceReport.txt");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.", repo.HBReportViewers.SaveAsExport.SaveButtonInfo, new RecordItemIndex(11));
+                repo.HBReportViewers.SaveAsExport.SaveButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(11)); }
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(12));
+            repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ExportScreen.NoButton' at Center.", repo.HBReportViewers.ExportScreen.NoButtonInfo, new RecordItemIndex(13));
+            repo.HBReportViewers.ExportScreen.NoButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(14));
             repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.ReportsPopup.CloseButton' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.ReportsPopup.CloseButtonInfo, new RecordItemIndex(15));
+            repo.HeavyBidApp.DocumentInterface.Reports.ReportsPopup.CloseButton.Click();
             Delay.Milliseconds(200);
             
         }

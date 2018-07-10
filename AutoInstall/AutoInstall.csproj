@@ -843,6 +843,18 @@
       <UserCode>true</UserCode>
       <id>6a36ee9d-3f2c-4b90-8b09-ed41c038528c</id>
     </Compile>
+    <Compile Include="ValidateBiditemStructureOutput.cs">
+      <BoundTo>007f71f7-c97f-44a1-9644-2f2144e99fd4</BoundTo>
+      <DependentUpon>ValidateBiditemStructureOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f33ed5f8-55b0-4041-af62-62d75919cca1</id>
+    </Compile>
+    <Compile Include="ValidateBiditemStructureOutput.UserCode.cs">
+      <BoundTo>007f71f7-c97f-44a1-9644-2f2144e99fd4</BoundTo>
+      <DependentUpon>ValidateBiditemStructureOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b019e1ab-2d1a-48e2-bc80-14c13c7e3c89</id>
+    </Compile>
     <Compile Include="ValidateBidMaterialLaborOutput.cs">
       <BoundTo>195c964c-630f-4623-bdda-3982aa66fcdc</BoundTo>
       <DependentUpon>ValidateBidMaterialLaborOutput.rxrec</DependentUpon>
@@ -854,6 +866,18 @@
       <DependentUpon>ValidateBidMaterialLaborOutput.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>ebb8953b-e045-46d2-9721-faa4cde781e4</id>
+    </Compile>
+    <Compile Include="ValidateChiefEstimatorOutput.cs">
+      <BoundTo>e30702b4-ab31-4206-9c2e-818acc343a74</BoundTo>
+      <DependentUpon>ValidateChiefEstimatorOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5e8cc0f-0608-4d15-98b5-8718ab3d14f8</id>
+    </Compile>
+    <Compile Include="ValidateChiefEstimatorOutput.UserCode.cs">
+      <BoundTo>e30702b4-ab31-4206-9c2e-818acc343a74</BoundTo>
+      <DependentUpon>ValidateChiefEstimatorOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0fde91d8-a225-4a3f-8753-03b41c5fa2a6</id>
     </Compile>
     <Compile Include="ValidateConciseBidProposalOutput.cs">
       <BoundTo>67632fd8-e3e9-44a5-915b-d2df533ddfbf</BoundTo>
@@ -879,6 +903,30 @@
       <UserCode>true</UserCode>
       <id>775cad78-d564-46e2-807a-c3f07ade695f</id>
     </Compile>
+    <Compile Include="ValidateCostPriceOutput.cs">
+      <BoundTo>032310d3-570b-4c0c-8dd5-32543a8e5124</BoundTo>
+      <DependentUpon>ValidateCostPriceOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61cb1dbe-60da-4891-8252-cf6eabf60c05</id>
+    </Compile>
+    <Compile Include="ValidateCostPriceOutput.UserCode.cs">
+      <BoundTo>032310d3-570b-4c0c-8dd5-32543a8e5124</BoundTo>
+      <DependentUpon>ValidateCostPriceOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f93216d5-0eb7-4ee1-8caa-9b29b5f441dc</id>
+    </Compile>
+    <Compile Include="ValidateCostReportOutput.cs">
+      <BoundTo>f1ce1c85-3096-4b5b-8a21-d55d25ec02c9</BoundTo>
+      <DependentUpon>ValidateCostReportOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1049967-1222-4748-a722-c345d2a24393</id>
+    </Compile>
+    <Compile Include="ValidateCostReportOutput.UserCode.cs">
+      <BoundTo>f1ce1c85-3096-4b5b-8a21-d55d25ec02c9</BoundTo>
+      <DependentUpon>ValidateCostReportOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5d92148-ec55-4638-a264-9d6ae050d1f9</id>
+    </Compile>
     <Compile Include="ValidateCustomBidProposalReportOutput.cs">
       <BoundTo>05b7b23c-5258-45f3-bb83-af2fd9d45782</BoundTo>
       <DependentUpon>ValidateCustomBidProposalReportOutput.rxrec</DependentUpon>
@@ -890,6 +938,18 @@
       <DependentUpon>ValidateCustomBidProposalReportOutput.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0d5db3e1-2206-43bb-9ff2-e2c75d01058c</id>
+    </Compile>
+    <Compile Include="ValidateEstimateRecapOutput.cs">
+      <BoundTo>c27a4658-9477-4969-88e9-7b6bc760eba7</BoundTo>
+      <DependentUpon>ValidateEstimateRecapOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10302f50-78cc-4801-9348-5ae144fe2053</id>
+    </Compile>
+    <Compile Include="ValidateEstimateRecapOutput.UserCode.cs">
+      <BoundTo>c27a4658-9477-4969-88e9-7b6bc760eba7</BoundTo>
+      <DependentUpon>ValidateEstimateRecapOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cbd8d243-1539-4f25-83de-f137bcb2ef05</id>
     </Compile>
     <Compile Include="ValidateEXEs.cs">
       <BoundTo>76175e9f-da4a-4cb2-92e7-b4dc57829a19</BoundTo>
@@ -1411,10 +1471,20 @@
       <id>d17761a5-b036-4477-8dc4-4b759d59b1f6</id>
       <recordtableid>40f298b4-d6fb-4496-a652-110be615e32d</recordtableid>
     </None>
+    <None Include="ValidateBiditemStructureOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>007f71f7-c97f-44a1-9644-2f2144e99fd4</id>
+      <recordtableid>fa6d448f-fdd3-414f-92fb-9ce1b8f8ecbb</recordtableid>
+    </None>
     <None Include="ValidateBidMaterialLaborOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>195c964c-630f-4623-bdda-3982aa66fcdc</id>
       <recordtableid>b74955f0-d224-4390-b176-5deb93cf53c9</recordtableid>
+    </None>
+    <None Include="ValidateChiefEstimatorOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>e30702b4-ab31-4206-9c2e-818acc343a74</id>
+      <recordtableid>bd63827a-55e8-4f6d-a88b-c83fccac5d2e</recordtableid>
     </None>
     <None Include="ValidateConciseBidProposalOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -1426,10 +1496,25 @@
       <id>6ef52520-3952-4367-9eac-eff99de30309</id>
       <recordtableid>c8b6fc27-7614-4169-8a0a-ab5557a91cb9</recordtableid>
     </None>
+    <None Include="ValidateCostPriceOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>032310d3-570b-4c0c-8dd5-32543a8e5124</id>
+      <recordtableid>82b82c78-64ae-49d1-b77d-70194f20a3bb</recordtableid>
+    </None>
+    <None Include="ValidateCostReportOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>f1ce1c85-3096-4b5b-8a21-d55d25ec02c9</id>
+      <recordtableid>90fff12e-39e9-48c1-b93a-3043239bad50</recordtableid>
+    </None>
     <None Include="ValidateCustomBidProposalReportOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>05b7b23c-5258-45f3-bb83-af2fd9d45782</id>
       <recordtableid>c72ff7a6-47fa-4473-8ec4-5be94722d871</recordtableid>
+    </None>
+    <None Include="ValidateEstimateRecapOutput.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>c27a4658-9477-4969-88e9-7b6bc760eba7</id>
+      <recordtableid>a659b5a2-5b39-4d89-ae70-36aa7d420821</recordtableid>
     </None>
     <None Include="ValidateEXEs.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

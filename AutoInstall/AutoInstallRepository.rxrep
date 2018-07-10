@@ -600,6 +600,24 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 							/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text~'Report Designer']
 						</item>
 					</folder>
+					<folder
+					capname="form"
+					id="9535b42a-1055-4bda-b255-12433fb0eda3"
+					isrooted="True"
+					name="ReportsPopup"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="button"
+						id="a91822b6-7d62-4a45-9127-53b456a3a55e"
+						name="CloseButton"
+						searchtimeout="30000ms">
+							/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']//button[@accessiblename='Close']
+						</item>
+						<basepath>
+							/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']
+						</basepath>
+					</folder>
 				</folder>
 				<folder
 				capname="unknown"
@@ -1979,6 +1997,17 @@ SUVORK5CYII=
 							/form[@title~'Custom Crystal Report']
 						</basepath>
 					</appfolder>
+					<appfolder
+					capname="unknown"
+					id="c940317b-ecd2-40d2-a2a9-1da136f4338a"
+					isrooted="True"
+					name="ReportsList"
+					searchtimeout="30000ms"
+					usecache="False">
+						<basepath>
+							/element
+						</basepath>
+					</appfolder>
 				</folder>
 			</folder>
 			<folder
@@ -2250,14 +2279,6 @@ SUVORK5CYII=
 					refimgid="9b7e91a1-d0dd-431a-8aa9-9fcf686c8bad"
 					searchtimeout="30000ms">
 						/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']
-					</item>
-					<item
-					capname="listitem"
-					id="b6bf0fc6-9f27-473a-a2fd-2db81913cf88"
-					name="Text"
-					refimgid="5fc471cd-676e-478a-86de-b895c825e53e"
-					searchtimeout="30000ms">
-						/form[@title~'HeavyBid Reports Plus']/form//listitem[@accessiblename='Text File']
 					</item>
 					<item
 					addcaps="unknown,control,nativewindow"
@@ -2810,42 +2831,6 @@ gg==
 				</icon>
 			</appfolder>
 		</folder>
-		<appfolder
-		addcaps="form,control,nativewindow"
-		capname="form"
-		id="83d1f779-ec28-4230-a268-a35793224d7e"
-		isrooted="True"
-		name="HbReportViewer"
-		refpath="/form[@title='' and @processname='HbReportViewer']"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			addcaps="list,accessible"
-			capname="list"
-			id="d288c3e6-d7a4-4618-9764-873d12f18c41"
-			name="List"
-			refimgid="6b9e9740-be07-45e4-ba23-971c93fca7fc"
-			refpath="/form[@title='' and @processname='HbReportViewer']/element[@controltypename='GalleryDropDownBarControl']/list[@accessiblerole='List']"
-			searchtimeout="30000ms">
-				/form[@title='' and @processname='HbReportViewer']/element/list[@accessiblerole='List']
-			</item>
-			<basepath>
-				/form[@title='' and @processname='HbReportViewer']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
-RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
-9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
-MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
-iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
-yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
-IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
-7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
-DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
-XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
 		<folder
 		capname="unknown"
 		id="151035fa-f425-49a0-b774-4f422c0f9c99"
@@ -3006,6 +2991,44 @@ DsQBlSsOGwAAAKtJREFUOE9j+P//P0UYzrAJyP6/ZsVMojFWAxjAXMIApwEgADJkx8Hz/8va5/7P
 qJr4PzK75b9XbNl/mDwI4DUABAi5hKABIAAyZNnGff8jc5r/e8aWk+YCGMDlEqJdAMNTF64nzgUw
 DSAAos+dOwfG6ACnATANyIY0dE4iLgy6OqpBgmCA7gp0gNUAqCAYbD8IcQVJLkA2AARg3iHJBaRg
 DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="03099fc5-2495-4c70-a226-53ebd95a9a2f"
+		isrooted="True"
+		name="TheKingsAvatarChapter518Webnove"
+		refpath="/dom[@domain='www.webnovel.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="d3bd900e-8ed1-4cad-a591-9a258bc05db0"
+			name="PTagHowInterestingWithY"
+			refimgid="58f3e793-ee95-4875-8019-3f3cca21cb92"
+			refpath="/dom[@domain='www.webnovel.com']//div[#'page']/div[1]/div[2]/div[11]/div[2]/div[1]/p[@innertext~'^\ \ \ \ \ \ \ \ &quot;How\ interesting\.\ With\ your\ levels,\ trying\ to\ kill\ us\ is\ too\ hard\.&quot;\ Wei\ Chen''s\ group\ was\ in\ a\ sorry\ state,\ but\ he\ wasn''t\ worried\.\ Lord\ Grim''s\ and\ One\ Inch\ Ash''s\ level\ disadvantage\ could\ be\ fatal\.\ Even\ though\ they\ had\ controlled\ the\ situation,\ thei']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.webnovel.com']//div[#'page']/div[1]/div[2]/div[11]//p[@innertext~'^\ \ \ \ \ \ \ \ &quot;How\ interes']
+			</item>
+			<basepath>
+				/dom[@domain='www.webnovel.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

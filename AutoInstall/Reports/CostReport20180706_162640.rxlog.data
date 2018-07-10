@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.39s"
+		durationms="19391"
+		type="root"
+		rid="187dd221e822b4ec"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/6/2018 4:26:45 PM"
+		timestampiso="2018-07-06T21:26:45"
+		endtime="7/6/2018 4:27:05 PM"
+		timeoutfactor="1.3"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.549"
+			timeRelativeToTestModuleStartTime="00:03.550"
+			timeWallClock="16:26:49"
+			time="00:03.549"
+			level="Info"
+			category="Mouse"
+			errimg=".\CostRepo_31d06e19_5dc8e8c3_trace.jpg"
+			errthumb=".\CostRepo_31d06e19_5dc8e8c3_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo"
+				id="d3a4583f51654e75b3236cc05b80c1bf"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="83"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.697"
+			timeRelativeToTestModuleStartTime="00:06.698"
+			timeWallClock="16:26:52"
+			time="00:06.697"
+			level="Info"
+			category="Mouse"
+			errimg=".\CostRepo_31d06e19_7462e227_trace.jpg"
+			errthumb=".\CostRepo_31d06e19_7462e227_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Up item 'HbReportViewer.List' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='' and @processname='HbReportViewer']/element/list[@accessiblerole='List']//element[@accessiblename~'Text']"
+				itempath="element/list[@accessiblerole='List']//element[@accessiblename~'Text']"
+				fullname="AutoInstallRepository.HbReportViewer.List"
+				id="e0339772d659460b83fe949f05b465ba"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="89"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.391"
+			timeRelativeToTestModuleStartTime="00:19.392"
+			timeWallClock="16:27:05"
+			time="00:19.391"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.616"
+			timeRelativeToTestModuleStartTime="00:19.617"
+			timeWallClock="16:27:05"
+			time="00:19.616"
+			level="Warn"
+			category="Module"
+			errimg=".\CostRepo_31d06e19_4ac4cb80_trace.jpg"
+			errthumb=".\CostRepo_31d06e19_4ac4cb80_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\AutoInstall\AutoInstall\CostReport.cs"
+				codeline="93"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>
