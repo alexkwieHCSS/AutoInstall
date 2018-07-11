@@ -92,8 +92,14 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'yourapp' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("yourapp", "", ScriptLocation, false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'runChiefEstimatorAnalysis.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runChiefEstimatorAnalysis.bat", "", ScriptLocation, false);
+            Delay.Milliseconds(0);
+            
+            ChiefEstimatorExists();
+            Delay.Milliseconds(0);
+            
+            ValidateContentChiefEstimator();
             Delay.Milliseconds(0);
             
         }

@@ -92,8 +92,14 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'yourapp' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("yourapp", "", ScriptLocation, false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'runEstimateRecap.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runEstimateRecap.bat", "", ScriptLocation, false);
+            Delay.Milliseconds(0);
+            
+            EstimateRecapExists();
+            Delay.Milliseconds(0);
+            
+            ValidateContentEstimateRecap();
             Delay.Milliseconds(0);
             
         }

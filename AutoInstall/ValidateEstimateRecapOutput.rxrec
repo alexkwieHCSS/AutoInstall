@@ -47,11 +47,43 @@ rxversion="8.1">
 				</binding>
 			</bindings>
 			<filename>
-				yourapp
+				runEstimateRecap.bat
 			</filename>
 			<args>
 			</args>
 		</runapprecorditem>
+		<userrecorditem
+		classname="ValidateEstimateRecapOutput"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="EstimateRecapExists"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="2842d0c3-aed9-4005-a72d-abb65a7d3235">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="ValidateEstimateRecapOutput"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateContentEstimateRecap"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="37d275ea-3537-4e55-87ec-02fb5a678c38">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

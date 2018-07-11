@@ -47,11 +47,43 @@ rxversion="8.1">
 				</binding>
 			</bindings>
 			<filename>
-				yourapp
+				runCostPrice.bat
 			</filename>
 			<args>
 			</args>
 		</runapprecorditem>
+		<userrecorditem
+		classname="ValidateCostPriceOutput"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CostPriceExists"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="2c6d6936-af69-479d-b75b-ea4e60147795">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="ValidateCostPriceOutput"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateContentCostPrice"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d301e8a2-bdf9-4e47-a376-e4c129a6f5c7">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

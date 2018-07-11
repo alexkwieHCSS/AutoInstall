@@ -92,8 +92,14 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'yourapp' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("yourapp", "", ScriptLocation, false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'runCostPrice.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runCostPrice.bat", "", ScriptLocation, false);
+            Delay.Milliseconds(0);
+            
+            CostPriceExists();
+            Delay.Milliseconds(0);
+            
+            ValidateContentCostPrice();
             Delay.Milliseconds(0);
             
         }

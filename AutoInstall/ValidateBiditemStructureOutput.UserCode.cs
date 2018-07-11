@@ -24,13 +24,73 @@ namespace AutoInstall
 {
     public partial class ValidateBiditemStructureOutput
     {
-        /// <summary>
+        		/// <summary>
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
         /// </summary>
+        /// 
+        string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
+        string file = @"BiditemStructureReport.txt";
+
+        
+        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\BiditemStructureReportSimiliarContent.txt";
+    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\BiditemStructureReportSimiliarContent.txt";
+        string customLogMessage = string.Empty;
+        
+        
+        
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+        
+ 		public void BiditemStructureExists()
+        {
+            string path = Path.Combine(dir,file);
+      		if (File.Exists(path))
+			   { 	Report.Success("File Exist", "Success! " + file + " exists!");	}
+			else                  
+			   {	Report.Failure("File Exist", "Fail. " + file + " does not exists.");	}
+ 		 	
+        }   
+ 		 
+        public void ValidateContentBiditemStructure()
+        {
+            string path = Path.Combine(dir,file);
+    	
+    	
+               // prepare log messages  
+		    const string fileNotFoundMessage = "File not found for comparison in Validate_FileContentEqual: {0}";  
+		    const string logMessage = "Comparing content of files ({0} vs. {1})";  
+		    if (string.IsNullOrEmpty(customLogMessage))  
+		    {  
+		        customLogMessage = string.Format(logMessage, filePath_Expected, filePath_Current);  
+		    }  
+		  
+		    // check if file exists  
+		    if (!System.IO.File.Exists(filePath_Current))  
+		    {  
+		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Current));  
+		    }  
+		  
+		    // check if referencing file exists  
+		    if (!System.IO.File.Exists(filePath_Expected))  
+		    {  
+		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Expected));  
+		    }  
+		  
+		    // check if filenames are identical  
+		    if (filePath_Expected.Equals(filePath_Current))  
+		    {  
+		        Ranorex.Validate.IsTrue(true, customLogMessage);  
+		    }  
+		    else  
+		    {  
+		        string current = System.IO.File.ReadAllText(filePath_Current);  
+		        string expected = System.IO.File.ReadAllText(filePath_Expected);  
+		        // validate whether expected value equals to current value  
+		        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
+		    }  
         }
 
     }

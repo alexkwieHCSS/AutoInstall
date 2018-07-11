@@ -7,21 +7,19 @@
     <Element value="AutoInstall.rxtst" />
     <Element value="ValidateEstimateRecapOutput.rxrec" />
     <Element value="ValidateChiefEstimatorOutput.rxrec" />
-    <Element value="ValidateCostPriceOutput.rxrec" />
-    <Element value="ValidateBiditemStructureOutput.rxrec" />
-    <Element value="ValidateCostReportOutput.rxrec" />
+    <Element value="ValidateChiefEstimatorOutput.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ValidateContentConciseBidProposal()" />
-      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ConciseBidProposalExists()" />
-      <Element value="AutoInstall.ValidateConciseBidProposalOutput.ValidateContentConciseBidProposal()" />
-      <Element value="AutoInstall.ValidateRecapClassicReportOutput.ValidateContentRecapReport()" />
-      <Element value="AutoInstall.ValidateCostClassicReportOutput.ValidateContentCostReport()" />
-      <Element value="AutoInstall.ValidateCostClassicReportOutput.ValidateContentCustomReport()" />
+      <Element value="AutoInstall.ValidateBiditemStructureOutput.ValidateContentBiditemStructure()" />
+      <Element value="AutoInstall.ValidateBiditemStructureOutput.BiditemStructureExists()" />
+      <Element value="AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice()" />
+      <Element value="AutoInstall.ValidateCostPriceOutput.CostPriceExists()" />
+      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ValidateContentChiefEstimator()" />
+      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ChiefEstimatorExists()" />
     </Array>
   </Properties>
 </Properties>

@@ -92,8 +92,14 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'yourapp' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("yourapp", "", RunLocation, false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'runBiditemStructure.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runBiditemStructure.bat", "", RunLocation, false);
+            Delay.Milliseconds(0);
+            
+            BiditemStructureExists();
+            Delay.Milliseconds(0);
+            
+            ValidateContentBiditemStructure();
             Delay.Milliseconds(0);
             
         }

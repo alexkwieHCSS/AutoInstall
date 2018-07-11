@@ -96,6 +96,12 @@ namespace AutoInstall
             Host.Local.RunApplication("runCostReport.bat", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
+            CostReportExists();
+            Delay.Milliseconds(0);
+            
+            ValidateContentCostReport();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
