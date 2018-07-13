@@ -5,9 +5,10 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="ValidateEstimateRecapOutput.rxrec" />
-    <Element value="ValidateChiefEstimatorOutput.rxrec" />
-    <Element value="ValidateChiefEstimatorOutput.UserCode.cs" />
+    <Element value="EstimateRecapReport.rxrec" />
+    <Element value="CostPriceReport.rxrec" />
+    <Element value="BiditemStructureReport.rxrec" />
+    <Element value="OpenInstallFile.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

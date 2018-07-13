@@ -14,6 +14,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
+
 
 using Ranorex;
 using Ranorex.Core;
