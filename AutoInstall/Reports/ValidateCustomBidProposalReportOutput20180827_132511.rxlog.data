@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3ef9b38c05c0492"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="8/27/2018 1:25:15 PM"
+		timestampiso="2018-08-27T18:25:15"
+		endtime="8/27/2018 1:25:19 PM"
+		timeoutfactor="1.3"
+		module="ValidateCustomBidProposalReportOutput">
+		<detail>
+			ValidateCustomBidProposalReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.189"
+			timeRelativeToTestModuleStartTime="00:03.190"
+			timeWallClock="13:25:18"
+			time="00:03.189"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.243"
+			timeRelativeToTestModuleStartTime="00:03.244"
+			timeWallClock="13:25:18"
+			time="00:03.243"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCustomizedBidProposal.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.781"
+			timeRelativeToTestModuleStartTime="00:03.782"
+			timeWallClock="13:25:19"
+			time="00:03.781"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="94"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.794"
+			timeRelativeToTestModuleStartTime="00:03.795"
+			timeWallClock="13:25:19"
+			time="00:03.794"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CustomizedBidProposal.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="53"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

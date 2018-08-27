@@ -30,13 +30,13 @@ namespace AutoInstall
         /// It can be used to execute recording specific initialization code.
         /// </summary>
         /// 
-        string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-        string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+        string dir = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\";
+        string refDir = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\Reference\";
         string file = @"CustomizedBidProposal.txt";
 
         
-        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt";
+        string filePath_Expected = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt";
+    	string filePath_Current = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt";
         string customLogMessage = string.Empty;
         
         

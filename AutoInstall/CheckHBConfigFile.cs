@@ -85,29 +85,24 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.", repo.ExcelRelated.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(1));
-                repo.ExcelRelated.OfficeActivationSuite.CancelButton.Click();
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.", repo.ExcelRelated.Excel.CellC10Info, new RecordItemIndex(1));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC10Info, "Text", "HB.2017.0", null, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.", repo.ExcelRelated.Excel.CellC10Info, new RecordItemIndex(2));
-                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC10Info, "Text", "HB.2017.0", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'2.4') on item 'ExcelRelated.Excel.CellC12'.", repo.ExcelRelated.Excel.CellC12Info, new RecordItemIndex(2));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC12Info, "Text", "2.4", null, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'2.4') on item 'ExcelRelated.Excel.CellC12'.", repo.ExcelRelated.Excel.CellC12Info, new RecordItemIndex(3));
-                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC12Info, "Text", "2.4", null, false);
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(3));
+                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(4));
-                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(5));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(4));
                 repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
         }
 

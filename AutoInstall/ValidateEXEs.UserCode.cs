@@ -27,8 +27,8 @@ namespace AutoInstall
 {
     public partial class ValidateEXEs
     {
-        string dir = @"W:\HBDaily\InstallAutomation\Script\Reports\";
-            string refDir = @"W:\HBDaily\InstallAutomation\Script\Reports\Reference\";
+        string dir = @"Downloads\InternFinal\InternFinal\Script\Reports\";
+            string refDir = @"Downloads\InternFinal\InternFinal\Script\Reports\Reference\";
             string fileServ = @"CheckExeVersionServer.txt";
             string fileWS = @"CheckExeVersionWS.txt";
             

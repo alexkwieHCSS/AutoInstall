@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateRecapClassicReportOutput()
         {
-            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script";
+            ScriptLocation = "Downloads\\InternFinal\\InternFinal\\Script";
         }
 
         /// <summary>

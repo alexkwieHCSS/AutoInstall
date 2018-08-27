@@ -143,43 +143,39 @@ namespace AutoInstall
             repo.HBDropDownOptions.Estimate.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(3));
-            //repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox.DoubleClick();
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$EstimatePath' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$EstimatePath' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextboxInfo, new RecordItemIndex(3));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox.PressKeys(EstimatePath);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (WindowText~$EstimateName) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextboxInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (WindowText~$EstimateName) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextboxInfo, new RecordItemIndex(4));
             Validate.AttributeRegex(repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextboxInfo, "WindowText", new Regex(EstimateName));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (WindowText~$EstimateCode) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateCodeTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateCodeTextboxInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (WindowText~$EstimateCode) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateCodeTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateCodeTextboxInfo, new RecordItemIndex(5));
             Validate.AttributeRegex(repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateCodeTextboxInfo, "WindowText", new Regex(EstimateCode));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButtonInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButtonInfo, new RecordItemIndex(6));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextboxInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextboxInfo, new RecordItemIndex(7));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'dozer' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextboxInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'dozer' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox'.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextboxInfo, new RecordItemIndex(8));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.DeletePasswordTextbox.PressKeys("dozer");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButtonInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButtonInfo, new RecordItemIndex(9));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.NextButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.FinishButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.FinishButtonInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.FinishButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.FinishButtonInfo, new RecordItemIndex(10));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.FinishButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButtonInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButton' at Center.", repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButtonInfo, new RecordItemIndex(11));
             repo.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.OKButton.Click();
             Delay.Milliseconds(200);
             

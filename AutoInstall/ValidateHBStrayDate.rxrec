@@ -37,22 +37,6 @@ rxversion="8.1">
 		</var>
 	</variables>
 	<recorditems>
-		<userrecorditem
-		classname="ValidateHBStrayDate"
-		enabled="False"
-		isexternaltestmethod="False"
-		methodname="CheckStrayDate"
-		namespace="AutoInstall"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="d8699351-edd3-437e-9855-c484654af43d">
-			</arguments>
-		</userrecorditem>
 		<runapprecorditem
 		duration="100ms"
 		enabled="True"
@@ -141,30 +125,6 @@ rxversion="8.1">
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@title='Microsoft Excel']/button[@text='OK']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="b2dbe5c8-7cb3-435c-8642-59cf4cd54dfa"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="3e80e15d-b7ef-44ea-9fd9-41677c209169"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title~'Microsoft Office Activation']/?/?/?/button[@name='Cancel']
 				</path>
 			</info>
 		</mouseitem>

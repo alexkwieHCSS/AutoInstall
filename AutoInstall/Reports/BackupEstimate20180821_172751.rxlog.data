@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6c4849d22bf4753"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="8/21/2018 5:27:55 PM"
+		timestampiso="2018-08-21T22:27:55"
+		endtime="8/21/2018 5:29:17 PM"
+		timeoutfactor="1.3"
+		module="BackupEstimate">
+		<detail>
+			BackupEstimate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.061"
+			timeRelativeToTestModuleStartTime="00:03.062"
+			timeWallClock="17:27:58"
+			time="00:03.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.434"
+			timeRelativeToTestModuleStartTime="00:05.435"
+			timeWallClock="17:28:01"
+			time="00:05.434"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Exception while initializing WPF proxy: System.Runtime.Remoting.RemotingException: Failed to write to an IPC Port: The pipe is being closed.<br/><br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Write(Byte[] data, Int32 offset, Int32 size)<br/>   at System.Runtime.Remoting.Channels.Ipc.PipeStream.Write(Byte[] buffer, Int32 offset, Int32 count)<br/>   at System.Runtime.Remoting.Channels.ChunkedMemoryStream.WriteTo(Stream stream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.SendRequest(IMessage msg, ITransportHeaders headers, Stream contentStream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Core.Injection.IDotNetThingy.GetAppDomainIds()<br/>   at Ranorex.Plugin.WpfFlavor.InjectWpfAutomation(ProcessInfo proc, IDotNetThingy dnproxy)<br/>Process: 'Fuze' (pid 14984)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Reason#2:.1<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.006"
+			timeRelativeToTestModuleStartTime="00:08.007"
+			timeWallClock="17:28:03"
+			time="00:08.006"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.BackupEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'Backup']"
+				itempath=".///toolbar/button[@text~'Backup']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.BackupEstimateButton"
+				id="bc09738913aa49f4a7aecc31e4676ec3"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.355"
+			timeRelativeToTestModuleStartTime="00:10.356"
+			timeWallClock="17:28:06"
+			time="00:10.355"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.SingleEstimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Single Estimate']"
+				itempath="?/?/menuitem[@text~'Single Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.SingleEstimate"
+				id="4c2017c7c5da4f66826395cbe5717e6d"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.186"
+			timeRelativeToTestModuleStartTime="00:11.187"
+			timeWallClock="17:28:06"
+			time="00:11.186"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupEstimate.EllipisisButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Backup']////button[@accessiblename='...']"
+				itempath=".////button[@accessiblename='...']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupEstimate.EllipisisButton"
+				id="bcb9c9a137544aa6898e13c5e594dff5"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.078"
+			timeRelativeToTestModuleStartTime="00:12.079"
+			timeWallClock="17:28:07"
+			time="00:12.078"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//button[@text~'OK']"
+				itempath=".//button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton"
+				id="40be3ffbecab442d971036a7c66920fe"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.022"
+			timeRelativeToTestModuleStartTime="00:13.023"
+			timeWallClock="17:28:08"
+			time="00:13.022"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupEstimate.FinishButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Backup']////button[@accessiblename='Finish']"
+				itempath=".////button[@accessiblename='Finish']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupEstimate.FinishButton"
+				id="17a46077d5cf424cabb324a499c15007"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.765"
+			timeRelativeToTestModuleStartTime="00:13.766"
+			timeWallClock="17:28:09"
+			time="00:13.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HCSS Backup']/button[@text~'OK']"
+				itempath="button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.OKButton"
+				id="85c2585677fd462f823e1dab11a53d32"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.908"
+			timeRelativeToTestModuleStartTime="01:21.909"
+			timeWallClock="17:29:17"
+			time="01:21.908"
+			level="Warn"
+			category="Module"
+			errimg=".\BackupEs_93ece11_57ee9108_trace.jpg"
+			errthumb=".\BackupEs_93ece11_57ee9108_trace_thumb.jpg">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.OKButton'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.cs"
+				codeline="110"
+				loglvl="Warn"
+				id="85c2585677fd462f823e1dab11a53d32"
+				path="/form[@title~'HCSS Backup']/button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.OKButton">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.922"
+			timeRelativeToTestModuleStartTime="01:21.923"
+			timeWallClock="17:29:17"
+			time="01:21.922"
+			level="Failure"
+			category="File Exist"
+			errimg=".\BackupEs_93ece11_57ee9108_trace.jpg"
+			errthumb=".\BackupEs_93ece11_57ee9108_trace_thumb.jpg">
+			<message>
+				Fail! C:\HeavyBidWS\HBSave\1-BRIDGE.EST does not exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.UserCode.cs"
+				codeline="53"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.925"
+			timeRelativeToTestModuleStartTime="01:21.926"
+			timeWallClock="17:29:17"
+			time="01:21.925"
+			level="Failure"
+			category="File Exist"
+			errimg=".\BackupEs_93ece11_57ee9108_trace.jpg"
+			errthumb=".\BackupEs_93ece11_57ee9108_trace_thumb.jpg">
+			<message>
+				Fail! C:\HeavyBidWS\HBSave\1-BRIDGE.ZIP does not exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\BackupEstimate.UserCode.cs"
+				codeline="62"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.930"
+			timeRelativeToTestModuleStartTime="01:21.931"
+			timeWallClock="17:29:17"
+			time="01:21.930"
+			level="Error"
+			category="Module"
+			errimg=".\BackupEs_93ece11_57ee9108_trace.jpg"
+			errthumb=".\BackupEs_93ece11_57ee9108_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

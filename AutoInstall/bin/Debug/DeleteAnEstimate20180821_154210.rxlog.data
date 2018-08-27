@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.54s"
+		durationms="12543"
+		type="root"
+		rid="4e60fb45bfca9a4"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="8/21/2018 3:42:14 PM"
+		timestampiso="2018-08-21T20:42:14"
+		endtime="8/21/2018 3:42:27 PM"
+		timeoutfactor="1.3"
+		module="DeleteAnEstimate">
+		<detail>
+			DeleteAnEstimate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.841"
+			timeRelativeToTestModuleStartTime="00:02.842"
+			timeWallClock="15:42:17"
+			time="00:02.841"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>EstimateCode, EstimateName, EstimateDescription, EstimatePath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.885"
+			timeRelativeToTestModuleStartTime="00:02.886"
+			timeWallClock="15:42:17"
+			time="00:02.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="134"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.685"
+			timeRelativeToTestModuleStartTime="00:05.686"
+			timeWallClock="15:42:20"
+			time="00:05.685"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Exception while initializing WPF proxy: System.Runtime.Remoting.RemotingException: Failed to write to an IPC Port: The pipe is being closed.<br/><br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Write(Byte[] data, Int32 offset, Int32 size)<br/>   at System.Runtime.Remoting.Channels.Ipc.PipeStream.Write(Byte[] buffer, Int32 offset, Int32 count)<br/>   at System.Runtime.Remoting.Channels.ChunkedMemoryStream.WriteTo(Stream stream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.SendRequest(IMessage msg, ITransportHeaders headers, Stream contentStream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Core.Injection.IDotNetThingy.GetAppDomainIds()<br/>   at Ranorex.Plugin.WpfFlavor.InjectWpfAutomation(ProcessInfo proc, IDotNetThingy dnproxy)<br/>Process: 'Fuze' (pid 14984)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Reason#2:.1<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="135"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.657"
+			timeRelativeToTestModuleStartTime="00:07.658"
+			timeWallClock="15:42:22"
+			time="00:07.657"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.DeleteEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				itempath=".///toolbar[@accessiblename~'Ribbon']/button[@text~'Delete']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.DeleteEstimateButton"
+				id="aab4ef82cce54c6cb3230c24bbccfcc3"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="138"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.043"
+			timeRelativeToTestModuleStartTime="00:09.044"
+			timeWallClock="15:42:23"
+			time="00:09.043"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.Estimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Estimate']"
+				itempath="?/?/menuitem[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.Estimate"
+				id="946675a5690847e583ea655a6f7dd425"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="142"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.851"
+			timeRelativeToTestModuleStartTime="00:09.852"
+			timeWallClock="15:42:24"
+			time="00:09.851"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$EstimatePath' with focus on 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/element[@class='DFform']/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimatePathTextbox"
+				id="9109693459684a0ba0fb9a259a1316ef"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="150"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.331"
+			timeRelativeToTestModuleStartTime="00:12.332"
+			timeWallClock="15:42:27"
+			time="00:12.331"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (WindowText~$EstimateName) on item 'HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Delete Estimate']/element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				itempath="element[@class='DFDialogClass']//element[@class='DFentry'][2]"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.DeleteEstimateRelated.DeleteEstimate.EstimateNameTextbox"
+				id="f60b8e1ed8a3473eb2b92e39f83e3bf1"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\DeleteAnEstimate.cs"
+				codeline="154"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.542"
+			timeRelativeToTestModuleStartTime="00:12.543"
+			timeWallClock="15:42:27"
+			time="00:12.542"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

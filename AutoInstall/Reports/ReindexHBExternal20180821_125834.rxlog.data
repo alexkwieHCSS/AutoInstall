@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.7m"
+		durationms="399354"
+		type="root"
+		rid="42bead4d412ccd"
+		totalerrorcount="1"
+		totalwarningcount="6"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="alex.kwie"
+		rxversion="8.1.1.0"
+		host="ALEXK-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="8/21/2018 12:58:39 PM"
+		timestampiso="2018-08-21T17:58:39"
+		endtime="8/21/2018 1:05:18 PM"
+		timeoutfactor="1.3"
+		module="ReindexHBExternal">
+		<detail>
+			ReindexHBExternal
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.061"
+			timeRelativeToTestModuleStartTime="00:03.063"
+			timeWallClock="12:58:42"
+			time="00:03.061"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'C:\HeavyBidWS\BIN\REINDEX.EXE' with arguments ' HEAVYMULT' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.226"
+			timeRelativeToTestModuleStartTime="00:03.227"
+			timeWallClock="12:58:42"
+			time="00:03.226"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/?/button[@text='...']"
+				itempath="?/?/?/?/button[@text='...']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton"
+				id="43ebab740b1a453cb15ffbb03c9f605d"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.671"
+			timeRelativeToTestModuleStartTime="00:06.673"
+			timeWallClock="12:58:45"
+			time="00:06.671"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Exception while initializing WPF proxy: System.Runtime.Remoting.RemotingException: Failed to write to an IPC Port: The pipe is being closed.<br/><br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Write(Byte[] data, Int32 offset, Int32 size)<br/>   at System.Runtime.Remoting.Channels.Ipc.PipeStream.Write(Byte[] buffer, Int32 offset, Int32 count)<br/>   at System.Runtime.Remoting.Channels.ChunkedMemoryStream.WriteTo(Stream stream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.SendRequest(IMessage msg, ITransportHeaders headers, Stream contentStream)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Core.Injection.IDotNetThingy.GetAppDomainIds()<br/>   at Ranorex.Plugin.WpfFlavor.InjectWpfAutomation(ProcessInfo proc, IDotNetThingy dnproxy)<br/>Process: 'Fuze' (pid 14984)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Reason#2:.1<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="90"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.398"
+			timeRelativeToTestModuleStartTime="01:21.399"
+			timeWallClock="13:00:00"
+			time="01:21.398"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="92"
+				loglvl="Warn"
+				id="43ebab740b1a453cb15ffbb03c9f605d"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/?/button[@text='...']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.EllipisisButton">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.402"
+			timeRelativeToTestModuleStartTime="01:21.403"
+			timeWallClock="13:00:00"
+			time="01:21.402"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating Exists on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']/element[@class='DFformlist']"
+				itempath="element[@class='DFformlist']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates"
+				id="127b01f98a454ec19652a2ddbf0addd1"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:39.699"
+			timeRelativeToTestModuleStartTime="02:39.701"
+			timeWallClock="13:01:18"
+			time="02:39.699"
+			level="Failure"
+			category="Validation">
+			<message>
+				Element for item 'ListExistingEstimates' does not exist (Failed to find item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates'. No element found for path '/form[@class~'DFDialogClass']/element[@class='DFformlist']' within 1.3m (timeout factor = 1.3).).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']/element[@class='DFformlist']"
+				itempath="element[@class='DFformlist']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ListExistingEstimates"
+				id="127b01f98a454ec19652a2ddbf0addd1"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="96"
+				loglvl="Failure"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:39.712"
+			timeRelativeToTestModuleStartTime="02:39.713"
+			timeWallClock="13:01:19"
+			time="02:39.712"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//button[@text~'OK']"
+				itempath=".//button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton"
+				id="40be3ffbecab442d971036a7c66920fe"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="114"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:57.991"
+			timeRelativeToTestModuleStartTime="03:57.992"
+			timeWallClock="13:02:37"
+			time="03:57.991"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="117"
+				loglvl="Warn"
+				id="40be3ffbecab442d971036a7c66920fe"
+				path="/form[@class~'DFDialogClass']//button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.OKButton">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:57.994"
+			timeRelativeToTestModuleStartTime="03:57.995"
+			timeWallClock="13:02:37"
+			time="03:57.994"
+			level="Info"
+			category="Set value">
+			<message>
+				(Optional Action)<br/>Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'estimate']"
+				itempath="?/?/?/checkbox[@text~'estimate']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox"
+				id="a5df4f7b446c4bb482c639356de4e464"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="120"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:16.192"
+			timeRelativeToTestModuleStartTime="05:16.194"
+			timeWallClock="13:03:55"
+			time="05:16.192"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="123"
+				loglvl="Warn"
+				id="a5df4f7b446c4bb482c639356de4e464"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'estimate']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.CurrentEstimateCheckbox">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:16.197"
+			timeRelativeToTestModuleStartTime="05:16.199"
+			timeWallClock="13:03:55"
+			time="05:16.197"
+			level="Info"
+			category="Set value">
+			<message>
+				(Optional Action)<br/>Setting attribute Checked to 'True' on item 'HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'System']"
+				itempath="?/?/?/checkbox[@text~'System']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox"
+				id="f9f875c418e44e78ba4b8b8b280f648b"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="126"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="06:34.421"
+			timeRelativeToTestModuleStartTime="06:34.422"
+			timeWallClock="13:05:13"
+			time="06:34.421"
+			level="Warn"
+			category="Module"
+			errimg=".\ReindexH_ce7e4d4_43bc50b1_trace.jpg"
+			errthumb=".\ReindexH_ce7e4d4_43bc50b1_trace_thumb.jpg">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="129"
+				loglvl="Warn"
+				id="f9f875c418e44e78ba4b8b8b280f648b"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/checkbox[@text~'System']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.SystemFilesCheckbox">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="06:34.423"
+			timeRelativeToTestModuleStartTime="06:34.425"
+			timeWallClock="13:05:13"
+			time="06:34.423"
+			level="Info"
+			category="Mouse"
+			errimg=".\ReindexH_ce7e4d4_43bc50b1_trace.jpg"
+			errthumb=".\ReindexH_ce7e4d4_43bc50b1_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Reindex An Estimate']/?/?/?/button[@text~'OK']"
+				itempath="?/?/?/button[@text~'OK']"
+				fullname="AutoInstallRepository.HBPopUpScreensExternal.Reindex.ReindexApplication.ButtonOK"
+				id="ebcf1095d44e4f308240deae009ec9d0"
+				timeout="78000"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="132"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="06:39.353"
+			timeRelativeToTestModuleStartTime="06:39.355"
+			timeWallClock="13:05:18"
+			time="06:39.353"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="06:39.429"
+			timeRelativeToTestModuleStartTime="06:39.431"
+			timeWallClock="13:05:18"
+			time="06:39.429"
+			level="Warn"
+			category="Module"
+			errimg=".\ReindexH_ce7e4d4_d5f0fa93_trace.jpg"
+			errthumb=".\ReindexH_ce7e4d4_d5f0fa93_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\alex.kwie\Documents\Ranorex\RanorexStudio Projects\InternFinal\InternFinal\AutoInstall\ReindexHBExternal.cs"
+				codeline="135"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

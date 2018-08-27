@@ -26,7 +26,7 @@ namespace AutoInstall
 {
     public partial class Compare17Folders
     {
-       		string dir = @"W:\HBDaily\InstallAutomation\Script\Reports\";
+       		string dir = @"Downloads\InternFinal\InternFinal\Script\Reports\";
        		string refDir = @"W:\HBDaily\InstallAutomation\Script\Reports\Reference\";
             string binDiff = @"binDiff.txt";
             string hcssDiff = @"hcssDiff.txt";

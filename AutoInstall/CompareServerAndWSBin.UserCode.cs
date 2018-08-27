@@ -24,13 +24,13 @@ namespace AutoInstall
 {
     public partial class CompareServerAndWSBin
     {
-    	string dir = @"W:\HBDaily\InstallAutomation\Script\Reports\";
+    	string dir = @"Downloads\InternFinal\InternFinal\Script\Reports\";
         string file = @"DiffBetweenServWsBIN.txt";
         
             
             
-    	string filePath_Expected = @"W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt";
+    	string filePath_Expected = @"Downloads\InternFinal\InternFinal\Script\Reports\DiffBetweenServWsBIN.txt";
+    	string filePath_Current = @"Downloads\InternFinal\InternFinal\Script\Reports\DiffBetweenServWsBIN - Copy.txt";
     	string customLogMessage = string.Empty;
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -29,12 +29,12 @@ namespace AutoInstall
         /// It can be used to execute recording specific initialization code.
         /// </summary>
         /// 
-        string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
+        string dir = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\";
         string file = @"BiditemStructureReport.txt";
 
         
-        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\BiditemStructureReportSimiliarContent.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\BiditemStructureReportSimiliarContent.txt";
+        string filePath_Expected = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\Reference\BiditemStructureReportSimiliarContent.txt";
+    	string filePath_Current = @"Downloads\InternFinal\InternFinal\HBReportsExportFiles\BiditemStructureReportSimiliarContent.txt";
         string customLogMessage = string.Empty;
         
         

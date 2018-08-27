@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateCustomBidProposalReportOutput()
         {
-            ScriptLocation = "W:\\HBDaily\\InstallAutomation\\Script";
+            ScriptLocation = "Downloads\\InternFinal\\InternFinal\\Script";
         }
 
         /// <summary>

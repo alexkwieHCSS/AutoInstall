@@ -1,0 +1,328 @@
+	Crystal Report Professional v11.0 (32-bit) - Report Definition
+
+1.0 File Information
+
+	Report File: Custom Crystal Report: Bid Proposal: Labor and Material U.P.
+	Version: 11.0
+
+2.0 Record Sort Fields
+
+3.0 Group Sort Fields
+
+4.0 Formulas
+
+4.1 Record Selection Formula
+	
+
+4.2 Group Selection Formula
+	{biditem.TYPE} = "D" and {biditem.SUBITEM} = "N"
+
+
+4.3 Other Formulas
+
+	Name: {@TotalBid}
+	Formula: WhilePrintingRecords;
+	NumberVar TotalBid := {@TotalBidSum}
+
+	Name: {@resets}
+	Formula: WhilePrintingrecords;
+	NumberVar BiditemExtension := 0;
+	NumberVar Extension := 0;
+	NumberVar LaborEquipUP := 0;
+	NumberVar MaterialsUP := 0;
+	NumberVar TotalBid := 0;
+	NumberVar TotalUP := 0
+
+	Name: {@TotalBidSum}
+	Formula: WhilePrintingRecords;
+	NumberVar TotalBidSum;
+
+	Name: {@LaborEquipUP}
+	Formula: WhilePrintingRecords;
+	NumberVar LaborEquipTot;
+	NumberVar LaborEquipUP;
+	
+	LaborEquipTot := (({biditem.CO_EQP} + {biditem.OUT_EQP} + {biditem.EOE}) + ({biditem.LABOR} + {biditem.BURDEN}));
+	if {biditem.DIRTOT} = 0 then LaborEquipUP := 0
+	else LaborEquipUP := {biditem.SELLING} * (LaborEquipTot / {biditem.DIRTOT});
+	LaborEquipUP := Round(LaborEquipUP, 2)
+
+	Name: {@MaterialsUP}
+	Formula: WhilePrintingRecords;
+	NumberVar MaterialsTot;
+	NumberVar MaterialsUP;
+	
+	MaterialsTot := ({biditem.PM} + {biditem.CM} + {biditem.SC});
+	if {biditem.DIRTOT} = 0 then MaterialsUP := 0
+	else MaterialsUP := (({@Extension} / {biditem.ENGR_QUAN}) - {@LaborEquipUP})
+	
+	//MaterialsUP := (({biditem.PM} + {biditem.CM} + {biditem.SC}) / {biditem.ENGR_QUAN})
+
+	Name: {@TotalUP}
+	Formula: WhilePrintingRecords;
+	NumberVar TotalUP;
+	
+	TotalUP := {biditem.SELLING};
+	
+
+	Name: {@Extension}
+	Formula: WhilePrintingRecords;
+	NumberVar Extension;
+	NumberVar TotalBidSum;
+	
+	TotalBidsum := (TotalBidSum + ({biditem.SELLING} * {biditem.ENGR_QUAN}));
+	Extension := ({biditem.SELLING} * {biditem.ENGR_QUAN});
+
+5.0 Sectional Information
+
+5.1 Page Header Section
+	Visible, Keep Together
+
+	{estdefn.COMPANY_NAME}
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+	PrintDate
+		Date, Visible, Left Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Windows Default Type: Use Windows Short Date, Date Order: Month Day Year, Year Type: Long, Month Type: Numeric Month, Day Type: Numeric Day, Leading Day Type: None, First Separator: '/', Second Separator: '/', Leading Day Separator: ''
+
+
+	Print Date:
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	Let Date:
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	{estdefn.BID_DATE}
+		Date, Visible, Left Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Windows Default Type: Use Windows Short Date, Date Order: Month Day Year, Year Type: Long, Month Type: Numeric Month, Day Type: Numeric Day, Leading Day Type: None, First Separator: '/', Second Separator: '/', Leading Day Separator: ''
+
+
+	Print Time:
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	{estdefn.ESTNAME}
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+	DESCRIPTION
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	TOTAL
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	Extension
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	CLIENT
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	QUANTITY
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	UNIT
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	LABOR
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	MATERIAL
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	UNIT PRICE
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	NUMBER
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	PrintTime
+		Time, Visible, Left Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Time Base: 12 Hour, AM/PM Type: AM/PM After, Hour Type: Numeric No Leading Zero, Minute Type: Numeric, Second Type: Numeric, AM String: 'AM', PM String: 'PM', Hour Minute Separator: ':', Minute  Second Separator: ':'
+
+
+	BID ITEM
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	UNIT PRICE
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	UNIT PRICE
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	Bid Proposal
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+
+5.2 Page Footer Section
+	Visible, New Page After, Keep Together, Print At Bottom of Page
+
+	PageNumber
+		Numeric, Visible, Left Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 0 Decimal Places, Rounding: 1, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	Page:
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+
+5.3 Report Header Section
+	Hidden, New Page Before
+
+5.4 Report Footer Section
+	Visible, New Page After
+
+	TOTAL BID
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together
+
+
+
+	{@TotalBid}
+		Numeric, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+5.5 Group Header Section
+	Hidden
+
+	{@resets}
+		Numeric, Hidden, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	{@TotalBidSum}
+		Numeric, Hidden, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+5.6 Group Footer Section
+	Visible
+
+	{biditem.ENGR_BID#}
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together
+
+
+	{biditem.BID}
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together
+
+
+	{biditem.UNITS}
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together
+
+
+	{biditem.ENGR_QUAN}
+		Numeric, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	{biditem.DESC}
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+	{@LaborEquipUP}
+		Numeric, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	{@MaterialsUP}
+		Numeric, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	{@TotalUP}
+		Numeric, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+	{@Extension}
+		Numeric, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, 
+		Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+		Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+5.7 Details Section
+	Hidden
+
+	Subsection.1 
+		Visible
+
+	{estdetl.DETAIL}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+

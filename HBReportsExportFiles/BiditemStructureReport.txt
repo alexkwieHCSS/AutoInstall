@@ -1,0 +1,43 @@
+Biditem Structure	                      				                                                 	                   	                   	          	    	 	
+Test Company 999 	13                    				                                                 	                   	Page 1 of          	          	    	1	
+1-BRIDGE         	Bridge Sample Estimate				                                                 	                   	07/17/2018 11:19 AM	          	    	 	
+1-BRIDGE         	Bridge Sample Estimate				                                                 	07/17/2018 11:20 AM	Page 1 of          	          	    	1	
+Type             	Biditem/Category      				Description                                      	                   	Bid Quantity       	          	Unit	 	
+                 	100                   				Mobilization                                     	                   	1.00               	1.00      	LS  	 	
+                 	110                   				Owners Facilities                                	                   	24.00              	24.00     	MO  	 	
+                 	120                   				Allowance for Testing                            	                   	1.00               	1.00      	LS  	 	
+                 	130                   				Traffic Control                                  	                   	24.00              	24.00     	MO  	 	
+                 	140                   				Erosion Control                                  	                   	1.00               	1.00      	LS  	 	
+                 	150                   				Site Clearing                                    	                   	15.00              	15.00     	ACRE	 	
+                 	160                   				Demolish Concrete Structures                     	                   	1,250.00           	1,250.00  	CY  	 	
+                 	170                   				Structural Excavation                            	                   	17,500.00          	17,500.00 	CY  	 	
+                 	1000                  				Bridge Structure                                 	                   	1.00               	1.00      	LS  	 	
+                 	1100                  				30" PC/PS Concrete Piles - Bridge Piers          	                   	30,200.00          	30,200.00 	LF  	 	
+                 	1200                  				Pile Load Test - 30" PC/PS - 400 Ton Max.        	                   	2.00               	2.00      	EA  	 	
+                 	1300                  				East Abutment                                    	                   	1.00               	1.00      	LS  	 	
+                 	1310                  				Abutment Piling - HP14x102  (East)               	                   	6,900.00           	6,900.00  	LF  	 	
+                 	1320                  				Abutment Pile Cap  (East)                        	                   	145.00             	145.00    	CY  	 	
+                 	1330                  				Abutment Retaining Wall / Pier  (East)           	                   	345.50             	345.50    	CY  	 	
+                 	1340                  				Abutment Cap / Beam Seats  (East)                	                   	75.50              	75.50     	CY  	 	
+                 	1350                  				Approach Slab - 13"  (East)                      	                   	367.00             	367.00    	SY  	 	
+                 	1400                  				West Abutment                                    	                   	1.00               	1.00      	LS  	 	
+                 	1410                  				Abutment Piling - HP14x102  (West)               	                   	7,250.00           	7,250.00  	LF  	 	
+                 	1420                  				Abutment Pile Cap  (West)                        	                   	167.00             	167.00    	CY  	 	
+                 	1430                  				Abutment Retaining Wall / Pier  (West)           	                   	390.00             	390.00    	CY  	 	
+                 	1440                  				Abutment Cap / Beam Seats  (West)                	                   	78.00              	78.00     	CY  	 	
+                 	1450                  				Approach Slab - 13"  (West)                      	                   	390.50             	390.50    	SY  	 	
+                 	1500                  				Reinforced Concrete Pile Caps                    	                   	4,445.00           	4,445.00  	CY  	 	
+                 	1600                  				Reinforced Concrete Pier Shafts                  	                   	8,335.00           	8,335.00  	CY  	 	
+                 	1700                  				Reinforced Concrete Pier Caps                    	                   	4,668.00           	4,668.00  	CY  	 	
+                 	1800                  				Furnish & Install AASHTO Girders - Type V (Mod)  	                   	540.00             	540.00    	EA  	 	
+                 	1900                  				Elastomeric Bearings                             	                   	1,080.00           	1,080.00  	EA  	 	
+                 	2000                  				Furnish & Install PC/PS Deck - 4"                	                   	267,750.00         	267,750.00	SF  	 	
+                 	2100                  				Install PC Intermediate Diaphragms               	                   	1,020.00           	1,020.00  	EA  	 	
+                 	2200                  				Place Concrete Deck Overlay & Overhang - Class IB	                   	7,982.00           	7,982.00  	CY  	 	
+                 	2300                  				CIP Parapet - Edges                              	                   	6,108.00           	6,108.00  	LF  	 	
+                 	2400                  				CIP Barrier - Divider                            	                   	3,054.00           	3,054.00  	LF  	 	
+                 	2500                  				Grade 60 Reinforcing Steel - Bridge              	                   	2,224.00           	2,224.00  	TON 	 	
+                 	2600                  				Steel Expansion Jts. & Misc. Metal               	                   	19,550.00          	19,550.00 	LB  	 	
+                 	2700                  				Bridge Markings & Signs                          	                   	1.00               	1.00      	LS  	 	
+                 	3000                  				Fixed Indirect  Costs                            	                   	1.00               	1.00      	LS  	 	
+                 	3100                  				Supervision & Monthly Indirects                  	                   	24.00              	24.00     	MO  	 	

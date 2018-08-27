@@ -1,0 +1,152 @@
+Test Company 999                                                                                          07/03/2018       14:43    
+1-BRIDGE                  Bridge Sample Estimate                                                                                    
+***                                                                                                                                 
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                                             ESTIMATE RECAP -        BID QUANTITIES                                                 
+                                                                                                                                    
+                                                  DIRECT          INDIRECT              TOTAL         % OF TOTAL                    
+                   Labor                    1,572,160.52        706,640.00       2,278,800.52            11.957%                    
+                   Burden                     565,985.70        193,723.56         759,709.26             3.986%                    
+                   Lab+Bur                  2,138,146.22        900,363.56       3,038,509.78            15.943%                    
+                   Perm Matl               10,809,813.00                        10,809,813.00            56.721%                    
+                   Const Exp                  629,756.38        505,440.97       1,135,197.35             5.957%                    
+                   Equipment                1,358,467.59        216,212.00       1,574,679.59             8.263%                    
+                   Subs                     2,400,348.86         90,000.00       2,490,348.86            13.067%                    
+                   Other                        9,450.00                             9,450.00             0.050%                    
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                   Total Costs:            17,345,982.05      1,712,016.53      19,057,998.58           100.001%                    
+                   % of Total                    91.017%            8.983%           100.000%                                       
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                                                                                                                                    
+Escalation on:               Labor            Burden        Perm Matl        Const Matl            Co Eqp       Rented Eqp          
+                                 0                 0                0                 0                 0                0          
+                            100.00  %         100.00 %         100.00  %         100.00 %          100.00 %         100.00  %       
+                                                                                                                                    
+                         Eq Op Exp               Sub         Trucking             Misc2             Misc3 Total Escalation          
+                                 0                 0                0                 0                 0                0          
+                            100.00  %         100.00 %         100.00  %         100.00 %          100.00 %         100.00  %       
+___________________________________________________________________________________________________________________________________ 
+                                                                                                                                    
+                                   * Data Below here is dependent on the Summary Process. *                                         
+                                   The Summary Process was last run 10/10/2016 at 1:19 PM                                           
+                                                                                                                                    
+                  _________________________________________________________________________________________________________________ 
+                                                                                                                                    
+                                                                                                                                    
+         Markup on Resource Costs                                                1,327,045.74            6.9632%                    
+                                                                                _____________                                       
+         MARKUP TOTALS ===>                                                      1,327,045.74            6.9632%                    
+         Cost Addons                                                                                                                
+         Division Overheads                    2.5000 % of Total Cost              476,449.96            2.5000%                    
+                                                                                                                                    
+         Bond from Summary Table                                                    79,798.13            0.4187%                    
+                                                                                _____________                                       
+         MARKUP, ADDON & BOND TOTALS ===>                                        1,883,293.83            9.8819%                    
+                                                                                =============       (% of costs)                    
+         COST + MARKUP  ------------------->                                   $20,941,292.41                                       
+                                                                        (On Takeoff Quantity)                                       
+                                                                                                                                    
+         There *      ARE NOT      * closing accounts for this bid.                                                                 
+                                                                                                 -Effect on Bid-                    
+         Rounding difference:                                                           33.07           Adjusted                    
+         Unbalancing difference:                                                                                                    
+         From Cut&Add Sheet-costs:                                                             (on Bid Quantity)                    
+         From Cut&Add Sheet-markup:                                                            (on Bid Quantity)                    
+         Pass Through Adjustments:                                                                          None                    
+                                                                                _____________                                       
+         Net Adjustments (to the balanced bid):                                        $33.07   [or desired bid]                    
+                                                                                                                                    
+         BALANCED BID TOTAL                                                    $20,941,292.41                                       
+         DESIRED BID (if specified)                                                                                                 
+                                                                                                                                    
+
+
+Test Company 999                                                                                          07/03/2018       14:43    
+1-BRIDGE                  Bridge Sample Estimate                                                                                    
+***                                                                                                                                 
+         BID TOTAL  (on bid quantities)                                        $20,941,325.48                                       
+         BID COSTS (on bid quantities)                                         $19,614,246.67                                       
+         MARKUP     (on bid quantities)                                         $1,327,078.81             6.765%                    
+                                                                                                                                    
+         EXPECTED JOB VALUE (on takeoff quantities):                           $20,941,325.48                                       
+         EXPECTED COSTS     (on takeoff quantities):                           $19,614,246.67                                       
+         EXPECTED MARKUP    (on takeoff quantities):                            $1,327,078.81             6.765%                    
+                                                                                                                                    
+         Adjust to Bid Quantities =         Y                                                                                       
+                                                                                                                                    
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                                            On Takeoff Quantities                                                                   
+                                                                                                                                    
+         Labor Hrs. (MH/MHS)   85,051                  0            85,051                                                          
+         (incl burden)      2,138,146                  0         2,138,146                                                          
+                                                                                                                                    
+         Labor (DAY/DAYS)           0                  0                 0                                                          
+         (incl burden)              0                  0                 0                                                          
+                                                                                                                                    
+         Labor (OtherUnits)         0            900,363           900,363                                                          
+         (incl burden)                                                                                                              
+                                                                                                                                    
+         Labor Burden         565,985            193,723           759,709                                                          
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+         Spread Indirects on:               TotalLessSub                       Spread Markup on:        Markup%                     
+         Spread Addons&Bond on:             TotalLessSub                                                                            
+                                                                                                                                    
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+Markup on:           Labor         Burden            PermMatl         CM                CoEqp             RentedEqp                 
+                     15.00%        15.00%            5.00%            5.00%             10.00%            0.00%                     
+                                                                                                                                    
+                     EOE           Sub               Trucking         Misc2             Misc3                                       
+                     10.00%        5.00%             10.00%           0.00%             10.00%                                      
+                                                                                                                                    
+                                                                                                                                    
+ __________________________________________________________________________________________________________________________________ 
+                                  Bond Calculations                                                                                 
+Selected Bond Table:   A        Description:   Class A Bond                                                                         
+                                                                                                                                    
+                   Contract Amount        Rate per 1000                 Bond Amount                                                 
+  First:              $    100,000                 5.50                $     550.00                                                 
+  Next:               $    400,000                 5.00                $   2,000.00                                                 
+  Next:               $  2,000,000                 4.50                $   9,000.00                                                 
+  Next:               $  2,500,000                 4.00                $  10,000.00                                                 
+  Next:               $  2,500,000                 3.75                $   9,375.00                                                 
+  Remainder:                                       3.30                $  44,356.26                                                 
+___________________________________________________________________________________________________________________________________ 
+                                               Subtotal:               $  75,281.26                                                 
+     Time Threshold 1:   24     Extended Time Rate 1:     1.0000 %     $   4,516.88                                                 
+     Time Threshold 2:    0     Extended Time Rate 2:     0.0000 %     $       0.00                                                 
+         Length of Job:  30                 Total Bond Amount:         $  79,798.14                                                 
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                                                                                                                                    
+Key Indicators                                                                                                                      
+                                                                                                                                    
+Balanced Markup                    /        Total Labor                        =        Balanced Markup/Total Labor                 
+
+
+Test Company 999                                                                                          07/03/2018       14:43    
+1-BRIDGE                  Bridge Sample Estimate                                                                                    
+***                                                                                                                                 
+1,327,045.74                       /        3,038,509.78                       =        43.67%                                      
+                                                                                                                                    
+Indirect Cost                      /        Direct Cost                        =        Indirect Cost/Direct Cost                   
+1,712,016.53                       /        17,345,982.05                      =        9.87%                                       
+                                                                                                                                    
+                                                                                                                                    
+___________________________________________________________________________________________________________________________________ 
+                                                                                                                                    
+                                                                                                                                    
+------ ESTIMATE NOTES: ------                                                                                                       
+Bid Date:              10/23/2018                             Owner:        A. A. MISSILDINE                                        
+Engr Firm:             Owner                                                                                                        
+Estimator-In-Charge:                    MR                    Desired Bid (if specified) =                    0.00                  
+Notes:                                                                                                                              
+Last Summary on 10/10/2016 at 1:19 PM.                                                                                              
+Last Spread on 10/10/2016 at 1:19 PM.                                                                                               
+                                                                                                                                    

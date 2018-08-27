@@ -117,34 +117,28 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.OfficeActivationSuite.CancelButton' at Center.", repo.ExcelRelated.OfficeActivationSuite.CancelButtonInfo, new RecordItemIndex(4));
-                repo.ExcelRelated.OfficeActivationSuite.CancelButton.Click();
-                Delay.Milliseconds(200);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text=$YearVersion) on item 'ExcelRelated.Excel.CellA2'.", repo.ExcelRelated.Excel.CellA2Info, new RecordItemIndex(4));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellA2Info, "Text", YearVersion, null, false);
+                Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text=$YearVersion) on item 'ExcelRelated.Excel.CellA2'.", repo.ExcelRelated.Excel.CellA2Info, new RecordItemIndex(5));
-                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellA2Info, "Text", YearVersion, null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='08/08/2017') on item 'ExcelRelated.Excel.CellB2'.", repo.ExcelRelated.Excel.CellB2Info, new RecordItemIndex(5));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellB2Info, "Text", "08/08/2017", null, false);
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='08/08/2017') on item 'ExcelRelated.Excel.CellB2'.", repo.ExcelRelated.Excel.CellB2Info, new RecordItemIndex(6));
-                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellB2Info, "Text", "08/08/2017", null, false);
-                Delay.Milliseconds(100);
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(6));
+                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
+                Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(7));
-                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, new Duration(0));
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(8));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(7));
                 repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
                 Delay.Milliseconds(200);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
         }
 

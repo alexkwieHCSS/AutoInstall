@@ -1,14 +1,12 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="CustomBidProposalReport.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="EstimateRecapReport.rxrec" />
-    <Element value="CostPriceReport.rxrec" />
-    <Element value="BiditemStructureReport.rxrec" />
-    <Element value="OpenInstallFile.rxrec" />
+    <Element value="OpenExistingEstimate.rxrec" />
+    <Element value="CustomBidProposalReport.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

@@ -115,8 +115,8 @@ namespace AutoInstall
             repo.HBReportViewers.ChooseExportFileSaveDialog.FilePathURL.Click(Location.CenterRight);
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}'.", new RecordItemIndex(9));
-            Keyboard.Press("W:\\HBDaily\\InstallAutomation\\HBReportsExportFiles{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'x'.", new RecordItemIndex(9));
+            Keyboard.Press("x");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ChooseExportFileSaveDialog.FileName' at Center.", repo.HBReportViewers.ChooseExportFileSaveDialog.FileNameInfo, new RecordItemIndex(10));

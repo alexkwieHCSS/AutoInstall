@@ -31,8 +31,8 @@ namespace AutoInstall
         /// It can be used to execute recording specific initialization code.
         /// </summary>
         /// 
-        string dir = @"W:\HBDaily\InstallAutomation\Script\Reports";
-        string refDir = @"W:\HBDaily\InstallAutomation\Script\Reports\Reference\";
+        string dir = @"Downloads\InternFinal\InternFinal\Script\Reports";
+        string refDir = @"Downloads\InternFinal\InternFinal\Script\Reports\Reference\";
         string file = @"dllComparison.txt";
         
         private void Init()

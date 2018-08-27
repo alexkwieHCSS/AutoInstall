@@ -3031,6 +3031,39 @@ zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f15cdfe5-ea5a-40b3-b182-2081363105c7"
+		isrooted="True"
+		name="RanorexStudioProjects"
+		refpath="/form[@title='RanorexStudio Projects']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="b066aedb-56af-4447-b7a5-5bd4fda5a57e"
+			name="SystemItemNameDisplay"
+			refimgid="05b83db2-0520-4ec1-949d-5253503a777f"
+			refpath="/form[@title='RanorexStudio Projects']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='1']/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='RanorexStudio Projects']/element[@class='ShellTabWindowClass']//element[@instance='1']//listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<basepath>
+				/form[@title='RanorexStudio Projects']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEwSURBVDhPjZJLTsNAEETnCNyIVTBJjNhyHYT4
+CQQCIRAIRAQHicIv/ANHQHJsx3YwYY0ouqc7ZJFEMyWVevVqPl1mqO/3BQzeQgw6Ib7YryHKl7r4
+uY7Pp5p1/7GGoh10FBuJYeSX5AtyA8jOyWfkU6B3Qj4G0iPyIYqHKhQbiU/2gZEeoLifEMDX9oGR
+7COfGEBv9oGR7CFvz48H8Gf5wEh2kd1NDXDDiHemBNCqfGDE28hug/EA3rEP/Buto3cToGzOzigq
+sgEOGPEWlWqJ1rhIIZWmoiJumAtGd9Oe/vOxbKeioj61ywWju4H0eu5/KirierpgRGtIryhAp6Ii
+rqcLRrSKxAbIVFTE9XTBiFaQtDhApqIiricXxJr2zJ/E5rfydflEhuJWZThLY4z5A+YuloRxRSPn
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

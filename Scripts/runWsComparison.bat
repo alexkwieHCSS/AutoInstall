@@ -1,1 +1,1 @@
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'V:\alex.kwie\Script\wsComparison.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\CompareWSandServerBIN.ps1'"

@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateBiditemStructureOutput()
         {
-            RunLocation = "W:\\HBDaily\\InstallAutomation\\Script";
+            RunLocation = "Downloads\\InternFinal\\InternFinal\\Script";
         }
 
         /// <summary>

@@ -1,0 +1,2077 @@
+	Crystal Report Professional v11.0 (32-bit) - Report Definition
+
+1.0 File Information
+
+	Report File: Customized Bid Proposal
+	Version: 11.0
+
+2.0 Record Sort Fields
+
+3.0 Group Sort Fields
+
+4.0 Formulas
+
+4.1 Record Selection Formula
+	{bidformh.BID_FORM} = "WINQL"
+
+4.2 Group Selection Formula
+	{bidformh.BID_FORM} = "WINQL"
+
+4.3 Other Formulas
+
+	Name: {@Letterhead Space}
+	Formula: "F"
+
+	Name: {@Suppress_Footnotes_Header}
+	Formula: "N"
+
+	Name: {@Line 4}
+	Formula: whileprintingrecords;
+	Stringvar Line4:={bidformh.F4_30}
+	
+
+	Name: {@Line5}
+	Formula: whileprintingrecords;
+	StringVar Line5 := {bidformh.F5_20}
+	
+
+	Name: {@line6}
+	Formula: whileprintingrecords;
+	StringVar Line6 := {bidformh.F6_20}
+	
+
+	Name: {@suppress options}
+	Formula: whileprintingrecords;
+	shared stringvar SuppressUP:= (left({bidformh.F22_20},1));
+	shared stringvar SuppressQuan:= (mid({bidformh.F22_20},2,1))  ;
+	shared stringvar SuppressUM:=(mid({bidformh.F22_20},3,1));
+	
+	
+	
+
+	Name: {@Decimals}
+	Formula: Shared Stringvar Decimal:={bidformh.D21};
+	Shared Stringvar BidOrClient:={bidformh.D22};
+	Shared StringVar SuppressPrices:={bidformh.SUPPRESS_PRICES};
+	Shared Stringvar SuppressTotals:={bidformh.SUPPRESS_TOTALS};
+	Shared StringVar SuppressGrand:={bidformh.F21_20}
+	
+
+5.0 Sectional Information
+
+5.1 Page Header Section
+	Visible
+
+	Subsection.1 
+		Hidden, Keep Together
+
+	Subsection.2 
+		Visible, Keep Together
+
+		Format Formulas
+
+		Visible: Shared StringVar Done1="Y"
+
+		
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR Shared StringVar SuppressTotals = 'Y' 
+		
+	AMOUNT
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR Shared StringVar SuppressTotals = 'Y' 
+		
+
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"
+
+		
+	ITEM
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"
+
+		
+
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"
+
+		
+	DESCRIPTION
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"
+
+		
+
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR shared stringvar SuppressQuan = "Y"
+
+		
+	QUANTITY
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR shared stringvar SuppressQuan = "Y"
+
+		
+
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR shared stringvar SuppressUM = "Y"
+
+		
+	UNIT
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y" OR shared stringvar SuppressUM = "Y"
+
+		
+
+	
+
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"  OR 
+Shared Stringvar suppressup =   "Y"
+
+		
+	UNIT PRICE
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: StringVar Done1="Y"  OR 
+Shared Stringvar suppressup =   "Y"
+
+		
+
+5.2 Page Footer Section
+	Visible, New Page After, Keep Together, Print At Bottom of Page
+
+	PageNofM
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	* - Biditem is a taxable item
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: trim({bidformh.D20}) = "0" or trim({bidformh.D20}) = ""
+
+		
+
+5.3 Report Header Section
+	Visible, New Page Before
+
+	Subsection.1 
+		Visible, Keep Together
+
+	Subsection.2 
+		Visible, Keep Together
+
+		Format Formulas
+
+		Visible: 
+
+		Suppress Blank Sections: 
+
+		Underlay: {@Letterhead Space} = "F"
+
+		
+	Subsection.3 
+		Visible
+
+		Format Formulas
+
+		Visible: 
+
+		Suppress Blank Sections: {@Letterhead Space} = "T"
+
+		
+	Subsection.4 
+		Hidden, Keep Together, Suppress Blank Sections
+
+	Subsection.5 
+		Hidden, Keep Together, Suppress Blank Sections
+
+	Subsection.6 
+		Hidden, Keep Together, Suppress Blank Sections
+
+	Subsection.7 
+		Hidden, Keep Together, Suppress Blank Sections
+
+	Subsection.8 
+		Hidden, Keep Together, Suppress Blank Sections
+
+	Subsection.9 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.10 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.11 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.12 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.13 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.14 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.15 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.16 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.17 
+		Visible, Keep Together, Suppress Blank Sections
+
+	Subsection.18 
+		Visible, Keep Together, Suppress Blank Sections
+
+	{@Letterhead Space}
+		String, Hidden, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	PrintDate
+		Date, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Expand, Using System Default Formatting, Windows Default Type: Use Windows Short Date, Date Order: Month Day Year, Year Type: Long, Month Type: Numeric Month, Day Type: Numeric Day, Leading Day Type: None, First Separator: '/', Second Separator: '/', Leading Day Separator: ''
+
+
+		Object Format Formulas -
+		Visible: mid({bidformh.F22_20},4,1) <> "Y"
+			 
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Expand
+
+
+		Object Format Formulas -
+		Visible: mid({bidformh.F22_20},4,1) <> "Y"
+		
+	PrintTime
+		Time, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Expand, Using System Default Formatting, Time Base: 12 Hour, AM/PM Type: AM/PM After, Hour Type: Numeric No Leading Zero, Minute Type: Numeric, Second Type: Numeric, AM String: 'AM', PM String: 'PM', Hour Minute Separator: ':', Minute  Second Separator: ':'
+
+
+		Object Format Formulas -
+		Visible: mid({bidformh.F22_20},4,1) <> "Y"
+			 
+		String, Visible, Right Alignment, Top Alignment, 
+		Keep Together, Expand
+
+
+		Object Format Formulas -
+		Visible: mid({bidformh.F22_20},4,1) <> "Y"
+		
+
+	{@Suppress_Footnotes_Header}
+		String, Hidden, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.F20_1}
+		String, Visible, Horizontal Centre Alignment, Top Alignment, 
+		Keep Together, Expand
+
+
+	{bidformh.F3_30}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F2_40}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F1_50}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{@Line 4}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{@Line5}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{@line6}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{@suppress options}
+		String, Hidden, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.D4}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.D5}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.D6}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{@Decimals}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.F6_20}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D6}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D14}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D7}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F7_15}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F14_4}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F15_2}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D15}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D8}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F8_15}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D9}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D16}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F9_10}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F16_2}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D10}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D17}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F10_10}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F17_2}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D11}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D18}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F11_10}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F18_1}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D12}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D19}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F12_4}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F19_1}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.D13}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.F13_4}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.NOTE1}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+	{bidformh.NOTE2}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together
+
+
+5.4 Report Footer Section
+	Visible
+
+	NOTES: 
+		String, Visible, Left Alignment, Top Alignment, 
+		Keep Together
+
+
+		Object Format Formulas -
+		Visible: {@Suppress_Footnotes_Header} = "Y"
+
+		
+
+	{bidformh.FOOTNOTE}
+		Memo, Visible, Default Alignment, Top Alignment, 
+, Expand, Using System Default Formatting, Word Wrap
+
+
+5.5 Group Header Section
+	Hidden
+
+5.6 Group Footer Section
+	Hidden
+
+5.7 Details Section
+	Visible
+
+	Subsection.1 
+		Hidden, Keep Together, Underlay
+
+	Subsection.2 
+		Visible, Keep Together
+
+		Format Formulas
+
+		Visible: trim({bidformh.D20}) <> "2"
+
+		
+	Subsection.3 
+		Visible, Keep Together
+
+		Format Formulas
+
+		Visible: trim({bidformh.D20}) <> "0" and trim({bidformh.D20}) <> ""
+
+		
+	Subsection.4 
+		Visible, Keep Together
+
+		Format Formulas
+
+		Visible: trim({bidformh.D20}) <> "1"
+
+		
+	{bidformh.BID_FORM}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.D22}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	{bidformh.D20}
+		String, Visible, Default Alignment, Top Alignment, 
+		Keep Together, Using System Default Formatting, Word Wrap
+
+
+	bidform.rpt
+		Subreport, Visible, Left Alignment, Top Alignment, 
+, Split Adornment, Expand
+
+
+		Subreport begins
+
+		1.0 File Information
+
+			Report File: 		bidform.rpt
+			Version: 		11.0
+
+		2.0 Record Sort Fields
+			A - 		{biditem.BID}
+
+		3.0 Group Sort Fields
+
+		4.0 Formulas
+
+		4.1 Record Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+
+		4.2 Group Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+		4.3 Other Formulas
+
+			Name: {@DonePrinting}
+			Formula: whileprintingrecords;
+			Shared StringVar Done1:="Y"
+	
+
+			Name: {@TotalBid\}
+			Formula: whileprintingrecords;
+			NumberVar SubtotalTot
+	
+
+			Name: {@pretaxtotal}
+			Formula: whileprintingrecords;
+			numbervar pretaxtotal := {@TotalBid\} + numbervar totaltax;
+	
+
+			Name: {@gtax}
+			Formula: whileprintingrecords;
+			numbervar totaltax;
+	
+
+			Name: {@taxsub}
+			Formula: whileprintingrecords;
+			if {biditem.TAXABLE} = "Y" then
+			numbervar taxsub1 := taxsub1 + (({biditem.SELLING}*{biditem.ENGR_QUAN})*({biditem.TAX_PERC}/100));
+			if {biditem.TAXABLE} = "Y" then
+			numbervar taxsub2 := taxsub2 + (({biditem.SELLING}*{biditem.ENGR_QUAN})*({biditem.TAX_PERC}/100));
+			if {biditem.TAXABLE} = "Y" then
+			numbervar taxsub3 := taxsub3 + (({biditem.SELLING}*{biditem.ENGR_QUAN})*({biditem.TAX_PERC}/100));
+	
+			if {biditem.TAXABLE} = "Y" then
+			  numbervar totaltax := totaltax + (({biditem.SELLING}*{biditem.ENGR_QUAN})*({biditem.TAX_PERC}/100));
+	
+
+			Name: {@Bid#}
+			Formula: if Shared Stringvar BidOrClient = "0" then {biditem.BID} else TrimRight ({biditem.ENGR_BID#})
+	
+
+			Name: {@Subtotal - Running Total}
+			Formula: WhilePrintingRecords;
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal1:=subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal1 := subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal2:=subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal2:= subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal3:=subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal3:= subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			If ({biditem.TYPE}  = 'N') Then NumberVar SubtotalTot:= SubtotalTot Else subtotalTot:=subtotalTot + {biditem.EXTENDED_PRICE};
+	
+	
+	
+	
+	
+	
+
+			Name: {@ptaxsub}
+			Formula: whileprintingrecords;
+			numbervar taxsub := {@pretax}+{biditem.EXTENDED_PRICE};
+	
+
+			Name: {@pretax}
+			Formula: whileprintingrecords;
+			//numbervar pretax := numbervar taxsub - {biditem.EXTENDED_PRICE};
+			if trim({biditem.SUBTOTAL_LEVEL}) = "1" then
+			 numbervar tax := numbervar taxsub1;
+	
+			if {biditem.SUBTOTAL_LEVEL} = "2" then
+			  numbervar tax := numbervar taxsub2;
+	
+			if {biditem.SUBTOTAL_LEVEL} = "3" then
+			  numbervar tax := numbervar taxsub3;
+	
+			numbervar tax;
+	
+
+			Name: {@Subtotal - Reset}
+			Formula: WhilePrintingRecords;
+			NumberVar subtotal1;
+			NumberVar subtotal2;
+			NumberVar subtotal3;
+			NumberVar subtotalTot; 
+			if BooleanVar Subtotal1Reset=True then subtotal1:=0;
+			if BooleanVar Subtotal2Reset=True then subtotal2:=0;
+			if BooleanVar Subtotal3Reset=True then subtotal3:=0;
+			if BooleanVar SubtotalTotReset=True then subtotalTot:=0;
+			if BooleanVar Subtotal1Reset=True then subtotal1Reset:=False;
+			if BooleanVar Subtotal2Reset=True then subtotal2Reset:=False;
+			if BooleanVar Subtotal3Reset=True then subtotal3Reset:=False;
+			if BooleanVar SubtotalTotReset=True then subtotalTotReset:=False;
+	
+	
+
+			Name: {@AMOUNT}
+			Formula: If Shared StringVar Decimal = "0" then {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+	
+	
+	
+
+			Name: {@Subtotal - Print }
+			Formula: //WhilePrintingRecords;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1" then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2" then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3" then BooleanVar Subtotal3Reset:=True;
+			//if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1") then NumberVar Subtotal1 ELSE
+			//    if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2") then NumberVar Subtotal2 Else
+			//        if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3") then NumberVar Subtotal3;
+	
+			WhilePrintingRecords;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("1" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("2" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("3" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal3Reset:=True;
+			if ((("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("1" in {biditem.SUBTOTAL_LEVEL})) then NumberVar Subtotal1 ELSE
+			    if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("2" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal2 Else
+			        if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("3" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal3;
+	
+	
+
+			Name: {@taxreset}
+			Formula: whileprintingrecords;
+	
+			if {biditem.SUBTOTAL_LEVEL} = "1" then
+			numbervar taxsub1 := 0;
+			if {biditem.SUBTOTAL_LEVEL} = "1" then
+			numbervar taxsub2 := 0;
+			if {biditem.SUBTOTAL_LEVEL} = "1" then
+			numbervar taxsub3 := 0;
+	
+			if {biditem.SUBTOTAL_LEVEL} = "2" then
+			numbervar taxsub2 := 0;
+			if {biditem.SUBTOTAL_LEVEL} = "2" then
+			numbervar taxsub3 := 0;
+	
+			if {biditem.SUBTOTAL_LEVEL} = "3" then
+			numbervar taxsub3 := 0;
+	
+
+		5.0 Sectional Information
+
+		5.1 Report Header Section
+			Hidden
+
+			ITEM
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			DESCRIPTION
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			QUANTITY
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT PRICE
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			AMOUNT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+		5.2 Report Footer Section
+			Visible
+
+			Subsection.1 
+				Hidden
+
+			Subsection.2 
+				Visible, Keep Together
+
+			Subsection.3 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		Shared StringVar SuppressGrand = 'Y'
+
+		
+			Subsection.4 
+				Hidden, Keep Together
+
+			{@DonePrinting}
+				String, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+			GRAND TOTAL
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@TotalBid\}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Inside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		
+
+		
+			{@pretaxtotal}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			PRE-TAX GRAND TOTAL
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			TAX
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@gtax}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+		5.3 Details Section
+			Visible
+
+			Subsection.1 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("B" in {biditem.OTHER_OPTIONS})
+
+		
+			Subsection.2 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		{biditem.UNITS} = "*TAX"
+
+		
+			Subsection.3 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		({biditem.SUBTOTAL_LEVEL} <> "1" and {biditem.SUBTOTAL_LEVEL} <> "2" and {biditem.SUBTOTAL_LEVEL} <> "3") or
+
+if {biditem.SUBTOTAL_LEVEL} = "1" then
+ numbervar taxsub1 = 0
+else
+if {biditem.SUBTOTAL_LEVEL} = "2" then
+ numbervar taxsub2 = 0
+else
+if {biditem.SUBTOTAL_LEVEL} = "3" then
+ numbervar taxsub3 = 0
+
+		
+			Subsection.4 
+				Hidden, Keep Together
+
+			Subsection.5 
+				Visible, Keep Together
+
+				Format Formulas
+
+				New Page After		: 		whileprintingrecords;
+'P' in {biditem.OTHER_OPTIONS}
+
+		
+			Subsection.6 
+				Hidden, Keep Together
+
+			Subsection.7 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("A" in {biditem.OTHER_OPTIONS})
+
+		
+			{@taxsub}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{biditem.COST_NOTES}
+				Memo, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Expand, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+not(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+
+		
+			{biditem.DESC}
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together, Expand
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+				Horizontal Alignment		: 		IF ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H"OR {biditem.SUBTOTAL_LEVEL} = "HZ") THEN crCenteredHorizontally
+
+		
+			{biditem.SELLING}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 3 Decimal Places, Rounding: 0.001, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+('PN' in {biditem.SUBTOTAL_LEVEL}) OR 
+//({biditem.TYPE} = 'N' AND '1' in {biditem.OTHER_OPTIONS} AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND '2' in {biditem.OTHER_OPTIONS}) OR
+Shared Stringvar suppressup = "Y"
+
+		
+			Numeric Format Formulas -
+				 Decimal Places		: 		IF Shared StringVar Decimal = "0" then 2 else 3
+
+				Rounding Type		: 		If Shared StringVar Decimal = "0" then 2 else 3
+
+
+		
+			{biditem.UNITS}
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+{biditem.TYPE} = 'N' AND not("1" in {biditem.OTHER_OPTIONS}) OR
+shared stringvar SuppressUM = "Y"
+
+		
+			{biditem.ENGR_QUAN}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+({biditem.TYPE} = 'N' AND Left ({biditem.OTHER_OPTIONS},1) <>"1") OR
+shared stringvar SuppressQuan = "Y"
+
+		
+			{@Bid#}
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		{biditem.TYPE} = "N" AND (not("1" in {biditem.OTHER_OPTIONS}))
+
+		
+			{@Subtotal - Running Total}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{biditem.EXTENDED_PRICE}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			Currency Format Formulas -
+			Currency Symbol Type		: 		If {biditem.TYPE} = 'N' AND ('1' in {biditem.SUBTOTAL_LEVEL} OR '2' in {biditem.SUBTOTAL_LEVEL} OR '3' in {biditem.SUBTOTAL_LEVEL} OR 'C' in {biditem.SUBTOTAL_LEVEL} OR '$' in {biditem.SUBTOTAL_LEVEL}) Then crFloatingCurrencySymbol ELSE crNoCurrencySymbol
+
+		
+			*
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		{biditem.TAXABLE} <> "Y"
+
+		
+
+			Overall Subtotal:
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@ptaxsub}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			{@pretax}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			Sales Tax:
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@Subtotal - Reset}
+				Boolean, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Boolean Output Type: True or False
+
+
+			{@AMOUNT}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@Subtotal - Print }
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@taxreset}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+		Subreport ends
+
+	bidform.rpt - 01
+		Subreport, Visible, Left Alignment, Top Alignment, 
+, Split Adornment, Expand
+
+
+		Subreport begins
+
+		1.0 File Information
+
+			Report File: 		bidform.rpt - 01
+			Version: 		11.0
+
+		2.0 Record Sort Fields
+			A - 		{biditem.BID}
+
+		3.0 Group Sort Fields
+
+		4.0 Formulas
+
+		4.1 Record Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+		4.2 Group Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+		4.3 Other Formulas
+
+			Name: {@DonePrinting}
+			Formula: whileprintingrecords;
+			Shared StringVar Done1:="Y"
+	
+
+			Name: {@TotalBid\}
+			Formula: whileprintingrecords;
+			NumberVar SubtotalTot
+	
+
+			Name: {@Bid#}
+			Formula: if Shared Stringvar BidOrClient = "0" then {biditem.BID} else TrimRight ({biditem.ENGR_BID#})
+	
+
+			Name: {@Subtotal - Running Total}
+			Formula: WhilePrintingRecords;
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal1:=subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal1 := subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal2:=subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal2:= subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal3:=subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal3:= subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			If ({biditem.TYPE}  = 'N') Then NumberVar SubtotalTot:= SubtotalTot Else subtotalTot:=subtotalTot + {biditem.EXTENDED_PRICE};
+	
+	
+	
+	
+	
+	
+
+			Name: {@Subtotal - Reset}
+			Formula: WhilePrintingRecords;
+			NumberVar subtotal1;
+			NumberVar subtotal2;
+			NumberVar subtotal3;
+			NumberVar subtotalTot; 
+			if BooleanVar Subtotal1Reset=True then subtotal1:=0;
+			if BooleanVar Subtotal2Reset=True then subtotal2:=0;
+			if BooleanVar Subtotal3Reset=True then subtotal3:=0;
+			if BooleanVar SubtotalTotReset=True then subtotalTot:=0;
+			if BooleanVar Subtotal1Reset=True then subtotal1Reset:=False;
+			if BooleanVar Subtotal2Reset=True then subtotal2Reset:=False;
+			if BooleanVar Subtotal3Reset=True then subtotal3Reset:=False;
+			if BooleanVar SubtotalTotReset=True then subtotalTotReset:=False;
+	
+	
+
+			Name: {@AMOUNT}
+			Formula: If Shared StringVar Decimal = "0" then {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+	
+	
+	
+
+			Name: {@Subtotal - Print }
+			Formula: //WhilePrintingRecords;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1" then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2" then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3" then BooleanVar Subtotal3Reset:=True;
+			//if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1") then NumberVar Subtotal1 ELSE
+			//    if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2") then NumberVar Subtotal2 Else
+			//        if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3") then NumberVar Subtotal3;
+	
+			WhilePrintingRecords;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("1" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("2" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("3" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal3Reset:=True;
+			if ((("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("1" in {biditem.SUBTOTAL_LEVEL})) then NumberVar Subtotal1 ELSE
+			    if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("2" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal2 Else
+			        if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("3" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal3;
+	
+	
+
+		5.0 Sectional Information
+
+		5.1 Report Header Section
+			Visible
+
+			Subsection.1 
+				Hidden, Keep Together, Suppress Blank Sections
+
+			Subsection.2 
+				Hidden, Keep Together
+
+			ITEM
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			DESCRIPTION
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			QUANTITY
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT PRICE
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			AMOUNT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+		5.2 Report Footer Section
+			Visible
+
+			Subsection.1 
+				Hidden
+
+			Subsection.2 
+				Visible, Keep Together
+
+			Subsection.3 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		Shared StringVar SuppressGrand = 'Y'
+
+		
+			Subsection.4 
+				Hidden, Keep Together
+
+			Subsection.5 
+				Visible, Keep Together
+
+			{@DonePrinting}
+				String, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+			GRAND TOTAL
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@TotalBid\}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Inside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		
+
+		
+		5.3 Details Section
+			Visible
+
+			Subsection.1 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("B" in {biditem.OTHER_OPTIONS})
+
+		
+			Subsection.2 
+				Visible, Keep Together
+
+			Subsection.3 
+				Visible, Keep Together
+
+				Format Formulas
+
+				New Page After		: 		whileprintingrecords;
+'P' in {biditem.OTHER_OPTIONS}
+
+		
+			Subsection.4 
+				Hidden, Keep Together
+
+			Subsection.5 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("A" in {biditem.OTHER_OPTIONS})
+
+		
+			{biditem.COST_NOTES}
+				Memo, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Expand, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+not(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+
+		
+			{biditem.DESC}
+				String, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Expand
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+				Horizontal Alignment		: 		IF ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H"OR {biditem.SUBTOTAL_LEVEL} = "HZ") THEN crCenteredHorizontally
+
+		
+			{biditem.SELLING}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 3 Decimal Places, Rounding: 0.001, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+('PN' in {biditem.SUBTOTAL_LEVEL}) OR 
+//({biditem.TYPE} = 'N' AND '1' in {biditem.OTHER_OPTIONS} AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND '2' in {biditem.OTHER_OPTIONS}) OR
+Shared Stringvar suppressup = "Y"
+
+		
+			Numeric Format Formulas -
+				 Decimal Places		: 		IF Shared StringVar Decimal = "0" then 2 else 3
+
+				Rounding Type		: 		If Shared StringVar Decimal = "0" then 2 else 3
+
+
+		
+			{biditem.UNITS}
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+{biditem.TYPE} = 'N' AND {biditem.OTHER_OPTIONS} <> '1' OR
+shared stringvar SuppressUM = "Y"
+
+		
+			{biditem.ENGR_QUAN}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+{biditem.TYPE} = 'N' AND {biditem.OTHER_OPTIONS} <> '1' OR
+shared stringvar SuppressQuan = "Y"
+
+		
+			{@Bid#}
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		{biditem.TYPE} = "N" AND {biditem.OTHER_OPTIONS} <> '1'
+
+		
+			{@Subtotal - Running Total}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{biditem.EXTENDED_PRICE}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			Currency Format Formulas -
+			Currency Symbol Type		: 		If {biditem.TYPE} = 'N' AND ('1' in {biditem.SUBTOTAL_LEVEL} OR '2' in {biditem.SUBTOTAL_LEVEL} OR '3' in {biditem.SUBTOTAL_LEVEL} OR 'C' in {biditem.SUBTOTAL_LEVEL} OR '$' in {biditem.SUBTOTAL_LEVEL}) Then crFloatingCurrencySymbol ELSE crNoCurrencySymbol
+
+		
+			{@Subtotal - Reset}
+				Boolean, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Boolean Output Type: True or False
+
+
+			{@AMOUNT}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@Subtotal - Print }
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+		Subreport ends
+
+	bidform.rpt - 02
+		Subreport, Visible, Left Alignment, Top Alignment, 
+, Split Adornment, Expand
+
+
+		Subreport begins
+
+		1.0 File Information
+
+			Report File: 		bidform.rpt - 02
+			Version: 		11.0
+
+		2.0 Record Sort Fields
+			A - 		{biditem.BID}
+
+		3.0 Group Sort Fields
+
+		4.0 Formulas
+
+		4.1 Record Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+		4.2 Group Selection Formula
+			{biditem.TYPE} <> "H" and
+{biditem.TYPE} <> "E" and
+{biditem.TYPE} <> "I" and
+{biditem.TYPE} <> "N" and
+{biditem.SUBITEM} <> "Y"
+or ({biditem.TYPE} = "N" and ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H" OR {biditem.SUBTOTAL_LEVEL} = "HZ" OR {biditem.SUBTOTAL_LEVEL} = "PN" OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.OTHER_OPTIONS} = "1" OR {biditem.OTHER_OPTIONS} = "1A" OR {biditem.OTHER_OPTIONS} = "1B" OR {biditem.OTHER_OPTIONS} = "1AB" OR {biditem.OTHER_OPTIONS} = "2" OR {biditem.OTHER_OPTIONS} = "2A" OR {biditem.OTHER_OPTIONS} = "2B" OR {biditem.OTHER_OPTIONS} = "2AB"))
+
+
+		4.3 Other Formulas
+
+			Name: {@DonePrinting}
+			Formula: whileprintingrecords;
+			Shared StringVar Done1:="Y"
+	
+
+			Name: {@TotalBid\}
+			Formula: whileprintingrecords;
+			NumberVar SubtotalTot
+	
+
+			Name: {@pretaxtotal}
+			Formula: whileprintingrecords;
+			numbervar pretaxtotal := {@TotalBid\} + numbervar totaltax;
+	
+
+			Name: {@gtax}
+			Formula: whileprintingrecords;
+			numbervar totaltax;
+	
+
+			Name: {@taxsub}
+			Formula: whileprintingrecords;
+			numbervar taxsub := taxsub + ({biditem.SELLING}*{biditem.ENGR_QUAN});
+			if {biditem.TAXABLE} = "Y" then
+			  numbervar totaltax := totaltax + (({biditem.SELLING}*{biditem.ENGR_QUAN})*({biditem.TAX_PERC}/100));
+	
+
+			Name: {@Bid#}
+			Formula: if Shared Stringvar BidOrClient = "0" then {biditem.BID} else TrimRight ({biditem.ENGR_BID#})
+	
+
+			Name: {@Subtotal - Running Total}
+			Formula: WhilePrintingRecords;
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal1:=subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal1 := subtotal1 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal2:=subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal2:= subtotal2 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			//If Shared StringVar Decimal = "0" then NumberVar subtotal3:=subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else subtotal3:= subtotal3 + {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+			If ({biditem.TYPE}  = 'N') Then NumberVar SubtotalTot:= SubtotalTot Else subtotalTot:=subtotalTot + {biditem.EXTENDED_PRICE};
+	
+	
+	
+	
+	
+	
+
+			Name: {@ptaxsub}
+			Formula: whileprintingrecords;
+			numbervar taxsub;
+	
+
+			Name: {@pretax}
+			Formula: whileprintingrecords;
+			numbervar pretax := numbervar taxsub - {biditem.EXTENDED_PRICE};
+	
+
+			Name: {@Subtotal - Reset}
+			Formula: WhilePrintingRecords;
+			NumberVar subtotal1;
+			NumberVar subtotal2;
+			NumberVar subtotal3;
+			NumberVar subtotalTot; 
+			if BooleanVar Subtotal1Reset=True then subtotal1:=0;
+			if BooleanVar Subtotal2Reset=True then subtotal2:=0;
+			if BooleanVar Subtotal3Reset=True then subtotal3:=0;
+			if BooleanVar SubtotalTotReset=True then subtotalTot:=0;
+			if BooleanVar Subtotal1Reset=True then subtotal1Reset:=False;
+			if BooleanVar Subtotal2Reset=True then subtotal2Reset:=False;
+			if BooleanVar Subtotal3Reset=True then subtotal3Reset:=False;
+			if BooleanVar SubtotalTotReset=True then subtotalTotReset:=False;
+	
+	
+
+			Name: {@AMOUNT}
+			Formula: If Shared StringVar Decimal = "0" then {biditem.ENGR_QUAN} * Round({biditem.SELLING},2) else {biditem.ENGR_QUAN} * Round({biditem.SELLING},3);
+	
+	
+	
+
+			Name: {@Subtotal - Print }
+			Formula: //WhilePrintingRecords;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1" then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2" then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			//if {biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3" then BooleanVar Subtotal3Reset:=True;
+			//if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "1") then NumberVar Subtotal1 ELSE
+			//    if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "2") then NumberVar Subtotal2 Else
+			//        if ({biditem.OTHER_OPTIONS} = "2" and {biditem.SUBTOTAL_LEVEL} = "3") then NumberVar Subtotal3;
+	
+			WhilePrintingRecords;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("1" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal1Reset:=True AND BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("2" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal2Reset:=True AND BooleanVar Subtotal3Reset:=True;
+			if ("2" in {biditem.OTHER_OPTIONS}) and ("3" in {biditem.SUBTOTAL_LEVEL}) then BooleanVar Subtotal3Reset:=True;
+			if ((("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("1" in {biditem.SUBTOTAL_LEVEL})) then NumberVar Subtotal1 ELSE
+			    if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("2" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal2 Else
+			        if (("2" in {biditem.OTHER_OPTIONS}) or ("1" in {biditem.OTHER_OPTIONS})) and ("3" in {biditem.SUBTOTAL_LEVEL}) then NumberVar Subtotal3;
+	
+	
+
+			Name: {@taxreset}
+			Formula: whileprintingrecords;
+			if {biditem.UNITS} = "*TAX" then
+			numbervar taxsub := 0;
+	
+
+		5.0 Sectional Information
+
+		5.1 Report Header Section
+			Visible
+
+			Subsection.1 
+				Hidden, Keep Together, Suppress Blank Sections
+
+			Subsection.2 
+				Hidden, Keep Together
+
+			ITEM
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			DESCRIPTION
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			QUANTITY
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			UNIT PRICE
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+			AMOUNT
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		StringVar Done1="Y"
+
+		
+
+		5.2 Report Footer Section
+			Visible
+
+			Subsection.1 
+				Hidden
+
+			Subsection.2 
+				Visible, Keep Together
+
+			Subsection.3 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		Shared StringVar SuppressGrand = 'Y'
+
+		
+			Subsection.4 
+				Hidden, Keep Together
+
+			Subsection.5 
+				Visible, Keep Together
+
+			{@DonePrinting}
+				String, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+			GRAND TOTAL
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@TotalBid\}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Inside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		
+
+		
+			{@pretaxtotal}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+			PRE-TAX GRAND TOTAL
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			TAX
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@gtax}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+		5.3 Details Section
+			Visible
+
+			Subsection.1 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("B" in {biditem.OTHER_OPTIONS})
+
+		
+			Subsection.2 
+				Visible, Keep Together
+
+				Format Formulas
+
+				Visible		: 		{biditem.UNITS} = "*TAX"
+
+		
+			Subsection.3 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		{biditem.UNITS} <> "*TAX"
+
+		
+			Subsection.4 
+				Visible, Keep Together
+
+				Format Formulas
+
+				New Page After		: 		whileprintingrecords;
+'P' in {biditem.OTHER_OPTIONS}
+
+		
+			Subsection.5 
+				Hidden, Keep Together
+
+			Subsection.6 
+				Hidden, Keep Together
+
+				Format Formulas
+
+				Visible		: 		whileprintingrecords;
+Not ("A" in {biditem.OTHER_OPTIONS})
+
+		
+			{@taxsub}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{biditem.COST_NOTES}
+				Memo, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Expand, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+not(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+
+		
+			{biditem.DESC}
+				String, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Expand
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+(('PN' in {biditem.SUBTOTAL_LEVEL}) AND {biditem.TYPE} = 'N')
+
+				Horizontal Alignment		: 		IF ('$' in {biditem.SUBTOTAL_LEVEL} OR {biditem.SUBTOTAL_LEVEL} = "C" OR {biditem.SUBTOTAL_LEVEL} = "1" OR {biditem.SUBTOTAL_LEVEL} = "2" OR {biditem.SUBTOTAL_LEVEL} = "3" OR {biditem.SUBTOTAL_LEVEL} = "H"OR {biditem.SUBTOTAL_LEVEL} = "HZ") THEN crCenteredHorizontally
+
+		
+			{biditem.SELLING}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 3 Decimal Places, Rounding: 0.001, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+('PN' in {biditem.SUBTOTAL_LEVEL}) OR 
+//({biditem.TYPE} = 'N' AND '1' in {biditem.OTHER_OPTIONS} AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND '2' in {biditem.OTHER_OPTIONS}) OR
+Shared Stringvar suppressup = "Y"
+
+		
+			Numeric Format Formulas -
+				 Decimal Places		: 		IF Shared StringVar Decimal = "0" then 2 else 3
+
+				Rounding Type		: 		If Shared StringVar Decimal = "0" then 2 else 3
+
+
+		
+			{biditem.UNITS}
+				String, Visible, Horizontal Centre Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+{biditem.TYPE} = 'N' AND not("1" in {biditem.OTHER_OPTIONS}) OR
+shared stringvar SuppressUM = "Y"
+
+		
+			{biditem.ENGR_QUAN}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+				Object Format Formulas -
+				Visible		: 		whileprintingrecords;
+({biditem.TYPE} = 'N' AND Left ({biditem.OTHER_OPTIONS},1) <>"1") OR
+shared stringvar SuppressQuan = "Y"
+
+		
+			{@Bid#}
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Word Wrap
+
+
+				Object Format Formulas -
+				Visible		: 		{biditem.TYPE} = "N" AND (not("1" in {biditem.OTHER_OPTIONS}))
+
+		
+			{@Subtotal - Running Total}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{biditem.EXTENDED_PRICE}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			Currency Format Formulas -
+			Currency Symbol Type		: 		If {biditem.TYPE} = 'N' AND ('1' in {biditem.SUBTOTAL_LEVEL} OR '2' in {biditem.SUBTOTAL_LEVEL} OR '3' in {biditem.SUBTOTAL_LEVEL} OR 'C' in {biditem.SUBTOTAL_LEVEL} OR '$' in {biditem.SUBTOTAL_LEVEL}) Then crFloatingCurrencySymbol ELSE crNoCurrencySymbol
+
+		
+			*
+				String, Visible, Left Alignment, Top Alignment, 
+				Keep Together
+
+
+				Object Format Formulas -
+				Visible		: 		{biditem.TAXABLE} <> "Y"
+
+		
+
+			Overall Subtotal:
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			Sales Tax:
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{biditem.EXTENDED_PRICE}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.', 
+				Float Symbol: '$', Leading Currency Outside Negative
+
+
+				Object Format Formulas -
+				Visible		: 		({biditem.TYPE} = 'D' AND Shared StringVar SuppressPrices = 'Y') OR 
+({biditem.TYPE} = 'N' AND Shared StringVar SuppressTotals = 'Y') OR
+(({biditem.TYPE} = 'N' AND ("1" in {biditem.OTHER_OPTIONS})) AND Shared StringVar SuppressPrices = 'Y' AND {biditem.SUBTOTAL_LEVEL} = "") OR 
+({biditem.SUBTOTAL_LEVEL} = "HZ")
+
+		
+			Currency Format Formulas -
+			Currency Symbol Type		: 		If {biditem.TYPE} = 'N' AND ('1' in {biditem.SUBTOTAL_LEVEL} OR '2' in {biditem.SUBTOTAL_LEVEL} OR '3' in {biditem.SUBTOTAL_LEVEL} OR 'C' in {biditem.SUBTOTAL_LEVEL} OR '$' in {biditem.SUBTOTAL_LEVEL}) Then crFloatingCurrencySymbol ELSE crNoCurrencySymbol
+
+		
+			{@ptaxsub}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			Subtotal:
+				String, Visible, Right Alignment, Top Alignment, 
+				Keep Together
+
+
+
+			{@pretax}
+				Numeric, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@Subtotal - Reset}
+				Boolean, Visible, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, Boolean Output Type: True or False
+
+
+			{@AMOUNT}
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@Subtotal - Print }
+				Numeric, Visible, Right Alignment, Top Alignment, 
+				Keep Together, Suppress If Zero, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+			{@taxreset}
+				Numeric, Hidden, Default Alignment, Top Alignment, 
+				Keep Together, Using System Default Formatting, 
+				Leading Minus, 2 Decimal Places, Rounding: 0.01, 
+				Thousands Symbol: ',', Decimal Symbol: '.'
+
+
+		Subreport ends
+

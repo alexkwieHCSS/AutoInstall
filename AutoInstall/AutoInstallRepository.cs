@@ -43,6 +43,7 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.SQLServerInstallationFolder _sqlserverinstallation;
         AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder _hcssheavybidreportspluspivotreportsd;
         AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder _thekingsavatarchapter518webnove;
+        AutoInstallRepositoryFolders.RanorexStudioProjectsAppFolder _ranorexstudioprojects;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -75,6 +76,7 @@ namespace AutoInstall
             _sqlserverinstallation = new AutoInstallRepositoryFolders.SQLServerInstallationFolder(this);
             _hcssheavybidreportspluspivotreportsd = new AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder(this);
             _thekingsavatarchapter518webnove = new AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder(this);
+            _ranorexstudioprojects = new AutoInstallRepositoryFolders.RanorexStudioProjectsAppFolder(this);
         }
 
 #region Variables
@@ -271,6 +273,15 @@ namespace AutoInstall
         public virtual AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder TheKingsAvatarChapter518Webnove
         {
             get { return _thekingsavatarchapter518webnove; }
+        }
+
+        /// <summary>
+        /// The RanorexStudioProjects folder.
+        /// </summary>
+        [RepositoryFolder("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
+        public virtual AutoInstallRepositoryFolders.RanorexStudioProjectsAppFolder RanorexStudioProjects
+        {
+            get { return _ranorexstudioprojects; }
         }
     }
 
@@ -10465,6 +10476,72 @@ namespace AutoInstall
                 get
                 {
                     return _ptaghowinterestingwithyInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RanorexStudioProjectsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
+        public partial class RanorexStudioProjectsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _systemitemnamedisplayInfo;
+
+            /// <summary>
+            /// Creates a new RanorexStudioProjects  folder.
+            /// </summary>
+            public RanorexStudioProjectsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RanorexStudioProjects", "/form[@title='RanorexStudio Projects']", parentFolder, 30000, null, false, "f15cdfe5-ea5a-40b3-b182-2081363105c7", "")
+            {
+                _systemitemnamedisplayInfo = new RepoItemInfo(this, "SystemItemNameDisplay", "element[@class='ShellTabWindowClass']//element[@instance='1']//listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']", 30000, null, "b066aedb-56af-4447-b7a5-5bd4fda5a57e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SystemItemNameDisplay item.
+            /// </summary>
+            [RepositoryItem("b066aedb-56af-4447-b7a5-5bd4fda5a57e")]
+            public virtual Ranorex.Text SystemItemNameDisplay
+            {
+                get
+                {
+                    return _systemitemnamedisplayInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SystemItemNameDisplay item info.
+            /// </summary>
+            [RepositoryItemInfo("b066aedb-56af-4447-b7a5-5bd4fda5a57e")]
+            public virtual RepoItemInfo SystemItemNameDisplayInfo
+            {
+                get
+                {
+                    return _systemitemnamedisplayInfo;
                 }
             }
         }
